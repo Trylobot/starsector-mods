@@ -24,12 +24,15 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.addBriefingItem("Destroy the Escort Forces");
 		
 		// Set up the player's fleet
-		api.addToFleet(FleetSide.PLAYER, "kitsune_assault", FleetMemberType.SHIP, "Swashbuckle", true);
+		api.addToFleet(FleetSide.PLAYER, "kitsune_assault", FleetMemberType.SHIP, "Swashbuckler", true);
+		api.addToFleet(FleetSide.PLAYER, "okami_assault", FleetMemberType.SHIP, "Peg-Leg", false);
 		
 		// Mark player flagship as essential
 		//api.defeatOnShipLoss("ESS Indomitable");
 		
 		// Set up the enemy fleet
+		api.addToFleet(FleetSide.ENEMY, "hound_Assault", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "hound_Assault", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.ENEMY, "hound_Assault", FleetMemberType.SHIP, false);
 		
 		// Set up the map.
