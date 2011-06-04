@@ -1,0 +1,58 @@
+{
+	"displayName":"Elite",
+	"hullId":"spir_washi",
+	"variantId":"spir_washi_elite",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"mods":[], # array of strings
+	
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups": [
+    {
+      "mode":"LINKED",
+		  "weapons": {
+		 	  "WS 001":"vulcan",
+		 		"WS 002":"vulcan",
+		 	},
+		},
+    {
+      "mode":"LINKED",
+		  "weapons": {
+		 	  "WS 003":"vulcan",
+		 		"WS 004":"vulcan",
+		 	},
+		},
+    {
+      "mode":"LINKED",
+		  "weapons": {
+		 	  "WS 005":"vulcan",
+		 		"WS 006":"vulcan",
+		 	},
+		},
+    {
+      "mode":"LINKED",
+		  "weapons": {
+		 	  "WS 007":"vulcan",
+		 	},
+		},
+    {
+      "mode":"LINKED",
+		  "weapons": {
+		 	  "WS 008":"vulcan",
+		 	},
+		},
+    {
+      "mode":"LINKED",
+		  "weapons": {
+		 	  "WS 009":"heavymg",
+		 	},
+		},
+    {
+      "mode":"LINKED",
+		  "weapons": {
+		 	  "WS 010":"heavymg",
+		 	},
+		},
+	],
+}

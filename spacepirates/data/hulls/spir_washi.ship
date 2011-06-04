@@ -1,0 +1,198 @@
+{
+    "bounds": [
+        150, -8,
+        131, -25,
+        110, -26,
+        99, -18,
+        66, -18,
+        55, -24,
+        -26, -23,
+        -35, -42,
+        -7, -42,
+        4, -45,
+        9, -49,
+        4, -54,
+        -8, -56,
+        -103, -57,
+        -109, -54,
+        -109, -45,
+        -102, -41,
+        -82, -40,
+        -67, -25,
+        -82, -18,
+        -103, -15,
+        -103, 15,
+        -82, 18,
+        -67, 25
+        -82, 40,
+        -102, 41,
+        -109, 45,
+        -109, 54,
+        -103, 57,
+        -8, 56,
+        4, 54,
+        9, 49,
+        4, 45,
+        -7, 42
+        -35, 42,
+        -26, 23,
+        55, 24,
+        66, 18,
+        99, 18,
+        110, 26,
+        131, 25,
+        150, 8
+    ],
+    "center": [
+        62, 111
+    ],
+    "collisionRadius": 60,
+    "engineSlots": [
+        {
+            "angle": 180,
+            "contrailSize": 130,
+            "length": 130,
+            "location": [
+                -110,
+                50
+            ],
+            "style": "HIGH_TECH",
+            "width": 50
+        },
+        {
+            "angle": 180,
+            "contrailSize": 130,
+            "length": 130,
+            "location": [
+                -110,
+                -50
+            ],
+            "style": "HIGH_TECH",
+            "width": 50
+        }
+    ],
+    "height": 268,
+    "hullId": "spir_washi",
+    "hullName": "Washi",
+    "hullSize": "CAPITAL_SHIP",
+    "shieldCenter": [
+        123, 0
+    ],
+    "shieldRadius": 50,
+    "spriteName": "graphics/spir/ships/spir_washi.png",
+    "style": "HIGH_TECH",
+    "viewOffset": 50,
+    "weaponSlots": [
+        {
+            "angle": 20,
+            "arc": 270,
+            "id": "WS 001",
+            "locations": [
+                130, 9
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": -20,
+            "arc": 270,
+            "id": "WS 002",
+            "locations": [
+                130, -9
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": 90,
+            "arc": 270,
+            "id": "WS 003",
+            "locations": [
+                77, 16
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": 90,
+            "arc": 270,
+            "id": "WS 004",
+            "locations": [
+                89, 16
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": -90,
+            "arc": 270,
+            "id": "WS 005",
+            "locations": [
+                77, -16
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": -90,
+            "arc": 270,
+            "id": "WS 006",
+            "locations": [
+                89, -16
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": 90,
+            "arc": 270,
+            "id": "WS 007",
+            "locations": [
+                -35, 55
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": -90,
+            "arc": 270,
+            "id": "WS 008",
+            "locations": [
+                -35, -55
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": 90,
+            "arc": 270,
+            "id": "WS 009",
+            "locations": [
+                -31, 22
+            ],
+            "mount": "TURRET",
+            "size": "MEDIUM",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": -90,
+            "arc": 270,
+            "id": "WS 010",
+            "locations": [
+                -31, -22
+            ],
+            "mount": "TURRET",
+            "size": "MEDIUM",
+            "type": "BALLISTIC"
+        }
+    ],
+    "width": 124
+}
