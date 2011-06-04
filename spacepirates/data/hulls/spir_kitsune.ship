@@ -59,13 +59,13 @@
     "weaponSlots": [
         {
             "angle": 0,
-            "arc": 5,
+            "arc": 145,
             "id": "WS 001",
             "locations": [
                 25,
                 0
             ],
-            "mount": "HARDPOINT",
+            "mount": "TURRET",
             "size": "MEDIUM",
             "type": "BALLISTIC"
         },
