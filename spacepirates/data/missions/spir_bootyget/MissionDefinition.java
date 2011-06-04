@@ -24,7 +24,8 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.addBriefingItem("Destroy the Escort Forces");
 		
 		// Set up the player's fleet
-		api.addToFleet(FleetSide.PLAYER, "spir_okami_assault", FleetMemberType.SHIP, "Peg-Leg", true);
+		api.addToFleet(FleetSide.PLAYER, "spir_pyuma_support", FleetMemberType.SHIP, "Scurvy", true);
+		api.addToFleet(FleetSide.PLAYER, "spir_okami_assault", FleetMemberType.SHIP, "Peg-Leg", false);
 		api.addToFleet(FleetSide.PLAYER, "spir_kitsune_assault", FleetMemberType.SHIP, "Swashbuckler", false);
 		
 		// Mark player flagship as essential

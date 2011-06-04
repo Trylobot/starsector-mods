@@ -1,0 +1,30 @@
+{
+	"displayName":"Support",
+	"hullId":"spir_pyuma",
+	"variantId":"spir_pyuma_support",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"mods":[], # array of strings
+	
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups":[
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS 001":"hveldriver",
+		 		   },
+		},
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS 002":"vulcan",
+		 			"WS 003":"vulcan",
+		 		   },
+		},
+		{"mode":"ALTERNATING",
+		 "weapons":{
+		 			"WS 004":"swarmer",
+		 			"WS 005":"swarmer",
+		 		   },
+		},
+	],
+}
