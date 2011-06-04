@@ -1,0 +1,2 @@
+name,id,designation,fleet pts,hitpoints,armor rating,max energy,energy regen,ordnance points,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,shield arc,shield upkeep,shield efficiency,number
+Kitsune,spir_kitsune,Frigate,8,2000,300,1050,150,30,210,180,135,110,330,190,FRONT,90,90,0.20,1000001

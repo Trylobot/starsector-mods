@@ -1,0 +1,29 @@
+{
+	"displayName":"Assault",
+	"hullId":"spir_kitsune",
+	"variantId":"spir_kitsune_assault",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"mods":[], # array of strings
+	
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups":[
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS 001":"chaingun",
+		 		   },
+		},
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS 002":"vulcan",
+		 			"WS 003":"vulcan",
+		 		   },
+		},
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS 004":"swarmer",
+		 		   },
+		},
+	],
+}

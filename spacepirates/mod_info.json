@@ -1,0 +1,6 @@
+{
+  "id":"spacepirates", # internal id
+	"name":"Space Pirates Mod", # displayed to the player
+	"version":"0.1",
+	"description":"Adds Admiral SteelHeart and his elite pirate crew!",
+}
