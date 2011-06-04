@@ -53,7 +53,7 @@
         0
     ],
     "shieldRadius": 70,
-    "spriteName": "graphics/mod_ships/spir_kitsune.png",
+    "spriteName": "graphics/spir/ships/spir_kitsune.png",
     "style": "HIGH_TECH",
     "viewOffset": 50,
     "weaponSlots": [

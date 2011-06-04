@@ -62,7 +62,7 @@
         0
     ],
     "shieldRadius": 50,
-    "spriteName": "graphics/mod_ships/spir_okami.png",
+    "spriteName": "graphics/spir/ships/spir_okami.png",
     "style": "HIGH_TECH",
     "viewOffset": 50,
     "weaponSlots": [
