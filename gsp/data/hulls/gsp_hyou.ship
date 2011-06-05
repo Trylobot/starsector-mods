@@ -75,7 +75,7 @@
         "locations": [
             -1, 9
         ],
-        "mount": "HARDPOINT",
+        "mount": "HIDDEN",
         "size": "SMALL",
         "type": "MISSILE"
       },
@@ -86,7 +86,7 @@
         "locations": [
             -1, -9
         ],
-        "mount": "HARDPOINT",
+        "mount": "HIDDEN",
         "size": "SMALL",
         "type": "MISSILE"
       },

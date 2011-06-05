@@ -12,13 +12,13 @@
 		{"mode":"LINKED",
 		 "weapons":{
 		 			"WS 001":"lightac",
-		 			"WS 002":"lightmortar",
+		 			"WS 002":"lightac",
 		 		   },
 		},
 		{"mode":"ALTERNATING",
 		 "weapons":{
-		 			"WS 003":"annihilator",
-		 			"WS 004":"annihilator",
+		 			"WS 003":"harpoon",
+		 			"WS 004":"harpoon",
 		 		   },
 		},
 	],
