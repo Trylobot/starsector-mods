@@ -1,0 +1,19 @@
+{
+	"displayName":"Fighter",
+	"hullId":"spir_taka",
+	"variantId":"spir_taka_fighter",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"mods":[], # array of strings
+	
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups":[
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS 001":"vulcan",
+		 			"WS 002":"vulcan",
+		 		   },
+		},
+	],
+}
