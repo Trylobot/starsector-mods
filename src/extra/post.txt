@@ -1,0 +1,44 @@
+I am excited about the new Mod Format coming in 0.34a, and have begun work on a Space Pirate faction and a first mission for them to carry out. I've started preparing sprite art, ship data, and mission code.
+
+This particular Space Pirate faction (lead by Admiral Steelheart) is characterized by:
+[list]
+[li]Ballistic weapons only[/li]
+[li]High speed[/li]
+[li]Higher-than-average armor[/li]
+[li]No shields[/li]
+[li]Low flux capacity and dissipation[/li]
+[/list]
+
+The [i]Taka[/i], medium fighter with two vulcans. Good armor and fast.
+[img]http://i1239.photobucket.com/albums/ff516/Trylobot/spir_taka.png[/img][img]http://i1239.photobucket.com/albums/ff516/Trylobot/screenshot_taka_1.jpg[/img]
+
+The [i]Hyou[/i] (unfinished)
+[img]http://i1239.photobucket.com/albums/ff516/Trylobot/spir_hyou.png[/img]
+
+The [i]Hayabusa[/i] (unfinished)
+[img]http://i1239.photobucket.com/albums/ff516/Trylobot/spir_hayabusa.png[/img]
+
+The [i]Kitsune[/i], a very fast frigate with moderate armaments.
+[img]http://i1239.photobucket.com/albums/ff516/Trylobot/spir_kitsune.png[/img][img]http://i1239.photobucket.com/albums/ff516/Trylobot/screenshot_kitsune_1.jpg[/img]
+
+The [i]Okami[/i], a moderately fast frigate with plenty of close-up firepower.
+[img]http://i1239.photobucket.com/albums/ff516/Trylobot/spir_okami.png[/img][img]http://i1239.photobucket.com/albums/ff516/Trylobot/screenshot_okami_1.jpg[/img]
+
+The [i]Pyuma[/i], a longer range support frigate with swarmers and a hyper-velocity driver.
+[img]http://i1239.photobucket.com/albums/ff516/Trylobot/spir_pyuma.png[/img][img]http://i1239.photobucket.com/albums/ff516/Trylobot/screenshot_pyuma_1.jpg[/img]
+
+The [i]Washi[/i], aka The [i]Bilge Pump[/i], a unique super-carrier with high speed and ballistic point defense. Higher than average armor.
+[img]http://i1239.photobucket.com/albums/ff516/Trylobot/spir_washi.png[/img][img]http://i1239.photobucket.com/albums/ff516/Trylobot/screenshot_washi_1.jpg[/img]
+
+I'm also planning on a pirate battleship (of course), which will be absolutely bristling with medium-to-long ranged ballistic weapons and missiles, both kinetic and explosive. Its job will be to take on other battleships.
+
+The flagship, in order to fulfill the needs of my space-pirate themed mod, will serve a unique purpose. It will have an unprecedented four (!!!) flight decks, and be heavily armored. Weapon-wise it will be outfitted as a weak, ballistic point-defense vessel, anti-fighter and anti-torpedo only, and will thus be relatively useless against other cruisers and frigates directly. It will however have powerful engines and due to the flight decks be able to field and support a massive array of fighter squadrons. The extra speed should allow it to outrun any direct threats like battleships. So if I had to classify it I'd say it's a [b]Fast Point-Defense Supercarrier[/b].
+
+Here's my mission text as it reads now:
+
+[b]Location[/b]: Volcania System
+[b]Date[/b]: 99.11.02
+
+Admiral Steelheart and his famous pirate vessel, The Bilge Pump, have appeared once more. The Admiral is of course never without his elite band of pirate skirmishers, who fly heavily-modded ships. These special craft have uncharacteristically high engine output and thick armor. None bother very much with flux dissipation or shield systems at all, and rely on ballistic limited-ammo weapons. Tactics usually involve hit-and-run, and with their faster vessels the pirates can often get away before sustaining any serious damage.
+
+You will take on the role of the daring pirate, in an attempt to loot the precious cargo of a passing transport fleet. Don't underestimate the fleet's escort, however.
