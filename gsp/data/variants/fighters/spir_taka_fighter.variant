@@ -1,7 +1,7 @@
 {
 	"displayName":"Fighter",
-	"hullId":"spir_taka",
-	"variantId":"spir_taka_fighter",
+	"hullId":"gsp_taka",
+	"variantId":"gsp_taka_fighter",
 	"fluxVents":0,
 	"fluxCapacitors":0,
 	"mods":[], # array of strings

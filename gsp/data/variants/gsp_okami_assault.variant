@@ -1,7 +1,7 @@
 {
 	"displayName":"Assault",
-	"hullId":"spir_kitsune",
-	"variantId":"spir_kitsune_assault",
+	"hullId":"gsp_okami",
+	"variantId":"gsp_okami_assault",
 	"fluxVents":0,
 	"fluxCapacitors":0,
 	"mods":[], # array of strings
@@ -12,17 +12,15 @@
 		{"mode":"LINKED",
 		 "weapons":{
 		 			"WS 001":"chaingun",
+		 			"WS 002":"chaingun",
 		 		   },
 		},
 		{"mode":"LINKED",
 		 "weapons":{
-		 			"WS 002":"vulcan",
 		 			"WS 003":"vulcan",
-		 		   },
-		},
-		{"mode":"LINKED",
-		 "weapons":{
-		 			"WS 004":"swarmer",
+		 			"WS 004":"vulcan",
+		 			"WS 005":"vulcan",
+		 			"WS 006":"vulcan",
 		 		   },
 		},
 	],

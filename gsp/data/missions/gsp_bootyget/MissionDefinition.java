@@ -1,4 +1,4 @@
-package data.missions.spir_bootyget;
+package data.missions.gsp_bootyget;
 
 import com.fs.starfarer.api.fleet.FleetGoal;
 import com.fs.starfarer.api.fleet.FleetMemberType;
@@ -40,11 +40,10 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.addToFleet(FleetSide.ENEMY, "hammerhead_Balanced", FleetMemberType.SHIP, false);
 
 		// Set up the map.
-		float width = 4000f;
-		float height = 4000f;
+		float width = 10000f;
+		float height = 8000f;
 		api.initMap((float)-width/2f, (float)width/2f, (float)-height/2f, (float)height/2f);
 		
-		/*
 		float minX = -width/2;
 		float minY = -height/2;
 		
@@ -73,7 +72,6 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		// Add some planets.  These are defined in data/config/planets.json.
 		api.addPlanet(minX + width * 0.2f + 600, minY + height * 0.5f, 250f, "ice_giant", 200f);
 		api.addPlanet(minX + width * 0.6f + 600, minY + height * 0.3f, 150f, "cryovolcanic", 100f);
-		*/
 	}
 
 }

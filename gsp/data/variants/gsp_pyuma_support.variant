@@ -1,7 +1,7 @@
 {
 	"displayName":"Support",
-	"hullId":"spir_pyuma",
-	"variantId":"spir_pyuma_support",
+	"hullId":"gsp_pyuma",
+	"variantId":"gsp_pyuma_support",
 	"fluxVents":0,
 	"fluxCapacitors":0,
 	"mods":[], # array of strings

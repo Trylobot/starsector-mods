@@ -1,7 +1,7 @@
 {
 	"displayName":"Elite",
-	"hullId":"spir_washi",
-	"variantId":"spir_washi_elite",
+	"hullId":"gsp_washi",
+	"variantId":"gsp_washi_elite",
 	"fluxVents":0,
 	"fluxCapacitors":0,
 	"mods":[], # array of strings
