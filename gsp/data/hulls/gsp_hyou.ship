@@ -1,0 +1,95 @@
+{
+    "bounds": [
+        17, 0,
+        10, -5,
+        7, -2,
+        -8, -10,
+        -8, 10,
+        7, 2,
+        10, 5
+    ],
+    "center": [
+        15, 10
+    ],
+    "collisionRadius": 20,
+    "engineSlots": [
+        {
+            "angle": 180,
+            "contrailSize": 48,
+            "length": 14,
+            "location": [
+                -10, 6
+            ],
+            "style": "HIGH_TECH",
+            "width": 5
+        },
+        {
+            "angle": 180,
+            "contrailSize": 48,
+            "length": 14,
+            "location": [
+                -10, -6
+            ],
+            "style": "HIGH_TECH",
+            "width": 5
+        }
+    ],
+    "height": 30,
+    "hullId": "gsp_hyou",
+    "hullName": "Hyou",
+    "hullSize": "FIGHTER",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 11,
+    "spriteName": "graphics/gsp/ships/gsp_hyou.png",
+    "style": "HIGH_TECH",
+    "viewOffset": 0,
+    "weaponSlots": [
+      {
+        "angle": 0,
+        "arc": 5,
+        "id": "WS 001",
+        "locations": [
+            13, 4
+        ],
+        "mount": "HIDDEN",
+        "size": "SMALL",
+        "type": "BALLISTIC"
+      },
+      {
+        "angle": 0,
+        "arc": 5,
+        "id": "WS 002",
+        "locations": [
+            13, -4
+        ],
+        "mount": "HIDDEN",
+        "size": "SMALL",
+        "type": "BALLISTIC"
+      },
+      {
+        "angle": 0,
+        "arc": 5,
+        "id": "WS 003",
+        "locations": [
+            -1, 9
+        ],
+        "mount": "HARDPOINT",
+        "size": "SMALL",
+        "type": "MISSILE"
+      },
+      {
+        "angle": 0,
+        "arc": 5,
+        "id": "WS 004",
+        "locations": [
+            -1, -9
+        ],
+        "mount": "HARDPOINT",
+        "size": "SMALL",
+        "type": "MISSILE"
+      },
+    ],
+    "width": 30
+}

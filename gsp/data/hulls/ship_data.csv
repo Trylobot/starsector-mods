@@ -1,6 +1,7 @@
 name,id,designation,fleet pts,hitpoints,armor rating,max energy,energy regen,ordnance points,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,shield arc,shield upkeep,shield efficiency,number
-Kitsune,gsp_kitsune,Frigate,5,2000,300,500,100,15,210,180,135,110,330,190,NONE,90,90,0.2,1337001
-Okami,gsp_okami,Frigate,7,2300,325,750,110,25,190,170,135,95,300,210,NONE,90,90,0.2,1337002
-Pyuma,gsp_pyuma,Frigate,6,1950,290,450,80,20,190,165,120,90,290,200,NONE,90,90,0.2,1337003
-Taka,gsp_taka,,,200,225,400,100,10,225,200,180,110,210,15,NONE,0,0,0,1337004
-Washi,gsp_washi,Carrier,18,12000,1650,1800,250,300,50,30,25,10,15,3000,NONE,165,150,0.25,1337007
+Kitsune,gsp_kitsune,Frigate,5,2000,300,500,100,15,210,180,135,110,330,190,NONE,0,0,0,1337001
+Okami,gsp_okami,Frigate,7,2300,325,750,110,25,190,170,135,95,300,210,NONE,0,0,0,1337002
+Pyuma,gsp_pyuma,Frigate,6,1950,290,450,80,20,190,165,120,90,290,200,NONE,0,0,0,1337003
+Taka,gsp_taka,,,175,175,400,100,10,225,200,180,110,210,15,NONE,0,0,0,1337004
+Hyou,gsp_hyou,,,200,225,400,100,13,190,150,120,100,150,30,NONE,0,0,0,1337005
+Washi,gsp_washi,Carrier,18,12000,1650,1800,250,300,50,30,25,10,15,3000,NONE,0,0,0,1337007
