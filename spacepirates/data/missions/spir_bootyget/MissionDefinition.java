@@ -25,6 +25,10 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		
 		// Set up the player's fleet
     api.addToFleet(FleetSide.PLAYER, "spir_washi_elite", FleetMemberType.SHIP, "The Bilge Pump", true);
+    api.addToFleet(FleetSide.PLAYER, "spir_pyuma_support", FleetMemberType.SHIP, false);
+    api.addToFleet(FleetSide.PLAYER, "spir_okami_assault", FleetMemberType.SHIP, false);
+    api.addToFleet(FleetSide.PLAYER, "spir_kitsune_assault", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "spir_taka_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.PLAYER, "spir_taka_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.PLAYER, "spir_taka_wing", FleetMemberType.FIGHTER_WING, false);
 		
