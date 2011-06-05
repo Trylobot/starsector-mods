@@ -33,6 +33,7 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		
 		// Set up the enemy fleet
 		api.addToFleet(FleetSide.ENEMY, "hammerhead_Balanced", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "hammerhead_Balanced", FleetMemberType.SHIP, false);
 
 		// Set up the map.
 		float width = 4000f;
