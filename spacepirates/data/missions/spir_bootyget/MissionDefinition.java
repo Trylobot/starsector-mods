@@ -24,10 +24,7 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.addBriefingItem("Destroy the Escort Forces");
 		
 		// Set up the player's fleet
-    api.addToFleet(FleetSide.PLAYER, "spir_washi_elite", FleetMemberType.SHIP, "The Bilge Pump", false);
-		api.addToFleet(FleetSide.PLAYER, "spir_pyuma_support", FleetMemberType.SHIP, "Scurvy", false);
-		api.addToFleet(FleetSide.PLAYER, "spir_okami_assault", FleetMemberType.SHIP, "Peg-Leg", false);
-		api.addToFleet(FleetSide.PLAYER, "spir_kitsune_assault", FleetMemberType.SHIP, "Swashbuckler", false);
+    api.addToFleet(FleetSide.PLAYER, "spir_washi_elite", FleetMemberType.SHIP, "The Bilge Pump", true);
 		
 		// Mark player flagship as essential
 		//api.defeatOnShipLoss("ESS Indomitable");
@@ -36,18 +33,9 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.addToFleet(FleetSide.ENEMY, "hound_Assault", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.ENEMY, "hound_Assault", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.ENEMY, "hound_Assault", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "hound_Assault", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "hound_Assault", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "hound_Assault", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "hound_Assault", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "hound_Assault", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "hound_Assault", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "hound_Assault", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "hound_Assault", FleetMemberType.SHIP, false);
-		
 		// Set up the map.
-		float width = 10000f;
-		float height = 10000f;
+		float width = 3000f;
+		float height = 3000f;
 		api.initMap((float)-width/2f, (float)width/2f, (float)-height/2f, (float)height/2f);
 		
 		/*
