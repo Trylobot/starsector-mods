@@ -38,8 +38,8 @@ public class MissionDefinition implements MissionDefinitionPlugin {
     api.addToFleet(FleetSide.PLAYER, "gsp_kitsune_assault", FleetMemberType.SHIP, "Swashbuckle", false);
     api.addToFleet(FleetSide.PLAYER, "gsp_kitsune_assault", FleetMemberType.SHIP, "Buccaneer", false);
 		
-		// Mark player flagship as essential
-		//api.defeatOnShipLoss("ESS Indomitable");
+		// The Admiral is Essential
+		api.defeatOnShipLoss("The Bilge Pump");
 		
 		// Set up the enemy fleet
 		api.addToFleet(FleetSide.ENEMY, "hammerhead_Balanced", FleetMemberType.SHIP, false);
