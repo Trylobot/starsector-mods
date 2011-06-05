@@ -1,7 +1,7 @@
 {
-	"displayName":"Bomber",
-	"hullId":"gsp_hyou",
-	"variantId":"gsp_hyou_bomber",
+	"displayName":"Interceptor",
+	"hullId":"gsp_hayabusa",
+	"variantId":"gsp_hayabusa_interceptor",
 	"fluxVents":0,
 	"fluxCapacitors":0,
 	"mods":[], # array of strings
@@ -11,14 +11,7 @@
 	"weaponGroups":[
 		{"mode":"LINKED",
 		 "weapons":{
-		 			"WS 001":"lightac",
-		 			"WS 002":"lightac",
-		 		   },
-		},
-		{"mode":"ALTERNATING",
-		 "weapons":{
-		 			"WS 003":"bomb",
-		 			"WS 004":"bomb",
+		 			"WS 001":"vulcan",
 		 		   },
 		},
 	],

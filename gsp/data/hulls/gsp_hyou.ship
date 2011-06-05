@@ -73,9 +73,9 @@
         "arc": 5,
         "id": "WS 003",
         "locations": [
-            -1, 9
+            -5, 13
         ],
-        "mount": "HIDDEN",
+        "mount": "HARDPOINT",
         "size": "SMALL",
         "type": "MISSILE"
       },
@@ -84,9 +84,9 @@
         "arc": 5,
         "id": "WS 004",
         "locations": [
-            -1, -9
+            -5, -13
         ],
-        "mount": "HIDDEN",
+        "mount": "HARDPOINT",
         "size": "SMALL",
         "type": "MISSILE"
       },

@@ -11,8 +11,8 @@
 	"weaponGroups":[
 		{"mode":"LINKED",
 		 "weapons":{
-		 			"WS 001":"vulcan",
-		 			"WS 002":"vulcan",
+		 			"WS 001":"lightac",
+		 			"WS 002":"lightag",
 		 		   },
 		},
 	],
