@@ -46,7 +46,7 @@
     "center": [
         62, 111
     ],
-    "collisionRadius": 200,
+    "collisionRadius": 210,
     "engineSlots": [
         {
             "angle": 180,
