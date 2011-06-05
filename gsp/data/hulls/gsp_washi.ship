@@ -192,7 +192,7 @@
             "mount": "TURRET",
             "size": "MEDIUM",
             "type": "BALLISTIC"
-        }
+        },
         {
             "angle": 0,
             "arc": 360,
