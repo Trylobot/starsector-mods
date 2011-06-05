@@ -22,7 +22,7 @@
             "location": [
                 -4, 3
             ],
-            "style": "HIGH_TECH_FIGHTER",
+            "style": "HIGH_TECH",
             "width": 8
         },
         {
@@ -32,7 +32,7 @@
             "location": [
                 -4, 3
             ],
-            "style": "HIGH_TECH_FIGHTER",
+            "style": "HIGH_TECH",
             "width": 8
         }
     ],
@@ -44,7 +44,7 @@
         0, 0
     ],
     "shieldRadius": 11,
-    "spriteName": "graphics/ships/spir_taka.png",
+    "spriteName": "graphics/spir/ships/spir_taka.png",
     "style": "HIGH_TECH",
     "viewOffset": 0,
     "weaponSlots": [
