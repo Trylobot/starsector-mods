@@ -46,7 +46,7 @@
         }
     ],
     "height": 100,
-    "hullId": "spir_pyuma",
+    "hullId": "gsp_pyuma",
     "hullName": "Pyuma",
     "hullSize": "FRIGATE",
     "shieldCenter": [
@@ -54,7 +54,7 @@
         0
     ],
     "shieldRadius": 68,
-    "spriteName": "graphics/spir/ships/spir_pyuma.png",
+    "spriteName": "graphics/gsp/ships/gsp_pyuma.png",
     "style": "HIGH_TECH",
     "viewOffset": 50,
     "weaponSlots": [

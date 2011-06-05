@@ -72,14 +72,14 @@
         }
     ],
     "height": 268,
-    "hullId": "spir_washi",
+    "hullId": "gsp_washi",
     "hullName": "Washi",
     "hullSize": "CAPITAL_SHIP",
     "shieldCenter": [
         123, 0
     ],
     "shieldRadius": 50,
-    "spriteName": "graphics/spir/ships/spir_washi.png",
+    "spriteName": "graphics/gsp/ships/gsp_washi.png",
     "style": "HIGH_TECH",
     "viewOffset": 50,
     "weaponSlots": [

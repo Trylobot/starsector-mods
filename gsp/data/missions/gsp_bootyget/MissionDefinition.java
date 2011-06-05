@@ -24,13 +24,13 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.addBriefingItem("Destroy the Escort Forces");
 		
 		// Set up the player's fleet
-    api.addToFleet(FleetSide.PLAYER, "spir_washi_elite", FleetMemberType.SHIP, "The Bilge Pump", true);
-    api.addToFleet(FleetSide.PLAYER, "spir_pyuma_support", FleetMemberType.SHIP, false);
-    api.addToFleet(FleetSide.PLAYER, "spir_okami_assault", FleetMemberType.SHIP, false);
-    api.addToFleet(FleetSide.PLAYER, "spir_kitsune_assault", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.PLAYER, "spir_taka_wing", FleetMemberType.FIGHTER_WING, false);
-		api.addToFleet(FleetSide.PLAYER, "spir_taka_wing", FleetMemberType.FIGHTER_WING, false);
-		api.addToFleet(FleetSide.PLAYER, "spir_taka_wing", FleetMemberType.FIGHTER_WING, false);
+    api.addToFleet(FleetSide.PLAYER, "gsp_washi_elite", FleetMemberType.SHIP, "The Bilge Pump", true);
+    api.addToFleet(FleetSide.PLAYER, "gsp_pyuma_support", FleetMemberType.SHIP, false);
+    api.addToFleet(FleetSide.PLAYER, "gsp_okami_assault", FleetMemberType.SHIP, false);
+    api.addToFleet(FleetSide.PLAYER, "gsp_kitsune_assault", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "gsp_taka_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.PLAYER, "gsp_taka_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.PLAYER, "gsp_taka_wing", FleetMemberType.FIGHTER_WING, false);
 		
 		// Mark player flagship as essential
 		//api.defeatOnShipLoss("ESS Indomitable");

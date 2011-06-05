@@ -54,7 +54,7 @@
         }
     ],
     "height": 80,
-    "hullId": "spir_okami",
+    "hullId": "gsp_okami",
     "hullName": "Okami",
     "hullSize": "FRIGATE",
     "shieldCenter": [
@@ -62,7 +62,7 @@
         0
     ],
     "shieldRadius": 50,
-    "spriteName": "graphics/spir/ships/spir_okami.png",
+    "spriteName": "graphics/gsp/ships/gsp_okami.png",
     "style": "HIGH_TECH",
     "viewOffset": 50,
     "weaponSlots": [
