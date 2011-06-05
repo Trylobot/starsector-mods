@@ -44,28 +44,43 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		// Set up the enemy fleet
 		api.addToFleet(FleetSide.ENEMY, "hammerhead_Balanced", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.ENEMY, "hammerhead_Balanced", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "hound_Assault", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "hound_Assault", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "lasher_Support", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "lasher_Support", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "sunder_Support", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "wolf_Support", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "wolf_Support", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "condor_Support", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "condor_Support", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "wasp_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.ENEMY, "wasp_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.ENEMY, "xyphos_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.ENEMY, "xyphos_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.ENEMY, "dagger_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.ENEMY, "dagger_wing", FleetMemberType.FIGHTER_WING, false);
+    // The Booty (Get it)
+		api.addToFleet(FleetSide.ENEMY, "atlas_Standard", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "tarsus_Standard", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "tarsus_Standard", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "tarsus_Standard", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "tarsus_Standard", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "tarsus_Standard", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "tarsus_Standard", FleetMemberType.SHIP, false);
+
 
 		// Set up the map.
-		float width = 10000f;
-		float height = 8000f;
+		float width = 9000f;
+		float height = 12000f;
 		api.initMap((float)-width/2f, (float)width/2f, (float)-height/2f, (float)height/2f);
 		
 		float minX = -width/2;
 		float minY = -height/2;
 		
-		for (int i = 0; i < 15; i++) {
-			float x = (float) Math.random() * width - width/2;
-			float y = (float) Math.random() * height - height/2;
-			float radius = 100f + (float) Math.random() * 900f; 
-			api.addNebula(x, y, radius);
-		}
-		
 		api.addNebula(minX + width * 0.8f, minY + height * 0.4f, 2000);
 		api.addNebula(minX + width * 0.8f, minY + height * 0.5f, 2000);
 		api.addNebula(minX + width * 0.8f, minY + height * 0.6f, 2000);
 		
-		api.addObjective(minX + width * 0.8f, minY + height * 0.4f, "nav_buoy");
-		api.addObjective(minX + width * 0.8f, minY + height * 0.6f, "nav_buoy");
 		api.addObjective(minX + width * 0.3f, minY + height * 0.3f, "comm_relay");
 		api.addObjective(minX + width * 0.3f, minY + height * 0.7f, "comm_relay");
 		api.addObjective(minX + width * 0.5f, minY + height * 0.5f, "sensor_array");
@@ -76,8 +91,7 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 								20f, 70f, 50);
 		
 		// Add some planets.  These are defined in data/config/planets.json.
-		api.addPlanet(minX + width * 0.2f + 600, minY + height * 0.5f, 250f, "ice_giant", 200f);
-		api.addPlanet(minX + width * 0.6f + 600, minY + height * 0.3f, 150f, "cryovolcanic", 100f);
+		api.addPlanet(minX + width * 0.2f + 600, minY + height * 0.5f, 400f, "lava", 300f);
 	}
 
 }
