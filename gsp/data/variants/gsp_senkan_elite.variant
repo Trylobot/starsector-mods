@@ -1,0 +1,51 @@
+{
+	"displayName":"Elite",
+	"hullId":"gsp_senkan",
+	"variantId":"gsp_senkan_elite",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"mods":[], # array of strings
+	
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups": [
+    {
+      "mode":"LINKED",
+		  "weapons": {
+		 	  "WS 001":"hephag",
+		 		"WS 002":"mjolnir",
+		 	  "WS 003":"hveldriver",
+		 		"WS 004":"hveldriver",
+		 	  "WS 005":"heavyac",
+		 		"WS 006":"heavyac",
+		 	},
+		},
+    {
+      "mode":"LINKED",
+		  "weapons": {
+		 		"WS 007":"hellbore",
+		 	  "WS 008":"hellbore",
+		 		"WS 009":"gauss",
+		 		"WS 010":"gauss",
+		 	},
+		},
+    {
+      "mode":"LINKED",
+		  "weapons": {
+		 		"WS 011":"lightdualac",
+		 	  "WS 012":"lightag",
+		 		"WS 013":"lightdualac",
+		 		"WS 014":"lightag",
+		 	},
+		},
+    {
+      "mode":"LINKED",
+		  "weapons": {
+		 		"WS 015":"lightdualac",
+		 	  "WS 016":"lightag",
+		 		"WS 017":"lightdualac",
+		 		"WS 018":"lightag",
+		 	},
+		},
+	],
+}

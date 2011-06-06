@@ -1,6 +1,6 @@
 {
   "id":"gratuitous_space_pirates", # internal id
 	"name":"Gratuitous Space Pirates", # displayed to the player
-	"version":"0.2",
+	"version":"0.3",
 	"description":"Adds Admiral Steelheart and his elite pirate crew!",
 }
