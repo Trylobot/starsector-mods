@@ -80,7 +80,7 @@
     "weaponSlots": [
         {
             "angle": 0,
-            "arc": 270,
+            "arc": 120,
             "id": "WS 001",
             "locations": [
                 50, 0
@@ -91,7 +91,7 @@
         },
         {
             "angle": 0,
-            "arc": 270,
+            "arc": 145,
             "id": "WS 002",
             "locations": [
                 76, 0
@@ -101,8 +101,8 @@
             "type": "BALLISTIC"
         },
         {
-            "angle": 0,
-            "arc": 270,
+            "angle": -20,
+            "arc": 180,
             "id": "WS 003",
             "locations": [
                 71, -12
@@ -112,8 +112,8 @@
             "type": "BALLISTIC"
         },
         {
-            "angle": 0,
-            "arc": 270,
+            "angle": 20,
+            "arc": 180,
             "id": "WS 004",
             "locations": [
                 71, 12
@@ -123,8 +123,8 @@
             "type": "BALLISTIC"
         },
         {
-            "angle": 0,
-            "arc": 270,
+            "angle": -20,
+            "arc": 180,
             "id": "WS 005",
             "locations": [
                 82, -12
@@ -134,11 +134,22 @@
             "type": "BALLISTIC"
         },
         {
-            "angle": 0,
-            "arc": 270,
+            "angle": 20,
+            "arc": 180,
             "id": "WS 006",
             "locations": [
                 82, 12
+            ],
+            "mount": "TURRET",
+            "size": "MEDIUM",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": 0,
+            "arc": 145,
+            "id": "WS 002",
+            "locations": [
+                76, 0
             ],
             "mount": "TURRET",
             "size": "MEDIUM",
@@ -158,7 +169,7 @@
         {
             "angle": 0,
             "arc": 5,
-            "id": "WS 008",
+            "id": "WS 010",
             "locations": [
                 25, 26
             ],
@@ -180,7 +191,7 @@
         {
             "angle": 0,
             "arc": 5,
-            "id": "WS 010",
+            "id": "WS 008",
             "locations": [
                 50, 31
             ],

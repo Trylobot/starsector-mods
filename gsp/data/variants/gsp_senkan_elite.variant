@@ -32,19 +32,19 @@
     {
       "mode":"LINKED",
 		  "weapons": {
-		 		"WS 011":"lightdualac",
-		 	  "WS 012":"lightag",
-		 		"WS 013":"lightdualac",
-		 		"WS 014":"lightag",
+		 		"WS 011":"lightmg",
+		 	  "WS 012":"lightmg",
+		 		"WS 013":"lightmg",
+		 		"WS 014":"lightmg",
 		 	},
 		},
     {
       "mode":"LINKED",
 		  "weapons": {
-		 		"WS 015":"lightdualac",
-		 	  "WS 016":"lightag",
-		 		"WS 017":"lightdualac",
-		 		"WS 018":"lightag",
+		 		"WS 015":"lightmg",
+		 	  "WS 016":"lightmg",
+		 		"WS 017":"lightmg",
+		 		"WS 018":"lightmg",
 		 	},
 		},
 	],
