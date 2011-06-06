@@ -80,7 +80,7 @@
     "weaponSlots": [
         {
             "angle": 0,
-            "arc": 360,
+            "arc": 270,
             "id": "WS 001",
             "locations": [
                 50, 0
@@ -91,18 +91,18 @@
         },
         {
             "angle": 0,
-            "arc": 360,
+            "arc": 270,
             "id": "WS 002",
             "locations": [
                 76, 0
             ],
             "mount": "TURRET",
-            "size": "LARGE",
+            "size": "MEDIUM",
             "type": "BALLISTIC"
         },
         {
             "angle": 0,
-            "arc": 360,
+            "arc": 270,
             "id": "WS 003",
             "locations": [
                 71, -12
@@ -113,7 +113,7 @@
         },
         {
             "angle": 0,
-            "arc": 360,
+            "arc": 270,
             "id": "WS 004",
             "locations": [
                 71, 12
@@ -124,7 +124,7 @@
         },
         {
             "angle": 0,
-            "arc": 360,
+            "arc": 270,
             "id": "WS 005",
             "locations": [
                 82, -12
@@ -135,10 +135,10 @@
         },
         {
             "angle": 0,
-            "arc": 360,
+            "arc": 270,
             "id": "WS 006",
             "locations": [
-                82, -12
+                82, 12
             ],
             "mount": "TURRET",
             "size": "MEDIUM",
@@ -182,7 +182,7 @@
             "arc": 5,
             "id": "WS 010",
             "locations": [
-                50, -31
+                50, 31
             ],
             "mount": "HARDPOINT",
             "size": "LARGE",

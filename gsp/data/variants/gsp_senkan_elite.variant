@@ -13,9 +13,9 @@
       "mode":"LINKED",
 		  "weapons": {
 		 	  "WS 001":"hephag",
-		 		"WS 002":"mjolnir",
-		 	  "WS 003":"hveldriver",
-		 		"WS 004":"hveldriver",
+		 		"WS 002":"chaingun",
+		 	  "WS 003":"heavyac",
+		 		"WS 004":"heavyac",
 		 	  "WS 005":"heavyac",
 		 		"WS 006":"heavyac",
 		 	},
@@ -25,8 +25,8 @@
 		  "weapons": {
 		 		"WS 007":"hellbore",
 		 	  "WS 008":"hellbore",
-		 		"WS 009":"gauss",
-		 		"WS 010":"gauss",
+		 		"WS 009":"hellbore",
+		 		"WS 010":"hellbore",
 		 	},
 		},
     {
