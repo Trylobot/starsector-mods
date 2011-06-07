@@ -76,15 +76,23 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		float minX = -width/2;
 		float minY = -height/2;
 		
-		api.addNebula(minX + width * 0.7f, minY + height * 0.3f, 1500);
-		api.addNebula(minX + width * 0.6f, minY + height * 0.5f, 2000);
-		api.addNebula(minX + width * 0.8f, minY + height * 0.6f, 2000);
+		api.addNebula(minX + width * 0.2f, minY + height * 0.2f, 1500);
+		api.addNebula(minX + width * 0.8f, minY + height * 0.2f, 1500);
+		api.addNebula(minX + width * 0.2f, minY + height * 0.8f, 1500);
+		api.addNebula(minX + width * 0.8f, minY + height * 0.8f, 1500);
 		
-		api.addObjective(minX + width * 0.3f, minY + height * 0.3f, "comm_relay");
-		api.addObjective(minX + width * 0.3f, minY + height * 0.7f, "comm_relay");
+    // "comm_relay"   +30 fp
+		// "sensor_array" +10 fp, +25% range
+		// "nav_buoy"     +10 fp, +25% speed
+		api.addObjective(minX + width * 0.2f, minY + height * 0.2f, "sensor_array");
+		api.addObjective(minX + width * 0.8f, minY + height * 0.2f, "nav_buoy");
+		api.addObjective(minX + width * 0.2f, minY + height * 0.8f, "sensor_array");
+		api.addObjective(minX + width * 0.8f, minY + height * 0.8f, "nav_buoy");
+    api.addObjective(minX + width * 0.3f, minY + height * 0.5f, "comm_relay");
 		
 		// Add an asteroid field
 		api.addAsteroidField(minX + width * 0.3f, minY, 90, 3000f, 20f, 70f, 50);
+		api.addAsteroidField(minX + width * 0.5f, minY + height * 0.5f, 0, 1800f, 18f, 72f, 25);
 		
 		// Add some planets.  These are defined in data/config/planets.json.
 		api.addPlanet(minX + width * 0.2f + 600, minY + height * 0.5f, 400f, "lava", 300f);
