@@ -12,17 +12,10 @@
     {
       "mode":"LINKED",
 		  "weapons": {
-		 		"WS 004":"heavyac", # medium ballistic
-		 	  "WS 005":"heavyac", # medium ballistic
-		 		"WS 006":"heavyac", # medium ballistic
-		 	},
-		},
-    {
-      "mode":"LINKED",
-		  "weapons": {
-		 	  "WS 001":"chaingun", # heavy ballistic
-		 		"WS 002":"chaingun", # heavy ballistic
-		 	  "WS 003":"chaingun", # heavy ballistic
+		 		"WS 011":"gsp_hc_vulcan", # medium ballistic
+		 	  "WS 012":"gsp_hc_vulcan", # medium ballistic
+		 		"WS 013":"gsp_hc_vulcan", # medium ballistic
+		 		"WS 014":"gsp_hc_vulcan", # medium ballistic
 		 	},
 		},
     {
@@ -37,10 +30,17 @@
     {
       "mode":"LINKED",
 		  "weapons": {
-		 		"WS 011":"dualflak", # medium ballistic
-		 	  "WS 012":"dualflak", # medium ballistic
-		 		"WS 013":"dualflak", # medium ballistic
-		 		"WS 014":"dualflak", # medium ballistic
+		 	  "WS 001":"chaingun", # heavy ballistic
+		 		"WS 002":"chaingun", # heavy ballistic
+		 	  "WS 003":"chaingun", # heavy ballistic
+		 	},
+		},
+    {
+      "mode":"LINKED",
+		  "weapons": {
+		 		"WS 004":"heavyac", # medium ballistic
+		 	  "WS 005":"heavyac", # medium ballistic
+		 		"WS 006":"heavyac", # medium ballistic
 		 	},
 		},
 	],
