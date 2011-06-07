@@ -20,8 +20,7 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		
 		// These show up as items in the bulleted list under 
 		// "Tactical Objectives" on the mission detail screen
-		api.addBriefingItem("Disable the Transports");
-		api.addBriefingItem("Destroy the Escort Forces");
+		api.addBriefingItem("The Admiral Must Survive");
 		
 		// Set up the player's fleet
     api.addToFleet(FleetSide.PLAYER, "gsp_senkan_elite", FleetMemberType.SHIP, "Rusty Cutlass", true);
@@ -30,25 +29,21 @@ public class MissionDefinition implements MissionDefinitionPlugin {
     api.addToFleet(FleetSide.PLAYER, "gsp_okami_assault", FleetMemberType.SHIP, "Drunkard", false);
     api.addToFleet(FleetSide.PLAYER, "gsp_pyuma_support", FleetMemberType.SHIP, "Six-Pounder", false);
     api.addToFleet(FleetSide.PLAYER, "gsp_hayabusa_wing", FleetMemberType.FIGHTER_WING, "Interlopers", false);
-    api.addToFleet(FleetSide.PLAYER, "gsp_taka_wing", FleetMemberType.FIGHTER_WING, "Wenches", false);
+    api.addToFleet(FleetSide.PLAYER, "gsp_hayabusa_wing", FleetMemberType.FIGHTER_WING, "Wenches", false);
     api.addToFleet(FleetSide.PLAYER, "gsp_hyou_wing", FleetMemberType.FIGHTER_WING, "Bilge Rats", false);
     api.addToFleet(FleetSide.PLAYER, "gsp_hyou_wing", FleetMemberType.FIGHTER_WING, "Barnacles", false);
 		// The Admiral is Essential
 		api.defeatOnShipLoss("The Rusty Cutlass");
 		
 		// Set up the enemy fleet
-    api.addToFleet(FleetSide.ENEMY, "conquest_Outdated", FleetMemberType.SHIP, false);
-    api.addToFleet(FleetSide.ENEMY, "hammerhead_Balanced", FleetMemberType.SHIP, false);
+    api.addToFleet(FleetSide.ENEMY, "onslaught_Outdated", FleetMemberType.SHIP, false);
     api.addToFleet(FleetSide.ENEMY, "eagle_Assault", FleetMemberType.SHIP, false);
     api.addToFleet(FleetSide.ENEMY, "eagle_Assault", FleetMemberType.SHIP, false);
     api.addToFleet(FleetSide.ENEMY, "falcon_Support", FleetMemberType.SHIP, false);
     api.addToFleet(FleetSide.ENEMY, "falcon_Support", FleetMemberType.SHIP, false);
-    api.addToFleet(FleetSide.ENEMY, "falcon_Support", FleetMemberType.SHIP, false);
     api.addToFleet(FleetSide.ENEMY, "talon_wing", FleetMemberType.FIGHTER_WING, false);
     api.addToFleet(FleetSide.ENEMY, "talon_wing", FleetMemberType.FIGHTER_WING, false);
     api.addToFleet(FleetSide.ENEMY, "talon_wing", FleetMemberType.FIGHTER_WING, false);
-    api.addToFleet(FleetSide.ENEMY, "xyphos_wing", FleetMemberType.FIGHTER_WING, false);
-    api.addToFleet(FleetSide.ENEMY, "xyphos_wing", FleetMemberType.FIGHTER_WING, false);
 
 
 		// Set up the map.
@@ -59,16 +54,15 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		float minX = -width/2;
 		float minY = -height/2;
 		
-		api.addNebula(minX + width * 0.8f, minY + height * 0.4f, 2000);
-		api.addNebula(minX + width * 0.8f, minY + height * 0.5f, 2000);
+		api.addNebula(minX + width * 0.7f, minY + height * 0.3f, 1500);
+		api.addNebula(minX + width * 0.6f, minY + height * 0.5f, 2000);
 		api.addNebula(minX + width * 0.8f, minY + height * 0.6f, 2000);
 		
 		api.addObjective(minX + width * 0.3f, minY + height * 0.3f, "comm_relay");
 		api.addObjective(minX + width * 0.3f, minY + height * 0.7f, "comm_relay");
 		
 		// Add an asteroid field
-		api.addAsteroidField(minX + width * 0.3f, minY, 90, 3000f,
-								20f, 70f, 50);
+		api.addAsteroidField(minX + width * 0.3f, minY, 90, 3000f, 20f, 70f, 50);
 		
 		// Add some planets.  These are defined in data/config/planets.json.
 		api.addPlanet(minX + width * 0.2f + 600, minY + height * 0.5f, 400f, "lava", 300f);
