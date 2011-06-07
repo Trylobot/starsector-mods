@@ -12,39 +12,35 @@
     {
       "mode":"LINKED",
 		  "weapons": {
-		 	  "WS 001":"hephag",
-		 		"WS 002":"chaingun",
-		 	  "WS 003":"heavyac",
-		 		"WS 004":"heavyac",
-		 	  "WS 005":"heavyac",
-		 		"WS 006":"heavyac",
+		 		"WS 004":"heavyac", # medium ballistic
+		 	  "WS 005":"heavyac", # medium ballistic
+		 		"WS 006":"heavyac", # medium ballistic
 		 	},
 		},
     {
       "mode":"LINKED",
 		  "weapons": {
-		 		"WS 007":"hellbore",
-		 	  "WS 008":"hellbore",
-		 		"WS 009":"hellbore",
-		 		"WS 010":"hellbore",
+		 	  "WS 001":"chaingun", # heavy ballistic
+		 		"WS 002":"chaingun", # heavy ballistic
+		 	  "WS 003":"chaingun", # heavy ballistic
+		 	},
+		},
+    {
+      "mode":"ALTERNATING",
+		  "weapons": {
+		 		"WS 007":"cyclone", # large missile
+		 	  "WS 008":"cyclone", # large missile
+		 		"WS 009":"cyclone", # large missile
+		 		"WS 010":"cyclone", # large missile
 		 	},
 		},
     {
       "mode":"LINKED",
 		  "weapons": {
-		 		"WS 011":"lightmg",
-		 	  "WS 012":"lightmg",
-		 		"WS 013":"lightmg",
-		 		"WS 014":"lightmg",
-		 	},
-		},
-    {
-      "mode":"LINKED",
-		  "weapons": {
-		 		"WS 015":"lightmg",
-		 	  "WS 016":"lightmg",
-		 		"WS 017":"lightmg",
-		 		"WS 018":"lightmg",
+		 		"WS 011":"dualflak", # medium ballistic
+		 	  "WS 012":"dualflak", # medium ballistic
+		 		"WS 013":"dualflak", # medium ballistic
+		 		"WS 014":"dualflak", # medium ballistic
 		 	},
 		},
 	],
