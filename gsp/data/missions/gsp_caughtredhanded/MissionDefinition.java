@@ -16,7 +16,7 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 
 		// Set a blurb for each fleet
 		api.setFleetTagline(FleetSide.PLAYER, "Admiral Steelheart's independent fleet");
-		api.setFleetTagline(FleetSide.ENEMY, "Hegemony escort forces");
+		api.setFleetTagline(FleetSide.ENEMY, "Interstellar Counter-Terrorist Unit");
 		
 		// These show up as items in the bulleted list under 
 		// "Tactical Objectives" on the mission detail screen
@@ -24,18 +24,26 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.addBriefingItem("Destroy the Escort Forces");
 		
 		// Set up the player's fleet
-    api.addToFleet(FleetSide.PLAYER, "gsp_senkan_elite", FleetMemberType.SHIP, "The Rusty Cutlass", true);
-    api.addToFleet(FleetSide.PLAYER, "gsp_kitsune_assault", FleetMemberType.SHIP, false);
-    api.addToFleet(FleetSide.PLAYER, "gsp_pyuma_support", FleetMemberType.SHIP, false);
-    api.addToFleet(FleetSide.PLAYER, "gsp_taka_wing", FleetMemberType.FIGHTER_WING, false);
-    api.addToFleet(FleetSide.PLAYER, "gsp_taka_wing", FleetMemberType.FIGHTER_WING, false);
-
+    api.addToFleet(FleetSide.PLAYER, "gsp_senkan_elite", FleetMemberType.SHIP, "Rusty Cutlass", true);
+    api.addToFleet(FleetSide.PLAYER, "gsp_kitsune_assault", FleetMemberType.SHIP, "Buccaneer", false);
+    api.addToFleet(FleetSide.PLAYER, "gsp_kitsune_assault", FleetMemberType.SHIP, "Cutthroat", false);
+    api.addToFleet(FleetSide.PLAYER, "gsp_okami_assault", FleetMemberType.SHIP, "Drunkard", false);
+    api.addToFleet(FleetSide.PLAYER, "gsp_pyuma_support", FleetMemberType.SHIP, "Six-Pounder", false);
+    api.addToFleet(FleetSide.PLAYER, "gsp_hayabusa_wing", FleetMemberType.FIGHTER_WING, "Interlopers", false);
+    api.addToFleet(FleetSide.PLAYER, "gsp_taka_wing", FleetMemberType.FIGHTER_WING, "Wenches", false);
+    api.addToFleet(FleetSide.PLAYER, "gsp_hyou_wing", FleetMemberType.FIGHTER_WING, "Bilge Rats", false);
+    api.addToFleet(FleetSide.PLAYER, "gsp_hyou_wing", FleetMemberType.FIGHTER_WING, "Barnacles", false);
 		// The Admiral is Essential
 		api.defeatOnShipLoss("The Rusty Cutlass");
 		
 		// Set up the enemy fleet
-    api.addToFleet(FleetSide.ENEMY, "onslaught_Outdated", FleetMemberType.SHIP, false);
-    api.addToFleet(FleetSide.ENEMY, "onslaught_Outdated", FleetMemberType.SHIP, false);
+    api.addToFleet(FleetSide.ENEMY, "apogee_Balanced", FleetMemberType.SHIP, false);
+    api.addToFleet(FleetSide.ENEMY, "eagle_Assault", FleetMemberType.SHIP, false);
+    api.addToFleet(FleetSide.ENEMY, "falcon_Support", FleetMemberType.SHIP, false);
+    api.addToFleet(FleetSide.ENEMY, "falcon_Support", FleetMemberType.SHIP, false);
+    api.addToFleet(FleetSide.ENEMY, "talon_wing", FleetMemberType.FIGHTER_WING, false);
+    api.addToFleet(FleetSide.ENEMY, "talon_wing", FleetMemberType.FIGHTER_WING, false);
+    api.addToFleet(FleetSide.ENEMY, "talon_wing", FleetMemberType.FIGHTER_WING, false);
 
 
 		// Set up the map.
