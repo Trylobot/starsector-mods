@@ -12,35 +12,35 @@
     {
       "mode":"LINKED",
 		  "weapons": {
-		 		"WS 011":"gsp_hc_vulcan", # medium ballistic
-		 	  "WS 012":"gsp_hc_vulcan", # medium ballistic
-		 		"WS 013":"gsp_hc_vulcan", # medium ballistic
-		 		"WS 014":"gsp_hc_vulcan", # medium ballistic
+		 		"WS 009":"heavyac", # medium ballistic
+		 		"WS 010":"heavyac", # medium ballistic
+		 		"WS 011":"heavyac", # medium ballistic
+		 	},
+		},
+    {
+      "mode":"LINKED",
+		  "weapons": {
+		 	  "WS 012":"chaingun", # heavy ballistic
+		 		"WS 013":"chaingun", # heavy ballistic
+		 		"WS 014":"chaingun", # heavy ballistic
 		 	},
 		},
     {
       "mode":"ALTERNATING",
 		  "weapons": {
+		 	  "WS 005":"pilum", # large missile
+		 		"WS 006":"pilum", # large missile
 		 		"WS 007":"pilum", # large missile
 		 	  "WS 008":"pilum", # large missile
-		 		"WS 009":"pilum", # large missile
-		 		"WS 010":"pilum", # large missile
 		 	},
 		},
     {
       "mode":"LINKED",
 		  "weapons": {
-		 	  "WS 001":"chaingun", # heavy ballistic
-		 		"WS 002":"chaingun", # heavy ballistic
-		 	  "WS 003":"chaingun", # heavy ballistic
-		 	},
-		},
-    {
-      "mode":"LINKED",
-		  "weapons": {
-		 		"WS 004":"heavyac", # medium ballistic
-		 	  "WS 005":"heavyac", # medium ballistic
-		 		"WS 006":"heavyac", # medium ballistic
+		 	  "WS 001":"gsp_hc_vulcan", # medium ballistic
+		 		"WS 002":"gsp_hc_vulcan", # medium ballistic
+		 	  "WS 003":"gsp_hc_vulcan", # medium ballistic
+		 		"WS 004":"gsp_hc_vulcan", # medium ballistic
 		 	},
 		},
 	],
