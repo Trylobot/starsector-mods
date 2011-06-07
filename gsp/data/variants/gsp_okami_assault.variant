@@ -11,16 +11,16 @@
 	"weaponGroups":[
 		{"mode":"LINKED",
 		 "weapons":{
-		 			"WS 001":"chaingun",
-		 			"WS 002":"chaingun",
-		 		   },
-		},
-		{"mode":"LINKED",
-		 "weapons":{
 		 			"WS 003":"lightdualac",
 		 			"WS 004":"lightdualac",
 		 			"WS 005":"lightdualac",
 		 			"WS 006":"lightdualac",
+		 		   },
+		},
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS 001":"chaingun",
+		 			"WS 002":"chaingun",
 		 		   },
 		},
 	],

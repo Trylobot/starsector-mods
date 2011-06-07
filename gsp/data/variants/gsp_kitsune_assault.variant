@@ -11,13 +11,13 @@
 	"weaponGroups":[
 		{"mode":"LINKED",
 		 "weapons":{
-		 			"WS 001":"chaingun",
+		 			"WS 002":"lightac",
+		 			"WS 003":"lightac",
 		 		   },
 		},
 		{"mode":"LINKED",
 		 "weapons":{
-		 			"WS 002":"lightac",
-		 			"WS 003":"lightac",
+		 			"WS 001":"chaingun",
 		 		   },
 		},
 		{"mode":"LINKED",

@@ -16,8 +16,8 @@
 		},
 		{"mode":"LINKED",
 		 "weapons":{
-		 			"WS 002":"vulcan",
-		 			"WS 003":"vulcan",
+		 			"WS 002":"lightag",
+		 			"WS 003":"lightag",
 		 		   },
 		},
 		{"mode":"ALTERNATING",
