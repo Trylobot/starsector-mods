@@ -28,10 +28,10 @@
     {
       "mode":"ALTERNATING",
 		  "weapons": {
-		 		"WS 007":"cyclone", # large missile
-		 	  "WS 008":"cyclone", # large missile
-		 		"WS 009":"cyclone", # large missile
-		 		"WS 010":"cyclone", # large missile
+		 		"WS 007":"pilum", # large missile
+		 	  "WS 008":"pilum", # large missile
+		 		"WS 009":"pilum", # large missile
+		 		"WS 010":"pilum", # large missile
 		 	},
 		},
     {
