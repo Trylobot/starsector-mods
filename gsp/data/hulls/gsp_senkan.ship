@@ -126,7 +126,7 @@
             "arc": 5,
             "id": "WS 005",
             "locations": [
-                50, 31
+                35, 26
             ],
             "mount": "HARDPOINT",
             "size": "LARGE",
@@ -135,9 +135,9 @@
         {
             "angle": 0,
             "arc": 5,
-            "id": "WS 006",
+            "id": "WS 008",
             "locations": [
-                50, -31
+                35, -26
             ],
             "mount": "HARDPOINT",
             "size": "LARGE",
@@ -157,7 +157,7 @@
         {
             "angle": 0,
             "arc": 5,
-            "id": "WS 008",
+            "id": "WS 006",
             "locations": [
                 25, -26
             ],
