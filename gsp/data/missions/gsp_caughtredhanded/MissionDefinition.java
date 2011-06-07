@@ -37,13 +37,18 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.defeatOnShipLoss("The Rusty Cutlass");
 		
 		// Set up the enemy fleet
-    api.addToFleet(FleetSide.ENEMY, "apogee_Balanced", FleetMemberType.SHIP, false);
+    api.addToFleet(FleetSide.ENEMY, "conquest_Outdated", FleetMemberType.SHIP, false);
+    api.addToFleet(FleetSide.ENEMY, "hammerhead_Balanced", FleetMemberType.SHIP, false);
+    api.addToFleet(FleetSide.ENEMY, "eagle_Assault", FleetMemberType.SHIP, false);
     api.addToFleet(FleetSide.ENEMY, "eagle_Assault", FleetMemberType.SHIP, false);
     api.addToFleet(FleetSide.ENEMY, "falcon_Support", FleetMemberType.SHIP, false);
     api.addToFleet(FleetSide.ENEMY, "falcon_Support", FleetMemberType.SHIP, false);
+    api.addToFleet(FleetSide.ENEMY, "falcon_Support", FleetMemberType.SHIP, false);
     api.addToFleet(FleetSide.ENEMY, "talon_wing", FleetMemberType.FIGHTER_WING, false);
     api.addToFleet(FleetSide.ENEMY, "talon_wing", FleetMemberType.FIGHTER_WING, false);
     api.addToFleet(FleetSide.ENEMY, "talon_wing", FleetMemberType.FIGHTER_WING, false);
+    api.addToFleet(FleetSide.ENEMY, "xyphos_wing", FleetMemberType.FIGHTER_WING, false);
+    api.addToFleet(FleetSide.ENEMY, "xyphos_wing", FleetMemberType.FIGHTER_WING, false);
 
 
 		// Set up the map.
