@@ -1,4 +1,0 @@
-  - Brightness / Contrast:   26, 41
-  - Hue / Saturation:        74, 59, -4
-  - import turret mounts
-  - import pirate flag icon
