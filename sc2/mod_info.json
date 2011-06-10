@@ -1,6 +1,6 @@
 {
   "id":"star_control_2", # internal id
-	"name":"Star Control II: The Ur-Quan Hierarchy", # displayed to the player
+	"name":"Star Control II", # displayed to the player
 	"version":"0.1",
 	"description":"Adds Star Control II ships and missions",
 }
