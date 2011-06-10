@@ -11,13 +11,17 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 	public void defineMission(MissionDefinitionAPI api) {
 
 		// Set up the fleets
-		api.initFleet(FleetSide.PLAYER, "Alliance of Free Stars", FleetGoal.ATTACK, false);
-		api.initFleet(FleetSide.ENEMY, "Ur-Quan Hierarchy", FleetGoal.ATTACK, true);
+		api.initFleet(FleetSide.PLAYER, "", FleetGoal.ATTACK, false);
+		api.initFleet(FleetSide.ENEMY, "", FleetGoal.ATTACK, true);
 
 		// Set up the player's fleet
-		api.addToFleet(FleetSide.PLAYER, "sc2_ur-quan_dreadnought_standard", FleetMemberType.SHIP, true);
+		api.addToFleet(FleetSide.PLAYER, "sc2_ur-quan_dreadnought_standard", FleetMemberType.SHIP, "", true);
 
 		// Set up the enemy fleet
+		api.addToFleet(FleetSide.ENEMY, "hammerhead_Balanced", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "hammerhead_Balanced", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "hammerhead_Balanced", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "hammerhead_Balanced", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.ENEMY, "hammerhead_Balanced", FleetMemberType.SHIP, false);
 		
 		// Set up the map.
