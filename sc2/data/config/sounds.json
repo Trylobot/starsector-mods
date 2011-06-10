@@ -1,10 +1,12 @@
 {
-  "sc2_ur-quan_dreadnought_plasma_torpedo":[
+  "sc2_plasma_torpedo":[
     {
-      "file":"sounds/sc2/fx/sc2_ur-quan_dreadnought_plasma_torpedo.ogg",
+      "file":"sounds/sc2/fx/sc2_plasma_torpedo.ogg",
       "pitch":1, "volume":1
     },
   ],
+  
+  # original file --------------------------------------------------------------
   
   # Beams
 	"beam_heavy_loop":[

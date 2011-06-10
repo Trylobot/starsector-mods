@@ -1,4 +1,4 @@
-package data.missions.test;
+package data.missions.alliance_v_hierarchy;
 
 import com.fs.starfarer.api.fleet.FleetGoal;
 import com.fs.starfarer.api.fleet.FleetMemberType;

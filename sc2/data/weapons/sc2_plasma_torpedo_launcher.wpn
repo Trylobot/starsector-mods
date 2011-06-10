@@ -1,0 +1,28 @@
+{
+	"id":"sc2_plasma_torpedo_launcher",
+	"specClass":"projectile",
+	"type":"MISSILE",
+	"size":"LARGE",
+	"hardpointOffsets":[0, 0],
+	"turretOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"turretAngleOffsets":[0],	
+	"barrelMode":"LINKED",
+	"animationType":"SMOKE",
+	"interruptibleBurst":false,
+	"displayArcRadius":500,
+	"smokeSpec":{
+    "particleSizeMin":20.0,
+    "particleSizeRange":20.0,
+    "cloudParticleCount":3,
+    "cloudDuration":1.0,
+    "cloudRadius":10.0,
+    "blowbackParticleCount":3,
+    "blowbackDuration":2.0,
+    "blowbackLength":30.0,
+    "blowbackSpread":10.0,
+    "particleColor":[100,100,100,200]
+  },
+	"projectileSpecId":"type_1_mirv",
+	"fireSoundTwo":"sc2_ur-quan_dreadnought_plasma_torpedo",
+}
