@@ -1,0 +1,182 @@
+{
+    "bounds": [
+        141, -18, 
+        107, -52, 
+        72, -52, 
+        58, -34, 
+        -23, -35, 
+        -23, -51, 
+        51, -51, 
+        58, -54, 
+        61, -57, 
+        63, -62, 
+        63, -69, 
+        61, -74, 
+        58, -77, 
+        51, -80, 
+        -23, -80, 
+        -34, -82, 
+        -43, -80, 
+        -69, -80, 
+        -120, -56, 
+        -120, -51, 
+        -69, -51, 
+        -69, -36, 
+        -108, -36, 
+        -113, -42, 
+        -120, -42, 
+        -123, -39, 
+        -140, -37, 
+        -141, -28, 
+        -139, -11, 
+        -136, 0, 
+        -139, 11, 
+        -141, 28, 
+        -140, 37, 
+        -123, 39, 
+        -120, 42, 
+        -113, 42, 
+        -108, 36, 
+        -69, 36, 
+        -69, 51, 
+        -120, 51, 
+        -120, 56, 
+        -69, 80, 
+        -43, 80, 
+        -34, 82, 
+        -23, 80, 
+        51, 80, 
+        58, 77, 
+        61, 74, 
+        63, 69, 
+        63, 62, 
+        61, 57, 
+        58, 54, 
+        51, 51, 
+        -23, 51, 
+        -23, 35, 
+        58, 34, 
+        72, 52, 
+        107, 52, 
+        141, 18, 
+   ],
+    "center": [
+        83, 144
+    ],
+    "collisionRadius": 160,
+    "engineSlots": [
+        {
+            "angle": 180,
+            "contrailSize": 64,
+            "length": 64,
+            "location": [
+                -141, 30
+            ],
+            "style": "LOW_TECH",
+            "width": 20
+        },
+        {
+            "angle": 180,
+            "contrailSize": 64,
+            "length": 100,
+            "location": [
+                -142, 24
+            ],
+            "style": "LOW_TECH",
+            "width": 30
+        },
+        {
+            "angle": 180,
+            "contrailSize": 64,
+            "length": 64,
+            "location": [
+                -140, 12
+            ],
+            "style": "LOW_TECH",
+            "width": 20
+        },
+        {
+            "angle": 180,
+            "contrailSize": 64,
+            "length": 64,
+            "location": [
+                -140, -12
+            ],
+            "style": "LOW_TECH",
+            "width": 20
+        },
+        {
+            "angle": 180,
+            "contrailSize": 64,
+            "length": 100,
+            "location": [
+                -142, -24
+            ],
+            "style": "LOW_TECH",
+            "width": 30
+        },
+        {
+            "angle": 180,
+            "contrailSize": 64,
+            "length": 64,
+            "location": [
+                -141, -30
+            ],
+            "style": "LOW_TECH",
+            "width": 20
+        },
+    ],
+    "height": 288,
+    "hullId": "sc2_ur-quan_dreadnought",
+    "hullName": "Ur-Quan Dreadnought",
+    "hullSize": "CAPITAL_SHIP",
+    "shieldCenter": [
+        45, 0
+    ],
+    "shieldRadius": 160,
+    "spriteName": "graphics/sc2/ships/sc2_ur-quan_dreadnought.png",
+    "style": "LOW_TECH",
+    "viewOffset": 50,
+    "weaponSlots": [
+        {
+            "angle": 0,
+            "arc": 0,
+            "id": "WS 001",
+            "locations": [
+                137, 0
+            ],
+            "mount": "HARDPOINT",
+            "size": "LARGE",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": 0,
+            "arc": 360,
+            "id": "WS 002",
+            "locations": [
+              0, 10,
+              19, 10,
+              19, -10,
+              0, -10,
+            ],
+            "mount": "HIDDEN",
+            "size": "LARGE",
+            "type": "LAUNCH_BAY"
+        },
+        {
+            "angle": 0,
+            "arc": 360,
+            "id": "WS 003",
+            "locations": [
+              0, 10,
+              19, 10,
+              19, -10,
+              0, -10,
+            ],
+            "mount": "HIDDEN",
+            "size": "LARGE",
+            "type": "LAUNCH_BAY"
+        },
+    ],
+    "width": 166
+}

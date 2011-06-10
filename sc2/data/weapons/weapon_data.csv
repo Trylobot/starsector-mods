@@ -1,0 +1,2 @@
+"name","id","range","damage/second","damage/shot","flux","impact","turn rate","OPs","ammo","type","energy/shot","energy/second","chargeup","chargedown","burst size","burst delay","min spread","max spread","spread/shot","spread decay/sec","beam speed","proj speed","launch speed","flight time","proj hitpoints","hints","number"
+"Plasma Torpedo Launcher","sc2_plasma_torpedo_launcher",1000,,5000,,500,0,25,,"ENERGY",550,,,0.5,1,,0,0,0,0,,1000,,,500,,1337200

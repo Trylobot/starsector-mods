@@ -1,0 +1,14 @@
+{
+	"id":"sc2_plasma_torpedo",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",	
+	#"length":30.0,
+	#"width":3.5,
+	"fadeTime":1.0,
+	"hitGlowRadius":100,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/sc2/missiles/sc2_plasma_torpedo.png"	
+}
