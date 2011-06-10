@@ -127,6 +127,7 @@
         },
     ],
     "height": 288,
+    "width": 166,
     "hullId": "sc2_ur-quan_dreadnought",
     "hullName": "Ur-Quan Dreadnought",
     "hullSize": "CAPITAL_SHIP",
@@ -178,5 +179,4 @@
             "type": "LAUNCH_BAY"
         },
     ],
-    "width": 166
 }

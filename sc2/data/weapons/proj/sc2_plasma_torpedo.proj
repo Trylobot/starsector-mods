@@ -10,5 +10,21 @@
 	"hitGlowRadius":100,
 	"textureScrollSpeed":64.0,
 	"pixelsPerTexel":5.0,
-	"bulletSprite":"graphics/sc2/missiles/sc2_plasma_torpedo.png"	
+	"bulletSprite":"graphics/sc2/missiles/sc2_plasma_torpedo.png",
+  "height":29,
+  "width":14,
+	"explosionColor":[226,131,59,235],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":425, # purely visual
+	"explosionSpec":{
+    "duration":0.1f, # not visual
+    "radius":175,
+    "coreRadius":75, # full damage within core radius
+    "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+    "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+    "particleSizeMin":3.0,
+    "particleSizeRange":5.0,
+    "particleDuration":1,
+    "particleCount":200,
+    "particleColor":[226,131,59,235]
+  },
 }
