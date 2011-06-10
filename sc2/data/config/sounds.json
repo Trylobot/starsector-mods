@@ -1,0 +1,482 @@
+{
+  "sc2_ur-quan_dreadnought_plasma_torpedo":[
+    {
+      "file":"sounds/sc2/fx/sc2_ur-quan_dreadnought_plasma_torpedo.ogg",
+      "pitch":1, "volume":1
+    },
+  ],
+  
+  # Beams
+	"beam_heavy_loop":[
+		{"file":"sounds/fx/beams/fire_beam_heavy_loop01a.ogg","pitch":1,"volume":1},
+	],
+	"beam_heavy_intro":[
+		{"file":"sounds/fx/beams/fire_beam_heavy_intro01a.ogg","pitch":1.0,"volume":0.5},
+	],
+	"beam_medium_loop":[
+		{"file":"sounds/fx/beams/fire_beam_mid_loop01a.ogg","pitch":0.5,"volume":0.75},
+	],
+	"beam_medium_intro":[
+		{"file":"sounds/fx/beams/fire_beam_mid_intro01a.ogg","pitch":1,"volume":0.1},
+	],
+	"beam_light_loop":[
+		{"file":"sounds/fx/beams/fire_beam_light_loop02b.ogg","pitch":1,"volume":0.5},
+	],
+	"beam_light_intro":[
+		{"file":"sounds/fx/beams/fire_beam_light_intro02b.ogg","pitch":1,"volume":0.1},
+	],					
+
+
+	# Guns
+	"gun_superheavy_1":[
+		{"file":"sounds/fx/guns/fire_gun_superheavy.ogg","pitch":1,"volume":1.0},
+	],
+	"gun_heavy_1":[
+		{"file":"sounds/fx/guns/fire_gun_heavy01a.ogg","pitch":1,"volume":0.75},
+	],
+	"gun_heavy_2":[
+		{"file":"sounds/fx/guns/fire_gun_heavy02a.ogg","pitch":1,"volume":0.75},
+	],	
+	"gun_heavy_3":[
+		{"file":"sounds/fx/guns/fire_gun_heavy04.ogg","pitch":1,"volume":1},
+	],	
+	"gun_medium_1":[
+		{"file":"sounds/fx/guns/fire_gun_heavy02.ogg","pitch":1,"volume":0.75},
+	],		
+	"gun_medium_2":[
+		{"file":"sounds/fx/guns/fire_gun_heavy02.ogg","pitch":1,"volume":0.75},
+	],		
+	"gun_light_flak":[
+		{"file":"sounds/fx/guns/fire_gun_light04.ogg","pitch":1,"volume":0.5},
+	],		
+	"gun_light_sharp":[
+		{"file":"sounds/fx/guns/fire_gun_light03.ogg","pitch":1,"volume":0.5},
+	],	
+	"gun_rapid_1":[
+		{"file":"sounds/fx/guns/fire_gun_rapid01.ogg","pitch":1,"volume":0.5},
+	],
+	"gun_rapid_2":[
+		{"file":"sounds/fx/guns/fire_gun_rapid01.ogg","pitch":1,"volume":0.5},
+	],
+	"gun_mechanicals_light_up_1":[
+		{"file":"sounds/fx/guns/gun_mechanicals01a.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/fx/guns/gun_mechanicals01b.ogg","pitch":1,"volume":0.5},
+	],
+	"gun_mechanicals_light_up_2":[
+		{"file":"sounds/fx/guns/gun_mechanicals02.ogg","pitch":1,"volume":0.5},
+	],
+	"gun_mechanicals_light_up_whirr":[
+		{"file":"sounds/fx/guns/gun_mechanicals03.ogg","pitch":1,"volume":0.5},
+	],
+	"gun_mechanicals_medium_up_whirr":[
+		{"file":"sounds/fx/guns/gun_mechanicals02.ogg","pitch":0.5,"volume":0.5},
+	],
+	
+	"launch_tube_1":[
+		{"file":"sounds/fx/guns/fire_gun_launch_tube01.ogg","pitch":1,"volume":1},
+		{"file":"sounds/fx/guns/fire_gun_launch_tube02.ogg","pitch":1,"volume":1},
+	],
+	
+	"gun_out_of_ammo":{
+		"sounds":[
+			{"file":"sounds/fx/guns/gun_mechanicals02.ogg","pitch":1,"volume":1},
+		],
+	},
+	
+	
+	# Missiles
+	"missile_heavy":[
+		{"file":"sounds/fx/guns/fire_gun_launch01b.ogg","pitch":1,"volume":0.2},
+	],
+	"missile_medium":[
+		{"file":"sounds/fx/guns/fire_gun_launch02b.ogg","pitch":1,"volume":0.2},
+	],
+	"missile_light":[
+		{"file":"sounds/fx/guns/fire_gun_launch03b.ogg","pitch":0.75,"volume":0.1},
+	],
+	
+	
+	
+	# Energy weapons
+	"energy_pulse":[
+		#{"file":"sounds/fx/hits/hit_shield_beam_struck01.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/fx/beams/fire_beam_burst01.ogg","pitch":1,"volume":0.5},
+	],
+	
+	
+	
+	# Engines
+	"engine_loop":{
+		"sounds":[
+			{"file":"sounds/fx/engines/engine_oldloop01.ogg","pitch":1,"volume":1},
+			{"file":"sounds/fx/engines/engine_midloop01.ogg","pitch":1,"volume":1},
+			{"file":"sounds/fx/engines/engine_newloop01.ogg","pitch":1,"volume":1},
+		],
+		"LOW_TECH":{"sounds":[0], "pitch":1, "volume":1},
+		"MIDLINE":{"sounds":[1], "pitch":1, "volume":1},
+		"HIGH_TECH":{"sounds":[2], "pitch":1, "volume":1},
+		"FIGHTER":{"sounds":[0,1,2], "pitch":1, "volume":0.4},
+		"FRIGATE":{"sounds":[0,1,2], "pitch":1, "volume":0.6},
+		"DESTROYER":{"sounds":[0,1,2], "pitch":1, "volume":0.7},
+		"CRUISER":{"sounds":[0,1,2], "pitch":1, "volume":0.8},
+		"CAPITAL_SHIP":{"sounds":[0,1,2], "pitch":1, "volume":1},		
+	},
+	"engine_accelerate":{
+		"sounds":[
+			{"file":"sounds/fx/engines/engine_accelerate01.ogg","pitch":0.5,"volume":0.5},
+		],
+		"LOW_TECH":{"sounds":[0], "pitch":0.8, "volume":1},
+		"MIDLINE":{"sounds":[0], "pitch":0.9, "volume":1},
+		"HIGH_TECH":{"sounds":[0], "pitch":1, "volume":1},
+		"FIGHTER":{"sounds":[0], "pitch":1, "volume":0.4},
+		"FRIGATE":{"sounds":[0], "pitch":1, "volume":0.6},
+		"DESTROYER":{"sounds":[0], "pitch":1, "volume":0.7},
+		"CRUISER":{"sounds":[0], "pitch":1, "volume":0.8},
+		"CAPITAL_SHIP":{"sounds":[0], "pitch":1, "volume":1},		
+	},
+	
+	
+	# Shields and related
+	"shield_burnout":{
+		"sounds":[
+			{"file":"sounds/fx/shields/shield_burnout_intro01.ogg","pitch":1,"volume":1},
+		],
+		"LOW_TECH":{"sounds":[0], "pitch":0.7, "volume":1},
+		"MIDLINE":{"sounds":[0], "pitch":0.85, "volume":1},
+		"HIGH_TECH":{"sounds":[0], "pitch":1, "volume":1},
+		"FIGHTER":{"sounds":[0], "pitch":1, "volume":0.4},
+		"FRIGATE":{"sounds":[0], "pitch":1, "volume":0.7},
+		"DESTROYER":{"sounds":[0], "pitch":1, "volume":0.8},
+		"CRUISER":{"sounds":[0], "pitch":1, "volume":0.9},
+		"CAPITAL_SHIP":{"sounds":[0], "pitch":1, "volume":1},		
+	},
+	"emp_loop":{
+		"sounds":[
+			{"file":"sounds/fx/shields/shield_burnout_loop01.ogg","pitch":1,"volume":1},
+		],
+		"LOW_TECH":{"sounds":[0], "pitch":0.7, "volume":1},
+		"MIDLINE":{"sounds":[0], "pitch":0.85, "volume":1},
+		"HIGH_TECH":{"sounds":[0], "pitch":1, "volume":1},
+		"FIGHTER":{"sounds":[0], "pitch":1, "volume":0.4},
+		"FRIGATE":{"sounds":[0], "pitch":1, "volume":0.7},
+		"DESTROYER":{"sounds":[0], "pitch":1, "volume":0.8},
+		"CRUISER":{"sounds":[0], "pitch":1, "volume":0.9},
+		"CAPITAL_SHIP":{"sounds":[0], "pitch":1, "volume":1},		
+	},
+	"flux_loop":{
+		"sounds":[
+			{"file":"sounds/fx/shields/vent_flux_loop.ogg","pitch":1,"volume":0.5},
+		],
+		"LOW_TECH":{"sounds":[0], "pitch":0.7, "volume":1},
+		"MIDLINE":{"sounds":[0], "pitch":0.85, "volume":1},
+		"HIGH_TECH":{"sounds":[0], "pitch":1, "volume":1},
+		"FIGHTER":{"sounds":[0], "pitch":1, "volume":0.4},
+		"FRIGATE":{"sounds":[0], "pitch":1, "volume":0.7},
+		"DESTROYER":{"sounds":[0], "pitch":1, "volume":0.8},
+		"CRUISER":{"sounds":[0], "pitch":1, "volume":0.9},
+		"CAPITAL_SHIP":{"sounds":[0], "pitch":1, "volume":1},		
+	},	
+	"vent_flux":{
+		"sounds":[
+			{"file":"sounds/fx/shields/vent_flux.ogg","pitch":1,"volume":0.5},
+		],
+		"LOW_TECH":{"sounds":[0], "pitch":0.7, "volume":1},
+		"MIDLINE":{"sounds":[0], "pitch":0.85, "volume":1},
+		"HIGH_TECH":{"sounds":[0], "pitch":1, "volume":1},
+		"FIGHTER":{"sounds":[0], "pitch":1, "volume":0.4},
+		"FRIGATE":{"sounds":[0], "pitch":1, "volume":0.7},
+		"DESTROYER":{"sounds":[0], "pitch":1, "volume":0.8},
+		"CRUISER":{"sounds":[0], "pitch":1, "volume":0.9},
+		"CAPITAL_SHIP":{"sounds":[0], "pitch":1, "volume":1},		
+	},	
+	"shield_lower":{
+		"sounds":[
+			{"file":"sounds/fx/shields/shield_lower_small01.ogg","pitch":1,"volume":1},
+			{"file":"sounds/fx/shields/shield_lower_large01.ogg","pitch":1,"volume":1},
+		],
+		"LOW_TECH":{"sounds":[0,1], "pitch":0.8, "volume":1},
+		"MIDLINE":{"sounds":[0,1], "pitch":0.9, "volume":1},
+		"HIGH_TECH":{"sounds":[0,1], "pitch":1, "volume":1},
+		"FIGHTER":{"sounds":[0], "pitch":1, "volume":0.2},
+		"FRIGATE":{"sounds":[1], "pitch":1, "volume":0.5},
+		"DESTROYER":{"sounds":[1], "pitch":1, "volume":0.6},
+		"CRUISER":{"sounds":[1], "pitch":1, "volume":0.8},
+		"CAPITAL_SHIP":{"sounds":[1], "pitch":1, "volume":1},
+	},
+	"shield_raise":{
+		"sounds":[
+			{"file":"sounds/fx/shields/shield_raise_small01.ogg","pitch":1,"volume":1},
+			{"file":"sounds/fx/shields/shield_raise_large01.ogg","pitch":1,"volume":1},
+		],
+		"LOW_TECH":{"sounds":[0,1], "pitch":0.8, "volume":1},
+		"MIDLINE":{"sounds":[0,1], "pitch":0.9, "volume":1},
+		"HIGH_TECH":{"sounds":[0,1], "pitch":1, "volume":1},
+		"FIGHTER":{"sounds":[0], "pitch":1, "volume":0.2},
+		"FRIGATE":{"sounds":[1], "pitch":1, "volume":0.5},
+		"DESTROYER":{"sounds":[1], "pitch":1, "volume":0.6},
+		"CRUISER":{"sounds":[1], "pitch":1, "volume":0.8},
+		"CAPITAL_SHIP":{"sounds":[1], "pitch":1, "volume":1},
+	},
+	
+	
+	# hits
+	"hit_glancing_energy":{
+		"sounds":[
+			#{"file":"sounds/fx/hits/hit_beam_struck01.ogg","pitch":1,"volume":0.25},
+			#{"file":"sounds/fx/hits/hit_beam_struck02.ogg","pitch":1,"volume":0.25},
+			#{"file":"sounds/fx/hits/hit_beam_struck03.ogg","pitch":1,"volume":0.25},
+			{"file":"sounds/fx/hits/hit_energy_light01a.ogg","pitch":1,"volume":0.25},
+		],
+	},
+	"hit_solid_energy":{
+		"sounds":[
+			{"file":"sounds/fx/hits/hit_beam_struck01.ogg","pitch":1,"volume":0.5},
+			{"file":"sounds/fx/hits/hit_beam_struck02.ogg","pitch":1,"volume":0.5},
+			{"file":"sounds/fx/hits/hit_beam_struck03.ogg","pitch":1,"volume":0.5},
+			{"file":"sounds/fx/hits/hit_energy_moderate01a.ogg","pitch":1,"volume":0.5},
+		],
+	},
+	"hit_heavy_energy":{
+		"sounds":[
+			{"file":"sounds/fx/hits/hit_energy_heavy01a.ogg","pitch":1,"volume":1.0},
+			{"file":"sounds/fx/hits/hit_energy_heavy01b.ogg","pitch":1,"volume":1.0},
+			{"file":"sounds/fx/hits/hit_energy_heavy02a.ogg","pitch":1,"volume":1.0},
+		],
+	},	
+	"hit_glancing":{
+		"sounds":[
+			{"file":"sounds/fx/hits/hit_glancing01.ogg","pitch":1,"volume":0.25},
+			{"file":"sounds/fx/hits/hit_glancing02.ogg","pitch":1,"volume":0.25},
+			{"file":"sounds/fx/hits/hit_glancing03.ogg","pitch":1,"volume":0.25},
+			{"file":"sounds/fx/hits/hit_glancing04.ogg","pitch":1,"volume":0.25},
+		],
+	},
+	"hit_light":{
+		"sounds":[
+			{"file":"sounds/fx/hits/hit_light03.ogg","pitch":1,"volume":0.4},
+			{"file":"sounds/fx/hits/hit_light04.ogg","pitch":1,"volume":0.4},
+			{"file":"sounds/fx/hits/hit_light05.ogg","pitch":1,"volume":0.4},
+		],
+	},	
+	"hit_solid":{
+		"sounds":[
+			#{"file":"sounds/fx/hits/hit_moderate03.ogg","pitch":1,"volume":0.6},
+			{"file":"sounds/fx/hits/hit_light01.ogg","pitch":1,"volume":0.4},
+			{"file":"sounds/fx/hits/hit_light02.ogg","pitch":1,"volume":0.4},
+			{"file":"sounds/fx/hits/hit_moderate03x.ogg","pitch":1,"volume":0.6},
+			{"file":"sounds/fx/hits/hit_moderate05.ogg","pitch":1,"volume":0.6},
+			{"file":"sounds/fx/hits/hit_moderate06.ogg","pitch":1,"volume":0.6},
+		],
+	},
+	"hit_heavy":{
+		"sounds":[
+			#{"file":"sounds/fx/hits/hit_heavy01.ogg","pitch":1,"volume":0.75},
+			#{"file":"sounds/fx/hits/hit_heavy02.ogg","pitch":1,"volume":0.75},
+			#{"file":"sounds/fx/hits/hit_heavy04.ogg","pitch":1,"volume":0.75},
+			#{"file":"sounds/fx/hits/hit_heavy05.ogg","pitch":1,"volume":0.75},
+			{"file":"sounds/fx/hits/hit_heavy06.ogg","pitch":1,"volume":1},
+			{"file":"sounds/fx/hits/hit_heavy07.ogg","pitch":1,"volume":1},
+			{"file":"sounds/fx/hits/hit_heavy08.ogg","pitch":1,"volume":1},
+		],
+	},
+	"hit_shield_light_gun":{
+		"sounds":[
+			#{"file":"sounds/fx/hits/hit_shield_beam_struck03.ogg","pitch":1,"volume":0.4},
+			#{"file":"sounds/fx/hits/hit_shield_beam_struck04.ogg","pitch":1,"volume":0.4},
+			{"file":"sounds/fx/hits/hit_shield_gun03a.ogg","pitch":1,"volume":0.35},
+			{"file":"sounds/fx/hits/hit_shield_gun03b.ogg","pitch":1,"volume":0.35},
+			{"file":"sounds/fx/hits/hit_shield_gun03c.ogg","pitch":1,"volume":0.35},
+			{"file":"sounds/fx/hits/hit_shield_gun03d.ogg","pitch":1,"volume":0.35},
+		],
+	},
+	"hit_shield_solid_gun":{
+		"sounds":[
+			#{"file":"sounds/fx/hits/hit_shield_beam_struck03.ogg","pitch":1,"volume":0.6},
+			#{"file":"sounds/fx/hits/hit_shield_beam_struck04.ogg","pitch":1,"volume":0.6},
+			{"file":"sounds/fx/hits/hit_shield_gun03a.ogg","pitch":1,"volume":0.5},
+			{"file":"sounds/fx/hits/hit_shield_gun03b.ogg","pitch":1,"volume":0.5},
+			{"file":"sounds/fx/hits/hit_shield_gun03c.ogg","pitch":1,"volume":0.5},
+			{"file":"sounds/fx/hits/hit_shield_gun03d.ogg","pitch":1,"volume":0.5},
+		],
+	},
+	"hit_shield_heavy_gun":{
+		"sounds":[
+			#{"file":"sounds/fx/hits/hit_shield_beam_struck01.ogg","pitch":1,"volume":0.9},
+			#{"file":"sounds/fx/hits/hit_shield_beam_struck02.ogg","pitch":1,"volume":0.9},
+			{"file":"sounds/fx/hits/hit_shield_gun03a.ogg","pitch":1,"volume":0.75},
+			{"file":"sounds/fx/hits/hit_shield_gun03b.ogg","pitch":1,"volume":0.75},
+			{"file":"sounds/fx/hits/hit_shield_gun03c.ogg","pitch":1,"volume":0.75},
+			{"file":"sounds/fx/hits/hit_shield_gun03d.ogg","pitch":1,"volume":0.75},
+		],
+	},
+	"hit_shield_light_energy":{
+		"sounds":[
+			#{"file":"sounds/fx/hits/hit_shield_beam_struck03.ogg","pitch":1,"volume":0.4},
+			#{"file":"sounds/fx/hits/hit_shield_beam_struck04.ogg","pitch":1,"volume":0.4},
+			{"file":"sounds/fx/hits/hit_shield_energy02a.ogg","pitch":1,"volume":0.4},
+			{"file":"sounds/fx/hits/hit_shield_energy02b.ogg","pitch":1,"volume":0.4},
+			{"file":"sounds/fx/hits/hit_shield_energy02c.ogg","pitch":1,"volume":0.4},
+		],
+	},
+	"hit_shield_solid_energy":{
+		"sounds":[
+			#{"file":"sounds/fx/hits/hit_shield_beam_struck03.ogg","pitch":1,"volume":0.6},
+			#{"file":"sounds/fx/hits/hit_shield_beam_struck04.ogg","pitch":1,"volume":0.6},
+			{"file":"sounds/fx/hits/hit_shield_energy02a.ogg","pitch":1,"volume":0.6},
+			{"file":"sounds/fx/hits/hit_shield_energy02b.ogg","pitch":1,"volume":0.6},
+			{"file":"sounds/fx/hits/hit_shield_energy02c.ogg","pitch":1,"volume":0.6},
+		],
+	},
+	"hit_shield_heavy_energy":{
+		"sounds":[
+			#{"file":"sounds/fx/hits/hit_shield_beam_struck01.ogg","pitch":1,"volume":0.9},
+			#{"file":"sounds/fx/hits/hit_shield_beam_struck02.ogg","pitch":1,"volume":0.9},
+			{"file":"sounds/fx/hits/hit_shield_energy02a.ogg","pitch":1,"volume":0.9},
+			{"file":"sounds/fx/hits/hit_shield_energy02b.ogg","pitch":1,"volume":0.9},
+			{"file":"sounds/fx/hits/hit_shield_energy02c.ogg","pitch":1,"volume":0.9},
+		],
+	},
+	"hit_hull_beam_loop":{
+		"sounds":[
+			#{"file":"sounds/fx/hits/hit_beam_bathed01_loop.ogg","pitch":0.5,"volume":0.5},
+			#{"file":"sounds/fx/hits/hit_beam_bathed02_loop.ogg","pitch":0.5,"volume":0.5},
+			#{"file":"sounds/fx/beams/fire_beam_heavy_loop01a.ogg","pitch":2,"volume":0.75},
+		],	
+	},
+	"hit_shield_beam_loop":{
+		"sounds":[
+			#{"file":"sounds/fx/hits/hit_shield_beam_bathedloop.ogg","pitch":1,"volume":1},
+		],
+	},
+	
+	
+	# Collisions
+	"collision_asteroids":{
+		"sounds":[
+			{"file":"sounds/fx/collisions/collision_ast_ast01.ogg","pitch":1,"volume":1.0},
+			{"file":"sounds/fx/collisions/collision_ast_ast02.ogg","pitch":1,"volume":1.0},
+			{"file":"sounds/fx/collisions/collision_ast_ast03.ogg","pitch":1,"volume":1.0},
+		],
+	},
+	"collision_ships":{
+		"sounds":[
+			#{"file":"sounds/fx/collisions/collision_ship_ship01.ogg","pitch":1,"volume":0.85},
+			#{"file":"sounds/fx/collisions/collision_ship_ship02.ogg","pitch":1,"volume":0.85},
+			#{"file":"sounds/fx/collisions/collision_ship_ship03.ogg","pitch":1,"volume":0.85},
+			#{"file":"sounds/fx/collisions/collision_ship_ship04.ogg","pitch":1,"volume":0.85},
+			{"file":"sounds/fx/collisions/collision_ship_ship01a.ogg","pitch":1,"volume":0.85},
+			{"file":"sounds/fx/collisions/collision_ship_ship01b.ogg","pitch":1,"volume":0.85},
+			{"file":"sounds/fx/collisions/collision_ship_ship02a.ogg","pitch":1,"volume":0.85},
+			{"file":"sounds/fx/collisions/collision_ship_ship04a.ogg","pitch":1,"volume":0.85},			
+		],
+	},
+	"collision_asteroid_ship":{
+		"sounds":[
+			{"file":"sounds/fx/collisions/collision_ast_ship01a.ogg","pitch":1,"volume":1.0},
+			{"file":"sounds/fx/collisions/collision_ast_ship02a.ogg","pitch":1,"volume":1.0},
+			{"file":"sounds/fx/collisions/collision_ast_ship03a.ogg","pitch":1,"volume":1.0},
+		],
+	},	
+	
+	
+	# Explosions
+	"explosion_ship":{
+		"sounds":[
+			{"file":"sounds/fx/explosions/explosion_debris01.ogg","pitch":1,"volume":1},
+			{"file":"sounds/fx/explosions/explosion_debris02.ogg","pitch":1,"volume":1},
+			{"file":"sounds/fx/explosions/explosion_debris03.ogg","pitch":1,"volume":1},
+			{"file":"sounds/fx/explosions/explosion04.ogg","pitch":1,"volume":1},
+		],
+		"LOW_TECH":{"sounds":[0,1], "pitch":0.8, "volume":1},
+		"MIDLINE":{"sounds":[0,1], "pitch":0.9, "volume":1},
+		"HIGH_TECH":{"sounds":[0,1], "pitch":1, "volume":1},
+		"FIGHTER":{"sounds":[0], "pitch":2, "volume":0.2},
+		"FRIGATE":{"sounds":[1], "pitch":1.0, "volume":0.5},
+		"DESTROYER":{"sounds":[1], "pitch":1, "volume":0.6},
+		"CRUISER":{"sounds":[1], "pitch":0.9, "volume":0.8},
+		"CAPITAL_SHIP":{"sounds":[1], "pitch":0.8, "volume":1},		
+	},
+	"explosion_from_damage":{
+		"sounds":[
+			{"file":"sounds/fx/explosions/explosion_debris01.ogg","pitch":1,"volume":0.5},
+			{"file":"sounds/fx/explosions/explosion_debris02.ogg","pitch":1,"volume":0.5},
+			{"file":"sounds/fx/explosions/explosion_debris03.ogg","pitch":1,"volume":0.5},
+		],
+	},
+	"explosion_flak":{
+		"sounds":[
+			{"file":"sounds/fx/explosions/explosion_missile01.ogg","pitch":1.5,"volume":0.75},
+		],
+	},	
+	"explosion_missile":{
+		"sounds":[
+			{"file":"sounds/fx/explosions/explosion_missile01.ogg","pitch":1,"volume":1.0},
+			{"file":"sounds/fx/explosions/explosion_missile01a.ogg","pitch":1,"volume":1.0},
+		],
+	},
+	
+	"ui_button_mouseover":{
+		"sounds":[
+			{"file":"sounds/fx/ui/ui_beep05.ogg","pitch":1.0,"volume":0.2},
+			#{"file":"sounds/fx/ui/ui_beep03a.ogg","pitch":0.5,"volume":0.1},
+		],
+	},
+	"ui_button_pressed":{
+		"sounds":[
+			{"file":"sounds/fx/ui/ui_notification01.ogg","pitch":1,"volume":0.25},
+			{"file":"sounds/fx/ui/ui_notification02.ogg","pitch":1,"volume":0.25},
+			{"file":"sounds/fx/ui/ui_notification03.ogg","pitch":1,"volume":0.25},
+		],
+	},
+	"ui_noise_static":{
+		"sounds":[
+			{"file":"sounds/fx/ui/ui_static01.ogg","pitch":1,"volume":0.25},
+		],
+	},
+	"ui_typer_type":{
+		"sounds":[
+			{"file":"sounds/fx/ui/ui_type01.ogg","pitch":1.0,"volume":0.1},
+		],
+	},
+	"ui_target_reticle":{
+		"sounds":[
+			{"file":"sounds/fx/ui/ui_static01.ogg","pitch":1,"volume":0.2},
+		],
+	},
+	"ui_new_radar_icon":{	
+		"sounds":[
+			{"file":"sounds/fx/ui/map_detect_new_vessel01b.ogg","pitch":1,"volume":1},
+		],
+	},
+	"ui_smallaction_yes":{
+		"sounds":[
+			{"file":"sounds/fx/ui/ui_beep05.ogg","pitch":0.75,"volume":0.4},
+		],
+	},
+	"ui_smallaction_no":{
+		"sounds":[
+			{"file":"sounds/fx/ui/ui_beep05.ogg","pitch":0.4,"volume":0.4},
+		],
+	},	
+
+	# music
+	"music_victory_theme":{
+		"sounds":[
+			{"file":"sounds/music/sf_vict01.ogg","pitch":1,"volume":1},
+		],
+	},
+	"music_defeat_theme":{
+		"sounds":[
+			{"file":"sounds/music/sf_defeat01.ogg","pitch":1,"volume":1},
+		],
+	},
+}
+
+
+
+
+
+
+
+
+
