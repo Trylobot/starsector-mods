@@ -1,7 +1,7 @@
 {
-	"displayName":"",
-	"hullId":"sc2_ur-quan_dreadnought",
-	"variantId":"sc2_ur-quan_dreadnought_standard",
+	"displayName":"Drone",
+	"hullId":"sc2_ur-quan_autonomous_fighter",
+	"variantId":"sc2_ur-quan_autonomous_fighter",
 	"fluxVents":0,
 	"fluxCapacitors":0,
 	"mods":[], # array of strings
@@ -9,11 +9,11 @@
 	# mode is either LINKED or ALTERNATING
 	# slot ids (WS ***) must match what's in the .ship file
 	"weaponGroups":[
-    {
+		{
       "mode":"LINKED",
-      "weapons":{
-        "WS 001":"sc2_plasma_torpedo_launcher",
-      },
-    },
+		  "weapons":{
+		    "WS 001":"sc2_fighter_laser",
+		  },
+		},
 	],
 }

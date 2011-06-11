@@ -129,7 +129,7 @@
     "height": 288,
     "width": 166,
     "hullId": "sc2_ur-quan_dreadnought",
-    "hullName": "",
+    "hullName": "Dreadnought",
     "hullSize": "CAPITAL_SHIP",
     "shieldCenter": [
         45, 0

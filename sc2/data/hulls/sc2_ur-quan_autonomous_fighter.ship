@@ -36,14 +36,14 @@
     "weaponSlots": [
         {
             "angle": 0,
-            "arc": 90,
+            "arc": 270,
             "id": "WS 001",
             "locations": [
-                134, 0
+                12, 3
             ],
             "mount": "HIDDEN",
             "size": "SMALL",
-            "type": "BALLISTIC"
+            "type": "ENERGY"
         },
     ],
 }
