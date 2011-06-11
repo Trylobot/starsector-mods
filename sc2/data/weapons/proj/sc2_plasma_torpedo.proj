@@ -4,15 +4,12 @@
 	"spawnType":"BALLISTIC",
 	"collisionClass":"PROJECTILE_FF",
 	"collisionClassByFighter":"PROJECTILE_FIGHTER",	
-	#"length":30.0,
-	#"width":3.5,
-	"fadeTime":1.0,
-	"hitGlowRadius":100,
-	"textureScrollSpeed":64.0,
-	"pixelsPerTexel":5.0,
+	"fadeTime":0.6,
+	"hitGlowRadius":600,
 	"bulletSprite":"graphics/sc2/missiles/sc2_plasma_torpedo.png",
-  "height":29,
-  "width":14,
+  "height":80,
+  "width":28,
+  "length":1,
 	"explosionColor":[226,131,59,235],  # purely visual, will get a white additively blended core on top of this color
 	"explosionRadius":425, # purely visual
 	"explosionSpec":{

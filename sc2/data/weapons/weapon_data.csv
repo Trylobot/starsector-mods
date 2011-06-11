@@ -1,3 +1,3 @@
 name,id,range,damage/second,damage/shot,flux,impact,turn rate,OPs,ammo,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,hints,number
-Plasma Torpedo Launcher,sc2_plasma_torpedo_launcher,1000,,5000,,750,0,25,,ENERGY,550,,,0.5,1,,0,0,0,0,,600,,,500,,1337200
+Plasma Torpedo Launcher,sc2_plasma_torpedo_launcher,1000,,5000,,3000,0,25,,ENERGY,550,,,0.5,1,,0,0,0,0,,850,,,500,,1337200
 Fighter Laser,sc2_fighter_laser,300,15,,,0,150,5,,ENERGY,,15,0,0.15,,,,,,,2000,,,,,PD,1337201
