@@ -1,0 +1,49 @@
+{
+    "bounds": [
+      14, 5,
+      4, -7,
+      -10, -7,
+      -10, 7,
+   ],
+    "center": [
+      8, 11
+    ],
+    "collisionRadius": 20,
+    "engineSlots": [
+        {
+            "angle": 180,
+            "contrailSize": 64,
+            "length": 30,
+            "location": [
+                -11, 0
+            ],
+            "style": "LOW_TECH",
+            "width": 12
+        },
+    ],
+    "height": 26,
+    "width": 16,
+    "hullId": "sc2_ur-quan_autonomous_fighter",
+    "hullName": "Autonomous Fighter",
+    "hullSize": "FIGHTER",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 20,
+    "spriteName": "graphics/sc2/ships/sc2_ur-quan_autonomous_fighter.png",
+    "style": "LOW_TECH",
+    "viewOffset": 50,
+    "weaponSlots": [
+        {
+            "angle": 0,
+            "arc": 90,
+            "id": "WS 001",
+            "locations": [
+                134, 0
+            ],
+            "mount": "HIDDEN",
+            "size": "SMALL",
+            "type": "BALLISTIC"
+        },
+    ],
+}
