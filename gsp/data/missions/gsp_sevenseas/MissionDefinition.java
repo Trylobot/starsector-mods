@@ -12,7 +12,7 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 
 		// Set up the fleets
 		api.initFleet(FleetSide.PLAYER, "Pirate", FleetGoal.ATTACK, false);
-		api.initFleet(FleetSide.ENEMY, "RFS", FleetGoal.ESCAPE, true);
+		api.initFleet(FleetSide.ENEMY, "RFS", FleetGoal.ATTACK, true);
 
 		// Set a blurb for each fleet
 		api.setFleetTagline(FleetSide.PLAYER, "Admiral Steelheart's independent fleet");
