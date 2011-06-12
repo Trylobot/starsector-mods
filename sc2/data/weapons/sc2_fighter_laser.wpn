@@ -3,6 +3,8 @@
 	"id":"sc2_fighter_laser",
 	"type":"ENERGY",
 	"size":"SMALL",
+  "turretSprite":"",
+  "hardpointSprite":"",
 	"displayArcRadius":300,
 	"turretOffsets":[0, 0],
 	"turretAngleOffsets":[0],

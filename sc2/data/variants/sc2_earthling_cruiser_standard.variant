@@ -1,0 +1,25 @@
+{
+	"displayName":"Earthling Cruiser",
+	"hullId":"sc2_earthling_cruiser",
+	"variantId":"sc2_earthling_cruiser_standard",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"mods":[], # array of strings
+	
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups":[
+    {
+      "mode":"LINKED",
+      "weapons":{
+        "WS 001":"sc2_mx_missile_launcher",
+      },
+    },
+    {
+      "mode":"LINKED",
+      "weapons":{
+        "WS 002":"sc2_pd_laser",
+      },
+    },
+	],
+}
