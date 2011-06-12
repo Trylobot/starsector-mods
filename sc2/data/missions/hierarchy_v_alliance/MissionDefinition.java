@@ -11,8 +11,8 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 	public void defineMission(MissionDefinitionAPI api) {
     
 
-		api.initFleet(FleetSide.PLAYER, "", FleetGoal.ATTACK, true);
-		api.initFleet(FleetSide.ENEMY, "", FleetGoal.ATTACK, false);
+		api.initFleet(FleetSide.PLAYER, "", FleetGoal.ATTACK, false);
+		api.initFleet(FleetSide.ENEMY, "", FleetGoal.ATTACK, true);
 
     api.setFleetTagline(FleetSide.PLAYER, "Ur-Quan Hierarchy");
     api.setFleetTagline(FleetSide.ENEMY, "Alliance of Free Stars");
