@@ -9,23 +9,25 @@ import com.fs.starfarer.api.mission.MissionDefinitionPlugin;
 public class MissionDefinition implements MissionDefinitionPlugin {
 
 	public void defineMission(MissionDefinitionAPI api) {
-
-		// Set up the fleets
-		api.initFleet(FleetSide.PLAYER, "", FleetGoal.ATTACK, false);
-		api.initFleet(FleetSide.ENEMY, "", FleetGoal.ATTACK, true);
+    
+    // Names --------
+    //   Ur-Quan
+    //     Lord 3, Lord 18, Lord 21, Lord 43, Lord 52, Lord 88, Lord 89, Lord 103, Lord 156, Lord 237, Lord 342, Lord 412, Lord 476, Lord  666, Lord 783, Lord 999
+    //   Earthling
+    //     Adama, Belt, Buck, Decker, Ender, Friedlan, Graeme, Halleck, Kucera, Pike, Pirx, Spiff, Trent, Tuf, VanRijn, Wu
+		
+    // Set up the fleets
+		api.initFleet(FleetSide.PLAYER, "The Alliance of Free Stars", FleetGoal.ATTACK, false);
+		api.initFleet(FleetSide.ENEMY, "The Ur-Quan Hierarchy", FleetGoal.ATTACK, true);
 
 		// Set up the player's fleet
-		api.addToFleet(FleetSide.PLAYER, "sc2_ur-quan_dreadnought_standard", FleetMemberType.SHIP, "Lord #098", true);
-    api.addToFleet(FleetSide.PLAYER, "sc2_ur-quan_autonomous_fighter_wing", FleetMemberType.FIGHTER_WING, false);
-    api.addToFleet(FleetSide.PLAYER, "sc2_ur-quan_autonomous_fighter_wing", FleetMemberType.FIGHTER_WING, false);
-    api.addToFleet(FleetSide.PLAYER, "sc2_ur-quan_autonomous_fighter_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.PLAYER, "sc2_earthling_cruiser_standard", FleetMemberType.SHIP, "Pike", true);
 
 		// Set up the enemy fleet
-		api.addToFleet(FleetSide.ENEMY, "hammerhead_Balanced", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "hammerhead_Balanced", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "hammerhead_Balanced", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "hammerhead_Balanced", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "hammerhead_Balanced", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "sc2_ur-quan_dreadnought_standard", FleetMemberType.SHIP, "Lord 52", false);
+    api.addToFleet(FleetSide.ENEMY, "sc2_ur-quan_autonomous_fighter_wing", FleetMemberType.FIGHTER_WING, false);
+    api.addToFleet(FleetSide.ENEMY, "sc2_ur-quan_autonomous_fighter_wing", FleetMemberType.FIGHTER_WING, false);
+    api.addToFleet(FleetSide.ENEMY, "sc2_ur-quan_autonomous_fighter_wing", FleetMemberType.FIGHTER_WING, false);
 		
 		// Set up the map.
 		float width = 10000f;

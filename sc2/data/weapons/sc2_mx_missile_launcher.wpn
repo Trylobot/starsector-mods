@@ -1,0 +1,28 @@
+{
+	"id":"sc2_mx_missile_launcher",
+	"specClass":"projectile",
+	"type":"MISSILE",
+	"size":"LARGE",
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0, 0, 0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0, 0, 0],
+	"barrelMode":"LINKED",
+	"animationType":"SMOKE",
+	"interruptibleBurst":false,
+	"displayArcRadius":300,
+	"smokeSpec":{
+    "particleSizeMin":20.0,
+    "particleSizeRange":20.0,
+    "cloudParticleCount":3,
+    "cloudDuration":1.0,
+    "cloudRadius":10.0,
+    "blowbackParticleCount":3,
+    "blowbackDuration":2.0,
+    "blowbackLength":30.0,
+    "blowbackSpread":10.0,
+    "particleColor":[100,100,100,200]
+  },
+	"projectileSpecId":"sc2_mx_missile",
+	"fireSoundTwo":"sc2_mx_missile",
+}

@@ -1,3 +1,4 @@
 name,id,designation,fleet pts,hitpoints,armor rating,max flux,flux dissipation,ordnance points,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,shield arc,shield upkeep,shield efficiency,number
-Ur-Quan Dreadnought,sc2_ur-quan_dreadnought,Dreadnought,1,15000,1500,1000,220,300,50,25,20,17,40,3500,NONE,0,0,1,1337200
+Ur-Quan Dreadnought,sc2_ur-quan_dreadnought,,1,15000,1000,1000,220,300,80,40,35,15,40,3500,NONE,0,0,1,1337200
 Autonomous Fighter,sc2_ur-quan_autonomous_fighter,Fighter,,200,100,200,100,5,300,350,350,360,360,5,NONE,0,0,1,1337201
+Earthling Cruiser,sc2_earthling_cruiser,,1,6430,1000,430,200,110,60,20,17,120,100,1750,NONE,0,0,1,1337202

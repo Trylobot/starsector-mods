@@ -5,6 +5,24 @@
       "pitch":1, "volume":0.75
     },
   ],
+  "sc2_fighter_laser":[
+    {
+      "file":"sounds/sc2/fx/sc2_fighter_laser.ogg",
+      "pitch":1, "volume":0.75
+    },
+  ],
+  "sc2_mx_missile":[
+    {
+      "file":"sounds/sc2/fx/sc2_mx_missile.ogg",
+      "pitch":1, "volume":0.75
+    },
+  ],
+  "sc2_point_defense_laser":[
+    {
+      "file":"sounds/sc2/fx/sc2_point_defense_laser.ogg",
+      "pitch":1, "volume":0.75
+    },
+  ],
   
   # original file --------------------------------------------------------------
   
