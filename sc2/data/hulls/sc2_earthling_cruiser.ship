@@ -138,7 +138,7 @@
     0, 0
   ],
   "shieldRadius": 160,
-  "spriteName": "graphics/sc2/ships/sc2_ur-quan_dreadnought.png",
+  "spriteName": "graphics/sc2/ships/sc2_earthling_cruiser.png",
   "style": "HIGH_TECH",
   "viewOffset": 50,
   "weaponSlots": [
