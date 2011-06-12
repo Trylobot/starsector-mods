@@ -25,6 +25,7 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 
     
 		api.addToFleet(FleetSide.PLAYER, "sc2_earthling_cruiser_standard", FleetMemberType.SHIP, "", true);
+		api.addToFleet(FleetSide.PLAYER, "sc2_earthling_cruiser_standard", FleetMemberType.SHIP, "", false);
 
 		// Set up the enemy fleet
 		api.addToFleet(FleetSide.ENEMY, "sc2_ur-quan_dreadnought_standard", FleetMemberType.SHIP, "", false);

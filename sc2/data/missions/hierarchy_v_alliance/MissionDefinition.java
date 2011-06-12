@@ -24,6 +24,7 @@ public class MissionDefinition implements MissionDefinitionPlugin {
     api.addToFleet(FleetSide.PLAYER, "sc2_ur-quan_autonomous_fighter_wing", FleetMemberType.FIGHTER_WING, false);
 
 		api.addToFleet(FleetSide.ENEMY, "sc2_earthling_cruiser_standard", FleetMemberType.SHIP, "", false);
+		api.addToFleet(FleetSide.ENEMY, "sc2_earthling_cruiser_standard", FleetMemberType.SHIP, "", false);
 
 		
 		// Set up the map.
