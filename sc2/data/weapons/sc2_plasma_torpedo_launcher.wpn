@@ -8,9 +8,9 @@
 	"hardpointSprite":"graphics/sc2/weapons/sc2_plasma_torpedo_launcher_hardpoint_base.png",
 	"hardpointGlowSprite":"graphics/sc2/weapons/sc2_plasma_torpedo_launcher_hardpoint_glow.png",
 	"glowColor":[226,131,59,235],
-	"turretOffsets":[0, 0],
+	"turretOffsets":[3, 0],
 	"turretAngleOffsets":[0],	
-	"hardpointOffsets":[0, 0],
+	"hardpointOffsets":[3, 0],
 	"hardpointAngleOffsets":[0],
 	"barrelMode":"LINKED", # ALTERNATING, LINKED
 	"animationType":"GLOW",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
