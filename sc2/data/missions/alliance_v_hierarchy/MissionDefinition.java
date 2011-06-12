@@ -17,10 +17,12 @@ public class MissionDefinition implements MissionDefinitionPlugin {
     //     Adama, Belt, Buck, Decker, Ender, Friedlan, Graeme, Halleck, Kucera, Pike, Pirx, Spiff, Trent, Tuf, VanRijn, Wu
 		
     // Set up the fleets
-		api.initFleet(FleetSide.PLAYER, "The Alliance of Free Stars", FleetGoal.ATTACK, false);
-		api.initFleet(FleetSide.ENEMY, "The Ur-Quan Hierarchy", FleetGoal.ATTACK, true);
+		api.initFleet(FleetSide.PLAYER, "", FleetGoal.ATTACK, true);
+		api.initFleet(FleetSide.ENEMY, "", FleetGoal.ATTACK, false);
 
-		// Set up the player's fleet
+    api.setFleetTagline(FleetSide.PLAYER, "Alliance of Free Stars");
+    api.setFleetTagline(FleetSide.ENEMY, "Ur-Quan Hierarchy");
+
 		api.addToFleet(FleetSide.PLAYER, "sc2_earthling_cruiser_standard", FleetMemberType.SHIP, "Pike", true);
 
 		// Set up the enemy fleet
