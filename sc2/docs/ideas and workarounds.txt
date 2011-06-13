@@ -1,0 +1,17 @@
+  
+  Ur-Quan Dreadnought
+    Autonomous Fighters
+      Fighters currently can't be launched from ships at will, they are omni-present
+      Fighter launching should be initiated as a weapon, which should cost flux
+      The fighters need to have a limited amount of fuel and auto-return
+      The fighters should collide with asteroids and when they do, die
+      Fighters for now will start and exist as separate ships, but will be very weak by Starfarer standards
+    
+  Earthling Cruiser
+    Point-Defense Laser
+      The laser is supposed to be able to engage multiple targets at the same time, so I'll create 12 laser weapons each occupying a pie-shaped region, originating at the same spot. No two should be able to target the same thing, and they'll all use less flux than normal. Hopefully that will work to evoke what we want.
+      The laser is supposed to destroy asteroids, but nothing targets asteroids yet
+  
+  Orz Nemesis
+    Space Marines
+      This is similar to the Dreadnought's fighter problem; they need to be launched from the ship for some cost, but this isn't possible currently, so they'll have to start at the same time as the ship and be auto-balanced somehow

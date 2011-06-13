@@ -1,0 +1,95 @@
+
+-----------------------------------
+http://wiki.uqm.stack.nl/Super_Melee
+
+Global Framerate: 24 frames/sec.
+Seconds per Frame: 0.04166666 sec.
+
+Global World Units: 1/4 pixel at full zoom
+
+Facing Units: 22.5 degrees
+
+-----------------------------------
+http://wiki.uqm.stack.nl/List_of_ships
+
+
+
+-----------------------------------
+http://wiki.uqm.stack.nl/Dreadnought
+
+Ur-Quan Dreadnought
+Basic stats 	
+  Value: 30 pts
+  Length: 40 pixels (160 units)
+  Crew: 42 	
+  Battery: 42 	
+  Batt. Regeneration: 0.14 units/frame
+Armament 	
+  Primary: Fusion Blaster
+    Refire delay: 6 frames
+    Energy use: 6 units 	
+  Secondary: Autonomous Fighters
+   	Refire delay: 9 frames
+   	Energy use: 8 units
+Propulsion 	
+  Max speed: 30 world units/frame 	
+  Turn rate: 0.2 facings/frame
+  Acceleration: 0.86 units/frame 	
+  Mass: 10 
+-------
+Converted stats
+  
+  
+-----------------------------------
+http://wiki.uqm.stack.nl/Cruiser
+
+Earthling Cruiser
+Basic stats 	
+  Value: 11 pts
+  Length: 38 pixels (152 units)
+  Crew: 18
+  Battery: 18
+  Batt. Regeneration: 0.111 units/frame
+Armament 	
+  Primary: "Fire-and-Forget" Nuclear Missile 	
+    Refire delay: 10 frames 	
+    Energy use: 9 units 	
+  Secondary: Point-Defense Laser
+    Refire delay: 9 frames
+    Energy use: 4 units
+Propulsion 	
+  Max speed: 24 world units/frame
+  Turn rate: 0.5 facings/frame
+  Acceleration: 0.6 units/frame
+  Mass: 6 
+-------
+Converted stats
+  
+  
+-----------------------------------
+http://wiki.uqm.stack.nl/Nemesis
+
+Orz Nemesis
+Basic stats 	
+  Value: 23 pts
+  Length: 25 pixels (100 units)
+  Crew: 16
+  Battery: 20
+  Batt. Regeneration: 0.142 units/frame
+Armament 	
+  Primary: Howitzer 	
+    Refire delay: 5 frames 	
+    Energy use: 6 units 	
+  Secondary: Space Marine
+    Refire delay: 12 frames
+    Energy use: 0 units
+Propulsion 	
+  Max speed: 35 world units/frame 	
+  Turn rate: 0.5 facings/frame
+  Acceleration: 5 units/frame 	
+  Mass: 4 
+-------
+Converted stats
+  
+  
+-----------------------------------
