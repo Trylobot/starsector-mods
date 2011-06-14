@@ -26,19 +26,32 @@ Basic stats
   Batt. Regeneration: 0.14 units/frame
 Armament 	
   Primary: Fusion Blaster
+    Damage: 6 
     Refire delay: 6 frames
     Energy use: 6 units 	
+    Range: "Rank 12" (longest to shortest)
   Secondary: Autonomous Fighters
+    Damage: 1 (per hit, per fighter)
    	Refire delay: 9 frames
    	Energy use: 8 units
+    Range: "Rank 34" (longest to shortest)
 Propulsion 	
-  Max speed: 30 world units/frame 	
+  Max speed: 30 world units/frame
   Turn rate: 0.2 facings/frame
   Acceleration: 0.86 units/frame 	
   Mass: 10 
 -------
 Converted stats
-  
+  Length: 288 px
+  Hull, Armor: 15000, 200
+  Max Flux: 1000
+  Flux Dissipation: 80
+  Max Speed: 175
+  Acceleration: 20.64
+  Max Turn Rate: 108
+  Mass: 3500
+  Primary Range: 800 px
+  Secondary Range: 125 px
   
 -----------------------------------
 http://wiki.uqm.stack.nl/Cruiser
@@ -52,11 +65,15 @@ Basic stats
   Batt. Regeneration: 0.111 units/frame
 Armament 	
   Primary: "Fire-and-Forget" Nuclear Missile 	
+    Damage: 4
     Refire delay: 10 frames 	
     Energy use: 9 units 	
+    Range: "Rank 2" (longest to shortest)
   Secondary: Point-Defense Laser
+    Damage: 1
     Refire delay: 9 frames
     Energy use: 4 units
+    Range: "Rank 29" (longest to shortest)
 Propulsion 	
   Max speed: 24 world units/frame
   Turn rate: 0.5 facings/frame
@@ -64,7 +81,16 @@ Propulsion
   Mass: 6 
 -------
 Converted stats
-  
+  Length: 280 px (visually: 235)
+  Hull, Armor: 6430, 200
+  Max Flux: 430
+  Flux Dissipation: 63.5
+  Max Speed: 43.2
+  Acceleration: 14.4
+  Max Turn Rate: 324
+  Mass: 2100
+  Primary Range: 5000 px
+  Secondary Range: 250 px
   
 -----------------------------------
 http://wiki.uqm.stack.nl/Nemesis
@@ -78,11 +104,15 @@ Basic stats
   Batt. Regeneration: 0.142 units/frame
 Armament 	
   Primary: Howitzer 	
+    Damage: 3
     Refire delay: 5 frames 	
-    Energy use: 6 units 	
+    Energy use: 6 units 
+    Range: "Rank 13" (longest to shortest)
   Secondary: Space Marine
+    Damage: 1 (per marine, per second, if he's still alive)
     Refire delay: 12 frames
     Energy use: 0 units
+    Range: "Rank 40" (longest to shortest)
 Propulsion 	
   Max speed: 35 world units/frame 	
   Turn rate: 0.5 facings/frame

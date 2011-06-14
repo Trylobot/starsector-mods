@@ -1,5 +1,5 @@
 name,id,range,damage/second,damage/shot,flux,impact,turn rate,OPs,ammo,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,hints,number
-Plasma Torpedo Tube,sc2_plasma_torpedo_launcher,700,,2200,,1000,0,25,,ENERGY,150,,,0.7,1,,0,0,0,0,,800,,,500,,1337200
-Fighter Laser,sc2_fighter_laser,150,400,,,0,0,5,,ENERGY,,100,0,0.15,,,,,,,2000,,,,,PD,1337201
+Plasma Torpedo Tube,sc2_plasma_torpedo_launcher,800,,2200,,1000,0,25,,ENERGY,150,,,0.25,1,,0,0,0,0,,800,,,500,,1337200
+Fighter Laser,sc2_fighter_laser,125,75,,,0,0,5,,ENERGY,,2,0,0.15,,,,,,,2000,,,,,PD,1337201
 MX Missile Launcher,sc2_mx_missile_launcher,5000,,1430,,1000,0,20,,HIGH_EXPLOSIVE,215,,0,0.55,1,,,,,,,500,150,20,100,,1337202
-Point-Defense Laser,sc2_pd_laser,250,400,,,0,1000,10,,ENERGY,,100,0,0.05,,,,,,,2000,,,,,PD,1337203
+Point-Defense Laser,sc2_pd_laser,300,375,,,0,1000,10,,ENERGY,,95,0,0.05,,,,,,,2000,,,,,PD,1337203
