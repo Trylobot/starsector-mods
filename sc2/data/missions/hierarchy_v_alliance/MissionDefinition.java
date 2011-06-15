@@ -29,9 +29,16 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 
 		
 		// Set up the map.
-		float width = 10000f;
-		float height = 5000f;
+		float width = 15000f;
+		float height = 15000f;
 		api.initMap((float)-width/2f, (float)width/2f, (float)-height/2f, (float)height/2f);
+    
+		float minX = -width/2;
+		float minY = -height/2;
+    
+    api.addNebula( 0f, 0f, 21300f );
+    
+    api.addPlanet( 0f, 0f , 700f, "terran", 700f);
 	}
 
 }
