@@ -6,11 +6,10 @@ import com.fs.starfarer.api.mission.FleetSide;
 import com.fs.starfarer.api.mission.MissionDefinitionAPI;
 import com.fs.starfarer.api.mission.MissionDefinitionPlugin;
 
-public class MissionDefinition implements MissionDefinitionPlugin {
-
-	public void defineMission(MissionDefinitionAPI api) {
-    
-
+public class MissionDefinition implements MissionDefinitionPlugin
+{
+	public void defineMission(MissionDefinitionAPI api)
+  {
 		api.initFleet(FleetSide.PLAYER, "", FleetGoal.ATTACK, false);
 		api.initFleet(FleetSide.ENEMY, "", FleetGoal.ATTACK, true);
 
@@ -29,14 +28,16 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 
 		
 		// Set up the map.
-		float width = 15000f;
-		float height = 15000f;
-		api.initMap((float)-width/2f, (float)width/2f, (float)-height/2f, (float)height/2f);
+		float size = 15000f;
+		api.initMap(-size/2f, size/2f, -size/2f, size/2f);
     
-		float minX = -width/2;
-		float minY = -height/2;
+		float min = -size/2f;
+    float max = size/2f;
     
-    api.addNebula( 0f, 0f, 21300f );
+    api.addNebula( min, 0f, size/2f - 0.08f*size );
+    api.addNebula( max, 0f, size/2f - 0.08f*size );
+    api.addNebula( 0f, min, size/2f - 0.08f*size );
+    api.addNebula( 0f, max, size/2f - 0.08f*size );
     
     api.addPlanet( 0f, 0f , 700f, "terran", 700f);
 	}

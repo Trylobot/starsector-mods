@@ -35,9 +35,18 @@ public class MissionDefinition implements MissionDefinitionPlugin {
     api.addToFleet(FleetSide.ENEMY, "sc2_ur-quan_autonomous_fighter_wing", FleetMemberType.FIGHTER_WING, false);
 		
 		// Set up the map.
-		float width = 10000f;
-		float height = 5000f;
-		api.initMap((float)-width/2f, (float)width/2f, (float)-height/2f, (float)height/2f);
+		float size = 15000f;
+		api.initMap(-size/2f, size/2f, -size/2f, size/2f);
+    
+		float min = -size/2f;
+    float max = size/2f;
+    
+    api.addNebula( min, 0f, size/2f - 0.08f*size );
+    api.addNebula( max, 0f, size/2f - 0.08f*size );
+    api.addNebula( 0f, min, size/2f - 0.08f*size );
+    api.addNebula( 0f, max, size/2f - 0.08f*size );
+    
+    api.addPlanet( 0f, 0f , 700f, "terran", 700f);
 	}
 
 }
