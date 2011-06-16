@@ -1,4 +1,4 @@
-package data.missions.gsp_bootyget;
+package data.missions.gsp_backofbus;
 
 import com.fs.starfarer.api.fleet.FleetGoal;
 import com.fs.starfarer.api.fleet.FleetMemberType;
@@ -12,32 +12,37 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 
 		// Set up the fleets
 		api.initFleet(FleetSide.PLAYER, "Pirate", FleetGoal.ATTACK, false);
-		api.initFleet(FleetSide.ENEMY, "HSS", FleetGoal.ESCAPE, true);
+		api.initFleet(FleetSide.ENEMY, "HSS", FleetGoal.ATTACK, true);
 
 		// Set a blurb for each fleet
-		api.setFleetTagline(FleetSide.PLAYER, "Admiral Steelheart's independent fleet");
-		api.setFleetTagline(FleetSide.ENEMY, "Hegemony escort forces");
+		api.setFleetTagline(FleetSide.PLAYER, "Captain Steelheart's mercenary collective");
+		api.setFleetTagline(FleetSide.ENEMY, "Imperial Patrol");
 		
 		// These show up as items in the bulleted list under 
 		// "Tactical Objectives" on the mission detail screen
-		api.addBriefingItem("Disable the Transports");
-		api.addBriefingItem("Destroy the Escort Forces");
+		api.addBriefingItem("Destroy the Imperial Forces");
 		
 		// Set up the player's fleet
     api.addToFleet(FleetSide.PLAYER, "gsp_washi_elite", FleetMemberType.SHIP, "Bilge Pump", true);
-    api.addToFleet(FleetSide.PLAYER, "gsp_pyuma_support", FleetMemberType.SHIP, "Scourge", false);
-    api.addToFleet(FleetSide.PLAYER, "gsp_pyuma_support", FleetMemberType.SHIP, "Six-Pounder", false);
-    api.addToFleet(FleetSide.PLAYER, "gsp_okami_assault", FleetMemberType.SHIP, "Grapnel", false);
-    api.addToFleet(FleetSide.PLAYER, "gsp_okami_assault", FleetMemberType.SHIP, "Drunkard", false);
     api.addToFleet(FleetSide.PLAYER, "gsp_kitsune_assault", FleetMemberType.SHIP, "Swashbuckle", false);
     api.addToFleet(FleetSide.PLAYER, "gsp_kitsune_assault", FleetMemberType.SHIP, "Buccaneer", false);
-    api.addToFleet(FleetSide.PLAYER, "gsp_kitsune_assault", FleetMemberType.SHIP, "Cutthroat", false);
-		api.addToFleet(FleetSide.PLAYER, "gsp_taka_wing", FleetMemberType.FIGHTER_WING, "Carousers", false);
-		api.addToFleet(FleetSide.PLAYER, "gsp_taka_wing", FleetMemberType.FIGHTER_WING, "Wenches", false);
-		api.addToFleet(FleetSide.PLAYER, "gsp_taka_wing", FleetMemberType.FIGHTER_WING, "Strumpets", false);
-		api.addToFleet(FleetSide.PLAYER, "gsp_hayabusa_wing", FleetMemberType.FIGHTER_WING, "Lubber", false);
+		api.addToFleet(FleetSide.PLAYER, "gsp_hayabusa_wing", FleetMemberType.FIGHTER_WING, "Buckeyes", false);
+		api.addToFleet(FleetSide.PLAYER, "gsp_hayabusa_wing", FleetMemberType.FIGHTER_WING, "Muskets", false);
+		api.addToFleet(FleetSide.PLAYER, "gsp_hayabusa_wing", FleetMemberType.FIGHTER_WING, "Peglegged", false);
+		api.addToFleet(FleetSide.PLAYER, "gsp_hayabusa_wing", FleetMemberType.FIGHTER_WING, "Black Mist", false);
+		api.addToFleet(FleetSide.PLAYER, "gsp_hayabusa_wing", FleetMemberType.FIGHTER_WING, "Bucklers", false);
 		api.addToFleet(FleetSide.PLAYER, "gsp_hayabusa_wing", FleetMemberType.FIGHTER_WING, "Interlopers", false);
 		api.addToFleet(FleetSide.PLAYER, "gsp_hayabusa_wing", FleetMemberType.FIGHTER_WING, "Brethren", false);
+		api.addToFleet(FleetSide.PLAYER, "gsp_hayabusa_wing", FleetMemberType.FIGHTER_WING, "Drenched Cats", false);
+		api.addToFleet(FleetSide.PLAYER, "gsp_taka_wing", FleetMemberType.FIGHTER_WING, "Carousers", false);
+		api.addToFleet(FleetSide.PLAYER, "gsp_taka_wing", FleetMemberType.FIGHTER_WING, "Jesters", false);
+		api.addToFleet(FleetSide.PLAYER, "gsp_taka_wing", FleetMemberType.FIGHTER_WING, "Lookouts", false);
+		api.addToFleet(FleetSide.PLAYER, "gsp_taka_wing", FleetMemberType.FIGHTER_WING, "Strumpets", false);
+		api.addToFleet(FleetSide.PLAYER, "gsp_taka_wing", FleetMemberType.FIGHTER_WING, "Wenches", false);
+		api.addToFleet(FleetSide.PLAYER, "gsp_taka_wing", FleetMemberType.FIGHTER_WING, "Bastards", false);
+		api.addToFleet(FleetSide.PLAYER, "gsp_taka_wing", FleetMemberType.FIGHTER_WING, "Cutthroats", false);
+		api.addToFleet(FleetSide.PLAYER, "gsp_taka_wing", FleetMemberType.FIGHTER_WING, "Floozies", false);
+		api.addToFleet(FleetSide.PLAYER, "gsp_hyou_wing", FleetMemberType.FIGHTER_WING, "Scoundrels", false);
 		api.addToFleet(FleetSide.PLAYER, "gsp_hyou_wing", FleetMemberType.FIGHTER_WING, "Bilge Rats", false);
 		api.addToFleet(FleetSide.PLAYER, "gsp_hyou_wing", FleetMemberType.FIGHTER_WING, "Barnacles", false);
 		
@@ -45,36 +50,37 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.defeatOnShipLoss("Bilge Pump");
 		
 		// Set up the enemy fleet
-		api.addToFleet(FleetSide.ENEMY, "hammerhead_Balanced", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "hammerhead_Balanced", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "hound_Assault", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "hound_Assault", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.ENEMY, "lasher_Support", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.ENEMY, "lasher_Support", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "sunder_Support", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "wolf_Support", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "wolf_Support", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.ENEMY, "condor_Support", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "condor_Support", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "wasp_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.ENEMY, "wasp_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.ENEMY, "wasp_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.ENEMY, "wasp_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.ENEMY, "wasp_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.ENEMY, "wasp_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.ENEMY, "wasp_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.ENEMY, "wasp_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "wasp_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "wasp_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "xyphos_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "xyphos_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.ENEMY, "xyphos_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.ENEMY, "xyphos_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.ENEMY, "xyphos_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.ENEMY, "xyphos_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.ENEMY, "xyphos_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "dagger_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "dagger_wing", FleetMemberType.FIGHTER_WING, false);
-    // The Booty (Get it)
-		api.addToFleet(FleetSide.ENEMY, "atlas_Standard", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "tarsus_Standard", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "tarsus_Standard", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "tarsus_Standard", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "tarsus_Standard", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "dagger_wing", FleetMemberType.FIGHTER_WING, false);
+    // Average Booty
 		api.addToFleet(FleetSide.ENEMY, "tarsus_Standard", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.ENEMY, "tarsus_Standard", FleetMemberType.SHIP, false);
 
 
 		// Set up the map.
-		float width = 9000f;
-		float height = 12000f;
+		float width = 8000f;
+		float height = 10000f;
 		api.initMap((float)-width/2f, (float)width/2f, (float)-height/2f, (float)height/2f);
 		
 		float minX = -width/2;
@@ -88,6 +94,7 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.addObjective(minX + width * 0.3f, minY + height * 0.7f, "comm_relay");
 		api.addObjective(minX + width * 0.5f, minY + height * 0.5f, "sensor_array");
 		api.addObjective(minX + width * 0.2f, minY + height * 0.5f, "sensor_array");
+    api.addObjective(minX + width * 0.8f, minY + height * 0.5f, "nav_buoy");
 		
 		// Add an asteroid field
 		api.addAsteroidField(minX + width * 0.3f, minY, 90, 3000f,

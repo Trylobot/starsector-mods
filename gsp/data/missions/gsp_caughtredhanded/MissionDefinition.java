@@ -33,7 +33,7 @@ public class MissionDefinition implements MissionDefinitionPlugin {
     api.addToFleet(FleetSide.PLAYER, "gsp_hyou_wing", FleetMemberType.FIGHTER_WING, "Bilge Rats", false);
     api.addToFleet(FleetSide.PLAYER, "gsp_hyou_wing", FleetMemberType.FIGHTER_WING, "Barnacles", false);
 		// The Admiral is Essential
-		api.defeatOnShipLoss("The Rusty Cutlass");
+		api.defeatOnShipLoss("Rusty Cutlass");
 		
 		// Set up the enemy fleet
     api.addToFleet(FleetSide.ENEMY, "onslaught_Outdated", FleetMemberType.SHIP, false);
