@@ -49,7 +49,7 @@ public class MissionDefinition implements MissionDefinitionPlugin
      * @param type available types are defined in data/config/planets.json
      * @param gravity Equal to maximum speed boost the planet provides to nearby ships.
      */
-    api.addPlanet( 0f, -5000f , 700f, "large_terran", 1000f);
+    api.addPlanet( 0f, 0f , 700f, "large_terran", 1000f);
 
 
     /* @param x x coordinate of any point along the middle of the belt.
