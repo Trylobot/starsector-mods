@@ -120,6 +120,19 @@ Propulsion
   Mass: 4 
 -------
 Converted stats
-  
+  Length: 180 px
+  Hull, Armor:
+  Max Flux:
+  Flux Dissipation:
+  Max Speed:
+  Max Turn Rate:
+  Mass:
+  Primary Range:
+  Secondary Range: 40 (melee)
   
 -----------------------------------
+
+
+
+
+

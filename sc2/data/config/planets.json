@@ -1,0 +1,231 @@
+{
+  # mod-specific
+  
+  "large_terran":{
+		"tilt":20, # left-right (>0 tilts to the left)
+		"pitch":30, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.25, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":30, #  minimum thickness in pixels
+		"atmosphereColor":[60,160,215,160],
+		"texture":"graphics/planets/planet_terran01.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[155,155,255,255],
+		"isStar":false,
+		"lightPosition":[4,-1,8], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+		"cloudTexture":"graphics/planets/clouds_banded01.png", # omit for no cloud layer
+		"cloudColor":[235,240,250,225],
+		"cloudRotation":-5, # degrees/second, optional
+		"cloudOffset":10, # optional, this is how much bigger the cloud sphere is than the planet.  Good values are 2-10	
+  },
+  
+  # starfarer-core
+  
+  "gas_giant":{ # like Jupiter or Saturn
+		"tilt":-10, # left-right (>0 tilts to the left)
+		"pitch":-15, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.18, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":62, #  minimum thickness in pixels - used when radius * atmosphereThickness is really low
+		"atmosphereColor":[140,100,45,140],
+		"texture":"graphics/planets/gasgiant02.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[220,180,100,255],
+		"isStar":false,
+		"lightPosition":[5,-2,3], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+		"cloudTexture":"graphics/planets/clouds_banded01.png", # omit for no cloud layer
+		"cloudColor":[220,174,96,200],
+		"cloudRotation":-7, # degrees/second, optional
+		"cloudOffset":2.4, # optional, this is how much bigger the cloud sphere is than the planet.  Good values are 2-10		
+	},
+	"ice_giant":{ # like Neptune or Uranus
+		"tilt":65, # left-right (>0 tilts to the left)
+		"pitch":-25, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.2, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":62, #  minimum thickness in pixels - used when radius * atmosphereThickness is really low
+		"atmosphereColor":[30,90,140,130],
+		"texture":"graphics/planets/gasgiant01.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[120,170,210,255],
+		"isStar":false,
+		"lightPosition":[0,0,10], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+		"cloudTexture":"graphics/planets/clouds_banded01.png", # omit for no cloud layer
+		"cloudColor":[83,153,199,150],
+		"cloudRotation":-5, # degrees/second, optional
+		"cloudOffset":2.5, # optional, this is how much bigger the cloud sphere is than the planet.  Good values are 2-10		
+	},
+	"lava":{
+		"tilt":-20, # left-right (>0 tilts to the left)
+		"pitch":10, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3.5, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.1, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":30, #  minimum thickness in pixels
+		"atmosphereColor":[215,50,15,60],
+		"texture":"graphics/planets/lava01.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[215,115,55,255],
+		"isStar":false,
+		"lightPosition":[0,0,50], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+		"cloudTexture":"graphics/planets/clouds_banded01.png", # omit for no cloud layer
+		"cloudColor":[125,30,5,127],
+		"cloudRotation":-2, # degrees/second, optional
+		"cloudOffset":2, # optional, this is how much bigger the cloud sphere is than the planet.  Good values are 2-10		
+	},	
+	"frozen":{
+		"tilt":0, # left-right (>0 tilts to the left)
+		"pitch":0, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[225,245,255,255],
+		"atmosphereThickness":0.25, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":12, #  minimum thickness in pixels
+		"atmosphereColor":[100,140,160,155],
+		"texture":"graphics/planets/planet_ice01.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[255,255,255,255],
+		"isStar":false,
+		"lightPosition":[12,-2,-3], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+	},
+	"barren":{
+		"tilt":-27, # left-right (>0 tilts to the left)
+		"pitch":2, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[225,245,255,255],
+		"atmosphereThickness":0, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":12, #  minimum thickness in pixels
+		"atmosphereColor":[100,140,160,155],
+		"texture":"graphics/planets/barren01.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[102,103,106,255],
+		"isStar":false,
+		"lightPosition":[-2,-8,10], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+	},
+	"toxic":{
+		"tilt":0, # left-right (>0 tilts to the left)
+		"pitch":0, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.07, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":7, #  minimum thickness in pixels
+		"atmosphereColor":[155,255,155,220],
+		"texture":"graphics/planets/planet_texture_toxic.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[155,255,155,255],
+		"isStar":false,
+		"lightPosition":[0,0,10], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+	},
+	"jungle":{
+		"tilt":-40, # left-right (>0 tilts to the left)
+		"pitch":12, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-2.6, # degrees/second
+		"planetColor":[250,255,245,255],
+		"atmosphereThickness":0.32, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":38, #  minimum thickness in pixels
+		"atmosphereColor":[70,110,130,235],
+		"texture":"graphics/planets/jungle01.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[200,255,220,255],
+		"isStar":false,
+		"lightPosition":[-5,-0.5,9], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+		"cloudTexture":"graphics/planets/clouds_banded01.png", # omit for no cloud layer
+		"cloudColor":[70,115,140,235],
+		"cloudRotation":-6, # degrees/second, optional
+		"cloudOffset":2, # optional, this is how much bigger the cloud sphere is than the planet.  Good values are 2-10		
+	},	
+	"terran":{
+		"tilt":20, # left-right (>0 tilts to the left)
+		"pitch":30, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.25, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":30, #  minimum thickness in pixels
+		"atmosphereColor":[60,160,215,160],
+		"texture":"graphics/planets/planet_terran01.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[155,155,255,255],
+		"isStar":false,
+		"lightPosition":[4,-1,8], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+		"cloudTexture":"graphics/planets/clouds_banded01.png", # omit for no cloud layer
+		"cloudColor":[235,240,250,225],
+		"cloudRotation":-5, # degrees/second, optional
+		"cloudOffset":2, # optional, this is how much bigger the cloud sphere is than the planet.  Good values are 2-10	
+	},
+	"desert":{
+		"tilt":30, # left-right (>0 tilts to the left)
+		"pitch":0, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.1, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":40, #  minimum thickness in pixels
+		"atmosphereColor":[150,150,145,130],
+		"texture":"graphics/planets/desert01.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[200,170,145,255],
+		"isStar":false,
+		"lightPosition":[-2,2,7], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+		"cloudTexture":"graphics/planets/clouds_banded01.png", # omit for no cloud layer
+		"cloudColor":[220,190,160,180],
+		"cloudRotation":-10, # degrees/second, optional
+		"cloudOffset":2, # optional, this is how much bigger the cloud sphere is than the planet.  Good values are 2-10		
+	},	
+	"arid":{
+		"tilt":30, # left-right (>0 tilts to the left)
+		"pitch":0, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.1, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":40, #  minimum thickness in pixels
+		"atmosphereColor":[140,150,165,140],
+		"texture":"graphics/planets/arid01.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[200,170,145,255],
+		"isStar":false,
+		"lightPosition":[1,-3,8], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+		"cloudTexture":"graphics/planets/clouds_banded01.png", # omit for no cloud layer
+		"cloudColor":[190,180,170,240],
+		"cloudRotation":-10, # degrees/second, optional
+		"cloudOffset":2, # optional, this is how much bigger the cloud sphere is than the planet.  Good values are 2-10		
+	},
+	"cryovolcanic":{
+		"tilt":30, # left-right (>0 tilts to the left)
+		"pitch":0, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.08, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":30, #  minimum thickness in pixels
+		"atmosphereColor":[130,220,230,90],
+		"texture":"graphics/planets/cryovolcanic01.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[155,175,255,255],
+		"isStar":false,
+		"lightPosition":[-10,1,0], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+		"cloudTexture":"graphics/planets/clouds_banded01.png", # omit for no cloud layer
+		"cloudColor":[120,210,230,150],
+		"cloudRotation":-5, # degrees/second, optional
+		"cloudOffset":2, # optional, this is how much bigger the cloud sphere is than the planet.  Good values are 2-10		
+	},	
+	"star_yellow":{
+		"tilt":0, # left-right (>0 tilts to the left)
+		"pitch":0, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":10.0, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":10, #  minimum thickness in pixels
+		"atmosphereColor":[255,255,150,255],
+		"texture":"graphics/planets/star_texture_yellow.jpg",
+		"icon":"graphics/warroom/icon_star.png",
+		"iconColor":[255,255,0,255],
+		"isStar":true,
+		"lightPosition":[0,0,10], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+		"starHaloBrightness":155, # 0-255, only for stars - the brightness of the large halo (the one that goes far out around the star)
+	},				
+}
+
+
+
+
+

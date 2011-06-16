@@ -3,10 +3,10 @@
     a user modification for Starfarer
     by Trylobot
   
-  Also distributed is some content that is derived from content
-  copyright (C) 1992, 1993, 2002 Toys for Bob, Inc. or their
-  respective creators. According to the license terms of the original contents,
-  it may be used freely under the terms of the
+  Within this distribution is some content that is derived from
+  work under copyright (C) 1992, 1993, 2002 Toys for Bob, Inc. or its
+  respective creator(s). According to the license terms of the original content,
+  it may all be used freely under the terms of the
   Creative Commons Attribution-NonCommercial-ShareAlike 2.5 license
   included in full below, and also in human-readable form at:
   http://creativecommons.org/licenses/by-nc-sa/2.5/
