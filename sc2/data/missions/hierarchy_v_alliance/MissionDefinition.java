@@ -10,7 +10,7 @@ public class MissionDefinition implements MissionDefinitionPlugin
 {
 	public void defineMission(MissionDefinitionAPI api)
   {
-		api.initFleet(FleetSide.PLAYER, "", FleetGoal.ATTACK, false);
+		api.initFleet(FleetSide.PLAYER, "", FleetGoal.DEFEND, false);
 		api.initFleet(FleetSide.ENEMY, "", FleetGoal.ATTACK, true);
 
     api.setFleetTagline(FleetSide.PLAYER, "Ur-Quan Hierarchy");

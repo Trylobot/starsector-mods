@@ -11,7 +11,7 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 	public void defineMission(MissionDefinitionAPI api) {
     
     // Set up the fleets
-		api.initFleet(FleetSide.PLAYER, "", FleetGoal.ATTACK, false);
+		api.initFleet(FleetSide.PLAYER, "", FleetGoal.DEFEND, false);
 		api.initFleet(FleetSide.ENEMY, "", FleetGoal.ATTACK, true);
 
     api.setFleetTagline(FleetSide.PLAYER, "Alliance of Free Stars");
@@ -19,7 +19,7 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 
     
 		api.addToFleet(FleetSide.PLAYER, "sc2_earthling_cruiser_standard", FleetMemberType.SHIP, "", true);
-		api.addToFleet(FleetSide.PLAYER, "sc2_orz_nemesis_standard", FleetMemberType.SHIP, "", false);
+		api.addToFleet(FleetSide.PLAYER, "sc2_orz_nemesis_standard", FleetMemberType.SHIP, "", true);
 
 		// Set up the enemy fleet
 		api.addToFleet(FleetSide.ENEMY, "sc2_ur-quan_dreadnought_standard", FleetMemberType.SHIP, "", false);
