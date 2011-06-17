@@ -1,0 +1,2819 @@
+<html><head>
+<title>SUPMELER.HTM: Star Control II Super Melee: Extended Reference</title>
+
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+
+<meta name="description" content="SUPMELER.HTM: Star Control II Super Melee: Extended Reference">
+
+<meta name="keywords" content="star control 2, star control ii, super melee, 3d0">
+
+</head><body bgcolor="#000000" text="#999999" link="#3366CC" vlink="#666699"><pre>
+-------------------------------------------------------------------------------
+
+                      <b>STAR CONTROL II: SUPER MELEE MODULE</b>
+
+                                GAME CD-ROM FOR
+                        THE 3DO INTERACTIVE MULTIPLAYER
+                            <a name="top"></a>
+                            <b>EXTENDED REFERENCE TEXT</b>
+
+                              REVISION 09/27/2003
+
+-------------------------------------------------------------------------------
+
+<b>TOPICS IN ORDER OF APPEARANCE</b>          | <b>TOPICS IN ALPHABETICAL ORDER</b>
+<b>=============================</b>          | <b>============================</b>
+ 0. <a href="#0">Introduction</a>                       | <a href="#8">Androsynth Guardian</a> (8)
+ 1. <a href="#1">Game Control</a>                       | <a href="#9">Ariloulaleelay Skiff</a> (9)
+ 2. <a href="#2">The Combat Screen</a>                  | <a href="#4">Asteroids</a> (4)
+ 3. <a href="#3">Stars</a>                              | <a href="#6">Basic Ship Maneuvering</a> (6)
+ 4. <a href="#4">Asteroids</a>                          | <a href="#10">Chenjesu Broodhome</a> (10)
+ 5. <a href="#5">Planet</a>                             | <a href="#12">Chmmr Avatar</a> (12)
+ 6. <a href="#6">Basic Ship Maneuvering</a>             | <a href="#2">Combat Screen, The</a> (2)
+ 7. <a href="#7">Ship Attributes: General</a>           | <a href="#41">Cyborg Opponent</a> (41)
+ 8. <a href="#8">Androsynth Guardian</a>                | <a href="#11">DOGI, Chenjesu</a> (11)
+ 9. <a href="#9">Ariloulaleelay Skiff</a>               | <a href="#14">Druuge Mauler</a> (14)
+10. <a href="#10">Chenjesu Broodhome</a>                 | <a href="#15">Earthling Cruiser</a> (15)
+11. <a href="#11">Chenjesu DOGI</a>                      | <a href="#33">Fighter, Ur-Quan</a> (33)
+12. <a href="#12">Chmmr Avatar</a>                       | <a href="#1">Game Control</a> (1)
+13. <a href="#13">Chmmr Zapsat</a>                       | <a href="#29">Hypnotized Crew</a> (29)
+14. <a href="#14">Druuge Mauler</a>                      | <a href="#16">Ilwrath Avenger</a> (16)
+15. <a href="#15">Earthling Cruiser</a>                  | <a href="#0">Introduction</a> (0)
+16. <a href="#16">Ilwrath Avenger</a>                    | <a href="#17">Kohr-Ah Marauder</a> (17)
+17. <a href="#17">Kohr-Ah Marauder</a>                   | <a href="#22">Marine, Orz</a> (22)
+18. <a href="#18">Melnorme Trader</a>                    | <a href="#18">Melnorme Trader</a> (18)
+19. <a href="#19">Mmrnmhrm Transformer</a>               | <a href="#19">Mmrnmhrm Transformer</a> (19)
+20. <a href="#20">Mycon Podship</a>                      | <a href="#20">Mycon Podship</a> (20)
+21. <a href="#21">Orz Nemesis</a>                        | <a href="#21">Orz Nemesis</a> (21)
+22. <a href="#22">Orz Marine</a>                         | <a href="#23">Pkunk Fury</a> (23)
+23. <a href="#23">Pkunk Fury</a>                         | <a href="#5">Planet</a> (5)
+24. <a href="#24">Shofixti Scout</a>                     | <a href="#40">Post-Combat</a> (40)
+25. <a href="#25">Slylandro Probe</a>                    | <a href="#39">Projectiles</a> (39)
+26. <a href="#26">Spathi Eluder</a>                      | <a href="#38">Ship Attributes: Comparative</a> (38)
+27. <a href="#27">Supox Blade</a>                        | <a href="#7">Ship Attributes: General</a> (7)
+28. <a href="#28">Syreen Penetrator</a>                  | <a href="#24">Shofixti Scout</a> (24)
+29. <a href="#29">Hypnotized Crew</a>                    | <a href="#25">Slylandro Probe</a> (25)
+30. <a href="#30">Thraddash Torch</a>                    | <a href="#26">Spathi Eluder</a> (26)
+31. <a href="#31">Umgah Drone</a>                        | <a href="#3">Stars</a> (3)
+32. <a href="#32">Ur-Quan Dreadnought</a>                | <a href="#27">Supox Blade</a> (27)
+33. <a href="#33">Ur-Quan Fighter</a>                    | <a href="#28">Syreen Penetrator</a> (28)
+34. <a href="#34">Utwig Jugger</a>                       | <a href="#30">Thraddash Torch</a> (30)
+35. <a href="#35">VUX Intruder</a>                       | <a href="#31">Umgah Drone</a> (31)
+36. <a href="#36">Yehat Terminator</a>                   | <a href="#32">Ur-Quan Dreadnought</a> (32)
+37. <a href="#37">Zoq-Fot-Pik Stinger</a>                | <a href="#34">Utwig Jugger</a> (34)
+38. <a href="#38">Ship Attributes: Comparative</a>       | <a href="#35">VUX Intruder</a> (35)
+39. <a href="#39">Projectiles</a>                        | <a href="#36">Yehat Terminator</a> (36)
+40. <a href="#40">Post-Combat</a>                        | <a href="#13">Zapsat, Chmmr</a> (13)
+41. <a href="#41">Cyborg Opponent</a>                    | <a href="#37">Zoq-Fot-Pik Stinger</a> (37)
+
+-------------------------------------------------------------------------------
+<a name="0"></a>
+<b>0. INTRODUCTION
+===============</b>
+o This document provides information on Star Control II: Super Melee that does
+  not explicitly appear in the manual included with the game.  Many of the
+  facts and tips found here will already be known to anyone who has played
+  before; However, this document explores a wide variety of topics in detail,
+  and should reveal useful information to novice and experienced players alike.
+
+o A Panasonic REAL 3DO Interactive Multiplayer, model FZ-1, equipped with two
+  standard Panasonic 3DO controllers (model FZ-JP1X) was used as the basis for
+  the controller descriptions and real-time measurements in this document.
+
+o This document is 79 characters wide, and is best viewed in a monospaced font.
+  The master HTML version is located here: <a href="http://ledmeister.com/supmeler.htm">http://Ledmeister.com/supmeler.htm</a>
+  The master text version is located here: <a href="http://ledmeister.com/supmeler.txt">http://Ledmeister.com/supmeler.txt</a>
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="1"></a>
+<b>1. GAME CONTROL
+===============</b>
+o In references to combat situations, the terms "B button" and "C button" in
+  this document apply to those buttons on the face of the controller, and also
+  to the right and left "Shift" buttons (respectively) on the top edge of the
+  controller.  The term "D button" refers to the controller's directional pad.
+  In references to combat situations, the term "A button" would also apply to
+  the up arrow on the D button/directional pad.
+
+o After Super Melee is chosen from the Options screen (the "New Game/Super
+  Melee!/Load Game" screen), the teams shown (if any) will be the last teams
+  that were created or loaded before Stopping and quitting to the Options
+  screen.  (Changes made on the team construction screen are not saved if the
+  system is powered down without returning to the Options screen first.)
+
+o The game will recognize up to 2 controllers.  Additional controllers are
+  ignored.
+
+o If 2 controllers are attached, either one can be used to select game options
+  before combat.
+
+o While building teams, the B button will toggle the cursor between the
+  "BATTLE!" option and the upper-left position on the top team.
+
+o When selecting a ship for placement on a team, the cursor can "wrap around"
+  at the edges of the "PICK SHIP/SHIP INFO" grid.
+
+o Any controller button can be used to exit the audio/visual ship descriptions
+  selected from the "PICK SHIP/SHIP INFO" grid.
+
+o The B button will exit the "PICK SHIP/SHIP INFO" grid.
+
+o While loading teams, or editing teams and team names, some buttons (primarily
+  the B button and directional pad arrows) can automatically repeat when they
+  are held down.  While a button is held down and is automatically repeating a
+  function, its repeat rate will increase until its maximum repeat speed is
+  attained.  After that button is released, its initial repeat rate is reset to
+  minimum.
+
+o There may be from 1 to 12 ships per team.  An "empty" team (0 ships) cannot
+  be saved or played.
+
+o When editing team names, the down arrow will advance forward through the
+  character set 1 character at a time, and the up arrow will reverse through
+  the character set 1 character at a time.
+
+o Character set for team names, in forward (down-arrow) order: "a"/"A" through
+  "z"/"Z", "0" through "9", " " (space).  When advancing past " " or reversing
+  past "a"/"A", the character set "wraps" to the opposite end.
+
+o When editing team names, both the left and right Shift buttons will toggle
+  capitalization on and off.  (Capitalization remains on or off until a Shift
+  button is hit again.)
+
+o Team names can be from 0 to 15 characters in length.
+
+o When the Save command is used, the team saved will always be stored below the
+  built-in teams (the last built-in team being "The Peeled Eyes").  User-saved
+  teams will be sorted by team name.  Alphabetical priority is " " (space), ""
+  (blank, no name), "0" through "9", "a" through "z", "A" through "Z".  If two
+  user-saved teams have the same name, the first team is replaced by the
+  second.  Built-in teams cannot be replaced.
+
+o The 3DO Storage Manager program (available on the 3DO "Sampler CD", item
+  DFJN5001ZBZ) will indicate that user-saved teams of any size will each
+  consume 1 percent of the 3DO's storage space.  In reality, teams consume far
+  less space.  ("1%" is the smallest value Storage Manager can show for saved
+  items.)
+
+o For two-player combat, the ships on the top team respond to the secondary
+  controller; The ships on the bottom team respond to the primary controller.
+
+o For ship selection during a two-player game, either controller can be used to
+  select ships from either team.  However, when it's a player's turn to select
+  a ship, the A, B, C and D buttons on the opponent's controller will be locked
+  out for 3 seconds, and this 3-second lockout timer restarts each time the A,
+  B, C or D button on the player's controller is pressed.  Note that Stopping
+  and Pausing a game will not halt the lockout countdown, and the B button on
+  either controller can always be used to quit a Stopped game.
+
+o In Human-Cyborg combat, any controller can be used to select and control the
+  Human player's ships.
+
+o When selecting a ship for combat, the cursor can "wrap around" at the edges
+  of the team display.
+
+o When selecting a ship for combat, choosing the red, round "X" symbol under
+  the question mark will freeze the game and prompt the player(s) to press B.
+  At this point, the B button will exit the game and return to the team
+  construction screen, while pressing any other button will clear the prompt
+  and continue the game.
+
+o If both teams are under Cyborg control, rounds of combat will continue
+  automatically and indefinitely unless/until interrupted.  When either side
+  has won a game, the team construction screen reappears.  Another game will
+  begin after a 10 second countdown.  (Note that this countdown timer begins
+  the moment the Cyborg option has been selected for both teams, but is reset
+  each time an A, B, C or D button is pressed.  Also, if the cursor is moved
+  left, off the list of options, the countdown is cancelled.)
+
+o The game cannot be Paused or Stopped while a Cyborg opponent is selecting a
+  ship for combat.
+
+o The B button will quit a Stopped game; any other button (on either
+  controller) will continue a Stopped game.
+
+o Only the Pause button will continue a Paused game.
+
+o Pressing and holding Pause repeatedly will advance a game in progress at the
+  rate of about 1 "frame" per button press.
+
+o Stopping or Pausing a game will not interrupt music or a sound effect.
+
+o When a game is Stopped and the B button is pressed, Super Melee quits to the
+  Options screen (the "New Game/Super Melee!/Load Game" screen).
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="2"></a>
+<b>2. THE COMBAT SCREEN
+====================</b>
+o During ship-to-ship combat, the screen will continuously center itself on the
+  midpoint of an imaginary line drawn between the two ships.  When one ship is
+  in motion, this centering effect can give a false impression that both ships
+  are moving.
+
+o The screen will zoom in on the pair of ships as they come closer together,
+  and zoom out again as they move apart.  A full-sized screen (zoomed all the
+  way out) shows 25% of the total combat area.
+
+o Combat occurs in a rectangle of space four times the size of a full-sized
+  screen.  The opposite edges of this rectangle are linked, meaning that an
+  object exiting one side of the rectangle is simultaneously re-entering at the
+  opposite side.  Because of this "wrap around" effect, the maximum distance
+  (in at least one direction) between any two objects will never exceed the
+  diagonal measurement of one full-sized screen.
+
+o Note that overall game play may slow down or speed up at times.  Often this
+  is due to an increase or decrease in the number of objects being displayed on
+  the screen.  Because of this speed fluctuation, ship recharging rates and
+  other events can vary in real time by a few seconds.
+
+o If a ship is boarded by an enemy Orz marine, a marine icon appears on the top
+  half of that ship's status display.  Up to 8 marine icons can appear on a
+  status display, echoing the maximum number of enemy marines which can be
+  aboard a ship at one time.  If a marine fires on the ship's crew, the icon
+  representing that marine will flash.  If the marine is destroyed, its icon
+  will disappear from the status display.
+
+o If a ship acquires an enemy VUX limpet parasite, a parasite appears on the
+  ship image in that ship's status display.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="3"></a>
+<b>3. STARS
+========</b>
+o The stars appearing in the combat zone are actually 3 overlapping star
+  fields.  If either ship is in motion, the three fields may appear to move
+  independently.  (Stars within each field remain fixed relative to each
+  other.)  The foreground stars (which appear larger as the screen zooms in)
+  are the best guide for determining a ship's true state of motion, as the
+  background/smaller stars can appear to move even if the ship in question is
+  stationary.
+
+o Stars will have no direct effect on anything in the combat area.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="4"></a>
+<b>4. ASTEROIDS
+============</b>
+o There are 5 asteroids at any given time.  When one is destroyed, a new one is
+  generated off-screen, set rotating at a random speed either way about the one
+  axis chosen for all asteroids, and set in linear motion at a random speed in
+  a random direction.
+
+o If a ship arrives in the combat area and materializes on top of an asteroid,
+  the asteroid passes under the ship, and neither object is affected.
+
+o Ships will not be damaged by collisions with asteroids, however the course
+  and speed of both objects are likely to be affected.
+
+o Asteroids can be destroyed by all weapon systems except the Chmmr tractor
+  field, the Melnorme EM "confusion" pulse, the Syreen Song, and VUX limpet
+  parasites.  They are also destroyed if they touch the planet.  (Occasional,
+  unexpected *Smack!* sounds are often asteroids striking the planet, which may
+  be off-screen at the time.)
+
+o As an asteroid is destroyed, it loses all momentum and tangibility.  Any
+  asteroid fragments produced will have no effect on anything, and quickly
+  disappear.
+
+o With the exception of the Chmmr tractor field, the Melnorme EM "confusion"
+  pulse, the Shofixti Divine Wind, the Slylandro energizer field, the Syreen
+  Song, and the Umgah antimatter cone, an asteroid will always destroy any
+  projectile encountered.
+
+o An asteroid's linear and rotational motion can be suspended when it is in
+  contact with a ship, but its motion will resume when contact is broken.  (As
+  long as an asteroid exists, it will never stop moving unless it's being held
+  in place by a ship or some other object.)
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="5"></a>
+<b>5. PLANET
+=========</b>
+o The planet type/color is selected randomly before the first combat encounter,
+  and remains unchanged from round to round.
+
+o As a ship enters combat, its hyperspace trail may pass near (or through) the
+  planet.  This will have no effect on the ship.
+
+o All planets are the same size and exert the same gravitational force.
+
+o Gravity extends in all directions from the center of the planet to a distance
+  of just under 4 times its diameter.  Beyond that perimeter gravity drops to
+  zero.  Note that planets are the only objects in the game that exert a
+  gravitational force.
+
+o Most slow-moving solid objects can achieve orbit around the planet.  This
+  includes asteroids, most ships, and even free-floating hypnotized crew
+  members.
+
+o When a ship or other solid object touches the planet, the ship or object will
+  take a minimum of 1 point of damage (see the definition of damage in <a href="#39">section</a>
+  <a href="#39">39: Projectiles</a>).  Prolonged or repeated contact with the planet will destroy
+  any ship or solid object.
+
+o The shields of the Utwig Jugger and Yehat Terminator cannot protect those
+  ships from damage caused by collision with the planet.
+
+o The planet will block all beam projectiles, and most missile projectiles.  It
+  will not block the effects of the Chmmr tractor field, the Melnorme EM
+  "confusion" pulse, the Shofixti Glory Device, the Slylandro energizer, the
+  Syreen Song, or the Umgah antimatter cone.
+
+o The planet cannot be damaged or destroyed, and cannot be moved (its position
+  is fixed within the foreground-star field).
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="6"></a>
+<b>6. BASIC SHIP MANEUVERING
+=========================</b>
+o Ships cannot be controlled or affected as they are entering the combat zone.
+
+o When most ships first enter the combat zone, they materialize in a location
+  chosen at random from a limited number of possibilities.  The one exception
+  is the VUX Intruder, which, when entering an occupied combat zone, attempts
+  to materialize close to the enemy ship's location.  (Note, however, that this
+  materialization point is chosen just before the VUX enters the combat zone,
+  and while the VUX is decelerating from hyperspace, the enemy ship may have a
+  brief moment to move away.)
+
+o When a ship arrives in the combat area, there is a slim chance that it will
+  appear inside the planet's gravity field.
+
+o There is a remote chance that a ship will arrive in the combat area and
+  materialize in the same location as the enemy ship.  When this happens, one
+  ship will overlap the other on the screen.  This effect will not cause damage
+  to either ship.
+
+o Ships can rotate through 16 orientations (360 degrees at 22.5-degree
+  intervals).  Non-homing missiles cannot be launched into the "blind spots"
+  between these 16 firing angles, and non-homing beams cannot be swept through
+  them.
+
+o Ships will not gain momentum by turning.  Rotation for all non-Slylandro
+  ships will always cease when the D button is released (unless the ship is
+  under the influence of the Melnorme EM "confusion" pulse).
+
+o Gravity (or lack thereof) has no effect on a ship's turn rate.
+
+o In most cases, a drifting ship can be brought to a complete stop only if its
+  final motion is along a perfect north-south or east-west line.  Example: A
+  ship at full stop which begins moving north using a minimal burst of forward
+  thrust will return to a full stop if the ship is then rotated 180 degrees to
+  face south, and an equal amount of thrust is applied.  However, if this
+  maneuver was repeated using a northeast/southwest line, the ship would retain
+  a fraction of its momentum at the end of the maneuver.  (Note that this
+  example excludes any influence by gravity, collisions, weapon effects, etc.,
+  and does not apply to the Ariloulaleelay Skiff, the Androsynth Guardian in
+  Blazer form, or the Slylandro Probe, as these ships cannot drift under normal
+  circumstances.)
+
+o With the exception of the Ariloulaleelay Skiff, the Androsynth Guardian in
+  Blazer form, and the Slylandro Probe, any ship can use the planetary
+  "slingshot effect".  Specifically, passing close to the planet while applying
+  continuous thrust will boost a ship's speed, often by a great deal.
+
+o With the exception of the Ariloulaleelay Skiff, the Androsynth Guardian in
+  Blazer form, and the Slylandro Probe, any ship can achieve orbit around the
+  planet.  To do this, thrust on a straight course that will intersect the
+  planet's gravity field, but not the planetary body itself.  Before the ship
+  reaches the gravity field, turn off thrust and rotate the ship 180 degrees.
+  As the ship enters the gravity field, apply thrust as necessary to slow the
+  ship to just below escape velocity.  A different amount/duration of thrust
+  will be required here depending on the type of ship and its speed.
+
+o If a ship under very low thrust (or one impaired by limpet parasites) is
+  trapped in the planet's gravity field, it will be pulled to the surface and
+  eventually destroyed unless it can escape or achieve orbit.  In this case,
+  simply thrusting directly against the pull of gravity will probably not work.
+  Try keeping the ship pointed 90 to 135 degrees away from the planet's core
+  while applying continuous thrust.  (This flight path, projected, would
+  describe a widening spiral around and away from the core of the planet.)
+
+o Occasionally a ship will gain an excess of momentum from contact with slower
+  (or stationary) objects, and will bounce away from the object at high
+  velocity.  Collision with the planet tends to cause this effect most often,
+  although on rare occasions contact with asteroids or Chenjesu DOGIs will
+  produce similar results.
+
+o With the exception of the Chmmr tractor field and the Druuge cannon shell,
+  the influence or impact of any projectile will not affect a surviving ship's
+  inertia or direction of motion.  With the exception of the Melnorme EM
+  "confusion" pulse, the influence or impact of any projectile will not affect
+  a surviving ship's rotational orientation in space.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="7"></a>
+<b>7. SHIP ATTRIBUTES: GENERAL
+===========================</b>
+o Unless otherwise specified, ship attributes described in this document (crew
+  and energy point levels, thrust speeds, turn rates, firing rates, etc.)
+  assume no influence by collisions, gravity or weapon effects.
+
+o Unless otherwise specified, energy consumption figures in this document
+  indicate the maximum energy consumed for minimal use of a system.
+
+o Unless otherwise specified, all weapon projectiles are fired directly forward
+  from the center of the front end of the ship.
+
+o Unless otherwise specified, weapon/ability usage rates expressed in this
+  document indicate the number of consecutive uses of a weapon or ability at
+  its maximum repeat speed, assuming a standard maximum starting energy level
+  and no simultaneous recharging or discharging through attacks or usage of
+  other ship systems.
+
+o Note that overall game play may slow down or speed up at times.  Often this
+  is due to an increase or decrease in the number of objects being displayed on
+  the screen.  Because of this speed fluctuation, ship recharging rates and
+  other events can vary in real time by a few seconds.
+
+o Up until it is destroyed, a ship's performance will not be affected by loss
+  of crew members, except where crew members are used in marine and fighter
+  launchings.
+
+o There are 16 possible captain names for each ship type.  When two ships of
+  the same ship type are in combat, both ships may have the same captain name.
+
+o Combat value points in this game are roughly equivalent to the "Starbuck"
+  values used in earlier Star Control games.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="8"></a>
+<b>8. ANDROSYNTH GUARDIAN
+======================</b>
+o This ship is also known as the Androsynth Blazer.
+
+o Combat value is 15.  Starts with 20 crew, 24 energy points.
+
+o Acid bubble weapon detail: Activated with the B button.  Costs 3 energy
+  points to fire.  Can launch 8 bubbles at a time if energy is at maximum.  A
+  hit does 2 points of damage.
+
+o The Androsynth acid bubble is a homing "missile" projectile.
+
+o The Androsynth will not be damaged by its own bubbles.
+
+o "Blazer" form/mode detail: Activated with the C button.  Costs 1 energy point
+  about every .36 seconds, until all energy is used (it will engage on as
+  little as 2 energy points).  Blazer form will last about 8.6 seconds if
+  energy is at maximum.  The Blazer field created and maintained during this
+  transformation does 3 points of damage.
+
+o When Blazer mode is engaged, the ship's hull transforms to a comet-like
+  shape.  (Note that the new hull is comprised of the entire comet shape, not
+  just the central sphere.)  The new hull is also completely enveloped in a
+  field which can damage/destroy asteroids, enemy ships, DOGIs, Zapsats,
+  marines, hypnotized crew or fighters on contact.
+
+o The Blazer field is considered to have a range of zero, as it will only
+  affect objects in direct contact with the Androsynth's hull.
+
+o While Blazer mode is engaged, forward thrust is maintained at maximum.  (Note
+  that the maximum speed of the Blazer form is well above the maximum speed of
+  the initial form.)
+
+o The Androsynth loses all momentum during Blazer mode, and will come to a full
+  stop when it's disengaged.
+
+o The Blazer form's speed and maneuverability are not affected by VUX limpet
+  parasites.  (Note that parasites picked up by an Androsynth in Blazer form
+  will remain to affect its initial form.)
+
+o Blazer form's course is not affected by gravity.
+
+o An Androsynth cannot engage Blazer mode if an object is occupying the space
+  that the new shape must occupy.  For example, if an asteroid is in direct
+  contact with the aft of an Androsynth's hull, the Blazer form's "comet tail"
+  has no room to form, and therefore Blazer mode will not activate.
+
+o On occasion, an Androsynth's attributes may become mutated after contact with
+  a Chenjesu DOGI.  Specifically, the Androsynth must be in Blazer mode, and
+  must have 10 or fewer energy points when the DOGI is touched.  At that
+  moment, the Androsynth is forced out of Blazer mode (the last of its energy
+  is drained by the DOGI), and the DOGI is destroyed.  From this point on, the
+  Androsynth's initial form will retain the Blazer form's increased turning
+  rate and ability to damage or destroy objects that touch the hull.  This
+  mutation is permanent, and will last through subsequent transformations
+  between initial and full Blazer form.
+
+o The Androsynth can still take damage from projectiles while in Blazer form.
+
+o In general, marines cannot enter the Androsynth Guardian while it is in
+  Blazer form (the marine is usually destroyed, and the Androsynth may be
+  deflected slightly).  However, if several marines touch the hull
+  simultaneously, a boarding can occur.
+
+o The Androsynth does not generate energy while in Blazer form.
+
+o The Androsynth cannot release acid bubbles while in Blazer form.
+
+o When an Androsynth in Blazer form attempts to ram an enemy ship, there is a
+  slim chance that the Androsynth will pass over the enemy ship.  Neither ship
+  will be damaged while this is happening.
+
+o Androsynth captain names: AK-47, BHS-79, BIM-XT, BOOJI-1, CRC-16, DORN-3,
+  DOS-1.0, HAL-2001, JOR-15, KORB-7B, ME-262, NECRO-99, SR-71, XR4-TI,
+  976-KILL, 1040-EZ.
+
+o The version of the Androsynth Guardian that appears in this game varies
+  slightly from a version that appeared some earlier Star Control games.  (The
+  damage caused by the Blazer field has been increased from 2 to 3 points, and
+  the minimum energy required to activate Blazer mode has been increased from 1
+  to 2 points.)
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="9"></a>
+<b>9. ARILOULALEELAY SKIFF
+=======================</b>
+o Combat value is 16.  Starts with 6 crew, 20 energy points.
+
+o The Ariloulaleelay utilizes a momentumless drive system.
+
+o Laser weapon detail: Activated with the B button.  Costs 2 energy points to
+  fire.  Can fire 10 times in a row at the highest repeat rate if energy is at
+  maximum.  A hit does 1 point of damage.
+
+o The Arilou laser beam is considered a homing projectile, here.
+
+o The laser will only attempt to fire in the direction of the enemy ship, and
+  will not seek or lock onto asteroids, the planet, DOGIs, Zapsats, marines,
+  hypnotized crew, fighters or projectiles.  If the enemy ship is cloaked or
+  destroyed, the Arilou's laser will fire forward from between the headlights.
+
+o Hyperjump detail: Activated with the C button.  Costs 3 energy points to use.
+  Can jump 6 times in a row at the highest repeat rate if energy is at maximum.
+
+o Although the hyperjump will change the location of the ship, it will not
+  change the ship's rotational orientation.
+
+o When the Arilou hyperjumps, it can appear anywhere within the combat area,
+  including a location shared with any object.  An Arilou is instantly
+  destroyed if it appears on an asteroid, the planet, or an enemy ship (the
+  asteroid, planet or enemy ship remains unaffected).
+
+o The hyperjump ability is not affected by VUX limpet parasites.
+
+o Gravity will usually have no effect on an Ariloulaleelay Skiff, and under
+  normal circumstances an Arilou cannot gain or lose speed by moving through a
+  planet's gravity field, cannot achieve orbit, and cannot be pulled to a
+  planet's surface.  However, if an Arilou acquires several limpet parasites,
+  it will begin to succumb to gravity when it applies thrust near the planet.
+
+o Under normal circumstances, the Chmmr Avatar's tractor field cannot move an
+  Ariloulaleelay Skiff.  However, if an Arilou has acquired VUX limpet
+  parasites, it can be affected.  The more parasites on the Arilou, the greater
+  the effect of the tractor field.  Note, however, that the Arilou can only be
+  affected while it is thrusting.
+
+o Ariloulaleelay captain names: Bezabu, Dingdup, Fefaloo, Loleelu, Louifoui,
+  Marypup, Oowbabe, Patooti, Pinywiny, Ropilup, Tifiwilo, Tinkafo, Tiptushi,
+  Wewalia, Wolwali, Yipyapi.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="10"></a>
+<b>10. CHENJESU BROODHOME
+======================</b>
+o Combat value is 28.  Starts with 36 crew, 30 energy points.
+
+o Crystal Shard weapon detail: Activated with the B button, held down for a
+  variable time before release.  Costs 5 energy points to fire.  Can launch/
+  detonate 6 Shards in a row at the highest repeat rate if energy is at
+  maximum.  A direct hit with the entire crystal does 6 points of damage.  If
+  the crystal is detonated before impact, it will break into 8 fragments (360
+  degrees at 45-degree intervals), which do 2 points of damage apiece.
+
+o The Chenjesu crystal Shard is a non-homing "missile" projectile.
+
+o While launching, a Shard will travel indefinitely until the B button is
+  released, the Shard is destroyed in a collision, or the launching Chenjesu is
+  destroyed (causing the Shard to detonate).  If the Shard goes off the edge of
+  the screen, it can eventually "wrap around", approaching from the opposite
+  edge.  If the Shard reaches the launching Chenjesu, it will pass overhead,
+  doing no damage.
+
+o While the crystal Shard (as a whole or in fragments) will not damage the
+  launching Chenjesu, it can damage or destroy the Chenjesu's DOGIs.
+
+o The Shard's course can be affected by gravity.
+
+o DOGI launch detail: Activated with the C button.  Costs (all) 30 energy
+  points to launch.  Only 1 DOGI at a time can be launched without recharging.
+
+o When a DOGI is released, it appears immediately aft of the Broodhome.
+
+o If a DOGI is released directly onto an asteroid, planet, enemy ship or
+  marine, the DOGI is instantly destroyed.  The asteroid, planet, enemy ship or
+  marine will not be affected.
+
+o Each Broodhome can have up to 4 DOGIs deployed at one time.  They can be
+  replaced indefinitely as they are destroyed.
+
+o Chenjesu captain names: Brrzap, Bzrak, Fzzzz, Hmmhmm, Krrtzz, Kzzakk,
+  Pzkrakz, Tzaprak, Tzrrow, Vrroww, Vziziz, Zxzakz, Zzmzmm, Zznaz, Zzzhmm,
+  Zzzzz.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="11"></a>
+<b>11. CHENJESU DOGI
+=================</b>
+o When a DOGI is released, it appears immediately aft of the Broodhome.
+
+o DOGIs utilize a momentumless drive system.
+
+o A DOGI attempts to head directly towards an uncloaked enemy ship via the
+  shortest route, and will not attempt to avoid asteroids, the planet, other
+  DOGIs, Zapsats, marines, hypnotized crew, fighters or projectiles.  However,
+  it will attempt to move out of the line of fire of an enemy's primary (B
+  button) weapon.
+
+o DOGIs will draw energy only from the enemy ship, and will ignore everything
+  else.
+
+o A DOGI will draw 10 points of energy from an enemy ship per attack.
+
+o On contact, a DOGI will bounce off of asteroids, the planet, other DOGIs, and
+  marines.
+
+o On contact, a DOGI will destroy hypnotized crew and fighters.  When this
+  happens, the DOGI is not affected.
+
+o The shields of the Utwig Jugger and Yehat Terminator cannot protect those
+  ships from energy loss caused by contact with DOGIs.
+
+o A DOGI can be destroyed if hit with 3 points of damage.  This can include
+  touching the planet.
+
+o DOGIs are not slowed by VUX limpet parasites.  (On contact, a parasite is
+  destroyed.)
+
+o DOGIs do not run out of energy, and will not return to the Broodhome.
+
+o Occasionally a DOGI will halt in place while it attempts to sense and track
+  the enemy ship.  If the enemy is also stationary, a halted DOGI will remain
+  in place until the enemy moves, or the DOGI is pushed by something.
+
+o On generally rare occasions, two DOGIs in contact with each other can lock
+  together, and neither will be able to break away under its own power.
+
+o DOGIs are not affected by gravity.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="12"></a>
+<b>12. CHMMR AVATAR
+================</b>
+o Combat value is 30.  Starts with 42 crew, 42 energy points.
+
+o The Chmmr Avatar will arrive in the combat zone with 3 Zapsats.  The Zapsats
+  are in a fixed orbit, moving clockwise around the ship at 120-degree
+  intervals, and at a speed synchronized to the Chmmr's turning rate.  The
+  Zapsats will maintain this orbit indefinitely unless they are destroyed, or
+  the host Chmmr is physically separated from them.
+
+o Laser weapon detail: Activated with the B button.  Costs 2 energy points to
+  fire.  Can fire 21 times in a row at the highest repeat rate (continuous
+  fire) if energy is at maximum.  Minimal, flash-use of the laser does 2 points
+  of damage.
+
+o The Chmmr main laser beam is a non-homing projectile.
+
+o Tractor field detail: Activated with the C button.  Costs 1 energy point to
+  use.  Can be used 42 times in a row at the highest repeat rate if energy is
+  at maximum.
+
+o The tractor field originates in front of the Chmmr ship, at a point which
+  overlaps the outer edge of the Zapsat orbital path, and can instantly affect
+  an enemy ship at any range in any direction.
+
+o The tractor field can only affect an uncloaked enemy ship; it has no effect
+  on asteroids, the planet, DOGIs, Zapsats, marines, hypnotized crew, fighters
+  or projectiles.
+
+o The tractor field cannot affect a cloaked Ilwrath Avenger.
+
+o Under normal circumstances, the Chmmr tractor field cannot move an
+  Ariloulaleelay Skiff or a Slylandro Probe.  However, if either of those
+  target ships have acquired VUX limpet parasites, they can be affected.  The
+  more parasites on the target ship, the greater the effect of the tractor
+  field.  Note, however, that the Arilou can only be affected while it is
+  thrusting.
+
+o On occasion, use of the tractor field may cause a reduction in a target
+  ship's drive capacity.  (This is an effect that lasts even after the field is
+  deactivated.)  The target ship can recover by thrusting in a different
+  direction.
+
+o The shields of the Utwig Jugger and Yehat Terminator cannot protect those
+  ships from the effects of the tractor field.
+
+o If the tractor field is continually employed against an enemy ship (other
+  than the Ariloulaleelay Skiff or Slylandro Probe), that ship can potentially
+  achieve orbit around the Chmmr.
+
+o If the Chmmr is moving at extreme speeds, it may pull away from its own
+  Zapsats.
+
+o Chmmr captain names: Bzztrm, Chzrmn, Frnkzk, Kztztz, Kzzrn, Mnzgk, Mrnkzt,
+  Prmtzz, Qrntz, Rmnzk, Szmrnz, Tzrtzn, Tzzqrn, Vzrzn, Zbzzn, Zrnzrk.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="13"></a>
+<b>13. CHMMR ZAPSAT
+================</b>
+o The Chmmr Avatar will arrive in the combat zone with 3 Zapsats.  The Zapsats
+  are in a fixed orbit, moving clockwise around the ship at 120-degree
+  intervals, and at a speed synchronized to the Chmmr's turning rate.  The
+  Zapsats will maintain this orbit indefinitely unless they are destroyed, or
+  the host Chmmr is physically separated from them.
+
+o If the Chmmr is moving at extreme speeds, it may pull away from its own
+  Zapsats.  If this happens, the Zapsats will chase the Chmmr while maintaining
+  a distorted orbital pattern.  At all times they remain capable of firing on
+  appropriate targets of opportunity.
+
+o A Zapsat can move over an asteroid, planet or ship (except an Androsynth
+  Guardian in Blazer mode) without touching it.
+
+o A Zapsat will fire on most objects and projectiles, with the exception of
+  asteroids, the planet, the host Chmmr's main laser beam and tractor field,
+  beams from friendly Zapsats, an enemy Chmmr's tractor field, a cloaked
+  Ilwrath Avenger, the Slylandro energizer, the Syreen Song, hypnotized crew,
+  or the explosion caused by the Shofixti Glory Device.
+
+o The Zapsat laser beam is considered a homing projectile, here.
+
+o A Zapsat's beam will do 1 point of damage per hit.
+
+o A Zapsat will only fire on 1 object at a time.
+
+o A Zapsat is destroyed if hit with 10 points of damage, or if it is touched by
+  a Kohr-Ah plasmoid (which normally does 3 points of damage).
+
+o A Zapsat will be damaged or destroyed on contact with a Melnorme plasmoid.
+  This can also happen without direct contact.  Specifically, the Zapsat must
+  pass over the forward half of the Melnorme's hull while the ship is charging
+  a plasmoid.  When this happens with a level 4/red plasmoid, the plasmoid
+  remains unaffected and the Zapsat is destroyed.  When this happens with
+  lesser plasmoids, the plasmoid discharges and the Zapsat takes damage equal
+  to that plasmoid's Damage Potential (2, 4 or 8 points).
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="14"></a>
+<b>14. DRUUGE MAULER
+=================</b>
+o Combat value is 17.  Starts with 14 crew, 32 energy points.
+
+o Cannon detail: Activated with the B button.  Costs 4 energy points to fire.
+  Can fire 8 times in a row at the highest repeat rate if energy is at maximum
+  (barring simultaneous recharging).  A hit does 6 points of damage.
+
+o The Druuge cannon shell is a non-homing "missile" projectile.
+
+o The counterthrust from the cannon's recoil after 1 firing is equal to 120% of
+  the Druuge's maximum forward thrust speed.  This same energy is imparted to
+  enemy ships which are hit by a cannon shell.
+
+o From a full stop, the Druuge can attain maximum reverse speed with 4 cannon
+  firings.  From full-speed forward motion, the Druuge can attain maximum
+  reverse speed with 5 cannon firings.
+
+o The counterthrust potential of the cannon is not affected by VUX limpet
+  parasites.
+
+o Under normal circumstances, the impact of a Druuge cannon shell will not
+  affect the motion of a Slylandro Probe (provided the Slylandro survives the
+  impact).  However, if the Slylandro has acquired VUX limpet parasites, it can
+  be affected.  The more parasites on the Slylandro, the greater its
+  susceptibility to the change in inertia caused by the impact of a cannon
+  shell.
+
+o Crew-to-energy conversion detail: Activated with the C button.  Converts 1
+  crew member to 16 energy points.  Last crew member cannot be converted.
+
+o Druuge captain names: Biitur, Duulard, Faazur, Feezo, Juugl, Kaapo, Kooli,
+  Maad, Moola, Paato, Peeru, Piini, Siinur, Soopi, Tuuga, Zooto.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="15"></a>
+<b>15. EARTHLING CRUISER
+=====================</b>
+o Combat value is 11.  Starts with 18 crew, 18 energy points.
+
+o Missile launcher detail: Activated with the B button.  Costs 9 energy points
+  to fire.  Can fire 2 MX missiles in a row at the highest repeat rate if
+  energy is at maximum.  A hit does 4 points of damage.
+
+o The Earthling missile is a homing projectile.
+
+o Point-defense laser system detail: Activated with the C button.  Costs 4
+  energy points to fire.  Can fire 5 times in a row at the highest repeat rate
+  if energy is at maximum.  A hit does 1 point of damage per beam.
+
+o The Earthling laser beam is considered a homing projectile, here.
+
+o Laser energy emanates from a point at the center of the ship, and its average
+  maximum range is just over 2 times the total length of the ship.  The defense
+  system will not release a beam unless it detects a target within this range.
+
+o Laser beams will simultaneously strike at all objects and projectiles within
+  range, with the exception of the planet, the Chmmr tractor field, a cloaked
+  Ilwrath Avenger, the Shofixti Divine Wind, the Slylandro energizer, and the
+  Syreen Song.  Note that the defense system can target and fire on the
+  Cruiser's own missiles, but may or may not destroy them.  (Specifically, if
+  the missile was launched before the defense system was activated, the missile
+  will be destroyed if hit.  However, if the defense system is already active
+  as the missile is being launched, the missile will not be affected if hit.)
+
+o Each laser beam released by the defense system will be focused on its
+  intended target, and will not project past or through intervening objects or
+  the target itself.
+
+o A single use of the defense system will never cost more than 4 energy points,
+  regardless of how many laser beams are released at the time of firing.
+
+o The version of the Earthling Cruiser that appears in this game varies
+  slightly from the version that appeared in earlier Star Control games.  (The
+  point-defense laser system can no longer select the planet as a target.)
+
+o Earthling captain names: Adama, Belt, Buck, Decker, Ender, Friedlan, Graeme,
+  Halleck, Kucera, Pike, Pirx, Spiff, Trent, Tuf, VanRijn, Wu.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="16"></a>
+<b>16. ILWRATH AVENGER
+===================</b>
+o Combat value is 10.  Starts with 22 crew, 16 energy points.
+
+o HellFire Blast detail: Activated with the B button.  Costs 1 energy point to
+  fire.  Can fire 16 times in a row at the highest repeat rate (continuous
+  fire) if energy is at maximum.  The weapon fires a series of overlapping
+  bursts of flame, each burst doing 1 point of damage.
+
+o The Ilwrath flame burst is considered a non-homing "missile" projectile,
+  here.
+
+o Firing will deactivate the cloaking device.  It will remain deactivated until
+  the C button is hit again.
+
+o If the Ilwrath fires when cloaked, it will always uncloak facing towards the
+  enemy ship (provided no object is preventing the Ilwrath from facing that
+  direction).  The Ilwrath will even "find" another cloaked Ilwrath this way.
+
+o When an Ilwrath fires while cloaked, the first flame burst released will
+  usually be moving directly towards the enemy ship.  Note that this flame
+  burst itself is not considered a homing projectile, as its motion is still
+  determined by the Ilwrath's heading at the time of launch.
+
+o Cloaking device detail: Activated with the C button; primarily deactivated
+  with the C button, but will also deactivate if the Ilwrath fires while
+  cloaked.  Costs 3 energy points to toggle on or off with the C button.  No
+  energy is used to uncloak when uncloaking is caused by firing (however the
+  Hellfire weapon uses a minimum of 1 energy point).  Can maintain a constant
+  rate of use if energy is at maximum.
+
+o Generally, the cloak only truly conceals the direction the ship is facing,
+  and the ship's thrust trail.  The Ilwrath's position, speed and direction of
+  flight can still be computed, because the combat screen view adjusts to keep
+  each ship in the exact inverted location of the other ship at all times.  A
+  cloaked Ilwrath can counter this disclosure of position only when combatting
+  another cloaked Ilwrath.
+
+o The cloak absorbs light instead of bending it, so the ship will still blot
+  out any stars it passes over.  The Ilwrath's silhouette may also be glimpsed
+  in Earthling missile explosions against its hull.
+
+o DOGIs, Zapsats, marines, fighters, and homing weapons and projectiles are
+  unable to track the Ilwrath when it is cloaked.  (DOGIs, Androsynth bubbles
+  and placed Kohr-Ah mines will remain in a limited area, fighters and marines
+  will attempt to return to their host ships, and other homing projectiles will
+  proceed along a straight path.  If the Ilwrath uncloaks again, DOGIs,
+  Zapsats, fighters and homing projectiles may continue to track the Ilwrath,
+  but marines will continue to return to their host ship.)
+
+o Ilwrath captain names: Argarak, Baylor, Borgo, Dirga, Gorgon, Kalgon, Kayzar,
+  Lurgo, Manglor, Regorjo, Rogash, Slygor, Taragon, Targa, Vogar, Zoggak.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="17"></a>
+<b>17. KOHR-AH MARAUDER
+====================</b>
+o Combat value is 30.  Starts with 42 crew, 42 energy points.
+
+o Mine launcher detail: Activated with the B button, held down for a variable
+  time before release.  Costs 6 energy points to fire.  Can fire 8 times in a
+  row at the highest repeat rate if energy is at maximum.  A hit does 4 points
+  of damage.
+
+o The Kohr-Ah mine during launch is a non-homing "missile" projectile.  The
+  Kohr-Ah mine after placement is a homing "missile" projectile.
+
+o While launching, a mine will travel indefinitely until the B button is
+  released, the mine is destroyed in a collision, or the launching Kohr-Ah is
+  destroyed (causing the mine to halt in place).  If the mine goes off the edge
+  of the screen, it can eventually "wrap around", approaching from the opposite
+  edge.  If the mine reaches the launching Kohr-Ah, it will pass overhead,
+  doing no damage.
+
+o While a mine is being launched (before the B button is released) its course
+  can be affected by gravity.  After a mine is placed, gravity will no longer
+  affect it.
+
+o Each Kohr-Ah can have up to 8 mines deployed at one time.  (As a ninth mine
+  is launched, the first/oldest mine already in place will disappear, returning
+  the total to 8.)
+
+o Once a mine is placed it will remain in place until it is destroyed, removed
+  to create a new mine, or until an uncloaked enemy ship comes near it.
+
+o When an uncloaked enemy ship approaches a mine (from a distance of about 12
+  mine-diameters or less), the mine will begin to move towards the ship.  If
+  the ship then moves out of the mine's tracking range, cloaks, or is destroyed
+  by another force, the mine will halt in place.
+
+o Plasmoid ring detail: Activated with the C button.  Costs 21 energy points to
+  activate.  Can be activated 2 times in a row at the highest repeat rate if
+  energy is at maximum.  The defense system releases a ring of 16 plasmoids
+  from the core of the ship (360 degrees at 22.5-degree intervals).  Each of
+  these plasmoids can do 3 points of damage to an enemy ship.
+
+o The Kohr-Ah plasmoid is a non-homing "missile" projectile.
+
+o A Kohr-Ah plasmoid will destroy asteroids, DOGIs, Zapsats, marines,
+  hypnotized crew, fighters, all beam projectiles and most missile projectiles
+  on contact.  A Kohr-Ah plasmoid will have no effect on most field
+  projectiles.
+
+o The only projectile that can destroy a Kohr-Ah plasmoid is an enemy Kohr-Ah's
+  plasmoid.  (Both disappear on contact.)
+
+o Plasmoids can be affected by gravity.
+
+o Mines and plasmoids from the same Kohr-Ah will not affect each other.
+
+o Kohr-Ah captain names: Death 3, Death 5, Death 7, Death 11, Death 13, Death
+  17, Death 19, Death 23, Death 29, Death 31, Death 37, Death 41, Death 43,
+  Death 47, Death 53, Death 83.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="18"></a>
+<b>18. MELNORME TRADER
+===================</b>
+o Combat value is 18.  Starts with 20 crew, 42 energy points.
+
+o Plasma weapon detail: Activated with the B button, held down for a variable
+  time before release.  Costs 5 energy points to form a plasmoid.  Once formed,
+  costs no further energy points (per se) to hold and charge.  Can fire 8 times
+  in a row at the highest repeat rate if energy is at maximum.  The primary,
+  minimally-charged green plasmoid does 2 points of damage.  About every 2.9
+  seconds of charge time, the plasmoid will increase in size and double in
+  strength, changing color each time.  With continued charging, a plasmoid will
+  change from a green color and a 2-point Damage Potential to blue and 4
+  points, then to purple and 8 points, and finally to red and 16 points.
+  Additional charging beyond this point will have no new effect.
+
+o The Melnorme plasmoid while charging is considered a "field" projectile,
+  here.  The Melnorme plasmoid during launch is a non-homing "missile"
+  projectile.
+
+o A Melnorme will not regenerate energy while a plasmoid is charging.
+
+o If a charging plasmoid is touched by an asteroid, the planet, a ship, DOGI,
+  or marine, the plasmoid discharges.  If this happens, a new plasmoid will
+  automatically take its place (provided that the plasma weapon system remains
+  activated and the Melnorme has at least 5 energy points available).
+
+o A Zapsat will be damaged or destroyed on contact with a Melnorme plasmoid.
+  This can also happen without direct contact.  Specifically, the Zapsat must
+  pass over the forward half of the Melnorme's hull while the ship is charging
+  a plasmoid.  When this happens with a level 4/red plasmoid, the plasmoid
+  remains unaffected and the Zapsat is destroyed.  When this happens with
+  lesser plasmoids, the plasmoid discharges and the Zapsat takes damage equal
+  to that plasmoid's Damage Potential (2, 4 or 8 points).
+
+o Unlike other projectiles, a charging Melnorme plasmoid cannot accumulate
+  damage.  In other words, if one projectile of a given type and strength
+  cannot instantly destroy a charging plasmoid on contact, then no number of
+  identical projectiles will affect that plasmoid for as long as it is held by
+  the Melnorme.  Note that as a charging plasmoid gains power, there will be
+  fewer and fewer projectiles capable of destroying it.
+
+o The only projectiles that can destroy a level 4/red plasmoid held by a
+  Melnorme Trader are the Kohr-Ah plasmoid, and another red plasmoid being held
+  by an enemy Melnorme.
+
+o In general, if a charging plasmoid survives contact with an incoming
+  projectile, the incoming projectile is destroyed.  In this way, a charging
+  plasmoid (especially at higher power levels) can be used as a forward shield
+  by the Melnorme.  However, there are a few instances where this shielding
+  effect will not work.  Specifically, most field projectiles are unaffected by
+  all other weapons, and therefore cannot be blocked (most enemy fields will
+  penetrate, overlay, or push aside a charging plasmoid).  Also, many laser
+  weapons at close range can occasionally punch through a charging plasmoid
+  (although the plasmoid remains unaffected).  Finally, the EM "confusion"
+  pulse from any Melnorme can move through any charging plasmoid (and neither
+  projectile will be affected).
+
+o If the Melnorme is destroyed while its plasmoid is charging, the plasmoid
+  will be released.
+
+o Once launched, a plasmoid's course can be affected by gravity.
+
+o Electromagnetic (EM) "confusion" pulse cannon detail: Activated with the C
+  button.  Costs 20 energy points to fire.  Can fire 2 times in a row at the
+  highest repeat rate if energy is at maximum.  A hit does no direct damage to
+  the crew of an enemy ship.
+
+o The Melnorme EM pulse is a non-homing "missile" projectile.
+
+o An EM pulse will not affect asteroids, the planet, DOGIs, Zapsats, marines,
+  hypnotized crew, fighters or projectiles.  The pulse in turn cannot be
+  affected by any other object or projectile.  The EM pulse is the only missile
+  projectile that can be fired directly through asteroids and planets.
+
+o When a ship is hit with an EM pulse, it will spin clockwise or
+  counterclockwise (the direction is chosen at random).  The duration of the
+  confusion effect is about 15.8 seconds of game time.  The number of times a
+  ship will rotate varies from ship type to ship type, but remains a constant
+  within a type.  For example, an Earthling Cruiser will always rotate 12.5
+  times (assuming no additional outside influences), while under the same
+  circumstances a Kohr-Ah Marauder will always rotate exactly 5 times.
+
+o The shields of the Utwig Jugger and Yehat Terminator cannot protect those
+  ships from the effects of an EM pulse.
+
+o Melnorme captain names: Aqua, Beige, Black, Bluish, Cerise, Cheruse, Crimson,
+  Fuchsia, Grayish, Magenta, Mauve, Orangy, Purple, Reddish, Umber, Yellow.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="19"></a>
+<b>19. MMRNMHRM TRANSFORMER
+========================</b>
+o This ship is also known as the Mmrnmhrm Xform (or X-form).
+
+o Combat value is 19.  Starts with 20 crew, 10 energy points.
+
+o First form ("X wing") detail: Low speed, fast turning rate, fast recharging
+  rate, short-range weapon (twin lasers).  Traits are inverted from the Second
+  form ("Y wing").
+
+o Laser weapon detail: Activated with the B button.  Costs 1 energy point to
+  fire.  Can fire 10 pairs of beams in a row at the highest repeat rate
+  (continuous fire) if energy is at maximum.  Minimal, flash-use of the laser
+  does 1 point of damage per beam.
+
+o The Mmrnmhrm laser beam is a non-homing projectile.
+
+o When the lasers are fired, 2 beams are released, one each from nacelles
+  located on the wing tips.  The beams converge on a point ahead of the
+  Mmrnmhrm.  (The average maximum range of each beam is just over 7 times the
+  total length of the ship.)
+
+o Second form ("Y wing") detail: High speed, slow turning rate, slow recharging
+  rate, long-range weapon (twin missiles).  Traits are inverted from the First
+  form ("X wing").
+
+o Missile weapon detail: Activated with the B button.  Costs 1 energy point to
+  fire.  Can maintain a constant rate of fire (the Mmrnmhrm generates energy
+  faster than the missile weapon consumes it).  The two missiles do 1 point of
+  damage apiece.
+
+o The Mmrnmhrm missile is a homing projectile.
+
+o When missiles are fired, 2 missiles are launched, one each from tubes located
+  against the port and starboard sides of the hull, just behind the nose of the
+  ship.  The tubes launch missiles across the nose of the ship, and at an angle
+  of about 30 degrees from forward.
+
+o The Mmrnmhrm in Second form can actually gain energy while maintaining a
+  constant rate of fire.  Under normal circumstances, it is the only ship that
+  can do this.
+
+o Transformation detail: Activated with the C button.  Costs (all) 10 energy
+  points to use.  Can transform only once without recharging.
+
+o A Mmrnmhrm cannot transform if an object is occupying the space that the new
+  shape must occupy.  For example, if an asteroid is in direct contact with the
+  aft of the First form's hull, the Second form's "tail" has no room to form,
+  and therefore transformation will not occur.
+
+o The Mmrnmhrm always enters the combat area in First form (hence the term).
+
+o The Mmrnmhrm in First form regenerates energy twice as fast as the Second
+  form.
+
+o Mmrnmhrm captain names: Hm-nhuh, Hmr-hun, Hrnm-hm, Jhe-mhr, Jhe-qir, Jra-nr,
+  Mn-quah, Mrm-na, Nhuh-na, Nrna-mha, Qir-nha, Qua-qir, Qua-rhna, Rrma-hrn,
+  Um-hrh, Ur-mfrs.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="20"></a>
+<b>20. MYCON PODSHIP
+=================</b>
+o Combat value is 21.  Starts with 20 crew, 40 energy points.
+
+o Homing plasmoid detail: Activated with the B button.  Costs 20 energy points
+  to fire.  Can fire 2 times in a row at the highest repeat rate if energy is
+  at maximum.  The plasmoid decays over 11 stages: Upon firing, a hit at
+  point-blank range does 10 points of damage, and each successive stage does
+  about one point less damage than the previous, until the final stage, which
+  does 1 point of damage.
+
+o The Mycon plasmoid is a homing "missile" projectile.
+
+o If a plasmoid is launched forward while the Podship is moving faster than its
+  standard maximum speed and/or the launching port is facing away from the
+  enemy ship, the Podship may hit itself.
+
+o Crew regeneration detail: Activated with the C button.  Costs (all) 40 energy
+  points.  Can regenerate crew only once without recharging.
+
+o 4 crew are regenerated at a time, up to the maximum crew capacity of the
+  ship.
+
+o Mycon captain names: Blort, Chupp, Floos, Glish, Glob, Glush, Plork, Shlish,
+  Shlupp, Slingy, Sploozo, Spork, Uffo, Yush, Zaloop, Znuff.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="21"></a>
+<b>21. ORZ NEMESIS
+===============</b>
+o Combat value is 23.  Starts with 16 crew, 20 energy points.
+
+o Howitzer detail: Activated with the B button.  Costs 6 energy points to fire.
+  Can fire 3 times in a row at the highest repeat rate if energy is at maximum.
+  A hit does 3 points of damage.
+
+o The Orz howitzer shell is a non-homing "missile" projectile.
+
+o Howitzer turret rotation is activated with the left and right arrows on the
+  D button while the C button is held down.
+
+o The howitzer turret can rotate through 16 orientations (360 degrees at
+  22.5-degree intervals).  These firing angles are identical to the 16 possible
+  ship hull orientations.
+
+o Orz Nemesis icons used throughout the game depict the ship's howitzer facing
+  backwards.  However, when the ship enters the combat zone, its howitzer will
+  be facing forward.
+
+o The howitzer turret pivots half as fast as the ship itself can.  (The turret
+  can complete one rotational cycle about every 2.35 seconds.)
+
+o VUX limpet parasites will not slow the rotation speed of the howitzer turret.
+
+o Marine launch detail: Activated with the B button while the C button is held
+  down.  Costs 0 energy points to release a marine.  A Nemesis can have up to 8
+  marines active at a time.  A marine will do a minimum of 1 point of damage
+  upon entering an enemy ship.
+
+o When a marine is released, it appears immediately aft of the Nemesis.  When
+  the enemy ship is cloaked or destroyed, the marine can return to the Nemesis
+  through any part of its hull.
+
+o If the enemy ship is cloaked or destroyed, the Nemesis will be unable to
+  launch a marine.
+
+o A Nemesis' howitzer shells will not affect its own marines.
+
+o The Orz cannot turn while rotating the howitzer turret or launching marines.
+
+o An Orz Nemesis under Weak Cyborg control cannot rotate the howitzer turret or
+  launch marines.
+
+o Orz captain names: Camper, Dancer, Deep, FatFun, Frumple, Happy, Heavy,
+  Hungry, Juice, Loner, NewBoy, Pepper, Singer, Smell, Squirt, Wet.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="22"></a>
+<b>22. ORZ MARINE
+==============</b>
+o When a marine is released, it appears immediately aft of the Nemesis.  When
+  the enemy ship is cloaked or destroyed, the marine can return to the Nemesis
+  through any part of its hull.
+
+o Upon release, a marine attempts to head directly towards an uncloaked enemy
+  ship via the shortest route, and will not attempt to avoid asteroids, DOGIs,
+  Zapsats, other marines, hypnotized crew, fighters or projectiles.  A marine
+  will attempt to avoid the planet when possible.
+
+o On contact, a marine will bounce off of asteroids, DOGIs, enemy marines, a
+  shielded Utwig Jugger, and a shielded Yehat Terminator.  When these
+  collisions happen, the object touched by the marine may also be moved/
+  deflected.
+
+o In general, marines cannot enter the Androsynth Guardian while it is in
+  Blazer form (the marine is usually destroyed, and the Androsynth may be
+  deflected slightly).  However, if several marines touch the hull
+  simultaneously, a boarding can occur.
+
+o On contact, a marine will destroy hypnotized crew and fighters.  When this
+  happens, the marine is not affected.
+
+o An Orz marine will pursue an uncloaked enemy ship until the launching
+  Nemesis, the enemy ship, or the marine itself is destroyed, or the enemy ship
+  cloaks.
+
+o If a ship is boarded by an enemy Orz marine, a marine icon appears on the top
+  half of that ship's status display.  Up to 8 marine icons can appear on a
+  status display, echoing the maximum number of enemy marines which can be
+  aboard a ship at one time.  If a marine fires on the ship's crew, the icon
+  representing that marine will flash.  If the marine is destroyed, its icon
+  will disappear from the status display.
+
+o A marine will do a minimum of 1 point of damage upon entering an enemy ship.
+  The marine may continue to kill enemy crew members one at a time (at random
+  intervals), until the enemy ship, or the marine itself is destroyed.
+
+o The marine's laser is considered a homing projectile, here.
+
+o A marine in space can be destroyed if it touches the planet, or if it is hit
+  with 3 points of damage.  A marine inside an enemy ship can be destroyed at
+  any time, so long as the enemy ship had at least 2 crew at the time the
+  marine entered.  (Note that a marine aboard an enemy ship is either active or
+  fully destroyed; it cannot accumulate non-fatal damage here.)
+
+o A Nemesis' howitzer shells will not affect its own marines.
+
+o A damaged marine will remain damaged until it is destroyed or it returns to
+  the launching Nemesis.  Upon return to the Nemesis, a marine returns to an
+  undamaged state.
+
+o Marines are not slowed by VUX limpet parasites.  (On contact, a parasite is
+  destroyed.)
+
+o If a Shofixti Scout self-destructs, any marines near the Shofixti's hull will
+  be destroyed.  Any marines that were inside the Shofixti will survive the
+  explosion.
+
+o The shields of the Utwig Jugger and Yehat Terminator cannot protect those
+  ships from the internal attacks from Orz marines.
+
+o Marines do not run out of energy, and will not return to the Nemesis unless
+  the enemy ship is cloaked (before being boarded), or until the enemy ship is
+  destroyed.
+
+o Frequently, a marine will exit an exploding enemy ship along same path and
+  trajectory that was used to enter the ship.  For example, a marine coming
+  from the top of the screen is moving south as it enters an enemy ship; If
+  that ship is then destroyed, the marine will likely begin moving south out of
+  the fireball.  (Note that the marine will choose this path even if the enemy
+  ship has moved and/or rotated the hull since the marine entered.)  From there
+  the marine will attempt course corrections as necessary to return to the
+  launching Nemesis.
+
+o While an Orz marine is returning to the launching Nemesis, it will ignore any
+  new enemy ship that enters the combat zone.  (On contact with an enemy ship,
+  a returning marine will pass overhead, doing no damage.)
+
+o When a marine is chasing an enemy ship, it will be red and yellow in color.
+  When a marine is returning from an enemy ship, it will usually be green in
+  color, but may occasionally retain its red/yellow "attack" coloring.
+
+o On generally rare occasions, a marine will circle a stationary or slow-moving
+  target without entering it.  (Specifically, a marine using thrust is unable
+  to turn sharply enough towards the target to counter the momentum which is
+  carrying it past the target.  This balance of momentum and course-correcting
+  thrust essentially keeps the marine in orbit around the target.  However, if
+  the target ship thrusts, or some external force acts upon the target ship or
+  marine, that balance may be lost, which will then likely allow the marine to
+  board.)
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="23"></a>
+<b>23. PKUNK FURY
+==============</b>
+o Combat value is 20.  Starts with 8 crew, 12 energy points.
+
+o Multigun detail: Activated with the B button.  Costs 1 energy point to fire.
+  Can fire 12 times in a row at the highest repeat rate if energy is at maximum
+  (barring simultaneous recharging).  Minimal, flash-use of the weapon releases
+  3 mass pellets, a hit doing 1 point of damage per pellet.
+
+o The Pkunk mass pellet is a non-homing "missile" projectile.
+
+o Projectiles are simultaneously fired directly forward from the nose of the
+  ship, and from the center of the port and starboard edges, at 90 degrees from
+  forward.
+
+o Energy generation detail: Activated with the C button.  Pressing and
+  releasing the C button once will regenerate 2 points of energy.  By holding
+  the C button down, the Pkunk can regenerate energy from a zero energy level
+  to maximum capacity in about 3.5 seconds of game time (barring any
+  simultaneous energy consumption).
+
+o A Pkunk Fury under Weak Cyborg control can still use its recharge ("C
+  button") function.
+
+o When a Pkunk reincarnates, the new ship will have full energy and a full
+  complement of new crew members (including the same captain), and will appear
+  in a random location, facing a random direction.
+
+o A Pkunk Fury under Weak Cyborg control will never reincarnate.  A Pkunk under
+  any other control averages a 50% chance of reincarnation.
+
+o If a Pkunk is destroyed by the self-destruction (Glory Device) of a Shofixti
+  Scout, the Shofixti victory music may be played even if the Pkunk ship
+  reincarnates.
+
+o The Pkunk has the fastest standard forward thrust speed of all ships.
+
+o Pkunk captain names: Awwky, Brakky, Buzzard, Crow, Ernie, Fuzzy, Hooter, Jay,
+  Polly, Poppy, Raven, Screech, Tweety, Twitter, WudStok, Yompin.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="24"></a>
+<b>24. SHOFIXTI SCOUT
+==================</b>
+o Combat value is 5.  Starts with 6 crew, 4 energy points.
+
+o Energy dart launcher detail: Activated with the B button.  Costs 1 energy
+  point to fire.  Can fire 4 times in a row at the highest repeat rate if
+  energy is at maximum.  A hit does 1 point of damage.
+
+o The Shofixti energy dart is a non-homing "missile" projectile.
+
+o Glory Device detail: Activated with the C button (must be pressed 3 times to
+  detonate).  Costs no energy points to arm; costs all energy points and all
+  crew to destruct.  Can be used once.  Self-destructing is only effective at
+  short range; It is ineffective against enemy ships at ranges where the combat
+  screen is zoomed the way out.  The closer a target is, the more effective the
+  explosion will be.  At zero range, the explosion will do a maximum of 18
+  points of damage to an enemy ship.
+
+o The Shofixti "Divine Wind" (the explosion caused by self-destruction) is
+  considered a "field" projectile, here.
+
+o Any damage to an enemy ship as a result of self-destructing will occur at the
+  moment the explosion is triggered.  By the time the explosion itself develops
+  on the screen, the damage, if any, has already been inflicted.
+
+o Self-destructing can also destroy asteroids, DOGIs, Zapsats, marines,
+  hypnotized crew, fighters and projectiles.
+
+o If a Shofixti Scout self-destructs, any marines near the Shofixti's hull will
+  be destroyed.  Any marines that were inside the Shofixti will survive the
+  explosion.
+
+o The shields of the Utwig Jugger and Yehat Terminator cannot protect those
+  ships from damage caused by the Glory Device.
+
+o Shofixti captain names: Bonsai!, Busu, Chimchim, Daikon, Gaijin, Genjiro,
+  Ginzu, Hiyata, Ichiban, Kimba, Kudzu, Naninani, Sushi, Tofu, Tora-3, Wasabe.
+
+o The version of the Shofixti Scout that appears in this game varies slightly
+  from the version that appeared in earlier Star Control games.  (Previously,
+  the explosion caused by self destruction did not affect asteroids, DOGIs,
+  hypnotized crew, fighters or projectiles.)
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="25"></a>
+<b>25. SLYLANDRO PROBE
+===================</b>
+o Combat value is 17.  Starts with 12 crew, 20 energy points.
+
+o The Slylandro utilizes a momentumless drive system.
+
+o A Slylandro's direction of travel is reversed with the A button.
+
+o Lightning weapon detail: Activated with the B button.  Costs 2 energy points
+  to fire.  Can be fired 10 times in a row at the highest repeat rate if energy
+  is at maximum (barring simultaneous recharging).
+
+o The Slylandro lightning bolt is considered a homing "beam" projectile, here.
+
+o Energizer (asteroid converter field) detail: Activated with the C button.
+  Costs 0 energy points to activate.  Can maintain a constant rate of use
+  (within a timed cycle of about 1 pulse per .75 seconds), regardless of the
+  Slylandro's energy status.  A hit will destroy all asteroids within range;
+  Nothing else in the combat area is affected.
+
+o Energizer field emanates from the core of the ship, and its average maximum
+  range is just over 2 times the total length of the ship.  The energizer
+  system will not activate unless it senses an asteroid within this range.
+
+o The energizer will simultaneously strike all asteroids within range.  When an
+  asteroid is sacked (drained of energy and destroyed), the Slylandro instantly
+  attains a maximum energy level (20 points).
+
+o Gravity will usually have no effect on a Slylandro Probe, and under normal
+  circumstances a Slylandro cannot gain or lose speed by moving through a
+  planet's gravity field, cannot achieve orbit, and cannot be pulled to a
+  planet's surface.  However, if a Slylandro acquires several limpet parasites,
+  it will begin to succumb to gravity when it maneuvers near the planet.
+
+o Under normal circumstances, the Chmmr Avatar's tractor field cannot move a
+  Slylandro Probe.  However, if a Slylandro has acquired VUX limpet parasites,
+  it can be affected.  The more parasites on the Slylandro, the greater the
+  effect of the tractor field.
+
+o The Slylandro Probe's "inert" crew is able to repel internal attack from Orz
+  marines.  (In this attribute the Slylandro's crew is identical to that of all
+  other ships.)
+
+o The Syreen Song will have no effect on a Slylandro.
+
+o A Slylandro Probe cannot retrieve hypnotized crew.  (A damaged Slylandro
+  cannot retrieve non-Slylandro crew.)
+
+o If a Slylandro collides with an asteroid or an enemy ship, there is a chance
+  that both objects will interlock and freeze in place.  The Slylandro can free
+  itself by reversing course, by using the energizer (against an asteroid), or,
+  in some cases, by using the lightning weapon.
+
+o If a Slylandro collides with the planet, there is a chance that the ship will
+  remain fixed in place against the planet.  If this happens, the Slylandro
+  will be destroyed unless the A button is pressed to reverse course.
+
+o A Slylandro Probe under Weak Cyborg control can still use its recharge ("C
+  button") function.
+
+o Slylandro captain name equivalent: 2418-B.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="26"></a>
+<b>26. SPATHI ELUDER
+=================</b>
+o This ship is also known as the Spathi Discriminator.
+
+o Combat value is 18.  Starts with 30 crew, 10 energy points.
+
+o Forward weapon detail: Activated with the B button.  Costs 2 energy points to
+  fire.  Can fire 5 times in a row at the highest repeat rate if energy is at
+  maximum.  A hit does 1 point of damage.
+
+o The Spathi forward shot is a non-homing "missile" projectile.
+
+o Backwards Utilizing Tracking Torpedo (BUTT) detail: Activated with the C
+  button.  Costs 3 energy points to fire.  Can fire 3 times in a row at the
+  highest repeat rate if energy is at maximum.  A hit does 2 points of damage.
+
+o The Spathi BUTT is a homing "missile" projectile.
+
+o Torpedoes travel slower than the Spathi's top speed.  Firing a torpedo with
+  the BUTT weapon facing forward can lead to the ship hitting itself.
+
+o Forward shots and torpedoes from the same Spathi will destroy each other on
+  contact.
+
+o Spathi captain names: Bwinkin, Jinkeze, Kwimp, Nargle, Phlendo, Phwiff,
+  Pkunky, Plibnik, Pwappy, Rupatup, Snelopy, Snurfel, Thintho, Thwill, Whuff,
+  Wiffy.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="27"></a>
+<b>27. SUPOX BLADE
+===============</b>
+o Combat value is 16.  Starts with 12 crew, 16 energy points.
+
+o Globule weapon detail: Activated with the B button.  Costs 1 energy point to
+  fire.  Can be fired 16 times in a row at the highest repeat rate if energy is
+  at maximum.  A hit does 1 point of damage.
+
+o The Supox caustic globule is a non-homing "missile" projectile.
+
+o Extended maneuvering detail: Activated with the C button while the A button
+  is held down, or the left, right or up arrow on the D button while the C
+  button is held down.  Maneuvering (in any direction) costs no energy points.
+
+o The Supox has the same maximum thrust speed in any direction.  (Specifically,
+  forward thrust, side thrust and reverse thrust, individually and in all
+  functional combinations, are equal.)
+
+o The Supox cannot turn while thrusting in a non-forward direction.
+
+o Supox captain names: Bark, Bramble, Branch, Bud, Crinoid, FlyTrap, Ivy, Nut,
+  Root, Sprout, Stem, Thicket, Thistle, Thorn, Trifid, Twig.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="28"></a>
+<b>28. SYREEN PENETRATOR
+=====================</b>
+o Combat value is 13.  Starts with 12 crew (total capacity of 42 crew), 16
+  energy points.
+
+o Electron dagger weapon detail: Activated with the B button.  Costs 1 energy
+  point to fire.  Can maintain a constant rate of fire (the Syreen generates
+  energy as quickly as the electron weapon consumes it).  A hit does 2 points
+  of damage.
+
+o The Syreen electron dagger is a non-homing "missile" projectile.
+
+o Song weapon detail: Activated with the C button.  Costs 5 energy points to
+  use.  Can use 5 times in a row at the highest repeat rate if energy is at
+  maximum.  The Song will be ineffective against enemy ships at ranges where
+  the combat screen is zoomed all the way out.  The closer the two ships are,
+  the more effective it will be.  At minimal range, the Song can pull a maximum
+  of 8 crew at a time from an enemy ship.
+
+o In this document, the term "hypnotized crew" refers to crew members which
+  have been called into space by the Song weapon of the Syreen Penetrator.
+
+o The Syreen Song is considered a "field" projectile, here.
+
+o The Song weapon only affects enemy ships (with the exception of the Slylandro
+  Probe); it has no effect on asteroids, the planet, DOGIs, Zapsats, marines,
+  hypnotized crew (using the Song twice won't make them approach faster, etc.),
+  fighters or projectiles.
+
+o The Song weapon will not affect the course of the Syreen's own crew if the
+  crew has been called into space by an enemy Syreen.
+
+o The Song weapon can draw all but the last crew member from an enemy ship.
+  (The Song will have no effect on a target carrying less than 2 crew.)
+
+o The Song weapon is able to pull crew from an Utwig Jugger or Yehat Terminator
+  through their shields.  An Utwig or Yehat can also retrieve hypnotized crew
+  with their shields on.
+
+o Regardless of relative ship positions, crew will often leave an enemy ship
+  from whichever side is facing the bottom of the screen (south) at the time.
+
+o An enemy Mycon Podship or Pkunk Fury can potentially provide the largest
+  number of crew members to an attacking Syreen.  (The Mycon can generate new
+  crew members indefinitely, and a Pkunk brings 7 susceptible crew members into
+  the combat zone each time it reincarnates.)
+
+o Syreen captain names: Aelita, Alia, Alura, Ardala, Be'lit, Brawne, Dale,
+  Danning, Dejah, Maya, Munro, Penny, Ripley, Sparta, Teela, Yarr.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="29"></a>
+<b>29. HYPNOTIZED CREW
+===================</b>
+o In this document, the term "hypnotized crew" refers to crew members which
+  have been called into space by the Song weapon of the Syreen Penetrator.
+
+o Hypnotized crew will last about 12 seconds in space before expiring.
+
+o Hypnotized crew members can be destroyed by all projectiles except the Chmmr
+  tractor field, the Melnorme EM "confusion" pulse, the Slylandro energizer,
+  the Syreen Song, and VUX limpet parasites.  They can also be destroyed by
+  direct contact with any object (with the possible exception of a ship's
+  hull), or by running out of time.
+
+o Hypnotized crew will be drawn towards the Syreen ship which called them into
+  space.  If that Syreen is destroyed, the crew will move towards the other
+  ship.
+
+o Note that hypnotized crew and VUX limpet parasites will both appear as
+  flashing green dots on the screen.  Although they may look similar, parasites
+  flash less frequently and will generally move faster than hypnotized crew
+  members.  When the combat screen is zoomed all the way in, parasites will
+  appear larger than hypnotized crew members.
+
+o Hypnotized crew are not slowed by VUX limpet parasites.  (On contact, a
+  parasite is destroyed.)
+
+o Hypnotized crew can be affected by gravity.
+
+o Hypnotized crew may be retrieved by all ship types except the Slylandro
+  Probe.  Crew may retrieved at any time, and can enter a ship through any part
+  of its hull.  Hypnotized crew are not cleared from the combat area until they
+  are retrieved or until they expire.  Note that any ship which is already
+  crewed to its maximum capacity cannot retrieve more crew from space.  In this
+  instance the sound effect for successful crew retrieval is played, but in
+  reality they are destroyed.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="30"></a>
+<b>30. THRADDASH TORCH
+===================</b>
+o Combat value is 10.  Starts with 8 crew, 24 energy points.
+
+o Forward weapon detail: Activated with the B button.  Costs 2 energy points to
+  fire.  Can fire 24 times in a row at the highest repeat rate if energy is at
+  maximum.  A hit does 1 point of damage.
+
+o The Thraddash forward shot is a non-homing "missile" projectile.
+
+o Afterburner detail: Activated with the C button.  Costs 1 energy point to
+  activate.  Can activate 24 times in a row at the highest repeat rate if
+  energy is at maximum.  A plasma burst produced by the afterburners does 2
+  points of damage.
+
+o The Thraddash plasma burst is considered a "field" projectile, here.
+
+o The afterburners deposit bursts of plasma directly beneath the Thraddash,
+  propelling it forward.
+
+o The Thraddash will not be affected by its own afterburner plasma bursts.
+
+o Forward shots and plasma bursts from the same Thraddash will not affect each
+  other.
+
+o A plasma burst produced by the afterburners will last about 2.2 seconds in
+  space.
+
+o Thraddash captain names: Bardat, Bronk, Dgako, Drulg, Dthunk, Fkank, Grulk,
+  Hornk, Knarg, Kwamp, Mnump, Pdump, Smup, Whumps, Znonk, Znork.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="31"></a>
+<b>31. UMGAH DRONE
+===============</b>
+o Combat value is 7.  Starts with 10 crew, 30 energy points.
+
+o Antimatter cone projector detail: Activated with the B button.  Costs no
+  energy points (per se) to fire.  Can maintain continuous firing regardless of
+  energy status.  Minimal, flash-use of the antimatter cone does 1 point of
+  damage.
+
+o The Umgah antimatter cone is considered a "field" projectile, here.
+
+o The antimatter cone can destroy all beam projectiles, and most missile
+  projectiles.
+
+o Reverse jump detail: Activated with the C button.  Costs 1 energy point per
+  jump.  Can jump 30 times in a row at the highest repeat rate if energy is at
+  maximum.
+
+o The Umgah loses all momentum during reverse jump, and will come to a full
+  stop when it's disengaged.
+
+o In reverse jump mode, the Umgah exceeds the standard top speed of all other
+  ships.  (Note, however, that the Umgah's maximum forward thrust speed is the
+  slowest of all ships.)
+
+o The reverse jump is not affected by VUX limpet parasites.
+
+o The recharging process for the Umgah differs from that of all other ships.
+  30 energy points are instantly generated once every 6 seconds.  If the Umgah
+  fires or reverse-jumps at any time, or is touched by a DOGI, the 6-second
+  timer is reset, and will start again only when the Umgah is not firing,
+  jumping, or in contact with a DOGI.
+
+o If an Umgah is facing directly north, and is simultaneously attempting to use
+  both its forward thrust and reverse jump, its forward thrust will become
+  disabled.  This effect will persist unless/until the Umgah rotates to face a
+  different direction, engages reverse jump without thrusting, or is moved by
+  an external force.
+
+o Umgah captain names: Baguk'i, Bob, Brewz'k, Chez'ef, Chup'he, Ei'Ei'o,
+  Gibj'o, Gwap'he, I'buba, Julg'ka, Kterbi'a, Kwik'ow, O'bargy, O'guk'e,
+  Pruk'u, Znork'i.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="32"></a>
+<b>32. UR-QUAN DREADNOUGHT
+=======================</b>
+o Combat value is 30.  Starts with 42 crew, 42 energy points.
+
+o Fusion blast weapon detail: Activated with the B button.  Costs 6 energy
+  points to fire.  Can fire 8 times in a row at the highest repeat rate if
+  energy is at maximum.  A hit does 6 points of damage.
+
+o The Ur-Quan fusion blast is a non-homing "missile" projectile.
+
+o A Dreadnought's fusion blast will not affect its own fighters.
+
+o Fighter launch detail: Activated with the C button.  Costs 8 energy points to
+  issue a launch command.  Can launch 6 times in a row at the highest repeat
+  rate if energy is at maximum.
+
+o Fighters are launched from the rear of the pods on either side of the
+  Dreadnought.  Each fighter briefly moves away from the end of its pod at
+  about a 45-degree angle (launching angle between two fighters is about 90
+  degrees), and then attempts to home in on the enemy ship.  When fighters need
+  energy and/or the enemy is cloaked or destroyed, they can return to the
+  Dreadnought through any part of its hull.
+
+o Usually, 2 fighters are launched at a time.  If only 2 crew remain, then 1
+  fighter is launched (last crew member cannot be launched).  When 1 fighter is
+  launched, it will always exit from the starboard pod on the Dreadnought.
+
+o Ur-Quan captain names: Lord 3, Lord 18, Lord 21, Lord 43, Lord 52, Lord 88,
+  Lord 89, Lord 103, Lord 156, Lord 237, Lord 342, Lord 412, Lord 476, Lord
+  666, Lord 783, Lord 999.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="33"></a>
+<b>33. UR-QUAN FIGHTER
+===================</b>
+o Fighters are launched from the rear of the pods on either side of the
+  Dreadnought.  Each fighter briefly moves away from the end of its pod at
+  about a 45-degree angle (launching angle between two fighters is about 90
+  degrees), and then attempts to home in on the enemy ship.  When fighters need
+  energy and/or the enemy is cloaked or destroyed, they can return to the
+  Dreadnought through any part of its hull.
+
+o Fighters utilize a momentumless drive system.
+
+o Fighters attempt to head directly towards an uncloaked enemy ship via the
+  shortest route, and will not attempt to avoid asteroids, DOGIs, Zapsats,
+  marines, hypnotized crew, other fighters or projectiles.  If the planet lies
+  immediately in the path of a fighter, the fighter will attempt a series of
+  course corrections to navigate around it.  However, fighters may occasionally
+  become "stuck" near the surface of the planet while attempting to find a path
+  around it.
+
+o A fighter will attempt to move to a flank of the enemy ship when possible.
+  Note that a fighter launched from the pod on one side of an Ur-Quan
+  Dreadnought will attempt to move to the same side of the enemy ship.
+
+o Fighters will fire only at the enemy ship, and ignore everything else.
+
+o The fighter's laser beam is a homing projectile.
+
+o A fighter can fire more than 40 times if proximity, time and survivability
+  permit.
+
+o A hit from a fighter's laser does 1 point of damage.
+
+o A fighter can be destroyed by all enemy projectiles except the Chmmr tractor
+  field, the Melnorme EM "confusion" pulse, the Slylandro energizer, the Syreen
+  Song and VUX limpet parasites.  They can also be destroyed by direct contact
+  with any object (other than the launching Dreadnought), or by running out of
+  energy.  A Dreadnought's fusion blast will not affect its own fighters.
+
+o Fighters are not slowed by VUX limpet parasites.  (On contact, a parasite is
+  destroyed.)
+
+o At launch, a fighter has about 15.5 seconds of energy.  For about 11 seconds
+  of this time it will pursue/attack any uncloaked enemy ship.  When a
+  fighter's energy level drops to about 4.5 seconds (and/or the enemy ship has
+  cloaked or has been destroyed), it will attempt to return to the host
+  Dreadnought via the shortest route.  Again, it will not attempt to navigate
+  around most intervening objects, including the enemy ship (although it may
+  still fire on an enemy ship if it is encountered along the return path to the
+  Dreadnought).  If the host Dreadnought is far away, or it is moving away from
+  its fighters, the fighters may not be able to return before expiring.
+
+o Fighters are not affected by gravity.
+
+o The version of the Ur-Quan fighter that appears in this game varies slightly
+  from the version that appeared in earlier Star Control games.  (Previously, a
+  fighter would never attempt to navigate around the planet.)
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="34"></a>
+<b>34. UTWIG JUGGER
+================</b>
+o Combat value is 22.  Starts with 20 crew, 10 energy points (total capacity of
+  20 energy points).
+
+o Energy spear weapon detail: Activated with the B button.  Costs 0 energy
+  points to fire.  Can maintain a constant rate of fire regardless of energy
+  status.  The 6 spears released do 1 point of damage apiece.
+
+o The Utwig energy spear is a non-homing "missile" projectile.
+
+o Spears launch directly forward from 6 spines arranged along the front edge of
+  the ship (2 spines on the port wing, 2 on the nose, 2 on the starboard wing).
+
+o Shield/energy accumulator detail: Activated with the C button.  Costs 1
+  energy point to use.  Can use 10 times in a row at the highest repeat rate if
+  energy is at maximum (barring simultaneous recharging).
+
+o An Utwig cannot fire while its shield is activated.
+
+o The shield will not damage an enemy ship in contact with it.
+
+o While shielded, the Utwig is still vulnerable to damage from collision with
+  the planet, energy loss to DOGIs, and the effects of the Melnorme EM
+  "confusion" pulse, Orz marine lasers fired inside the Utwig, the Shofixti
+  Glory Device, the Syreen Song, and VUX limpet parasites.  While shielded, the
+  Utwig also remains vulnerable to changes in inertia caused by contact with
+  asteroids, the planet, other ships, Chenjesu DOGIs, the Chmmr tractor field,
+  Druuge cannon shells and Orz marines.  Otherwise, no object or projectile at
+  any strength can affect the Utwig through its shield.
+
+o If the Utwig has lost its last energy point, its shield will be permanently
+  disabled.
+
+o When the shield is on, the Utwig will accumulate energy if it is struck by
+  most enemy projectiles (the exceptions are the Chmmr tractor field, the
+  Melnorme EM "confusion" pulse, Orz marine lasers fired inside the Utwig, the
+  Shofixti Glory Device, the Slylandro energizer, the Syreen Song, and VUX
+  limpet parasites).  The energy accumulated will equal the Damage Potential of
+  the projectile.
+
+o If a marine attempts to enter a shielded Utwig, the marine and the ship will
+  likely be deflected from one another, and neither will be damaged.
+
+o The Utwig can retrieve hypnotized crew with its shield on.
+
+o Utwig captain names: Duna, Endo, Erog, Frann, Jujuby, Krisk, Lololo, Lurg,
+  Manny, Nergo, Nestor, Sami, Snoon, Thory, Uuter, Vermi.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="35"></a>
+<b>35. VUX INTRUDER
+================</b>
+o Combat value is 12.  Starts with 20 crew, 40 energy points.
+
+o Optical laser detail: Activated with the B button.  Costs 1 energy point to
+  fire.  Can fire 40 times in a row at the highest repeat rate (continuous
+  fire) if energy is at maximum.  Minimal, flash-use of the laser does 1 point
+  of damage.
+
+o The VUX laser beam is a non-homing projectile.
+
+o Limpet parasite launcher detail: Activated with the C button.  Costs 2 energy
+  points to launch.  Can launch 20 limpets in a row at the highest repeat rate
+  if energy is at maximum.
+
+o The VUX limpet parasite is a homing "missile" projectile.
+
+o Parasites are launched directly forward from just behind the nose of the VUX,
+  and home in on any uncloaked enemy ship.
+
+o Note that VUX limpet parasites and hypnotized crew will both appear as
+  flashing green dots on the screen.  Although they may look similar, parasites
+  flash less frequently and will generally move faster than hypnotized crew
+  members.  When the combat screen is zoomed all the way in, parasites will
+  appear larger than hypnotized crew members.
+
+o Parasites only affect enemy ships; they have no effect on the launching VUX,
+  asteroids, the planet, DOGIs, Zapsats, marines, hypnotized crew, fighters or
+  projectiles.
+
+o If a ship acquires an enemy VUX limpet parasite, a parasite appears on the
+  ship image in that ship's status display.
+
+o Parasites will affect only the forward thrust and turn rate of an enemy ship.
+  They do not affect the Androsynth's Blazer form, the Umgah's reverse jump, or
+  the Ariloulaleelay's hyperjump.  (Note that parasites picked up by an
+  Androsynth in Blazer form will remain to affect its initial form.)
+
+o Under normal circumstances, the Ariloulaleelay Skiff and Slylandro Probe can
+  not be affected by gravity or the Chmmr tractor field.  However, if either of
+  these ships has acquired parasites, they can be affected.  The more parasites
+  acquired by these ships, the greater their potential susceptibility to those
+  forces.
+
+o Parasites will have an equal effect regardless of their placement on a ship's
+  hull.
+
+o Although parasites will slow a ship, they cannot reduce a ship's thrust or
+  turn rate to absolute zero.
+
+o The shields of the Utwig Jugger and Yehat Terminator cannot protect those
+  ships from contact with limpet parasites.
+
+o Parasites can be affected by gravity.
+
+o Parasites will remain attached to an enemy ship permanently.
+
+o Laser beams and parasites from the same VUX will not affect each other.
+
+o When most ships first enter the combat zone, they materialize in a location
+  chosen at random from a limited number of possibilities.  The one exception
+  is the VUX Intruder, which, when entering an occupied combat zone, attempts
+  to materialize close to the enemy ship's location.  (Note, however, that this
+  materialization point is chosen just before the VUX enters the combat zone,
+  and while the VUX is decelerating from hyperspace, the enemy ship may have a
+  brief moment to move away.)
+
+o If an enemy ship is not moving when a VUX enters and materializes in the
+  combat zone, the VUX will usually be facing within 23 degrees of the enemy
+  ship's location.  An exception is when two opposing VUX ships simultaneously
+  enter the combat zone, in which case the VUX chosen from the bottom team will
+  be facing in a random direction.
+
+o VUX captain names: DAK, FIZ, FUP, NRF, ORZ, PIF, PUZ, VIP, YUK, ZEK, ZIK,
+  ZIT, ZOG, ZRN, ZUK, ZUP.
+
+o The version of the VUX Intruder that appears in this game varies slightly
+  from the version that appeared in earlier Star Control games.  (The limpet
+  parasite weapon now launches forward instead of aft.)
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="36"></a>
+<b>36. YEHAT TERMINATOR
+====================</b>
+o Combat value is 23.  Starts with 20 crew, 10 energy points.
+
+o Ion cannon detail: Activated with the B button.  Costs 1 energy point to
+  fire.  Can fire 10 pairs of pulse missiles in a row at the highest repeat
+  rate if energy is at maximum.  The two missiles do 1 point of damage apiece.
+
+o The Yehat pulse missile is a non-homing projectile.
+
+o Missiles are fired directly forward from a point on the front of each of the
+  two wing tips.
+
+o Shield detail: Activated with the C button.  Costs 3 energy points to use.
+  Can use 3 times in a row at the highest repeat rate if energy is at maximum.
+
+o The Yehat may fire while shielded.
+
+o The shield will not damage an enemy ship in contact with it.
+
+o While shielded, the Yehat is still vulnerable to damage from collision with
+  the planet, energy loss to DOGIs, and the effects of the Melnorme EM
+  "confusion" pulse, Orz marine lasers fired inside the Yehat, the Shofixti
+  Glory Device, the Syreen Song, and VUX limpet parasites.  While shielded, the
+  Yehat also remains vulnerable to changes in inertia caused by contact with
+  asteroids, the planet, other ships, Chenjesu DOGIs, the Chmmr tractor field,
+  Druuge cannon shells and Orz marines.  Otherwise, no object or projectile at
+  any strength can affect the Yehat through its shield.
+
+o If a marine attempts to enter a shielded Yehat, the marine and the ship will
+  likely be deflected from one another, and neither will be damaged.
+
+o The Yehat can retrieve hypnotized crew with its shield on.
+
+o Yehat captain names: Beep-eep, Eeep-eep, Feep-eep, Geep-eep, Heep-eep,
+  Jeep-eep, Leep-eep, Meep-eep, Neep-eep, Peep-eep, Reep-eep, Teep-eep,
+  Veep-eep, Weep-eep, Yeep-eep, Zeep-eep.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="37"></a>
+<b>37. ZOQ-FOT-PIK STINGER
+=======================</b>
+o Combat value is 6.  Starts with 10 crew, 10 energy points.
+
+o Spray weapon detail: Activated with the B button.  Costs 1 energy point to
+  fire.  Can fire 10 times in a row at the highest repeat rate if energy is at
+  maximum.  A hit does 1 point of damage.
+
+o The Zoq-Fot-Pik forward shot is a non-homing "missile" projectile.
+
+o Shots are fired directly forward from the nose of the ship, but tend to veer
+  slightly to port or starboard as they move away.
+
+o Injector/proboscis detail: Activated with the C button.  Costs 7 energy
+  points to use.  Can use only 1 time without recharging.  A hit does 12 points
+  of damage.
+
+o The Zoq-Fot-Pik proboscis is considered a non-homing "beam" projectile, here.
+
+o Forward shots and the proboscis from the same Zoq-Fot-Pik will not affect
+  each other.
+
+o Zoq-Fot-Pik captain names: DipPak, FatPot, FipPat, FitFap, MikMok, NikNak,
+  PorKoo, PukYor, RinTin, SikSok, TikTak, TikTok, TopNik, TotToe, ZikFat,
+  ZipZak.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="38"></a>
+<b>38. SHIP ATTRIBUTES: COMPARATIVE
+================================</b>
+o Unless otherwise specified, ship attributes described in this document (crew
+  and energy point levels, thrust speeds, turn rates, firing rates, etc.)
+  assume no influence by collisions, gravity or weapon effects.
+
+o Ship attribute quick-reference table:
+
+                                |    |    | S  | T  | R  |   |   |    |    |
+                                |    |    | T  | R  | E  |   |   |    |    | M
+                                |    | S  | A  | A  | C  | T |   |    |    | A
+                                | C  | T  | R  | N  | H  | H |   | S  | R  | X
+                                | O  | A  | T  | S  | A  | R | T | P  | A  | I
+                                | M  | R  | I  | F  | R  | U | U | E  | N  | M
+                                | B  | T  | N  | E  | G  | S | R | E  | G  | U
+                                | A  | I  | G  | R  | E  | T | N | D  | E  | M
+                                | T  | N  |    |    |    |   |   |    |    |
+                                |    | G  | E  | R  | R  | R | R | R  | R  | D
+                                | V  |    | N  | A  | A  | A | A | A  | A  | A
+                                | A  | C  | E  | T  | T  | T | T | T  | T  | M
+                                | L  | R  | R  | I  | I  | I | I | I  | I  | A
+                                | U  | E  | G  | N  | N  | N | N | N  | N  | G
+  SHIP/UNIT, SHIP FORM/MODE     | E  | W  | Y  | G  | G  | G | G | G  | G  | E
+  ------------------------------|----|----|----|----|----|---|---|----|----|---
+  Androsynth Guardian, starting.|.15.|.20.|.24.|.13.|.15.|.6.|.6.|.18.|..3.|..2
+  Androsynth Guardian, Blazer...|.15.|.20.|.24.|....|....|.1.|.3.|..6.|.40.|..3
+  Ariloulaleelay Skiff..........|.16.|..6.|.20.|.14.|.11.|.1.|.2.|..9.|.27.|..1
+  Chenjesu Broodhome............|.28.|.36.|.30.|..5.|.12.|.8.|.7.|.16.|..1.|..6
+  Chenjesu DOGI.................|....|..0.|..0.|....|....|.1.|...|.13.|.40.|...
+  Chmmr Avatar..................|.30.|.42.|.42.|..6.|..7.|.4.|.5.|.11.|..1.|..2
+  Chmmr Zapsat..................|....|..0.|..0.|....|....|.1.|...|..3.|.31.|..1
+  Druuge Mauler.................|.17.|.14.|.32.|..3.|.17.|.3.|.6.|..2.|..5.|..6
+  Earthling Cruiser.............|.11.|.18.|.18.|.23.|.12.|.7.|.3.|.18.|..2.|..4
+  Ilwrath Avenger...............|.10.|.22.|.16.|.12.|..1.|.4.|.4.|.17.|.30.|..1
+  Kohr-Ah Marauder..............|.30.|.42.|.42.|..5.|.14.|.4.|.6.|.14.|..1.|..4
+  Melnorme Trader...............|.18.|.20.|.42.|..5.|.14.|.5.|.6.|.10.|..4.|.16
+  Mmrnmhrm Transformer, First...|.19.|.20.|.10.|.14.|..2.|.3.|.4.|.20.|.26.|..1
+  Mmrnmhrm Transformer, Second..|.19.|.20.|.10.|.14.|..5.|.4.|.8.|..7.|..3.|..1
+  Mycon Podship.................|.21.|.20.|.40.|.28.|.13.|.2.|.7.|.16.|..2.|.10
+  Orz Nemesis...................|.23.|.16.|.20.|..5.|.11.|.6.|.3.|.11.|.13.|..3
+  Orz marine....................|....|..1.|..0.|....|....|.3.|...|.12.|.40.|..1
+  Pkunk Fury....................|.20.|..8.|.12.|..4.|..8.|.3.|.2.|..5.|.27.|..1
+  Shofixti Scout................|..5.|..6.|..4.|..5.|..3.|.6.|.3.|.11.|.19.|.18
+  Slylandro Probe...............|.17.|.12.|.20.|..1.|....|.1.|.2.|..6.|.22.|..1
+  Spathi Eluder.................|.18.|.30.|.10.|.22.|..9.|.3.|.3.|..8.|.14.|..2
+  Supox Blade...................|.16.|.12.|.16.|..5.|..6.|.4.|.3.|..9.|.15.|..1
+  Syreen Penetrator.............|.13.|.12.|.16.|.12.|.10.|.3.|.3.|.10.|.14.|..8
+  Thraddash Torch...............|.10.|..8.|.24.|..9.|.12.|.3.|.3.|..4.|.11.|..2
+  Umgah Drone...................|..7.|.10.|.30.|..5.|....|.1.|.6.|..1.|.33.|..1
+  Ur-Quan Dreadnought...........|.30.|.42.|.42.|.17.|.14.|.4.|.6.|.14.|.12.|..6
+  Ur-Quan fighter...............|....|..1.|....|....|....|.1.|.1.|.12.|.34.|..1
+  Utwig Jugger..................|.22.|.20.|.10.|..2.|....|.5.|.3.|.10.|.16.|..1
+  VUX Intruder..................|.12.|.20.|.40.|..7.|.16.|.2.|.7.|.19.|..6.|..1
+  Yehat Terminator..............|.23.|.20.|.10.|.14.|..2.|.4.|.4.|.14.|.21.|..1
+  Zoq-Fot-Pik Stinger...........|..6.|.10.|.10.|.14.|..4.|.3.|.3.|..9.|.20.|.12
+  ------------------------------|----|----|----|----|----|---|---|----|----|---
+                                |    |    |    |    |    |   |   |    |    |
+  DATA RANGE DETAIL             |    |    |    |    |    |   |   |    |    |
+  ------------------------------|----|----|----|----|----|---|---|----|----|---
+  Lowest real-number value......|..5.|..0.|..0.|....|....|...|...|....|....|..1
+  Highest real-number value.....|.30.|.42.|.42.|....|....|...|...|....|....|.18
+  ------------------------------|----|----|----|----|----|---|---|----|----|---
+  Lowest rank on rating scale...|....|....|....|.30.|.17.|.9.|.8.|.21.|.40.|...
+  -----------------------------------------------------------------------------
+  <b>Notes</b>: The numbers in each category reflect only the initial, unmodified
+  attributes for each ship (or unit).  A "rating" indicates a ship's relative
+  rank when compared with all other ships.  Where a ship can have more than one
+  rating in a category, the highest rating (nearest or equal to 1) is chosen.
+  <b>"Transfer rating"</b> is a measure of energy efficiency; "Recharge rating"
+  reflects the recharge time from a zero-energy level to maximum energy; "Range
+  rating" is for projectile range; "Maximum damage" is the maximum damage
+  inflicted by 1 of the ship's most powerful projectiles at point-blank range.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="a1"></a>
+o Combat value points, most to least:
+
+   1. Chmmr Avatar (30)
+      /Kohr-Ah Marauder (30)
+      /Ur-Quan Dreadnought (30)
+   2. Chenjesu Broodhome (28)
+   3. Orz Nemesis (23)
+      /Yehat Terminator (23)
+   4. Utwig Jugger (22)
+   5. Mycon Podship (21)
+   6. Pkunk Fury (20)
+   7. Mmrnmhrm Transformer (19)
+   8. Melnorme Trader (18)
+      /Spathi Eluder (18)
+   9. Druuge Mauler (17)
+      /Slylandro Probe (17)
+  10. Ariloulaleelay Skiff (16)
+      /Supox Blade (16)
+  11. Androsynth Guardian (15)
+  12. Syreen Penetrator (13)
+  13. VUX Intruder (12)
+  14. Earthling Cruiser (11)
+  15. Ilwrath Avenger (10)
+      /Thraddash Torch (10)
+  16. Umgah Drone (7)
+  17. Zoq-Fot-Pik Stinger (6)
+  18. Shofixti Scout (5)
+  -----------------------------------------------------------------------------
+  <b>Notes</b>: The Pkunk Fury's value here does not necessarily reflect its ability
+  (or inability) to resurrect after being destroyed.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="a2"></a>
+o Crew complements, largest to smallest:
+
+   1. Chmmr Avatar (42)
+      /Kohr-Ah Marauder (42)
+      /Ur-Quan Dreadnought (42)
+   2. Chenjesu Broodhome (36)
+   3. Spathi Eluder (30)
+   4. Ilwrath Avenger (22)
+   5. Androsynth Guardian (20)
+      /Melnorme Trader (20)
+      /Mmrnmhrm Transformer (20)
+      /Mycon Podship (20)
+      /Utwig Jugger (20)
+      /VUX Intruder (20)
+      /Yehat Terminator (20)
+   6. Earthling Cruiser (18)
+   7. Orz Nemesis (16)
+   8. Druuge Mauler (14)
+   9. Slylandro Probe (12)
+      /Supox Blade (12)
+      /Syreen Penetrator (12)
+  10. Umgah Drone (10)
+      /Zoq-Fot-Pik Stinger (10)
+  11. Pkunk Fury (8)
+      /Thraddash Torch (8)
+  12. Ariloulaleelay Skiff (6)
+      /Shofixti Scout (6)
+  13. Orz Marine (1)
+      /Ur-Quan Fighter (1)
+  14. Chenjesu DOGI (0)
+      /Chmmr Zapsat (0)
+  -----------------------------------------------------------------------------
+  <b>Notes</b>: While the Syreen Penetrator has a total crew capacity of 42, its crew
+  complement always starts at 12.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="a3"></a>
+o Initial energy points, most to least:
+
+   1. Chmmr Avatar (42)
+      /Kohr-Ah Marauder (42)
+      /Melnorme Trader (42)
+      /Ur-Quan Dreadnought (42)
+   2. Mycon Podship (40)
+      /VUX Intruder (40)
+   3. Druuge Mauler (32)
+   4. Chenjesu Broodhome (30)
+      /Umgah Drone (30)
+   5. Androsynth Guardian (24)
+      /Thraddash Torch (24)
+   6. Ariloulaleelay Skiff (20)
+      /Orz Nemesis (20)
+      /Slylandro Probe (20)
+   7. Earthling Cruiser (18)
+   8. Ilwrath Avenger (16)
+      /Supox Blade (16)
+      /Syreen Penetrator (16)
+   9. Pkunk Fury (12)
+  10. Mmrnmhrm Transformer (10)
+      /Spathi Eluder (10)
+      /Utwig Jugger (10)
+      /Yehat Terminator (10)
+      /Zoq-Fot-Pik Stinger (10)
+  11. Shofixti Scout (4)
+  12. Chenjesu DOGI (0)
+      /Chmmr Zapsat (0)
+      /Orz Marine (0)
+  -----------------------------------------------------------------------------
+  <b>Notes</b>: The Ur-Quan fighter is not included in this list, as a fighter's
+  energy level is measured in time instead of energy points.
+  <b>While</b> the Utwig Jugger has a total energy capacity of 20 points, its energy
+  level always starts at 10 points.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="a4"></a>
+o Energy transfer potentials, highest gain to highest loss:
+
+   1. Slylandro asteroid converter field (+100.00%)
+   2. Utwig shield, accumulating (+75.00%)
+   3. Druuge crew-to-energy conversion (+50.00%)
+   4. Pkunk energy regeneration (+16.67%)
+   5. Chenjesu crystal Shard fragmentation (0.00%)
+      /Kohr-Ah mine placement (0.00%)
+      /Melnorme plasmoid launch (0.00%)
+      /Orz howitzer turret rotation (0.00%)
+      /Orz marine launch (0.00%)
+      /Shofixti Glory Device (0.00%)
+      /Slylandro direction reversal (0.00%)
+      /Supox extended maneuvering (0.00%)
+      /Umgah antimatter cone (0.00%)
+      /Utwig energy spears (0.00%)
+   6. Chmmr tractor field (-2.38%)
+   7. VUX optical laser (-2.50%)
+   8. Umgah reverse jump (-3.33%)
+   9. Thraddash exhaust pulse (-4.17%)
+  10. Chmmr main laser (-4.76%)
+  11. Slylandro lightning bolt (-5.00%)
+      /Utwig shield, no energy accumulation (-5.00%)
+      /VUX limpet parasite launch (-5.00%)
+  12. Ilwrath HellFire Blast (-6.25%)
+      /Ilwrath cloak off, B button (-6.25%)
+      /Supox caustic globule (-6.25%)
+      /Syreen electron dagger (-6.25%)
+  13. Androsynth Blazer mode activation (-8.33%)
+      /Pkunk multigun (-8.33%)
+      /Thraddash forward shot (-8.33%)
+  14. Ariloulaleelay laser (-10.00%)
+      /Mmrnmhrm lasers (-10.00%)
+      /Mmrnmhrm homing missiles (-10.00%)
+      /Yehat pulse missiles (-10.00%)
+      /Zoq-Fot-Pik spray (-10.00%)
+  15. Melnorme plasmoid formation (-11.90%)
+  16. Androsynth acid bubble (-12.50%)
+      /Druuge cannon (-12.50%)
+  17. Kohr-Ah mine launch (-14.29%)
+      /Ur-Quan fusion blast (-14.29%)
+  18. Ariloulaleelay hyperjump (-15.00%)
+  19. Chenjesu crystal Shard launch (-16.67%)
+  20. Ilwrath cloak on (-18.75%)
+      /Ilwrath cloak off, C button (-18.75%)
+  21. Ur-Quan fighter launch (-19.05%)
+  22. Spathi forward shot (-20.00%)
+  23. Earthling point-defense laser (-22.22%)
+  24. Shofixti energy dart (-25.00%)
+  25. Orz howitzer firing (-30.00%)
+      /Spathi BUTT (-30.00%)
+      /Yehat shield (-30.00%)
+  26. Syreen Song (-31.25%)
+  27. Melnorme EM "confusion" pulse (-47.62%)
+  28. Earthling MX missile (-50.00%)
+      /Kohr-Ah plasmoid ring (-50.00%)
+      /Mycon plasmoid launch (-50.00%)
+  29. Zoq-Fot-Pik injector probe (-70.00%)
+  30. Chenjesu DOGI release (-100.00%)
+      /Mmrnmhrm transformation (-100.00%)
+      /Mycon crew regeneration (-100.00%)
+  -----------------------------------------------------------------------------
+  <b>Notes</b>: A number in parentheses indicates a percentage of that ship's maximum
+  energy potential.  A plus indicates the highest possible net gain for minimal
+  use of a system; A minus indicates the absolute loss for minimal use of a
+  system.  (Note that ship recharging rates are not factored in, here.)
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="a5"></a>
+o Total-recharge rate comparisons, fastest to slowest:
+
+   1. Ilwrath Avenger
+   2. Mmrnmhrm Transformer, First form
+      /Yehat Terminator
+   3. Shofixti Scout
+   4. Zoq-Fot-Pik Stinger
+   5. Mmrnmhrm Transformer, Second form
+   6. Supox Blade
+   7. Chmmr Avatar
+   8. Pkunk Fury
+   9. Spathi Eluder
+  10. Syreen Penetrator
+  11. Ariloulaleelay Skiff
+      /Orz Nemesis
+  12. Chenjesu Broodhome
+      /Earthling Cruiser
+      /Thraddash Torch
+  13. Mycon Podship
+  14. Kohr-Ah Marauder
+      /Melnorme Trader
+      /Ur-Quan Dreadnought
+  15. Androsynth Guardian
+  16. VUX Intruder
+  17. Druuge Mauler
+  -----------------------------------------------------------------------------
+  <b>Notes</b>: This list is based not on how fast a ship generates energy, but on how
+  quickly a ship will reach its maximum standard energy capacity from a
+  zero-energy level.
+  <b>The</b> Chenjesu DOGI, Chmmr Zapsat, Orz marine, Slylandro Probe, Umgah Drone,
+  Ur-Quan fighter and Utwig Jugger are not included in this list.  The Chenjesu
+  DOGI, Chmmr Zapsat and Orz marine do not use energy; The Slylandro Probe and
+  Umgah Drone recharge at varying rates depending on how they are manipulated
+  by the player (see <a href="#25">section 25: Slylandro Probe</a>, and <a href="#31">section 31: Umgah Drone</a>).
+  <b>An</b> Ur-Quan fighter will recharge instantly once it returns to the launching
+  Dreadnought; however, it cannot re-energize until it returns, and the
+  return-trip time is not a constant.  The Utwig Jugger will recharge at a
+  varying rate depending both on how it is manipulated by the player, and on
+  the amount and type of enemy fire encountered (see <a href="#34">section 34: Utwig Jugger</a>).
+  <b>The</b> Pkunk Fury's total-recharge rate here assumes a state of continual
+  recharge (C button held down).
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="a6"></a>
+o Relative thrust/acceleration, highest to lowest:
+
+  1. Androsynth Guardian, Blazer form (100.00%)
+     /Ariloulaleelay Skiff, forward thrust (100.00%)
+     /Chenjesu DOGI (100.00%)
+     /Chmmr Zapsat (100.00%)
+     /Slylandro Probe (100.00%)
+     /Umgah Drone, reverse jump (100.00%)
+     /Ur-Quan fighter (100.00%)
+  2. Mycon Podship (33.33%)
+     /VUX Intruder (33.33%)
+  3. Druuge Mauler, reverse thrust (25.00%)
+     /Mmrnmhrm Transformer, First form (25.00%)
+     /Orz marine (25.00%)
+     /Pkunk Fury (25.00%)
+     /Spathi Eluder (25.00%)
+     /Syreen Penetrator (25.00%)
+     /Thraddash Torch, standard forward thrust (25.00%)
+     /Umgah Drone, forward thrust (25.00%)
+     /Zoq-Fot-Pik Stinger (25.00%)
+  4. Chmmr Avatar (20.00%)
+     /Ilwrath Avenger (20.00%)
+     /Kohr-Ah Marauder (20.00%)
+     /Mmrnmhrm Transformer, Second form (20.00%)
+     /Supox Blade, all thrust directions (20.00%)
+     /Ur-Quan Dreadnought (20.00%)
+     /Yehat Terminator (20.00%)
+  5. Melnorme Trader (16.67%)
+     /Thraddash Torch, afterburner thrust (16.67%)
+     /Utwig Jugger (16.67%)
+  6. Androsynth Guardian, standard forward thrust (14.29%)
+     /Orz Nemesis (14.29%)
+     /Shofixti Scout (14.29%)
+  7. Earthling Cruiser (12.50%)
+  8. Chenjesu Broodhome (11.11%)
+  9. Druuge Mauler, forward thrust (10.00%)
+  -----------------------------------------------------------------------------
+  <b>Notes</b>: A number in parentheses indicates the percentage of the ship's maximum
+  speed (forward speed unless otherwise indicated) produced by a minimal
+  application of thrust (standard, A-button thrust unless otherwise indicated).
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="a7"></a>
+o Relative turn rates, fastest to slowest:
+
+  1. Ur-Quan fighter
+  2. Ariloulaleelay Skiff
+     /Pkunk Fury
+     /Slylandro Probe
+  3. Androsynth Guardian, Blazer form
+     /Earthling Cruiser
+     /Orz Nemesis
+     /Shofixti Scout
+     /Spathi Eluder
+     /Supox Blade
+     /Syreen Penetrator
+     /Thraddash Torch
+     /Utwig Jugger
+     /Zoq-Fot-Pik Stinger
+  4. Ilwrath Avenger
+     /Mmrnmhrm Transformer, First form
+     /Yehat Terminator
+  5. Chmmr Avatar
+  6. Androsynth Guardian, forward thrust
+     /Druuge Mauler
+     /Kohr-Ah Marauder
+     /Melnorme Trader
+     /Umgah Drone (forward thrust and reverse jump)
+     /Ur-Quan Dreadnought
+  7. Chenjesu Broodhome
+     /Mycon Podship
+     /VUX Intruder
+  8. Mmrnmhrm Transformer, Second form
+  -----------------------------------------------------------------------------
+  <b>Notes</b>: The Ilwrath Avenger's turn rate here does not reflect its ability to
+  change its orientation when it fires while cloaked.  In that instance, the
+  Ilwrath uncloaks facing a new direction, but does not actually pivot to
+  achieve this.
+  <b>The</b> Chenjesu DOGI and Orz Marine are not included in this list, since they do
+  not rotate to change heading.
+  <b>The</b> Chmmr Zapsat is not included in this list, since a Zapsat's only pivotal
+  motion is on a different axis.
+  <b>The</b> Slylandro Probe's turn rate here does not reflect its ability to reverse
+  its direction with the A button.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="a8"></a>
+o Relative speeds, fastest to slowest:
+
+   1. Umgah Drone, reverse jump
+   2. Druuge Mauler, reverse thrust
+   3. Chmmr Zapsat
+   4. Thraddash Torch, afterburner thrust
+   5. Pkunk Fury
+   6. Androsynth Guardian, Blazer form
+      /Slylandro Probe
+   7. Mmrnmhrm Transformer, Second form
+   8. Spathi Eluder
+   9. Ariloulaleelay Skiff, forward thrust
+      /Supox Blade, all thrust directions
+      /Zoq-Fot-Pik Stinger
+  10. Melnorme Trader
+      /Syreen Penetrator
+      /Utwig Jugger
+  11. Chmmr Avatar
+      /Orz Nemesis
+      /Shofixti Scout
+  12. Orz marine
+      /Ur-Quan fighter
+  13. Chenjesu DOGI
+  14. Kohr-Ah Marauder
+      /Ur-Quan Dreadnought
+      /Yehat Terminator
+  15. Thraddash Torch, standard forward thrust
+  16. Chenjesu Broodhome
+      /Mycon Podship
+  17. Ilwrath Avenger
+  18. Androsynth Guardian, standard forward thrust
+      /Earthling Cruiser
+  19. VUX Intruder
+  20. Mmrnmhrm Transformer, First form
+      /Druuge Mauler, forward thrust
+  21. Umgah Drone, forward thrust
+  -----------------------------------------------------------------------------
+  <b>Notes</b>: Speeds here are maximum speeds attainable, assuming no outside
+  influence by collisions, gravity, enemy weapon effects, or counterthrust.
+  <b>The</b> Ariloulaleelay Skiff in hyperjump mode is not included in this list.  In
+  sustained hyperjump mode, the Arilou could arguably be considered the fastest
+  of all ships.  However, a hyperjump covers a random distance in a random
+  direction, and as such the Arilou's "speed" here is not a constant.
+  <b>The</b> Chenjesu DOGI, Orz marine and Ur-Quan fighter speeds here indicate the
+  speed that each of these units will move along a unidirectional path in
+  pursuit of a target.  Note that each of these units have the same potential
+  top speed, but the DOGI will occasionally slow or halt in place.
+  <b>The</b> Chmmr Zapsat's speed here is the speed it will move along a linear path
+  in pursuit of its host Avatar ship if the two are separated.
+  <b>"Druuge Mauler, reverse thrust"</b> refers to the maximum possible reverse speed
+  attainable by the Druuge through repeated use of its cannon.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="a9"></a>
+o Relative weapon/projectile ranges, longest to shortest:
+
+   1. Chenjesu crystal Shard
+      /Chmmr tractor field
+      /Kohr-Ah mine, launching
+   2. Earthling MX missile
+      /Mycon plasmoid
+   3. Androsynth acid bubble
+      /Mmrnmhrm missile
+   4. Melnorme EM pulse
+   5. Druuge cannon shell
+   6. VUX limpet parasite
+   7. Melnorme plasma 4, away
+   8. Melnorme plasma 3, away
+   9. Melnorme plasma 2, away
+  10. Melnorme plasma 1, away
+  11. Thraddash forward shot
+  12. Ur-Quan fusion blast
+  13. Orz howitzer shell
+  14. Spathi forward shot
+      /Syreen electron dagger
+  15. Supox caustic globule
+  16. Utwig energy spear
+  17. Kohr-Ah mine, placed
+      /Spathi BUTT
+  18. Chenjesu Shard fragment
+  19. Shofixti energy dart
+  20. Zoq-Fot-Pik spray
+  21. Yehat pulse missile
+  22. Slylandro lightning
+      /Syreen Song
+  23. Chmmr main laser
+  24. VUX laser
+  25. Shofixti Divine Wind
+  26. Mmrnmhrm laser
+  27. Ariloulaleelay laser
+      /Pkunk mass pellet
+  28. Kohr-Ah plasmoid
+      /Slylandro energizer
+  29. Earthling laser
+  30. Ilwrath flame burst
+  31. Chmmr Zapsat laser
+  32. Zoq-Fot-Pik injector
+  33. Umgah antimatter cone
+  34. Ur-Quan fighter laser
+  35. Melnorme plasma 4, held
+  36. Melnorme plasma 3, held
+  37. Melnorme plasma 2, held
+  38. Melnorme plasma 1, held
+  39. Thraddash exhaust pulse
+  40. Androsynth Blazer field
+      /Chenjesu DOGI discharger field
+      /Orz marine laser
+  -----------------------------------------------------------------------------
+  <b>Notes</b>: This list is sorted based on the ability of one weapon(s) platform to
+  strike another without being hit by return fire at the same range.  Note
+  however, that many ranges are very closely matched, and as such there may be
+  cases where a lower-rated weapon can equal or outreach a higher-rated one,
+  depending on the relative hull/weapon orientations at the time of engagement.
+  <b>The</b> ranges of the Androsynth Blazer field, Chenjesu DOGI discharger field,
+  and the Orz marine laser are all considered to be 0, here.
+  <b>Chenjesu</b> DOGIs, Orz marines and Ur-Quan fighters themselves are not
+  considered projectiles here, and are classified separately.
+  <b>Slylandro</b> weapon ranges are linear between the origin and contact points.
+  <b>The</b> range of the Thraddash exhaust pulse is based upon the stationary pulse's
+  ability to extend out from under the ship's hull at the moment of generation.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="a10"></a>
+o Projectile damage, most to least:
+
+   1. Shofixti Divine Wind (18)
+   2. Melnorme plasma 4/red (16)
+   3. Zoq-Fot-Pik injector (12)
+   4. Mycon plasmoid (10)
+   5. Melnorme plasma 3/purple (8)
+      /Syreen Song (8)
+   6. Chenjesu crystal Shard (6)
+      /Druuge cannon shell (6)
+      /Ur-Quan fusion blast (6)
+   7. Earthling MX missile (4)
+      /Kohr-Ah mine (4)
+      /Melnorme plasma 2/blue (4)
+   8. Androsynth Blazer field (3)
+      /Kohr-Ah plasmoid (3)
+      /Orz howitzer shell (3)
+   9. Androsynth acid bubble (2)
+      /Chenjesu Shard fragment (2)
+      /Chmmr main laser (2)
+      /Melnorme plasma 1/green (2)
+      /Spathi BUTT (2)
+      /Syreen electron dagger (2)
+      /Thraddash exhaust pulse (2)
+  10. Ariloulaleelay laser (1)
+      /Chmmr Zapsat laser (1)
+      /Earthling laser (1)
+      /Ilwrath flame burst (1)
+      /Mmrnmhrm laser (1)
+      /Mmrnmhrm missile (1)
+      /Orz marine laser (1)
+      /Pkunk mass pellet (1)
+      /Shofixti energy dart (1)
+      /Slylandro lightning (1)
+      /Spathi forward shot (1)
+      /Supox caustic globule (1)
+      /Thraddash forward shot (1)
+      /Umgah antimatter cone (1)
+      /Ur-Quan fighter laser (1)
+      /Utwig energy spear (1)
+      /VUX laser (1)
+      /Yehat pulse missile (1)
+      /Zoq-Fot-Pik spray (1)
+  -----------------------------------------------------------------------------
+  <b>Notes</b>: This list is sorted based on maximum potential damage done by minimal
+  use of a weapon at point-blank range.  Where a single use of a weapon
+  projects more than one beam or missile, it is assumed that only 1 projectile
+  strikes the target.
+  <b>The</b> Chmmr tractor field is not included in this list, as it cannot directly
+  damage a target.
+  <b>The</b> Chenjesu DOGI discharger field, Melnorme EM "confusion" pulse, and VUX
+  limpet parasite are not included in this list, as their effects are not
+  comparable to the damage caused by the other weapon systems.
+  <b>The</b> Slylandro energizer (asteroid converter field) is not included in this
+  list, as this system only affects asteroids.
+  <b>The</b> Syreen Song cannot affect a Slylandro Probe, or any target which is
+  carrying less than 2 crew members.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="39"></a>
+<b>39. PROJECTILES
+===============</b>
+o In this document, the term "projectile" refers to any missile, beam or field
+  launched or projected from any ship or other weapons platform.  (Chenjesu
+  DOGIs, Orz marines, and Ur-Quan fighters themselves are not considered
+  projectiles here, and are classified separately.)
+
+o In this document, the term "damage" generally refers to crew loss on ships,
+  and damage to other units such as DOGIs, Zapsats and marines.  For example,
+  a projectile that "does 2 points of damage" can remove 2 crew members from a
+  ship, remove two-thirds of a DOGI's or marine's defense strength, or remove
+  two-tenths (one-fifth) of a Zapsat's defense strength.  (This projectile
+  could also destroy an asteroid, as all asteroids are destroyed by a single
+  point of damage.)
+
+o Ships can rotate through 16 orientations (360 degrees at 22.5-degree
+  intervals).  Non-homing missiles cannot be launched into the "blind spots"
+  between these 16 firing angles, and non-homing beams cannot be swept through
+  them.
+
+o Most missile projectiles will always move at a fixed speed through
+  gravity-free space; their speed will not be added to or subtracted from that
+  of the launching ship.  As such, there are occasions where a ship may overrun
+  its own projectiles.  Depending on the ship and projectile types involved,
+  this may or may not cause damage to the originating ship.
+
+o With the exception of the Chmmr tractor field and the Druuge cannon shell,
+  the influence or impact of any projectile will not affect a surviving ship's
+  inertia or direction of motion.  With the exception of the Melnorme EM
+  "confusion" pulse, the influence or impact of any projectile will not affect
+  a surviving ship's orientation in space.
+
+o Most projectiles can be damaged or destroyed on contact with another
+  projectile.
+
+o A projectile will cause the same amount of damage regardless of where it
+  impacts upon any ship.
+<a name="wep"></a>
+o Projectile table:
+
+                          |      | Maximum | Maximum | Damage | Affect | Others
+  Projectile              | Type | damage  | usage   | source | others | affect
+  ------------------------|------|---------|---------|--------|--------|-------
+  Androsynth acid bubble..|.HM...|..2......|..8......|.No.....|.Yes....|.Yes...
+  Androsynth Blazer field.|.F....|..3......|..1......|.No.....|.No.....|.No....
+  Ariloulaleelay laser....|.HB...|..1......|.10......|.N/A....|.Yes....|.Yes...
+  Chenjesu crystal Shard..|.NHM..|..6......|..6......|.No.....|.Yes....|.Yes...
+  Chenjesu Shard fragment.|.NHM..|..2 each.|..6 (48).|.No.....|.Yes....|.Yes...
+  Chenjesu DOGI field.....|.F....|.N/A.....|.Endless.|.No.....|.No.....|.No....
+  Chmmr main laser........|.NHB..|..2......|.21......|.N/A....|.Yes....|.Yes...
+  Chmmr tractor field.....|.F....|.N/A.....|.42......|.N/A....|.No.....|.No....
+  Chmmr Zapsat laser......|.HB...|..1......|.Endless.|.N/A....|.Yes....|.Yes...
+  Druuge cannon shell.....|.NHM..|..6......|..8......|.No.....|.Yes....|.Yes...
+  Earthling MX missile....|.HM...|..4......|..2......|.Yes....|.Yes....|.Yes...
+  Earthling laser.........|.HB...|..1 each.|..5 (+?).|.N/A....|.Yes....|.Yes...
+  Ilwrath flame burst.....|.NHM..|..1......|.16......|.N/A....|.Yes....|.Yes...
+  Kohr-Ah mine, launching.|.NHM..|..4......|..8......|.No.....|.Yes....|.Yes...
+  Kohr-Ah mine, placed....|.HM...|..4......|..8......|.No.....|.Yes....|.Yes...
+  Kohr-Ah plasmoid........|.NHM..|..3 each.|..2 (32).|.No.....|.Yes....|.Yes...
+  Melnorme plasma 1, held.|.F....|..2......|..8......|.No.....|.Yes....|.Yes...
+  Melnorme plasma 2, held.|.F....|..4......|..8......|.No.....|.Yes....|.Yes...
+  Melnorme plasma 3, held.|.F....|..8......|..8......|.No.....|.Yes....|.Yes...
+  Melnorme plasma 4, held.|.F....|.16......|..8......|.No.....|.Yes....|.Yes...
+  Melnorme plasma 1, away.|.NHM..|..2......|..8......|.No.....|.Yes....|.Yes...
+  Melnorme plasma 2, away.|.NHM..|..4......|..8......|.No.....|.Yes....|.Yes...
+  Melnorme plasma 3, away.|.NHM..|..8......|..8......|.No.....|.Yes....|.Yes...
+  Melnorme plasma 4, away.|.NHM..|.16......|..8......|.No.....|.Yes....|.Yes...
+  Melnorme EM pulse.......|.NHM..|.N/A.....|..2......|.No.....|.Yes....|.No....
+  Mmrnmhrm laser..........|.NHB..|..1 each.|.10 (20).|.N/A....|.Yes....|.Yes...
+  Mmrnmhrm missile........|.HM...|..1 each.|.Endless.|.No.....|.Yes....|.Yes...
+  Mycon plasmoid..........|.HM...|.10......|..2......|.Yes....|.Yes....|.Yes...
+  Orz howitzer shell......|.NHM..|..3......|..3......|.No.....|.Yes....|.Yes...
+  Orz marine laser........|.HB...|..1......|..1 (+?).|.No.....|.No.....|.No....
+  Pkunk mass pellet.......|.NHM..|..1 each.|.12 (36).|.N/A....|.Yes....|.Yes...
+  Shofixti energy dart....|.NHM..|..1......|..4......|.No.....|.Yes....|.Yes...
+  Shofixti Divine Wind....|.F....|.18......|..1......|.Yes....|.Yes....|.No....
+  Slylandro lightning.....|.HB...|..1......|.10......|.No.....|.Yes....|.Yes...
+  Slylandro energizer.....|.F....|.N/A.....|.Endless.|.N/A....|.No.....|.No....
+  Spathi forward shot.....|.NHM..|..1......|..5......|.No.....|.Yes....|.Yes...
+  Spathi BUTT.............|.HM...|..2......|..3......|.Yes....|.Yes....|.Yes...
+  Supox caustic globule...|.NHM..|..1......|.16......|.No.....|.Yes....|.Yes...
+  Syreen electron dagger..|.NHM..|..2......|.Endless.|.Yes....|.Yes....|.Yes...
+  Syreen Song.............|.F....|..8......|..5......|.N/A....|.No.....|.No....
+  Thraddash forward shot..|.NHM..|..1......|.24......|.No.....|.Yes....|.Yes...
+  Thraddash exhaust pulse.|.F....|..2......|.24......|.No.....|.Yes....|.Yes...
+  Umgah antimatter cone...|.F....|..1......|.Endless.|.N/A....|.Yes....|.No....
+  Ur-Quan fusion blast....|.NHM..|..6......|..8......|.No.....|.Yes....|.Yes...
+  Ur-Quan fighter laser...|.HB...|..1......|.42......|.N/A....|.Yes....|.Yes...
+  Utwig energy spear......|.NHM..|..1 each.|.Endless.|.No.....|.Yes....|.Yes...
+  VUX laser...............|.NHB..|..1......|.40......|.N/A....|.Yes....|.Yes...
+  VUX limpet parasite.....|.HM...|.N/A.....|.20......|.No.....|.No.....|.Yes...
+  Yehat pulse missile.....|.NHM..|..1 each.|.10 (20).|.No.....|.Yes....|.Yes...
+  Zoq-Fot-Pik spray.......|.NHM..|..1......|.10......|.No.....|.Yes....|.Yes...
+  Zoq-Fot-Pik injector....|.NHB..|.12......|..1......|.N/A....|.Yes....|.Yes...
+  -----------------------------------------------------------------------------
+  <b>Notes</b>: "Type" is a general classification of these projectiles, where "HM" is
+  Homing Missile, "NHM" is Non-Homing Missile, "HB" is Homing Beam, "NHB" is
+  Non-Homing Beam, "F" is Field.  "Maximum damage" is the damage inflicted by 1
+  projectile at point-blank range; "Maximum usage" is the number of consecutive
+  firings at the weapon's maximum repeat rate, assuming a maximum energy level
+  and no simultaneous recharging or discharging; "Damage source" is whether or
+  not a ship can damage itself with this projectile; "Affect others" is whether
+  or not this projectile can damage/destroy other projectiles; "Others affect"
+  is whether or not other projectiles can damage/destroy this projectile.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+
+o In general, projectiles of equal Damage Potential ("DP") will destroy each
+  other on contact.  Projectiles of unequal Damage Potential will react
+  differently depending on the nature and strength of the projectiles involved.
+  For example: A Chenjesu crystal Shard does 6 points of damage (DP=6).  An
+  Ur-Quan fusion blast (also DP=6) would destroy it on contact (6-6=0).
+  However, a Chmmr's main laser beam (DP=2) will have to hit the crystal Shard
+  5 times (DP=2*5=10) to destroy it (6-10=0).
+
+o With the exception of the Chmmr Zapsat laser and the Earthling point-defense
+  laser, all homing weapons and projectiles track only the enemy ship; they
+  will not track asteroids, DOGIs, Zapsats, marines, hypnotized crew, fighters,
+  or other projectiles.  No homing weapon or projectile will track the planet.
+
+o Laser beams will cancel each other if their forward points meet.  Laser beams
+  which cross will have no effect on each other.
+
+o With the exception of the Mycon plasmoid, a projectile that survives contact
+  with another can still inflict its full Damage Potential on a ship.
+
+o Most missile and beam projectiles are destroyed on contact with asteroids,
+  the planet, ships, DOGIs, Zapsats, marines or fighters.  Most
+  field-projecting weapons blanket a fixed area, and their effects are not
+  modified by any object.
+
+o There are some occasions where a ship will glow briefly if its projectiles
+  destroy a Chenjesu crystal Shard.  This effect will not cause damage.
+
+o Under normal circumstances, the Chmmr tractor field cannot move an
+  Ariloulaleelay Skiff or a Slylandro Probe.  However, if either of those
+  target ships have acquired VUX limpet parasites, they can be affected.  The
+  more parasites on the target ship, the greater the effect of the tractor
+  field.  Note, however, that the Arilou can only be affected while it is
+  thrusting.
+
+o A Kohr-Ah plasmoid will destroy asteroids, DOGIs, Zapsats, marines,
+  hypnotized crew, fighters, all beam projectiles and most missile projectiles
+  on contact.  A Kohr-Ah plasmoid will have no effect on most field
+  projectiles.
+
+o The projectiles of the Melnorme Trader have other characteristics which are
+  unique among all projectiles.  For further information, see <a href="#18">section 18:</a>
+  <a href="#18">Melnorme Trader</a>.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="40"></a>
+<b>40. POST-COMBAT
+===============</b>
+o The moment a ship begins to explode, it will no longer respond to player
+  control, and will lose all momentum, tangibility, and susceptibility to
+  gravity.  With the exception of a self-destructing Shofixti Scout, the
+  explosion of a ship will not affect anything else in the combat area.
+
+o When an enemy ship is destroyed, its surviving DOGIs, Zapsats, marines,
+  fighters or projectiles (if any) will remain active for a few moments while
+  the ship is exploding, and can still affect the remaining ship.  Once a ship
+  has finished exploding, its surviving Zapsats, DOGIs, marines, fighters or
+  projectiles (if any) disappear from the combat zone.
+
+o DOGIs, Zapsats, marines, fighters, and homing weapons and projectiles are
+  unable to track a ship as it is destroyed.  (DOGIs, Androsynth bubbles and
+  placed Kohr-Ah mines will remain in a limited area, fighters and marines will
+  attempt to return to their host ships, and other homing projectiles will
+  proceed along a straight path.  If a new enemy ship enters the combat zone,
+  any remaining DOGIs, Zapsats, fighters and homing projectiles may begin to
+  track it, but marines will continue to return to their host ship.)
+
+o After an enemy ship is destroyed and removed from combat, a surviving ship
+  will have a few moments alone in space before the next enemy ship arrives (or
+  the game ends).  During this time, the ship can recharge, maneuver, deploy
+  DOGIs or fighters, launch projectiles, gather returning units or hypnotized
+  crew, and so on.  Generally, the more time a surviving ship has before the
+  next encounter, the greater the potential advantage for that ship.
+<a name="a11"></a>
+o Post-victory delay, longest to shortest:
+
+  1. Utwig Jugger
+  2. Kohr-Ah Marauder
+  3. Zoq-Fot-Pik Stinger
+  4. Ilwrath Avenger
+     /Ur-Quan Dreadnought
+  5. Androsynth Guardian
+  6. Chmmr Avatar
+     /Orz Nemesis
+  7. Druuge Mauler
+     /Mycon Podship
+     /Shofixti Scout
+     /Slylandro Probe
+     /Syreen Penetrator
+     /VUX Intruder
+  8. Ariloulaleelay Skiff
+     /Chenjesu Broodhome
+     /Earthling Cruiser
+     /Melnorme Trader
+     /Mmrnmhrm Transformer
+     /Pkunk Fury
+     /Spathi Eluder
+     /Supox Blade
+     /Thraddash Torch
+     /Umgah Drone
+     /Yehat Terminator
+  -----------------------------------------------------------------------------
+  <b>Notes</b>: This time scale ranges from a high of about 5.5 seconds to a low of
+  about 3 seconds.  Note that these rankings are generalized, and are based on
+  rounded analog measurements.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+
+o For as long as it remains in motion, the surviving ship can still be damaged
+  or destroyed by a collision with the planet.
+
+o While an Orz marine is returning to the launching Nemesis, it will ignore any
+  new enemy ship that enters the combat zone.  (On contact with an enemy ship,
+  a returning marine will pass overhead, doing no damage.)
+
+o If both ships in combat are destroyed before one of them is replaced, any
+  marines or fighters in the combat zone may scatter in random directions
+  before disappearing.
+
+o Hypnotized crew may be retrieved by all ship types except the Slylandro
+  Probe.  Crew may retrieved at any time, and can enter a ship through any part
+  of its hull.  Hypnotized crew are not cleared from the combat area until they
+  are retrieved or until they expire.  Note that any ship which is already
+  crewed to its maximum capacity cannot retrieve more crew from space.  In this
+  instance the sound effect for successful crew retrieval is played, but in
+  reality they are destroyed.
+
+o When all ships of one side have been destroyed, the game ends.  Note that in
+  the final summation screen, the last ship(s) destroyed may not always be
+  shown as destroyed (crossed out).
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+<a name="41"></a>
+<b>41. CYBORG OPPONENT
+===================</b>
+o If both teams are under Cyborg control, rounds of combat will continue
+  automatically and indefinitely unless/until interrupted.  When either side
+  has won a game, the team construction screen reappears.  Another game will
+  begin after a 10 second countdown.  (Note that this countdown timer begins
+  the moment the Cyborg option has been selected for both teams, but is reset
+  each time an A, B, C or D button is pressed.  Also, if the cursor is moved
+  left, off the list of options, the countdown is cancelled.)
+
+o When choosing a ship for combat, a Cyborg opponent will always select the "?"
+  (random choice) icon.
+
+o In general, a ship under Weak Cyborg control cannot engage its "special"
+  (C-button) weapon/ability.  The exceptions are the recharging abilities of
+  the Pkunk Fury and the Slylandro Probe.
+
+o A Pkunk Fury under Weak Cyborg control will never reincarnate.
+
+o A Cyborg opponent tends to employ the same basic strategy each time when
+  using one specific ship type to combat another specific ship type.
+
+o A Cyborg opponent always "knows" where the planet is, and Cyborg-controlled
+  ships will usually attempt to avoid a collision with it.
+
+o A Cyborg opponent always "knows" of the existence and exact location of all
+  its marines, hypnotized crew members and fighters, and Cyborg-controlled
+  ships will usually attempt to retrieve them when necessary (and possible).
+
+o On occasion, when a Cyborg-controlled ship enters the combat zone and
+  materializes at the edge of the planet's gravity field, it will refrain from
+  using its forward thrust unless/until it is moved by an external force.
+
+o <a href="#top">Index</a> <a href="#6">Maneuvering</a> <a href="#7">General</a> <a href="#38">Comparison</a> <a href="#a1">Attribute rating</a>-<a href="#a2">B</a><a href="#a3">C</a><a href="#a4">D</a><a href="#a5">E</a><a href="#a6">F</a><a href="#a7">G</a><a href="#a8">H</a><a href="#a9">I</a><a href="#a10">J</a><a href="#a11">K</a> <a href="#wep">Weapon table</a>
+
+-------------------------------------------------------------------------------
+Copyright (C) 1992-2010                                      www.Ledmeister.com
+-------------------------------------------------------------------------------
+</pre>
+Back to <a href="/">Ledmeister</a> home page
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body></html>

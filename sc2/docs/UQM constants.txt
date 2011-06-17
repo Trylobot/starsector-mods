@@ -46,11 +46,11 @@ Converted stats
   Hull, Armor: 15000, 200
   Max Flux: 1000
   Flux Dissipation: 80
-  Max Speed: 175
-  Acceleration: 20.64
-  Max Turn Rate: 108
+  Max Speed: 1296 (150)
+  Acceleration: 37.152 (25)
+  Max Turn Rate: 108 (40)
   Mass: 3500
-  Primary Range: 800 px
+  Primary Range: 800 px (750)
   Secondary Range: 125 px
   
 -----------------------------------
@@ -81,13 +81,13 @@ Propulsion
   Mass: 6 
 -------
 Converted stats
-  Length: 280 px (visually: 235)
+  Length: 280 px (235)
   Hull, Armor: 6430, 200
-  Max Flux: 430
+  Max Flux: 430 
   Flux Dissipation: 63.5
-  Max Speed: 43.2
-  Acceleration: 14.4
-  Max Turn Rate: 324
+  Max Speed: 1036.8 (50)
+  Acceleration: 25.92 (20)
+  Max Turn Rate: 324 (90)
   Mass: 2100
   Primary Range: 5000 px
   Secondary Range: 250 px
@@ -121,14 +121,15 @@ Propulsion
 -------
 Converted stats
   Length: 180 px
-  Hull, Armor:
-  Max Flux:
-  Flux Dissipation:
-  Max Speed:
-  Max Turn Rate:
-  Mass:
-  Primary Range:
-  Secondary Range: 40 (melee)
+  Hull, Armor: 5720
+  Max Flux: 475
+  Flux Dissipation: 81
+  Max Speed: 1512 (175)
+  Acceleration 216 (150)
+  Max Turn Rate: 270 (65)
+  Mass: 1400
+  Primary Range: 265
+  Secondary Range: 20 (melee)
   
 -----------------------------------
 

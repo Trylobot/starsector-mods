@@ -1,0 +1,19 @@
+{
+	"displayName":"Orz Nemesis",
+	"hullId":"sc2_orz_nemesis",
+	"variantId":"sc2_orz_nemesis_standard",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"mods":[], # array of strings
+	
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups":[
+    {
+      "mode":"LINKED",
+      "weapons":{
+        "WS 001":"sc2_howitzer",
+      },
+    },
+	],
+}

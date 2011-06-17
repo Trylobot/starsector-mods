@@ -1,4 +1,6 @@
 {
+  # Mod-Specific Sounds
+  
   "sc2_plasma_torpedo":[
     {
       "file":"sounds/sc2/fx/sc2_plasma_torpedo.ogg",
@@ -23,8 +25,14 @@
       "pitch":1, "volume":0.75
     },
   ],
+  "sc2_howitzer":[
+    {
+      "file":"sounds/sc2/fx/sc2_howitzer.ogg",
+      "pitch":1, "volume":0.75
+    },
+  ],
   
-  # original file --------------------------------------------------------------
+  # Starfarer Core Data
   
   # Beams
 	"beam_heavy_loop":[
