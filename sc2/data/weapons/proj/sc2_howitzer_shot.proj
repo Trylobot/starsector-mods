@@ -7,7 +7,7 @@
 	"width":20.0,
 	"fadeTime":0.4,
 	"fringeColor":[0,0,0,0],
-	"coreColor":[255,255,255,255],	
+	"coreColor":[255,255,255,0],	
 	"textureScrollSpeed":64.0,
 	"pixelsPerTexel":5.0,
 	"bulletSprite":"graphics/sc2/missiles/sc2_howitzer_shot.png",

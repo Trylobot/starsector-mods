@@ -94,13 +94,13 @@
   "viewOffset": 50,
   "weaponSlots": [
     {
-      "angle": 0,
+      "angle": 180,
       "arc": 360,
       "id": "WS 001",
       "locations": [
         0, 0
       ],
-      "mount": "HIDDEN",
+      "mount": "TURRET",
       "size": "LARGE",
       "type": "BALLISTIC"
     },
