@@ -1,0 +1,108 @@
+{
+  "bounds": [
+    45,-0,
+    48,-9,
+    47,-17,
+    54,-19,
+    53,-25,
+    61,-31,
+    72,-31,
+    78,-19,
+    82,-19,
+    84,-29,
+    81,-37,
+    68,-45,
+    -65,-108,
+    -76,-111,
+    -85,-107,
+    -85,-103,
+    -80,-97,
+    -35,-76,
+    -32,-51,
+    -34,-42,
+    -39,-36,
+    -40,-25,
+    -51,-25,
+    -56,-22,
+    -55,-18,
+    -37,-18,
+    -32,-16,
+    -32,16,
+    -37,18,
+    -55,18,
+    -56,22,
+    -51,25,
+    -40,25,
+    -39,36,
+    -34,42,
+    -32,51,
+    -35,76,
+    -80,97,
+    -85,103,
+    -85,107,
+    -76,111,
+    -65,108,
+    68,45,
+    81,37,
+    84,29,
+    82,19,
+    78,19,
+    72,31,
+    61,31,
+    53,25,
+    54,19,
+    47,17,
+    48,9,
+  ],
+  "center": [
+    112, 88
+  ],
+  "collisionRadius": 150,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 80,
+      "location": [
+        -41, 30
+      ],
+      "style": "MIDLINE",
+      "width": 30
+    },
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 80,
+      "location": [
+        -41, -30
+      ],
+      "style": "MIDLINE",
+      "width": 30
+    },
+  ],
+  "height": 175,
+  "width": 225,
+  "hullId": "sc2_orz_nemesis",
+  "hullName": "",
+  "hullSize": "CAPITAL_SHIP",
+  "shieldCenter": [
+    0, 0
+  ],
+  "shieldRadius": 160,
+  "spriteName": "graphics/sc2/ships/sc2_orz_nemesis.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 50,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS 001",
+      "locations": [
+        0, 0
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "BALLISTIC"
+    },
+  ],
+}
