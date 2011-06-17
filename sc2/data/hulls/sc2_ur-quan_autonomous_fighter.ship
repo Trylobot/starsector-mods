@@ -24,7 +24,7 @@
     "height": 26,
     "width": 16,
     "hullId": "sc2_ur-quan_autonomous_fighter",
-    "hullName": "Autonomous Fighter",
+    "hullName": "",
     "hullSize": "FIGHTER",
     "shieldCenter": [
         0, 0
