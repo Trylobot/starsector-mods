@@ -11,11 +11,6 @@ import com.fs.starfarer.api.mission.MissionDefinitionPlugin;
 
 public class ToysForBob
 {
-  public class StarControl2Ship
-  {
-    
-  }
-  
   public void initLevel( MissionDefinitionAPI api )
   {
 		// Set up the map.
