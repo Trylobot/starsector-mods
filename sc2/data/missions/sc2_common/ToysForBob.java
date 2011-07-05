@@ -1,4 +1,4 @@
-package data.missions.common;
+package data.missions.sc2_common;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -11,6 +11,12 @@ import com.fs.starfarer.api.mission.MissionDefinitionPlugin;
 
 public class ToysForBob
 {
+  public class ShipData
+  {
+    
+  }
+  
+  
   public void initLevel( MissionDefinitionAPI api )
   {
 		// Set up the map.
