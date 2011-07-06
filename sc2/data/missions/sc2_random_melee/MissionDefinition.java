@@ -1,4 +1,4 @@
-package data.missions.alliance_v_hierarchy;
+package data.missions.sc2_random_melee;
 import data.missions.sc2_common.ToysForBob;
 
 import com.fs.starfarer.api.fleet.FleetGoal;

@@ -1,4 +1,4 @@
-package data.missions.hierarchy_v_alliance;
+package data.missions.sc2_hierarchy_v_alliance;
 import data.missions.sc2_common.ToysForBob;
 
 import com.fs.starfarer.api.fleet.FleetGoal;
@@ -21,13 +21,14 @@ public class MissionDefinition implements MissionDefinitionPlugin
     api.setFleetTagline(FleetSide.ENEMY, "Alliance of Free Stars");
     
 
-		api.addToFleet(FleetSide.PLAYER, "sc2_ur-quan_dreadnought_standard", FleetMemberType.SHIP, "mission_callsign", true);
+    api.addToFleet(FleetSide.PLAYER, "sc2_melnorme_trader_standard", FleetMemberType.SHIP, "Melnorme", true);
+		api.addToFleet(FleetSide.PLAYER, "sc2_ur-quan_dreadnought_standard", FleetMemberType.SHIP, "Ur-Quan Kzer-Za", true);
     api.addToFleet(FleetSide.PLAYER, "sc2_ur-quan_autonomous_fighter_wing", FleetMemberType.FIGHTER_WING, false);
     api.addToFleet(FleetSide.PLAYER, "sc2_ur-quan_autonomous_fighter_wing", FleetMemberType.FIGHTER_WING, false);
     api.addToFleet(FleetSide.PLAYER, "sc2_ur-quan_autonomous_fighter_wing", FleetMemberType.FIGHTER_WING, false);
 
-		api.addToFleet(FleetSide.ENEMY, "sc2_earthling_cruiser_standard", FleetMemberType.SHIP, "", false);
-		api.addToFleet(FleetSide.ENEMY, "sc2_orz_nemesis_standard", FleetMemberType.SHIP, "", false);
+		api.addToFleet(FleetSide.ENEMY, "sc2_orz_nemesis_standard", FleetMemberType.SHIP, "Orz", false);
+		api.addToFleet(FleetSide.ENEMY, "sc2_earthling_cruiser_standard", FleetMemberType.SHIP, "Earthling", false);
 
 		
     sc2.initLevel( api );

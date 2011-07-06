@@ -20,7 +20,7 @@ http://wiki.uqm.stack.nl/Dreadnought
 Ur-Quan Dreadnought
 Basic stats 	
   Value: 30 pts
-  Length: 40 pixels (160 units)
+  Length: 33 pixels (132 units)
   Crew: 42 	
   Battery: 42 	
   Batt. Regeneration: 0.14 units/frame
@@ -43,7 +43,7 @@ Propulsion
 -------
 Converted stats
   Length: 288 px
-  Hull, Armor: 15000, 200
+  Hull, Armor: 15000
   Max Flux: 1000
   Flux Dissipation: 80
   Max Speed: 1296 (150)
@@ -59,7 +59,7 @@ http://wiki.uqm.stack.nl/Cruiser
 Earthling Cruiser
 Basic stats 	
   Value: 11 pts
-  Length: 38 pixels (152 units)
+  Length: 35 pixels (140 units)
   Crew: 18
   Battery: 18
   Batt. Regeneration: 0.111 units/frame
@@ -82,7 +82,7 @@ Propulsion
 -------
 Converted stats
   Length: 280 px (235)
-  Hull, Armor: 6430, 200
+  Hull, Armor: 6430
   Max Flux: 430 
   Flux Dissipation: 63.5
   Max Speed: 1036.8 (50)
@@ -98,7 +98,7 @@ http://wiki.uqm.stack.nl/Nemesis
 Orz Nemesis
 Basic stats 	
   Value: 23 pts
-  Length: 25 pixels (100 units)
+  Length: 23 pixels (92 units)
   Crew: 16
   Battery: 20
   Batt. Regeneration: 0.142 units/frame
@@ -134,6 +134,39 @@ Converted stats
 -----------------------------------
 
 
-
-
+Melnorme Trader
+Basic stats 	
+  Value: 18 pts
+  Length: 31 px., 124 units
+  Crew: 20 	
+  Battery: 42 	
+  Batt. Regeneration: 0.2 units/frame
+Armament 	
+  Primary: Variable power blaster 	
+    Damage: 16 (max)
+    Refire delay: 1 frames 	
+    Energy use: 5 units 	
+    Range: "Rank 7" (longest to shortest)
+  Secondary: Confusion ray
+    Damage: 0 (indirect weapon)
+    Refire delay: 20 frames
+    Energy use: 20 units
+    Range: "Rank 4" (longest to shortest)
+Propulsion 	
+  Max speed: 36 world units/frame 	
+  Turn rate: 0.2 facings/frame
+  Acceleration: 1.2 units/frame 	
+  Mass: 7 
+-------
+Converted stats
+  Length: 224 px.
+  Hull, Armor: 7150
+  Max Flux: 1000
+  Flux Dissipation: 114.3
+  Max Speed: 
+  Acceleration:
+  Max Turn Rate: 
+  Mass: 
+  Primary Range: 
+  Secondary Range: 
 

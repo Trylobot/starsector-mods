@@ -1,0 +1,21 @@
+{
+	"id":"sc2_electromagnetic_pulse_cannon",
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"LARGE",
+	"displayArcRadius":2000,
+  "turretSprite":       "",
+	"turretGlowSprite":   "graphics/sc2/weapons/sc2_var_blaster_hardpoint_glow.png",
+  "hardpointSprite":    "",
+	"hardpointGlowSprite":"graphics/sc2/weapons/sc2_var_blaster_hardpoint_glow.png",
+	"glowColor":[23,80,226,127],
+	"turretOffsets":[5, 0],
+	"turretAngleOffsets":[0],	
+	"hardpointOffsets":[5, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"LINKED", # ALTERNATING, LINKED
+	"animationType":"GLOW",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"interruptibleBurst":false,
+	"projectileSpecId":"sc2_em_pulse",
+	"fireSoundTwo":"sc2_var_blaster_intro",
+}

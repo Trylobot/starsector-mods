@@ -1,0 +1,55 @@
+Alliance of Free Stars	236
+Chenjesu Broodhome	28
+Yehat Terminator	23
+Mmrnmhrm X-Form	19
+Arilou Lalee'lay Skiff	16
+Syreen Penetrator	13
+Earthling Cruiser	11
+Shofixti Scout	5
+Chmmr Avatar 	30
+Orz Nemesis 	23
+Pkunk Fury 	20
+Supox Blade 	16
+Thraddash Torch 	10
+Utwig Jugger 	22
+	
+Ur-Quan Hierarchy of Battle Thralls	201
+Ur-Quan Kzer-Za Dreadnought	30
+Mycon Podship	21
+Spathi Eluder	18
+Androsynth Guardian	15
+VUX Intruder	12
+Ilwrath Avenger	10
+Umgah Drone	7
+Druuge Mauler 	17
+Slylandro Probe 	17
+Melnorme Trader 	18
+Ur-Quan Kohr-Ah Marauder 	30
+Zoq-Fot-Pik Stinger 	6
+	
+All Ships	437
+Androsynth Guardian 	15
+Arilou Lalee'lay Skiff 	16
+Chenjesu Broodhome 	28
+Chmmr Avatar 	30
+Druuge Mauler 	17
+Earthling Cruiser 	11
+Ilwrath Avenger 	10
+Melnorme Trader 	18
+Mmrnmhrm X-form 	19
+Mycon Podship 	21
+Orz Nemesis 	23
+Pkunk Fury 	20
+Shofixti Scout 	5
+Slylandro Probe 	17
+Spathi Eluder/Discriminator 	18
+Supox Blade 	16
+Syreen Penetrator 	13
+Thraddash Torch 	10
+Umgah Drone 	7
+Ur-Quan Kohr-Ah Marauder 	30
+Ur-Quan Kzer-Za Dreadnought 	30
+Utwig Jugger 	22
+VUX Intruder 	12
+Yehat Terminator 	23
+Zoq-Fot-Pik Stinger 	6

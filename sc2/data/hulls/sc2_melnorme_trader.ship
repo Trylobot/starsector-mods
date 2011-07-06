@@ -1,0 +1,267 @@
+{
+  "bounds": [
+    113,-0,
+    121,-5,
+    121,-11,
+    113,-16,
+    113,-27,
+    117,-31,
+    117,-36,
+    112,-39,
+    103,-39,
+    99,-35,
+    100,-16,
+    87,-29,
+    87,-89,
+    95,-96,
+    79,-108,
+    45,-108,
+    36,-99,
+    26,-98,
+    26,-92,
+    29,-84,
+    36,-84,
+    36,-67,
+    10,-79,
+    -15,-81,
+    -15,-86,
+    -9,-90,
+    -33,-94,
+    -33,-83,
+    -43,-75,
+    -59,-75,
+    -60,-67,
+    -76,-49,
+    -88,-47,
+    -90,-31,
+    -87,-28,
+    -92,-18,
+    -92,18,
+    -87,28,
+    -90,31,
+    -88,47,
+    -76,49,
+    -60,67,
+    -59,75,
+    -43,75,
+    -33,83,
+    -33,94,
+    -9,90,
+    -15,86,
+    -15,81,
+    10,79,
+    36,67,
+    36,84,
+    29,84,
+    26,92,
+    26,98,
+    36,99,
+    45,108,
+    79,108,
+    95,96,
+    87,89,
+    87,29,
+    100,16,
+    99,35,
+    103,39,
+    112,39,
+    117,36,
+    117,31,
+    113,27,
+    113,16,
+    121,11,
+    121,5
+  ],
+  "center": [
+    112, 93
+  ],
+  "collisionRadius": 150,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 50,
+      "length": 40,
+      "location": [
+        -93, 0
+      ],
+      "style": "LOW_TECH",
+      "width": 15
+    },
+    {
+      "angle": 180,
+      "contrailSize": 50,
+      "length": 30,
+      "location": [
+        -93, -4
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 50,
+      "length": 30,
+      "location": [
+        -93, -8
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 50,
+      "length": 30,
+      "location": [
+        -93, -12
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 50,
+      "length": 30,
+      "location": [
+        -93, 4
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 50,
+      "length": 30,
+      "location": [
+        -93, 8
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 50,
+      "length": 30,
+      "location": [
+        -93, 12
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 50,
+      "length": 30,
+      "location": [
+        -91, -33
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 50,
+      "length": 30,
+      "location": [
+        -90, -39
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 50,
+      "length": 30,
+      "location": [
+        -89, -45
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 50,
+      "length": 30,
+      "location": [
+        -61, -71
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 50,
+      "length": 30,
+      "location": [
+        -91, 33
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 50,
+      "length": 30,
+      "location": [
+        -90, 39
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 50,
+      "length": 30,
+      "location": [
+        -89, 45
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 50,
+      "length": 30,
+      "location": [
+        -61, 71
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+  ],
+  "height": 216,
+  "width": 224,
+  "hullId": "sc2_melnorme_trader",
+  "hullName": "",
+  "hullSize": "CAPITAL_SHIP",
+  "shieldCenter": [
+    0, 0
+  ],
+  "shieldRadius": 150,
+  "spriteName": "graphics/sc2/ships/sc2_melnorme_trader.png",
+  "style": "LOW_TECH",
+  "viewOffset": 50,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS 001",
+      "locations": [
+        113, 0
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS 002",
+      "locations": [
+        113, 0
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "ENERGY"
+    },
+  ],
+}

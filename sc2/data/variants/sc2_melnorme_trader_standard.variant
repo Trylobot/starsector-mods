@@ -1,7 +1,7 @@
 {
 	"displayName":"",
-	"hullId":"sc2_ur-quan_dreadnought",
-	"variantId":"sc2_ur-quan_dreadnought_standard",
+	"hullId":"sc2_melnorme_trader",
+	"variantId":"sc2_melnorme_trader_standard",
 	"fluxVents":0,
 	"fluxCapacitors":0,
 	"mods":[], # array of strings
@@ -12,7 +12,13 @@
     {
       "mode":"LINKED",
       "weapons":{
-        "WS 001":"sc2_plasma_torpedo_launcher",
+        "WS 001":"sc2_variable_power_blaster",
+      },
+    },
+    {
+      "mode":"LINKED",
+      "weapons":{
+        "WS 002":"sc2_electromagnetic_pulse_cannon",
       },
     },
 	],

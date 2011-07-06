@@ -1,6 +1,18 @@
 {
   # Mod-Specific Sounds
   
+  "sc2_var_blaster_intro":[
+    {
+      "file":"sounds/sc2/fx/sc2_var_blaster_intro.ogg",
+      "pitch":1, "volume":0.75
+    },
+  ],
+  "sc2_var_blaster_launch":[
+    {
+      "file":"sounds/sc2/fx/sc2_var_blaster_launch.ogg",
+      "pitch":1, "volume":0.75
+    },
+  ],
   "sc2_plasma_torpedo":[
     {
       "file":"sounds/sc2/fx/sc2_plasma_torpedo.ogg",

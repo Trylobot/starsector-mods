@@ -1,0 +1,11 @@
+{
+	"id":"sc2_var_blaster_shot",
+	"specClass":"projectile",
+	"spawnType":"PLASMA",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"width": 20,
+	"fadeTime": 0.5,
+	"fringeColor":[255,10,10,255],
+	"coreColor":[255,90,90,25],
+}
