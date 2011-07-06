@@ -1,4 +1,4 @@
-package data.missions.sc2_random_melee;
+package data.missions.sc2_totality;
 import com.fs.starfarer.api.fleet.FleetGoal;
 import com.fs.starfarer.api.mission.FleetSide;
 import com.fs.starfarer.api.mission.MissionDefinitionAPI;
@@ -13,12 +13,14 @@ public class MissionDefinition implements MissionDefinitionPlugin
     ToysForBob sc2 = new ToysForBob();
     
 		api.initFleet(FleetSide.PLAYER, "", FleetGoal.DEFEND, false);
-    api.setFleetTagline(FleetSide.PLAYER, "Random");
-    sc2.addRandomAny( FleetSide.PLAYER, api );
+    api.setFleetTagline(FleetSide.PLAYER, "All Ships");
+    sc2.addAllianceAll( FleetSide.PLAYER, api );
+    sc2.addHierarchyAll( FleetSide.PLAYER, api );
 
 		api.initFleet(FleetSide.ENEMY, "", FleetGoal.ATTACK, true);
-    api.setFleetTagline(FleetSide.ENEMY, "Random");
-    sc2.addRandomAny( FleetSide.ENEMY, api );
+    api.setFleetTagline(FleetSide.ENEMY, "All Ships");
+    sc2.addAllianceAll( FleetSide.ENEMY, api );
+    sc2.addHierarchyAll( FleetSide.ENEMY, api );
 		
     sc2.initLevel( api );
 	}
