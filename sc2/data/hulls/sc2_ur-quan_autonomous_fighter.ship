@@ -1,12 +1,14 @@
 {
     "bounds": [
-      14, 5,
-      4, -7,
-      -10, -7,
-      -10, 7,
+      11,0,
+      3,-7,
+      -7,-7,
+      -10,0,
+      -7,7,
+      3,7,
    ],
     "center": [
-      8, 11
+      8, 12
     ],
     "collisionRadius": 20,
     "engineSlots": [
@@ -21,7 +23,7 @@
             "width": 12
         },
     ],
-    "height": 26,
+    "height": 24,
     "width": 16,
     "hullId": "sc2_ur-quan_autonomous_fighter",
     "hullName": "",
@@ -36,10 +38,10 @@
     "weaponSlots": [
         {
             "angle": 0,
-            "arc": 0,
+            "arc": 360,
             "id": "WS 001",
             "locations": [
-                12, 3
+                9,0
             ],
             "mount": "HIDDEN",
             "size": "SMALL",
