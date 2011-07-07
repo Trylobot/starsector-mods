@@ -13,7 +13,16 @@
 	"hardpointOffsets":[3, 0],
 	"hardpointAngleOffsets":[0],
 	"barrelMode":"LINKED", # ALTERNATING, LINKED
-	"animationType":"GLOW",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{
+    "length":30.0,   # only used if animationType = MUZZLE_FLASH
+    "spread":150.0,
+    "particleSizeMin":15.0,
+    "particleSizeRange":25.0,
+    "particleDuration":0.30,
+    "particleCount":40,
+    "particleColor":[226,131,59,255]
+  },	
 	"interruptibleBurst":false,
 	"projectileSpecId":"sc2_plasma_torpedo",
 	"fireSoundTwo":"sc2_plasma_torpedo",
