@@ -170,3 +170,28 @@ Converted stats
   Primary Range: 
   Secondary Range: 
 
+  
+  
+-----------------------------------
+  
+Yehat Terminator
+Basic stats 	
+  Crew: 20 (7140)
+  Value: 23 pts 
+  Battery: 10 (240)
+  Batt. Regeneration: 0.29 units/frame (167.05)
+Armament 	
+  Primary: Twin Ion Pulse Cannons 	
+    Damage: 1 (360)
+    Refire delay: 0 frames 	
+    Energy use: 1 units 	
+    Range: "Rank 21"
+  Secondary: Force shield
+    Refire delay: 2 frames
+    Energy use: 1 units
+Propulsion 	
+  Max speed: 30 world units/frame 	
+  Turn rate: 0.33 facings/frame
+  Acceleration: 2 units/frame 	
+  Mass: 3 
+  

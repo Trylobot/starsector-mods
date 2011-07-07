@@ -1,0 +1,20 @@
+{
+	"displayName":"",
+  "hullId":"sc2_yehat_terminator",
+	"variantId":"sc2_yehat_terminator_standard",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"mods":[], # array of strings
+	
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups":[
+    {
+      "mode":"LINKED",
+      "weapons":{
+        "WS 001":"sc2_ion_pulse_cannon",
+        "WS 002":"sc2_ion_pulse_cannon",
+      },
+    },
+	],
+}

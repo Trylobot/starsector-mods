@@ -20,7 +20,7 @@ public class ToysForBob
     }
   }
   
-  public static int alliance_count = 2;
+  public static int alliance_count = 3;
   public static int hierarchy_count = 2;
   
   public ShipData[][] alliance_catalog;
@@ -64,6 +64,12 @@ public class ToysForBob
     pick = new ShipData[1];
     i = 0;
     pick[i++] = new ShipData( "sc2_orz_nemesis_standard", FleetMemberType.SHIP, "Orz" );
+    alliance_catalog[alliance_i++] = pick;
+    allships_catalog[allships_i++] = pick;
+    
+    pick = new ShipData[1];
+    i = 0;
+    pick[i++] = new ShipData( "sc2_yehat_terminator_standard", FleetMemberType.SHIP, "Yehat" );
     alliance_catalog[alliance_i++] = pick;
     allships_catalog[allships_i++] = pick;
   }

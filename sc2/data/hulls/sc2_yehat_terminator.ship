@@ -1,0 +1,122 @@
+{
+  "bounds": [
+    37,-5,
+    40,-5,
+    36,-14,
+    26,-22,
+    17,-27,
+    20,-44,
+    28,-59,
+    45,-74,
+    72,-76,
+    84,-79,
+    95,-87,
+    95,-93,
+    91,-98,
+    78,-103,
+    53,-106,
+    29,-104,
+    2,-97,
+    -17,-86,
+    -31,-75,
+    -45,-59,
+    -55,-41,
+    -60,-26,
+    -63,-15,
+    -63,15,
+    -60,26,
+    -55,41,
+    -45,59,
+    -31,75,
+    -17,86,
+    2,97,
+    29,104,
+    53,106,
+    78,103,
+    91,98,
+    95,93,
+    95,87,
+    84,79,
+    72,76,
+    45,74,
+    28,59,
+    20,44,
+    17,27,
+    26,22,
+    36,14,
+    40,5,
+    37,5,
+  ],
+  "center": [
+    107, 65
+  ],
+    "collisionRadius": 160,
+    "engineSlots": [
+        {
+            "angle": 180,
+            "contrailSize": 64,
+            "length": 100,
+            "location": [
+                -64, 0
+            ],
+            "style": "HIGH_TECH",
+            "width": 40
+        },
+        {
+            "angle": 180,
+            "contrailSize": 64,
+            "length": 100,
+            "location": [
+                -65, 10
+            ],
+            "style": "HIGH_TECH",
+            "width": 40
+        },
+        {
+            "angle": 180,
+            "contrailSize": 64,
+            "length": 100,
+            "location": [
+                -65, -10
+            ],
+            "style": "HIGH_TECH",
+            "width": 40
+        },
+    ],
+    "height": 162,
+    "width": 214,
+    "hullId": "sc2_yehat_terminator",
+    "hullName": "",
+    "hullSize": "CAPITAL_SHIP",
+    "shieldCenter": [
+        38, 0
+    ],
+    "shieldRadius": 115,
+    "spriteName": "graphics/sc2/ships/sc2_yehat_terminator.png",
+    "style": "HIGH_TECH",
+    "viewOffset": 50,
+    "weaponSlots": [
+        {
+            "angle": 0,
+            "arc": 0,
+            "id": "WS 001",
+            "locations": [
+                90, 90
+            ],
+            "mount": "HARDPOINT",
+            "size": "LARGE",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": 0,
+            "arc": 0,
+            "id": "WS 002",
+            "locations": [
+                90, -90
+            ],
+            "mount": "HARDPOINT",
+            "size": "LARGE",
+            "type": "BALLISTIC"
+        },
+    ],
+}

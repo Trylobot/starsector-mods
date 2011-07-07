@@ -3,7 +3,7 @@
 	"specClass":"pulse",
 	"type":"ENERGY",
 	"size":"LARGE",
-	"displayArcRadius":1500,
+	"displayArcRadius":1400,
   "turretSprite":       "",
 	"turretGlowSprite":   "graphics/sc2/weapons/sc2_var_blaster_hardpoint_glow.png",
   "hardpointSprite":    "",

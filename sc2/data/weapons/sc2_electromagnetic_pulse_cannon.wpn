@@ -3,7 +3,7 @@
 	"specClass":"projectile",
 	"type":"BALLISTIC",
 	"size":"LARGE",
-	"displayArcRadius":2000,
+	"displayArcRadius":1600,
   "turretSprite":       "",
 	"turretGlowSprite":   "graphics/sc2/weapons/sc2_var_blaster_hardpoint_glow.png",
   "hardpointSprite":    "",
