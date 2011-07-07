@@ -1,12 +1,14 @@
 {
   # Mod-Specific Sounds
   
+  # Note: have also modified some sound sets below to account for Yehat shield raise sound
+  
   "sc2_ion_pulse_cannon":[
     {
       "file":"sounds/sc2/fx/sc2_ion_pulse_cannon.ogg",
       "pitch":1, "volume":0.75
     },
-  ]
+  ],
   
   "sc2_var_blaster_intro":[
     {
@@ -167,6 +169,7 @@
 		"DESTROYER":{"sounds":[0,1,2], "pitch":1, "volume":0.7},
 		"CRUISER":{"sounds":[0,1,2], "pitch":1, "volume":0.8},
 		"CAPITAL_SHIP":{"sounds":[0,1,2], "pitch":1, "volume":1},		
+		"YEHAT_TERMINATOR":{"sounds":[0,1,2], "pitch":1, "volume":1},		
 	},
 	"engine_accelerate":{
 		"sounds":[
@@ -180,6 +183,7 @@
 		"DESTROYER":{"sounds":[0], "pitch":1, "volume":0.7},
 		"CRUISER":{"sounds":[0], "pitch":1, "volume":0.8},
 		"CAPITAL_SHIP":{"sounds":[0], "pitch":1, "volume":1},		
+		"YEHAT_TERMINATOR":{"sounds":[0], "pitch":1, "volume":1},		
 	},
 	
 	
@@ -196,6 +200,7 @@
 		"DESTROYER":{"sounds":[0], "pitch":1, "volume":0.8},
 		"CRUISER":{"sounds":[0], "pitch":1, "volume":0.9},
 		"CAPITAL_SHIP":{"sounds":[0], "pitch":1, "volume":1},		
+		"YEHAT_TERMINATOR":{"sounds":[0], "pitch":1, "volume":1},		
 	},
 	"emp_loop":{
 		"sounds":[
@@ -209,6 +214,7 @@
 		"DESTROYER":{"sounds":[0], "pitch":1, "volume":0.8},
 		"CRUISER":{"sounds":[0], "pitch":1, "volume":0.9},
 		"CAPITAL_SHIP":{"sounds":[0], "pitch":1, "volume":1},		
+		"YEHAT_TERMINATOR":{"sounds":[0], "pitch":1, "volume":1},		
 	},
 	"flux_loop":{
 		"sounds":[
@@ -222,6 +228,7 @@
 		"DESTROYER":{"sounds":[0], "pitch":1, "volume":0.8},
 		"CRUISER":{"sounds":[0], "pitch":1, "volume":0.9},
 		"CAPITAL_SHIP":{"sounds":[0], "pitch":1, "volume":1},		
+		"YEHAT_TERMINATOR":{"sounds":[0], "pitch":1, "volume":1},		
 	},	
 	"vent_flux":{
 		"sounds":[
@@ -235,6 +242,7 @@
 		"DESTROYER":{"sounds":[0], "pitch":1, "volume":0.8},
 		"CRUISER":{"sounds":[0], "pitch":1, "volume":0.9},
 		"CAPITAL_SHIP":{"sounds":[0], "pitch":1, "volume":1},		
+		"YEHAT_TERMINATOR":{"sounds":[0], "pitch":1, "volume":1},		
 	},	
 	"shield_lower":{
 		"sounds":[
@@ -249,11 +257,13 @@
 		"DESTROYER":{"sounds":[1], "pitch":1, "volume":0.6},
 		"CRUISER":{"sounds":[1], "pitch":1, "volume":0.8},
 		"CAPITAL_SHIP":{"sounds":[1], "pitch":1, "volume":1},
+		"YEHAT_TERMINATOR":{"sounds":[1], "pitch":1, "volume":1},
 	},
 	"shield_raise":{
 		"sounds":[
 			{"file":"sounds/fx/shields/shield_raise_small01.ogg","pitch":1,"volume":1},
 			{"file":"sounds/fx/shields/shield_raise_large01.ogg","pitch":1,"volume":1},
+			{"file":"sounds/sc2/fx/shields/sc2_shields_raise.ogg","pitch":1,"volume":1},
 		],
 		"LOW_TECH":{"sounds":[0,1], "pitch":0.8, "volume":1},
 		"MIDLINE":{"sounds":[0,1], "pitch":0.9, "volume":1},
@@ -263,6 +273,7 @@
 		"DESTROYER":{"sounds":[1], "pitch":1, "volume":0.6},
 		"CRUISER":{"sounds":[1], "pitch":1, "volume":0.8},
 		"CAPITAL_SHIP":{"sounds":[1], "pitch":1, "volume":1},
+		"YEHAT_TERMINATOR":{"sounds":[2], "pitch":1, "volume":0.75},
 	},
 	
 	
@@ -442,6 +453,7 @@
 		"DESTROYER":{"sounds":[1], "pitch":1, "volume":0.6},
 		"CRUISER":{"sounds":[1], "pitch":0.9, "volume":0.8},
 		"CAPITAL_SHIP":{"sounds":[1], "pitch":0.8, "volume":1},		
+		"YEHAT_TERMINATOR":{"sounds":[1], "pitch":0.8, "volume":1},		
 	},
 	"explosion_from_damage":{
 		"sounds":[
