@@ -1,6 +1,13 @@
 {
   # Mod-Specific Sounds
   
+  "sc2_ion_pulse_cannon":[
+    {
+      "file":"sounds/sc2/fx/sc2_ion_pulse_cannon.ogg",
+      "pitch":1, "volume":0.75
+    },
+  ]
+  
   "sc2_var_blaster_intro":[
     {
       "file":"sounds/sc2/fx/sc2_var_blaster_intro.ogg",

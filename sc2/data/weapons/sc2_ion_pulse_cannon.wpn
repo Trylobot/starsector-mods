@@ -3,7 +3,7 @@
 	"specClass":"projectile",
 	"type":"BALLISTIC",
 	"size":"LARGE",
-	"displayArcRadius": 375,
+	"displayArcRadius": 400,
 	"turretSprite":       "",
 	"turretGlowSprite":   "",
 	"hardpointSprite":    "",
@@ -36,7 +36,6 @@
     "particleColor":[67,67,255,192]
   },	
 	"interruptibleBurst":false,
-	#"projectileSpecId":"sc2_ion_pulse",
-	#"fireSoundTwo":"sc2_ion_pulse_cannon",
-  "projectileSpecId":"amblaster_shot",
+	"projectileSpecId":"sc2_ion_pulse",
+	"fireSoundTwo":"sc2_ion_pulse_cannon",
 }
