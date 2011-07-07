@@ -4,6 +4,6 @@ Fighter Laser,sc2_fighter_laser,125,125,,,0,1000,5,,ENERGY,,2,0,0.15,,,,,,,2000,
 MX Missile Launcher,sc2_mx_missile_launcher,5000,,1430,,1000,0,20,,HIGH_EXPLOSIVE,215,,0,0.42,,,,,,,,500,100,20,100,,1337202
 Point-Defense Laser,sc2_pd_laser,300,375,,,0,1000,10,,ENERGY,,55,0,0.05,,,,,,,2000,,,,,PD,1337203
 Howitzer Cannon,sc2_howitzer,690,,1072,,1000,210,20,,HIGH_EXPLOSIVE,140,,,0.5,,,,,,,,800,,,250,,1337204
-Variable Blaster,sc2_variable_power_blaster,1400,,5950,,500,0,25,,ENERGY,142.3,114.3,9,0.09,,,,,,,,1000,,,550,,1337205
+Variable Blaster,sc2_variable_power_blaster,1400,,5950,,500,0,25,,ENERGY,142.3,114.3,9,0.12,,,,,,,,1000,,,550,,1337205
 EM Pulse Cannon,sc2_electromagnetic_pulse_cannon,1600,,0,1000,0,0,10,,ENERGY,490,,,0.8,,,,,,,,800,,,100,,1337206
-Ion Pulse Cannon,sc2_ion_pulse_cannon,375,,360,,800,0,10,,FRAGMENTATION,24,,,0.05,,,,,,,,500,,,50,,1337207
+Twin Ion Pulse Blaster,sc2_ion_pulse_cannon,375,,360,,800,0,10,,FRAGMENTATION,24,,,0.07,,,,,,,,550,,,50,,1337207

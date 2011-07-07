@@ -10,10 +10,9 @@
 	# slot ids (WS ***) must match what's in the .ship file
 	"weaponGroups":[
     {
-      "mode":"LINKED",
+      "mode":"ALTERNATING",
       "weapons":{
         "WS 001":"sc2_ion_pulse_cannon",
-        "WS 002":"sc2_ion_pulse_cannon",
       },
     },
 	],

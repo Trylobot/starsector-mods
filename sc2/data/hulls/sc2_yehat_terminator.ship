@@ -101,18 +101,7 @@
             "arc": 0,
             "id": "WS 001",
             "locations": [
-                90, 90
-            ],
-            "mount": "HARDPOINT",
-            "size": "LARGE",
-            "type": "BALLISTIC"
-        },
-        {
-            "angle": 0,
-            "arc": 0,
-            "id": "WS 002",
-            "locations": [
-                90, -90
+                91, 0
             ],
             "mount": "HARDPOINT",
             "size": "LARGE",

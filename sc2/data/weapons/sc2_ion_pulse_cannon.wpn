@@ -3,17 +3,38 @@
 	"specClass":"projectile",
 	"type":"BALLISTIC",
 	"size":"LARGE",
+	"displayArcRadius": 375,
 	"turretSprite":       "",
 	"turretGlowSprite":   "",
 	"hardpointSprite":    "",
 	"hardpointGlowSprite":"",
-	"glowColor":[255,255,255,255],
-	"turretOffsets":[2, 0],
-	"turretAngleOffsets":[0],	
-	"hardpointOffsets":[2, 0],
-	"hardpointAngleOffsets":[0],
-	"barrelMode":"LINKED", # ALTERNATING, LINKED
-	"animationType":"GLOW",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"turretOffsets":[
+    0, -90,
+    0, 90
+  ],
+	"turretAngleOffsets":[
+    0,
+    0 
+  ],	
+	"hardpointOffsets":[
+    0, -90,
+    0, 90
+  ],
+	"hardpointAngleOffsets":[
+    0,
+    0 
+  ],	
+	"barrelMode":"ALTERNATING", # ALTERNATING, LINKED
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{
+    "length":15.0,   # only used if animationType = MUZZLE_FLASH
+    "spread":20.0,
+    "particleSizeMin":2.0,
+    "particleSizeRange":5.0,
+    "particleDuration":0.20,
+    "particleCount":40,
+    "particleColor":[67,67,255,192]
+  },	
 	"interruptibleBurst":false,
 	#"projectileSpecId":"sc2_ion_pulse",
 	#"fireSoundTwo":"sc2_ion_pulse_cannon",
