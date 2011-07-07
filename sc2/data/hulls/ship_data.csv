@@ -4,4 +4,4 @@ Autonomous Fighter,sc2_ur-quan_autonomous_fighter,,,150,75,10,5,5,250,100,75,200
 Cruiser,sc2_earthling_cruiser,,6,6430,500,430,63.5,110,50,20,20,90,100,2100,NONE,0,0,1,1337202
 Nemesis,sc2_orz_nemesis,,11,5720,500,475,81,230,175,150,100,65,65,1400,NONE,0,0,1,1337203
 Trader,sc2_melnorme_trader,,11,7150,500,1000,114.3,230,180,40,40,50,50,2450,NONE,0,0,1,1337204
-Terminator,sc2_yehat_terminator,,11,7140,500,240,167.05,230,150,75,60,60,100,1050,FRONT,360,1,0,1337205
+Terminator,sc2_yehat_terminator,,11,7140,500,240,167.05,230,150,75,60,60,100,1050,FRONT,360,1.08,0.08,1337205

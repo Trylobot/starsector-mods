@@ -50,7 +50,7 @@
   "center": [
     107, 65
   ],
-    "collisionRadius": 160,
+    "collisionRadius": 175,
     "engineSlots": [
         {
             "angle": 180,
@@ -91,7 +91,7 @@
     "shieldCenter": [
         38, 0
     ],
-    "shieldRadius": 115,
+    "shieldRadius": 122,
     "spriteName": "graphics/sc2/ships/sc2_yehat_terminator.png",
     "style": "HIGH_TECH",
     "viewOffset": 50,

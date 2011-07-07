@@ -263,7 +263,7 @@
 		"sounds":[
 			{"file":"sounds/fx/shields/shield_raise_small01.ogg","pitch":1,"volume":1},
 			{"file":"sounds/fx/shields/shield_raise_large01.ogg","pitch":1,"volume":1},
-			{"file":"sounds/sc2/fx/shields/sc2_shields_raise.ogg","pitch":1,"volume":1},
+			{"file":"sounds/sc2/fx/sc2_shields_raise.ogg","pitch":1,"volume":1},
 		],
 		"LOW_TECH":{"sounds":[0,1], "pitch":0.8, "volume":1},
 		"MIDLINE":{"sounds":[0,1], "pitch":0.9, "volume":1},
