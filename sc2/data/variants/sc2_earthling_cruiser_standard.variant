@@ -19,6 +19,11 @@
       "mode":"LINKED",
       "weapons":{
         "WS 002":"sc2_pd_laser",
+        "WS 003":"sc2_pd_laser",
+        "WS 004":"sc2_pd_laser",
+        "WS 005":"sc2_pd_laser",
+        "WS 006":"sc2_pd_laser",
+        "WS 007":"sc2_pd_laser",
       },
     },
 	],

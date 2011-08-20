@@ -156,8 +156,63 @@
     },
     {
       "angle": 0,
-      "arc": 360,
+      "arc": 60,
       "id": "WS 002",
+      "locations": [
+        0, 0,
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 60,
+      "arc": 60,
+      "id": "WS 003",
+      "locations": [
+        0, 0,
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 120,
+      "arc": 60,
+      "id": "WS 004",
+      "locations": [
+        0, 0,
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 180,
+      "arc": 60,
+      "id": "WS 005",
+      "locations": [
+        0, 0,
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 240,
+      "arc": 60,
+      "id": "WS 006",
+      "locations": [
+        0, 0,
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 300,
+      "arc": 60,
+      "id": "WS 007",
       "locations": [
         0, 0,
       ],

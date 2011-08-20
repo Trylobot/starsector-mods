@@ -149,10 +149,10 @@ public class ToysForBob
      * @param minSpeed minimum speed of spawned asteroids.
      * @param maxSpeed maximum speed of spawned asteroids.
      * @param quantity approximate number of asteroids to keep in play as they're destroyed/move off map. */
-	  api.addAsteroidField( 0f, min + size/4f, 35f, 2000, 0f, 50f, 75);
-	  api.addAsteroidField( 0f, max - size/4f, 35f, 2000, 0f, 200f, 75);
-	  api.addAsteroidField( 0f, min + size/4f, -35f, 2000, 0f, 200f, 75);
-	  api.addAsteroidField( 0f, max - size/4f, -35f, 2000, 0f, 200f, 75);
+	  api.addAsteroidField( 0f, min + size/4f, 35f, 2000, 0f, 50f, 50);
+	  api.addAsteroidField( 0f, max - size/4f, 35f, 2000, 0f, 200f, 50);
+	  api.addAsteroidField( 0f, min + size/4f, -35f, 2000, 0f, 200f, 50);
+	  api.addAsteroidField( 0f, max - size/4f, -35f, 2000, 0f, 200f, 50);
   }
   
 }
