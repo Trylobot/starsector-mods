@@ -1,0 +1,52 @@
+{
+  "bounds": [
+    -69,
+    11,
+    -94,
+    38.5,
+    -117.5,
+    53,
+    -113.5,
+    64,
+    2.5,
+    14,
+    71.5,
+    17,
+    103.5,
+    0,
+    103.5,
+    0,
+    71.5,
+    -17,
+    2.5,
+    -14,
+    -113.5,
+    -64,
+    -117.5,
+    -53,
+    -94,
+    -38.5,
+    -69,
+    -11
+  ],
+  "center": [
+    70,
+    124.5
+  ],
+  "collisionRadius": 148.3,
+  "engineSlots": [],
+  "height": 236,
+  "width": 140,
+  "hullId": "",
+  "hullName": "",
+  "hullSize": "",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 0,
+  "spriteName": "",
+  "style": "",
+  "viewOffset": 0,
+  "weaponSlots": []
+}
