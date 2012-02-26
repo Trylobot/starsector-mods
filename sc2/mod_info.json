@@ -1,7 +1,7 @@
 {
   "id":"star_control_2", # internal id
 	"name":"Star Control II", # displayed to the player
-	"version":"0.7",
+	"version":"0.6",
 	"description":"The Ur-Quan Masters",
-  "gameVersion":"0.35a",
+  "gameVersion":"0.5",
 }
