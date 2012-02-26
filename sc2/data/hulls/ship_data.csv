@@ -1,9 +1,9 @@
 name,id,designation,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,shield arc,shield upkeep,shield efficiency,min crew,max crew,cargo,fuel,fuel/ly,range,hangar,base value,number
-Dreadnought,sc2_ur-quan_dreadnought,,15,15000,500,1000,,80,300,150,35,25,50,50,3500,NONE,0,0,1,1,1,1,1,1,1,1,0,1337200
-Autonomous Fighter,sc2_ur-quan_autonomous_fighter,,,150,75,10,,5,5,250,100,75,200,250,10,NONE,0,0,1,1,1,1,1,1,1,1,0,1337201
-Cruiser,sc2_earthling_cruiser,,6,6430,500,430,,63.5,110,50,20,20,90,100,2100,NONE,0,0,1,1,1,1,1,1,1,1,0,1337202
-Nemesis,sc2_orz_nemesis,,11,5720,500,475,,81,230,175,150,100,65,88,1400,NONE,0,0,1,1,1,1,1,1,1,1,0,1337203
-Trader,sc2_melnorme_trader,,11,7150,500,1000,,114.3,230,180,25,20,45,45,2450,NONE,0,0,1,1,1,1,1,1,1,1,0,1337204
-Terminator,sc2_yehat_terminator,,11,7140,500,240,,167.05,230,150,75,60,60,100,1050,OMNI,360,1.04,0.0025,1,1,1,1,1,1,1,0,1337205
-X-Form (Y-Wing),sc2_mmrnmhrm_x-form_y-wing,,10,5720,500,300,,81,230,350,250,100,40,70,1000,NONE,0,0,1,1,1,1,1,1,1,1,0,1337206
-X-Form (X-Wing),sc2_mmrnmhrm_x-form_x-wing,,10,5720,500,1000,,63.5,110,50,20,20,90,100,2100,NONE,0,0,1,1,1,1,1,1,1,1,0,1337207
+Dreadnought,sc2_ur-quan_dreadnought,,15,15000,500,1000,,80,300,150,35,25,50,50,3500,NONE,0,0,1,1,1,1,1,1,1,1,1,1337200
+Autonomous Fighter,sc2_ur-quan_autonomous_fighter,,,150,75,10,,5,5,250,100,75,200,250,10,NONE,0,0,1,1,1,1,1,1,1,1,1,1337201
+Cruiser,sc2_earthling_cruiser,,6,6430,500,430,,63.5,110,50,20,20,90,100,2100,NONE,0,0,1,1,1,1,1,1,1,1,1,1337202
+Nemesis,sc2_orz_nemesis,,11,5720,500,475,,81,230,175,150,80,65,88,1400,NONE,0,0,1,1,1,1,1,1,1,1,1,1337203
+Trader,sc2_melnorme_trader,,11,7140,500,1000,,114.3,230,180,25,20,45,45,2450,NONE,0,0,1,1,1,1,1,1,1,1,1,1337204
+Terminator,sc2_yehat_terminator,,11,7140,500,240,,167.05,230,150,75,60,60,100,1050,OMNI,360,1.04,0.0025,1,1,1,1,1,1,1,1,1337205
+X-Form (X-Wing),sc2_mmrnmhrm_x-form_x-wing,,9,7140,500,240,,166,190,100,20,20,83,166,2100,NONE,0,0,1,1,1,1,1,1,1,1,1,1337206
+X-Form (Y-Wing),sc2_mmrnmhrm_x-form_y-wing,,9,7140,500,240,,80,190,300,300,100,18,36,1050,NONE,0,0,1,1,1,1,1,1,1,1,1,1337207

@@ -10,6 +10,19 @@ Global World Units: 1/4 pixel at full zoom
 Facing Units: 22.5 degrees
 
 -----------------------------------
+Easy Multiplier Conversions (UQM -> SF):
+  crew -> hitpoints:           357.142857143
+  battery -> max flux:         23.8095238095
+  batt.regen -> flux dissip.:  571.428571429
+  value -> fleet pts:          0.5
+  armor rating:                500 (=constant)
+  max speed:                   5.0
+  max turn rate:               250.0  -or-  180.0
+  mass:                        350.0
+  
+  
+
+-----------------------------------
 http://wiki.uqm.stack.nl/List_of_ships
 
 
@@ -48,7 +61,7 @@ Converted stats
   Flux Dissipation: 80
   Max Speed: 1296 (150)
   Acceleration: 37.152 (25)
-  Max Turn Rate: 108 (40)
+  Max Turn Rate: 108 (50)
   Mass: 3500
   Primary Range: 800 px (750)
   Secondary Range: 125 px
@@ -195,3 +208,37 @@ Propulsion
   Acceleration: 2 units/frame 	
   Mass: 3 
   
+
+-----------------------------------
+http://wiki.uqm.stack.nl/X-Form
+
+Mmrnmhrm X-Form
+Basic stats	
+  Crew: 20	
+  Value: 19 pts
+  Battery: 10	Batt. 
+  Regeneration: 0.29 / 0.14 units/frame
+Armament	
+  Primary_1: Laser cannons
+    Refire delay: 0 frames	
+    Energy use: 1 units	
+  Primary_2: Missiles	
+    Refire delay: 20 frames	
+    Energy use: 1 units	
+  Secondary: Switch forms
+    Refire delay: 0 frames
+    Energy use: 10 units
+Propulsion	
+  Max speed: 20 / 50 world units/frame	
+  Turn rate: 0.33 / 0.07 facings/frame
+  Acceleration: 2.5 / 10 units/frame	
+  Mass: 3
+  
+crew -> hitpoints:           357.142857143 (7140)
+battery -> max flux:         23.8095238095 (240)
+batt.regen -> flux dissip.:  571.428571429 (166,80)
+value -> fleet pts:          0.5 (9)
+armor rating:                500 (=constant)
+max speed:                   5.0 (100,250)
+max turn rate:               250.0 (83,18)
+mass:                        350.0 (1050)
