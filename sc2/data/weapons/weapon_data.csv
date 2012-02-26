@@ -7,5 +7,5 @@ Howitzer Cannon,sc2_howitzer,0,1,690,,1072,,1000,210,20,,HIGH_EXPLOSIVE,140,,,0.
 Variable Blaster,sc2_variable_power_blaster,0,1,1500,,5950,,500,0,25,,ENERGY,142.3,114.3,9,0.12,,,,,,,,1000,,,550,,1337205
 EM Pulse Cannon,sc2_electromagnetic_pulse_cannon,0,1,1450,,0,600,0,0,10,,ENERGY,490,,,0.8,,,,,,,,800,,,100,,1337206
 Twin Ion Pulse Blaster,sc2_ion_pulse_cannon,0,1,450,,410,,800,0,10,,ENERGY,24,,,0.08,,,,,,,,900,,,50,,1337207
-Twin Laser Cannons,sc2_twin_laser,0,1,702.043,375,,,0,0,10,,ENERGY,,576,0,0,0.41666667,0,,,,,10000,,,,,,1337208
+Twin Laser Cannons,sc2_twin_laser,0,1,702.043,185,,,0,0,10,,ENERGY,,288,0,0.4,0,0,,,,,10000,,,,,,1337208
 Missile Launcher,sc2_missile_launcher,0,1,100,,375,,500,0,10,,HIGH_EXPLOSIVE,24,,0,0.42,,,,,,,,500,100,20,100,,1337209
