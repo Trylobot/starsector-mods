@@ -73,15 +73,10 @@ public class ToysForBob
     alliance_catalog[alliance_i++] = pick;
     allships_catalog[allships_i++] = pick;
 
-    pick = new ShipData[1];
+    pick = new ShipData[2];
     i = 0;
-    pick[i++] = new ShipData( "sc2_mmrnmhrm_x-form_y-wing", FleetMemberType.SHIP, "Mmrnmhrm" );
-    alliance_catalog[alliance_i++] = pick;
-    allships_catalog[allships_i++] = pick;
-
-    pick = new ShipData[1];
-    i = 0;
-    pick[i++] = new ShipData( "sc2_mmrnmhrm_x-form_x-wing", FleetMemberType.SHIP, "Mmrnmhrm" );
+    pick[i++] = new ShipData( "sc2_mmrnmhrm_x-form_y-wing_standard", FleetMemberType.SHIP, "Mmrnmhrm" );
+    pick[i++] = new ShipData( "sc2_mmrnmhrm_x-form_x-wing_standard", FleetMemberType.SHIP, "Mmrnmhrm" );
     alliance_catalog[alliance_i++] = pick;
     allships_catalog[allships_i++] = pick;
   }
