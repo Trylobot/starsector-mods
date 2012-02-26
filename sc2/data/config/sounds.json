@@ -48,13 +48,16 @@
       "pitch":1, "volume":0.75
     },
   ],
+  "sc2_twin_laser":[
+    {
+      "file":"sounds/sc2/fx/sc2_twin_laser.wav",
+      "pitch":1, "volume":0.75
+    },
+  ],
+  "sc2_missile":[
+    {
+      "file":"sounds/sc2/fx/sc2_missile.wav",
+      "pitch":1, "volume":0.75
+    },
+  ],
 }
-
-
-
-
-
-
-
-
-

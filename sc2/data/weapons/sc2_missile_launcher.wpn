@@ -25,5 +25,5 @@
 				 "blowbackSpread":10.0,
 				 "particleColor":[100,100,100,200]},
 	"projectileSpecId":"type_1_lrm",
-	"fireSoundTwo":"missile_medium",
+	"fireSoundTwo":"sc2_missile",
 }

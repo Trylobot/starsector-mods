@@ -78,7 +78,7 @@
         "locations" : [ -4,
             85
           ],
-        "mount" : "HIDDEN",
+        "mount" : "HARDPOINT",
         "size" : "LARGE",
         "type" : "ENERGY"
       },
@@ -88,7 +88,7 @@
         "locations" : [ -4,
             -85
           ],
-        "mount" : "HIDDEN",
+        "mount" : "HARDPOINT",
         "size" : "LARGE",
         "type" : "ENERGY"
       }
