@@ -1,0 +1,11 @@
+Dots:
+
+export from inkscape via copy+paste
+  rotated 2x2 tessellated square pattern
+  
+apply effect photo > glow
+ r=1
+ bright=40
+ con=10
+ 
+ 
