@@ -52,7 +52,7 @@ public class MissionDefinition implements MissionDefinitionPlugin {
     api.addToFleet(FleetSide.ENEMY, "brawler_Assault", FleetMemberType.SHIP, false);
     api.addToFleet(FleetSide.ENEMY, "brawler_Assault", FleetMemberType.SHIP, false);
     api.addToFleet(FleetSide.ENEMY, "enforcer_Balanced", FleetMemberType.SHIP, false);
-    api.addToFleet(FleetSide.ENEMY, "enforcer_Support", FleetMemberType.SHIP, false);
+    api.addToFleet(FleetSide.ENEMY, "enforcer_CS", FleetMemberType.SHIP, false);
     api.addToFleet(FleetSide.ENEMY, "wolf_Assault", FleetMemberType.SHIP, false);
     api.addToFleet(FleetSide.ENEMY, "wolf_Assault", FleetMemberType.SHIP, false);
     api.addToFleet(FleetSide.ENEMY, "wolf_PD", FleetMemberType.SHIP, false);
