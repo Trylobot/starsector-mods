@@ -52,7 +52,7 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		// Set up the enemy fleet
 		api.addToFleet(FleetSide.ENEMY, "lasher_CS", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.ENEMY, "lasher_CS", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "condor_Support", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "condor_FS", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.ENEMY, "wasp_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "wasp_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "wasp_wing", FleetMemberType.FIGHTER_WING, false);

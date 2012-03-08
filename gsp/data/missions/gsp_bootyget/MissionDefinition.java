@@ -51,11 +51,11 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.addToFleet(FleetSide.ENEMY, "hound_Assault", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.ENEMY, "lasher_CS", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.ENEMY, "lasher_CS", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "sunder_Support", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "wolf_Support", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "wolf_Support", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "condor_Support", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "condor_Support", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "sunder_CS", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "wolf_CS", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "wolf_CS", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "condor_FS", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "condor_FS", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.ENEMY, "wasp_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "wasp_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "xyphos_wing", FleetMemberType.FIGHTER_WING, false);
