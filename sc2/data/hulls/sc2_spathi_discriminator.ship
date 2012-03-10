@@ -5,9 +5,9 @@
 	"engineSlots": [{
 		"angle": "180",
 		"contrailSize": "100",
-		"location": [-67, 2],
-		"length": "40",
-		"width": "25",
+		"location": [-69, 0],
+		"length": "60",
+		"width": "40",
 		"style": "MIDLINE"
 	}],
 	"height": 160,
