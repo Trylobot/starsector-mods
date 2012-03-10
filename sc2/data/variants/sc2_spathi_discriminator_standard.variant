@@ -1,1 +1,19 @@
-{"displayName":"Spathi","hullId":"sc2_spathi_discriminator","variantId":"sc2_spathi_discriminator_standard","fluxVents":0,"fluxCapacitors":0,"mods":[],"weaponGroups":[{"mode":"LINKED","weapons":{"WS001":"sc2_dumbfire_projectile"}},{"mode":"LINKED","weapons":{"WS002":"sc2_butt_missile"}}]}
+{
+	"displayName": "Spathi",
+	"hullId": "sc2_spathi_discriminator",
+	"variantId": "sc2_spathi_discriminator_standard",
+	"fluxVents": 0,
+	"fluxCapacitors": 0,
+	"mods": [],
+	"weaponGroups": [{
+		"mode": "LINKED",
+		"weapons": {
+			"WS001": "vulcan" #"sc2_dumbfire_projectile"
+		}
+	}, {
+		"mode": "LINKED",
+		"weapons": {
+			"WS002": "pilum" #"sc2_butt_missile"
+		}
+	}]
+}

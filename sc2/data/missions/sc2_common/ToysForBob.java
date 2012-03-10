@@ -221,7 +221,7 @@ public class ToysForBob
 
 		/////
 		alliance_count = 4;
-		hierarchy_count = 2;
+		hierarchy_count = 4;
 
 		alliance_catalog = new ShipData[alliance_count][];
 		hierarchy_catalog = new ShipData[hierarchy_count][];
@@ -249,6 +249,18 @@ public class ToysForBob
 		hierarchy_catalog[hierarchy_i++] = pick;
 		allships_catalog[allships_i++] = pick;
 		
+		pick = new ShipData[1];
+		i = 0;
+		pick[i++] = new ShipData( "sc2_spathi_discriminator_standard", FleetMemberType.SHIP );
+		hierarchy_catalog[hierarchy_i++] = pick;
+		allships_catalog[allships_i++] = pick;
+		
+		pick = new ShipData[1];
+		i = 0;
+		pick[i++] = new ShipData( "sc2_vux_intruder_standard", FleetMemberType.SHIP );
+		hierarchy_catalog[hierarchy_i++] = pick;
+		allships_catalog[allships_i++] = pick;
+
 		pick = new ShipData[1];
 		i = 0;
 		pick[i++] = new ShipData( "sc2_earthling_cruiser_standard", FleetMemberType.SHIP );

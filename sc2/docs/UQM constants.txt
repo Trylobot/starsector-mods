@@ -242,3 +242,64 @@ armor rating:                500 (=constant)
 max speed:                   5.0 (100,250)
 max turn rate:               250.0 (83,18)
 mass:                        350.0 (1050)
+
+
+
+----------------------------------------
+SPATHI
+Spathi Eluder
+Basic stats	
+  Crew: 30
+  Value: 18 pts
+  Battery: 10	
+  Batt. Regeneration: 0.091 units/frame
+Primary: Forward Mounted Gun
+  Refire delay: 0 frames
+  Energy use: 2 units
+Secondary: B.U.T.T. Missiles
+  Refire delay: 7 frames
+  Energy use: 3 units
+Max speed: 48 world units/frame
+Acceleration: 6 units/frame
+Turn rate: 0.5 facings/frame
+Mass: 7
+---
+value -> fleet pts:          0.5 (9)
+crew -> hitpoints:           357.142857143 (10715)
+armor rating:                500 (=constant)
+battery -> max flux:         23.8095238095 (240)
+batt.regen -> flux dissip.:  571.428571429 (52)
+max speed:                   5.0 (240)
+max turn rate:               250.0 ()
+mass:                        350.0 (1050)
+
+
+
+-------------
+VUX Intruder
+Basic stats	
+Crew: 20	
+Value: 12 pts
+Battery: 40	
+Batt. Regeneration: 0.111 units/frame
+Primary: Gigawatt Laser	
+  Refire delay: 0 frames	
+  Energy use: 1 units	
+Secondary: Limpets
+  Refire delay: 7 frames
+  Energy use: 2 units
+Propulsion	
+Max speed: 21 world units/frame	
+Turn rate: 0.142 facings/frame
+Acceleration: 1.4 units/frame	
+Mass: 6
+---
+value -> fleet pts:          0.5 
+crew -> hitpoints:           357.142857143 
+armor rating:                500 (=constant)
+battery -> max flux:         23.8095238095 
+batt.regen -> flux dissip.:  571.428571429 
+max speed:                   5.0 
+max turn rate:               250.0 
+mass:                        350.0 
+
