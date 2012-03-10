@@ -1,0 +1,19 @@
+
+Y-wing:
+  make missiles' top speed higher
+  and total life time lower
+  
+Yehat:
+  split weapon into 2 instances
+  
+Melnorme:
+  fix primary weapon; it does not fire
+  fix secondary weapon; it does no damage or flux damage at all
+  
+Spathi:
+  finish weapons
+  
+Vux: 
+  finish weapons
+  
+  
