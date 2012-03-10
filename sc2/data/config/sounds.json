@@ -18,6 +18,7 @@
       "pitch":1, "volume":0.75
     },
   ],
+  
   "sc2_plasma_torpedo":[
     {
       "file":"sounds/sc2/fx/sc2_plasma_torpedo.ogg",

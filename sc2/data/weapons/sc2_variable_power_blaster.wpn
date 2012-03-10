@@ -18,5 +18,6 @@
 	"autocharge":false,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
 	"requiresFullCharge":false,  # for pulse weapons - whether the weapon will fire at a lower strength partial charge
 	"projectileSpecId":"sc2_var_blaster_shot",  # projectile that will be fired
+	"fireSoundOne":"sc2_var_blaster_intro",
 	"fireSoundTwo":"sc2_var_blaster_launch",
 }

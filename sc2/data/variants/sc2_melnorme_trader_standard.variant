@@ -12,7 +12,7 @@
     {
       "mode":"LINKED",
       "weapons":{
-        "WS 001":"sc2_variable_power_blaster",
+        "WS 001": "sc2_variable_power_blaster", #"plasma"
       },
     },
     {

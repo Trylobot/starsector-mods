@@ -1,10 +1,10 @@
 
 Y-wing:
-  make missiles' top speed higher
-  and total life time lower
+x make missiles' top speed higher
+x and total life time lower
   
 Yehat:
-  split weapon into 2 instances
+x split weapon into 2 instances
   
 Melnorme:
   fix primary weapon; it does not fire

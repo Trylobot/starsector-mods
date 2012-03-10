@@ -1,14 +1,12 @@
 {
 	"id":"sc2_var_blaster_shot",
 	"specClass":"projectile",
-	"spawnType":"BALLISTIC",
+	"spawnType":"PLASMA",
 	"collisionClass":"PROJECTILE_FF",
 	"collisionClassByFighter":"PROJECTILE_FIGHTER",
-	"length":25.0,
-	"width": 20.0,
+	#"length":25.0,
+	"width": 25.0,
 	"fadeTime": 0.1,
 	"fringeColor":[255,10,10,255],
 	"coreColor":[255,255,255,255],
-	"textureScrollSpeed":64.0,
-	"pixelsPerTexel":5.0,
 }
