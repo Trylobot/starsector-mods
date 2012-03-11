@@ -10,15 +10,18 @@
 	# slot ids (WS ***) must match what's in the .ship file
 	"weaponGroups":[
     {
-      "mode":"LINKED",
+      "mode":"ALTERNATING",
       "weapons":{
-        "WS 001": "sc2_variable_power_blaster", #"plasma"
+        "WS 001": "sc2_variable_power_blaster_s1",
+        "WS 002": "sc2_variable_power_blaster_s2",
+        "WS 003": "sc2_variable_power_blaster_s3",
+        "WS 004": "sc2_variable_power_blaster_s4",
       },
     },
     {
       "mode":"LINKED",
       "weapons":{
-        "WS 002":"sc2_electromagnetic_pulse_cannon",
+        "WS 005":"sc2_electromagnetic_pulse_cannon",
       },
     },
 	],
