@@ -17,5 +17,5 @@
 	"animationType":"GLOW",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
 	"interruptibleBurst":false,
 	"projectileSpecId":"sc2_em_pulse",
-	"fireSoundTwo":"sc2_var_blaster_intro",
+	"fireSoundTwo":"sc2_em_pulse_launch",
 }

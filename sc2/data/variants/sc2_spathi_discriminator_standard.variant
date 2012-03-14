@@ -13,7 +13,7 @@
 	}, {
 		"mode": "LINKED",
 		"weapons": {
-			"WS002": "pilum" #"sc2_butt_missile"
+			"WS002": "sc2_butt_missile"
 		}
 	}]
 }

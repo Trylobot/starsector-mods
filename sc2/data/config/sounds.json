@@ -6,56 +6,39 @@
     },
   ],
   
-  "sc2_var_blaster_s1_intro":[
+  "sc2_var_blaster_intro":[
     {
       "file":"sounds/sc2/fx/sc2_var_blaster_intro.ogg",
-      "pitch":1, "volume":1.0
+      "pitch":1, "volume":1.25
     },
   ],
   "sc2_var_blaster_s1_launch":[
     {
       "file":"sounds/sc2/fx/sc2_var_blaster_launch.ogg",
-      "pitch":1, "volume":1.0
-    },
-  ],
-  
-  "sc2_var_blaster_s2_intro":[
-    {
-      "file":"sounds/sc2/fx/sc2_var_blaster_intro.ogg",
-      "pitch":1.2, "volume":1.0
+      "pitch":2.0, "volume":1.10
     },
   ],
   "sc2_var_blaster_s2_launch":[
     {
       "file":"sounds/sc2/fx/sc2_var_blaster_launch.ogg",
-      "pitch":1.2, "volume":1.0
-    },
-  ],
-  
-  "sc2_var_blaster_s3_intro":[
-    {
-      "file":"sounds/sc2/fx/sc2_var_blaster_intro.ogg",
-      "pitch":1.5, "volume":1.1
+      "pitch":1.4, "volume":1.20
     },
   ],
   "sc2_var_blaster_s3_launch":[
     {
       "file":"sounds/sc2/fx/sc2_var_blaster_launch.ogg",
-      "pitch":1.5, "volume":1.1
-    },
-  ],
-  
-  "sc2_var_blaster_s4_intro":[
-    {
-      "file":"sounds/sc2/fx/sc2_var_blaster_intro.ogg",
-      "pitch":2.0, "volume":1.24
+      "pitch":1.0, "volume":1.35
     },
   ],
   "sc2_var_blaster_s4_launch":[
     {
       "file":"sounds/sc2/fx/sc2_var_blaster_launch.ogg",
-      "pitch":2.0, "volume":1.24
+      "pitch":0.8, "volume":1.50
     },
+  ],
+
+  "sc2_em_pulse_launch":[
+    {"file":"sounds/fx/beams/fire_beam_burst01.ogg","pitch":0.5,"volume":1},
   ],
   
   "sc2_plasma_torpedo":[

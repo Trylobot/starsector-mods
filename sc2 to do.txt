@@ -7,9 +7,9 @@ Yehat:
 x split weapon into 2 instances
   
 Melnorme:
-  fix primary weapon; it does not fire
+x fix primary weapon; it does not fire
+x make primary weapon an alternating group, with 4 weapons of differing color/power
   fix secondary weapon; it does no damage or flux damage at all
-  make primary weapon an alternating group, with 4 weapons of differing color/power
   
 Spathi:
   finish weapons

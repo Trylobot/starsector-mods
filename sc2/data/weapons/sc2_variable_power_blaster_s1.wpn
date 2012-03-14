@@ -1,6 +1,6 @@
 {
-	"id":"sc2_variable_power_blaster",  # this id must match what's in the spreadsheet
-	"specClass":"pulse",
+	"id":"sc2_variable_power_blaster_s1",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
 	"type":"ENERGY",
 	"size":"LARGE",
 	"displayArcRadius":1400,
@@ -8,7 +8,7 @@
 	"turretGlowSprite":   "graphics/sc2/weapons/sc2_var_blaster_hardpoint_glow.png",
   "hardpointSprite":    "",
 	"hardpointGlowSprite":"graphics/sc2/weapons/sc2_var_blaster_hardpoint_glow.png",
-	"glowColor":[255,100,100,255],
+	"glowColor":[100,255,100,127],
 	"turretOffsets":[5, 0],
 	"turretAngleOffsets":[0],
 	"hardpointOffsets":[5, 0],
@@ -16,8 +16,7 @@
 	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
 	"animationType":"GLOW",
 	"autocharge":false,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
-	"requiresFullCharge":false,  # for pulse weapons - whether the weapon will fire at a lower strength partial charge
-	"projectileSpecId":"sc2_var_blaster_shot",  # projectile that will be fired
+	"projectileSpecId":"sc2_var_blaster_s1_shot",  # projectile that will be fired
 	"fireSoundOne":"sc2_var_blaster_intro",
-	"fireSoundTwo":"sc2_var_blaster_launch",
+	"fireSoundTwo":"sc2_var_blaster_s1_launch",
 }

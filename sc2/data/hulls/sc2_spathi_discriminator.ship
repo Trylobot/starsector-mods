@@ -4,10 +4,10 @@
 	"collisionRadius": "130",
 	"engineSlots": [{
 		"angle": "180",
-		"contrailSize": "100",
-		"location": [-69, 0],
-		"length": "60",
-		"width": "40",
+		"contrailSize": "150",
+		"location": [-67, -4],
+		"length": "85",
+		"width": "55",
 		"style": "MIDLINE"
 	}],
 	"height": 160,
@@ -24,7 +24,7 @@
 		"angle": "0",
 		"arc": "0",
 		"id": "WS001",
-		"locations": [16, 0],
+		"locations": [16, -4],
 		"mount": "HARDPOINT",
 		"size": "SMALL",
 		"type": "BALLISTIC"
@@ -32,7 +32,7 @@
 		"angle": "180",
 		"arc": "0",
 		"id": "WS002",
-		"locations": [-61, 2],
+		"locations": [-61, -4],
 		"mount": "HIDDEN",
 		"size": "MEDIUM",
 		"type": "MISSILE"

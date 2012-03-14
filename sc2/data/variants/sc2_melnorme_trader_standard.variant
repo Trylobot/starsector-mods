@@ -10,7 +10,7 @@
 	# slot ids (WS ***) must match what's in the .ship file
 	"weaponGroups":[
     {
-      "mode":"ALTERNATING",
+      "mode":"LINKED",
       "weapons":{
         "WS 001": "sc2_variable_power_blaster_s1",
         "WS 002": "sc2_variable_power_blaster_s2",

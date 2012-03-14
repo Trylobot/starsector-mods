@@ -1,0 +1,21 @@
+{
+	"id":"sc2_variable_power_blaster_s4",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"displayArcRadius":1400,
+  "turretSprite":       "",
+	"turretGlowSprite":   "graphics/sc2/weapons/sc2_var_blaster_hardpoint_glow.png",
+  "hardpointSprite":    "",
+	"hardpointGlowSprite":"graphics/sc2/weapons/sc2_var_blaster_hardpoint_glow.png",
+	"glowColor":[255,100,100,127],
+	"turretOffsets":[5, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[5, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW",
+	"autocharge":false,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"sc2_var_blaster_s4_shot",  # projectile that will be fired
+	"fireSoundTwo":"sc2_var_blaster_s4_launch",
+}

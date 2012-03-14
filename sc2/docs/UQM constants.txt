@@ -156,7 +156,7 @@ Basic stats
   Batt. Regeneration: 0.2 units/frame
 Armament 	
   Primary: Variable power blaster 	
-    Damage: 16 (max)
+    Damage: 16 (max) [2,4,8,16]
     Refire delay: 1 frames 	
     Energy use: 5 units 	
     Range: "Rank 7" (longest to shortest)

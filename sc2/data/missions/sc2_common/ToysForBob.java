@@ -38,7 +38,6 @@ public class ToysForBob
 		int n;
 		
 		name_list = new String[16];
-		ship_names.put( "sc2_ur-quan_dreadnought_standard", name_list );
 		n = 0;
 		name_list[n++] = "Lord 3";
 		name_list[n++] = "Lord 18";
@@ -56,9 +55,9 @@ public class ToysForBob
 		name_list[n++] = "Lord 666";
 		name_list[n++] = "Lord 783";
 		name_list[n++] = "Lord 999";
+		ship_names.put( "sc2_ur-quan_dreadnought_standard", name_list );
 		
 		name_list = new String[16];
-		ship_names.put( "sc2_melnorme_trader_standard", name_list );
 		n = 0;
 		name_list[n++] = "Aqua";
 		name_list[n++] = "Beige";
@@ -76,9 +75,9 @@ public class ToysForBob
 		name_list[n++] = "Reddish";
 		name_list[n++] = "Umber";
 		name_list[n++] = "Yellow";
+		ship_names.put( "sc2_melnorme_trader_standard", name_list );
 
 		name_list = new String[16];
-		ship_names.put( "sc2_spathi_discriminator_standard", name_list );
 		n = 0;
 		name_list[n++] = "Bwinkin";
 		name_list[n++] = "Jinkeze";
@@ -96,9 +95,9 @@ public class ToysForBob
 		name_list[n++] = "Thwill";
 		name_list[n++] = "Whuff";
 		name_list[n++] = "Wiffy";
+		ship_names.put( "sc2_spathi_discriminator_standard", name_list );
 
 		name_list = new String[16];
-		ship_names.put( "sc2_vux_intruder_standard", name_list );
 		n = 0;
 		name_list[n++] = "DAK";
 		name_list[n++] = "FIZ";
@@ -116,9 +115,9 @@ public class ToysForBob
 		name_list[n++] = "ZRN";
 		name_list[n++] = "ZUK";
 		name_list[n++] = "ZUP";
+		ship_names.put( "sc2_vux_intruder_standard", name_list );
 
 		name_list = new String[16];
-		ship_names.put( "sc2_earthling_cruiser_standard", name_list );
 		n = 0;
 		name_list[n++] = "Adama";
 		name_list[n++] = "Belt";
@@ -136,9 +135,9 @@ public class ToysForBob
 		name_list[n++] = "Tuf";
 		name_list[n++] = "VanRijn";
 		name_list[n++] = "Wu";
+		ship_names.put( "sc2_earthling_cruiser_standard", name_list );
 
 		name_list = new String[16];
-		ship_names.put( "sc2_orz_nemesis_standard", name_list );
 		n = 0;
 		name_list[n++] = "Camper";
 		name_list[n++] = "Dancer";
@@ -156,9 +155,9 @@ public class ToysForBob
 		name_list[n++] = "Smell";
 		name_list[n++] = "Squirt";
 		name_list[n++] = "Wet";
+		ship_names.put( "sc2_orz_nemesis_standard", name_list );
 
 		name_list = new String[16];
-		ship_names.put( "sc2_yehat_terminator_standard", name_list );
 		n = 0;
 		name_list[n++] = "Beep-eep";
 		name_list[n++] = "Eeep-eep";
@@ -176,10 +175,9 @@ public class ToysForBob
 		name_list[n++] = "Weep-eep";
 		name_list[n++] = "Yeep-eep";
 		name_list[n++] = "Zeep-eep";
+		ship_names.put( "sc2_yehat_terminator_standard", name_list );
 
 		name_list = new String[16];
-		ship_names.put( "sc2_mmrnmhrm_x-form_x-wing_standard", name_list );
-		ship_names.put( "sc2_mmrnmhrm_x-form_y-wing_standard", name_list );
 		n = 0;
 		name_list[n++] = "Hm-nhuh";
 		name_list[n++] = "Hmr-hun";
@@ -197,9 +195,10 @@ public class ToysForBob
 		name_list[n++] = "Rrma-hrn";
 		name_list[n++] = "Um-hrh";
 		name_list[n++] = "Ur-mfrs";
+		ship_names.put( "sc2_mmrnmhrm_x-form_x-wing_standard", name_list );
+		ship_names.put( "sc2_mmrnmhrm_x-form_y-wing_standard", name_list );
 
 		name_list = new String[16];
-		ship_names.put( "sc2_zoq-fot-pik_stinger_standard", name_list );
 		n = 0;
 		name_list[n++] = "DipPak";
 		name_list[n++] = "FatPot";
@@ -217,6 +216,7 @@ public class ToysForBob
 		name_list[n++] = "TotToe";
 		name_list[n++] = "ZikFat";
 		name_list[n++] = "ZipZak";
+		ship_names.put( "sc2_zoq-fot-pik_stinger_standard", name_list );
 
 
 		/////
