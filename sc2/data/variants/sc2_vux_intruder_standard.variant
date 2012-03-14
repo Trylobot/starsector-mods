@@ -13,7 +13,7 @@
 	}, {
 		"mode": "LINKED",
 		"weapons": {
-			"WS002": "pilum" #"sc2_limpet"
+			"WS002": "sc2_limpet"
 		}
 	}]
 }

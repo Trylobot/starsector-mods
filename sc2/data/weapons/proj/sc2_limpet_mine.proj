@@ -1,0 +1,36 @@
+{
+	"id": "sc2_limpet_mine",
+	"specClass": "missile",
+	"missileType": "HEATSEEKER",
+	"sprite": "graphics/sc2/missiles/sc2_limpet_mine.png",
+	"size": [16, 16],
+	"center": [8, 8],
+	"collisionRadius": 12,
+	"collisionClass": "MISSILE_NO_FF",
+	"explosionColor": [50, 255, 50, 20],
+	"explosionRadius": 0,
+	"engineSpec": {
+		"turnAcc": 100,
+		"turnRate": 150,
+		"acc": 300,
+		"dec": 200
+	},
+	"behaviorSpec": {
+		"behavior": "PROXIMITY_FUSE",
+		"range": 35,
+		"explosionSpec": {
+			"duration": 0.1f,
+			"radius": 50,
+			"coreRadius": 35,
+			"collisionClass": PROJECTILE_FF,
+			"collisionClassByFighter": PROJECTILE_FIGHTER,
+			"particleSizeMin": 3.0,
+			"particleSizeRange": 3.0,
+			"particleDuration": 1,
+			"particleCount": 0,
+			"particleColor": [255, 155, 155, 255],
+			"sound": "sc2_limpet_hit"
+		},
+	}
+
+}
