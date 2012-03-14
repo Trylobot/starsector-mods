@@ -8,7 +8,7 @@
 	"weaponGroups": [{
 		"mode": "LINKED",
 		"weapons": {
-			"WS001": "vulcan" #"sc2_dumbfire_projectile"
+			"WS001": "sc2_mounted_gun"
 		}
 	}, {
 		"mode": "LINKED",

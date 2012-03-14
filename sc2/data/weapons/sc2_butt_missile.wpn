@@ -11,9 +11,9 @@
 	"turretAngleOffsets":[0, 0, 0],
 	"barrelMode":"ALTERNATING",
 	"animationType":"SMOKE",
-	"renderHints":[RENDER_LOADED_MISSILES],
+	"renderHints":[],
 	"interruptibleBurst":false,
-	"displayArcRadius":300,
+	"displayArcRadius":200,
 	"smokeSpec":{"particleSizeMin":20.0,
 				 "particleSizeRange":20.0,
 				 "cloudParticleCount":3,
@@ -24,6 +24,6 @@
 				 "blowbackLength":30.0,
 				 "blowbackSpread":10.0,
 				 "particleColor":[100,100,100,200]},
-	"projectileSpecId":"type_1_lrm",
-	"fireSoundTwo":"missile_medium",
+	"projectileSpecId":"sc2_butt_missile",
+	"fireSoundTwo":"sc2_butt_squirt", #HAHA 
 }

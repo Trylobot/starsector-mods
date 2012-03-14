@@ -1,86 +1,29 @@
 {
-  "sc2_ion_pulse_cannon":[
-    {
-      "file":"sounds/sc2/fx/sc2_ion_pulse_cannon.ogg",
-      "pitch":1, "volume":0.75
-    },
-  ],
-  
-  "sc2_var_blaster_intro":[
-    {
-      "file":"sounds/sc2/fx/sc2_var_blaster_intro.ogg",
-      "pitch":1, "volume":1.25
-    },
-  ],
-  "sc2_var_blaster_s1_launch":[
-    {
-      "file":"sounds/sc2/fx/sc2_var_blaster_launch.ogg",
-      "pitch":2.0, "volume":1.10
-    },
-  ],
-  "sc2_var_blaster_s2_launch":[
-    {
-      "file":"sounds/sc2/fx/sc2_var_blaster_launch.ogg",
-      "pitch":1.4, "volume":1.20
-    },
-  ],
-  "sc2_var_blaster_s3_launch":[
-    {
-      "file":"sounds/sc2/fx/sc2_var_blaster_launch.ogg",
-      "pitch":1.0, "volume":1.35
-    },
-  ],
-  "sc2_var_blaster_s4_launch":[
-    {
-      "file":"sounds/sc2/fx/sc2_var_blaster_launch.ogg",
-      "pitch":0.8, "volume":1.50
-    },
-  ],
+  "sc2_plasma_torpedo":[{ "file":"sounds/sc2/fx/sc2_plasma_torpedo.ogg", "pitch":1, "volume":0.75 }],
+  "sc2_fighter_laser":[{ "file":"sounds/sc2/fx/sc2_fighter_laser.ogg", "pitch":1, "volume":0.75 }],
 
-  "sc2_em_pulse_launch":[
-    {"file":"sounds/fx/beams/fire_beam_burst01.ogg","pitch":0.5,"volume":1},
-  ],
+  "sc2_mx_missile":[{ "file":"sounds/sc2/fx/sc2_mx_missile.ogg", "pitch":1, "volume":0.75 }],
+  "sc2_point_defense_laser":[{ "file":"sounds/sc2/fx/sc2_point_defense_laser.ogg", "pitch":1, "volume":0.75 }],
+
+  "sc2_ion_pulse_cannon":[{ "file":"sounds/sc2/fx/sc2_ion_pulse_cannon.ogg", "pitch":1, "volume":0.75 }],
   
-  "sc2_plasma_torpedo":[
-    {
-      "file":"sounds/sc2/fx/sc2_plasma_torpedo.ogg",
-      "pitch":1, "volume":0.75
-    },
-  ],
-  "sc2_fighter_laser":[
-    {
-      "file":"sounds/sc2/fx/sc2_fighter_laser.ogg",
-      "pitch":1, "volume":0.75
-    },
-  ],
-  "sc2_mx_missile":[
-    {
-      "file":"sounds/sc2/fx/sc2_mx_missile.ogg",
-      "pitch":1, "volume":0.75
-    },
-  ],
-  "sc2_point_defense_laser":[
-    {
-      "file":"sounds/sc2/fx/sc2_point_defense_laser.ogg",
-      "pitch":1, "volume":0.75
-    },
-  ],
-  "sc2_howitzer":[
-    {
-      "file":"sounds/sc2/fx/sc2_howitzer.ogg",
-      "pitch":1, "volume":0.75
-    },
-  ],
-  "sc2_twin_laser":[
-    {
-      "file":"sounds/sc2/fx/sc2_twin_laser.wav",
-      "pitch":1, "volume":0.75
-    },
-  ],
-  "sc2_missile":[
-    {
-      "file":"sounds/sc2/fx/sc2_missile.wav",
-      "pitch":1, "volume":0.75
-    },
-  ],
+  "sc2_var_blaster_intro":[{ "file":"sounds/sc2/fx/sc2_var_blaster_intro.ogg", "pitch":1, "volume":1.25 }],
+  "sc2_var_blaster_s1_launch":[{ "file":"sounds/sc2/fx/sc2_var_blaster_launch.ogg", "pitch":2.0, "volume":1.10 }],
+  "sc2_var_blaster_s2_launch":[{ "file":"sounds/sc2/fx/sc2_var_blaster_launch.ogg", "pitch":1.4, "volume":1.20 }],
+  "sc2_var_blaster_s3_launch":[{ "file":"sounds/sc2/fx/sc2_var_blaster_launch.ogg", "pitch":1.0, "volume":1.35 }],
+  "sc2_var_blaster_s4_launch":[{ "file":"sounds/sc2/fx/sc2_var_blaster_launch.ogg", "pitch":0.8, "volume":1.50 }],
+  "sc2_em_pulse_launch":[{"file":"sounds/fx/beams/fire_beam_burst01.ogg","pitch":0.5,"volume":1 }],
+
+  "sc2_howitzer":[{ "file":"sounds/sc2/fx/sc2_howitzer.ogg", "pitch":1, "volume":0.75 }],
+
+  "sc2_twin_laser":[{ "file":"sounds/sc2/fx/sc2_twin_laser.wav", "pitch":1, "volume":0.50 }],
+  "sc2_missile":[{ "file":"sounds/sc2/fx/sc2_missile.wav", "pitch":1, "volume":0.75 }],
+
+  "sc2_gun_fire":[{ "file":"sounds/sc2/fx/sc2_gun.wav", "pitch":1, "volume":0.75 }],
+  "sc2_butt_squirt":[{ "file":"sounds/sc2/fx/sc2_butt.wav", "pitch":1, "volume":0.75 }],
+
+  "sc2_gigawatt_laser":[{ "file":"sounds/sc2/fx/sc2_gigawatt_laser_loop.wav", "pitch":1, "volume":0.75 }],
+  "sc2_limpet_launch":[{ "file":"sounds/sc2/fx/sc2_limpet_launch.wav", "pitch":1, "volume":0.75 }],
+  "sc2_limpet_hit":[{ "file":"sounds/sc2/fx/sc2_limpet_hit.wav", "pitch":1, "volume":0.75 }],
+
 }

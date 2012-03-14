@@ -8,7 +8,7 @@
 	"weaponGroups": [{
 		"mode": "LINKED",
 		"weapons": {
-			"WS001": "sc2_twin_laser" #"sc2_gigawatt_laser"
+			"WS001": "sc2_gigawatt_laser"
 		}
 	}, {
 		"mode": "LINKED",
