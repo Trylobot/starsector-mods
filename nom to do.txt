@@ -1,0 +1,3 @@
+fix mission error to do with asteroid belt area
+- it is random; sometimes no error, sometimes error
+  probably do with size limitations

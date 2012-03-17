@@ -1,20 +1,3 @@
+Spathi
+- make gun kinetic instead of HE (remove explosion)
 
-Y-wing:
-x make missiles' top speed higher
-x and total life time lower
-  
-Yehat:
-x split weapon into 2 instances
-  
-Melnorme:
-x fix primary weapon; it does not fire
-x make primary weapon an alternating group, with 4 weapons of differing color/power
-  fix secondary weapon; it does no damage or flux damage at all
-  
-Spathi:
-  finish weapons
-  
-Vux: 
-  finish weapons
-  
-  
