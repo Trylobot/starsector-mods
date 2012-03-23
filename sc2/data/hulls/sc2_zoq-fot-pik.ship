@@ -85,36 +85,36 @@
   "engineSlots": [
     {
       "angle": -180,
-      "contrailSize": 30,
-      "length": 71.5,
+      "contrailSize": 44,
+      "length": 117,
       "location": [
         -67.5,
         0
       ],
       "style": "HIGH_TECH",
-      "width": 30
+      "width": 44
     },
     {
       "angle": 139.7,
-      "contrailSize": 30,
-      "length": 71.5,
+      "contrailSize": 44.5,
+      "length": 117.5,
       "location": [
         -42.5,
         82
       ],
       "style": "HIGH_TECH",
-      "width": 30
+      "width": 44.5
     },
     {
       "angle": -139.7,
-      "contrailSize": 30,
-      "length": 71.5,
+      "contrailSize": 44.1,
+      "length": 117.0,
       "location": [
         -43,
         -81.5
       ],
       "style": "HIGH_TECH",
-      "width": 30
+      "width": 44.1
     }
   ],
   "height": 166,
