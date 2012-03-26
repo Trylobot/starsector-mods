@@ -1,3 +1,0 @@
-- the program is not prompting for the starfarer base dir as designed
-  upon first start-up; it's just keeping "" and moving forward with it
-  

@@ -1,0 +1,29 @@
+{
+  "displayName": "Stinger",
+  "hullId": "sc2_zoq-fot-pik",
+  "variantId": "sc2_zoq-fot-pik_standard",
+  "fluxVents": 0,
+  "fluxCapacitors": 0,
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 1": "vulcan",
+        "WS 2": "tachyonlance"
+      }
+    },
+    {
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ]
+}
