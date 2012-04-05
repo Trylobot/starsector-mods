@@ -1,0 +1,25 @@
+
+Currently, Komodo ...
+	loses	vs	api.addToFleet(FleetSide.PLAYER, "conquest_Elite", FleetMemberType.SHIP, false);
+	loses	vs	api.addToFleet(FleetSide.PLAYER, "enforcer_Assault", FleetMemberType.SHIP, false);
+	loses	vs	api.addToFleet(FleetSide.PLAYER, "enforcer_Balanced", FleetMemberType.SHIP, false);
+	loses	vs	api.addToFleet(FleetSide.PLAYER, "medusa_Attack", FleetMemberType.SHIP, false);
+	wins	vs	api.addToFleet(FleetSide.PLAYER, "hammerhead_Balanced", FleetMemberType.SHIP, false);
+	loses	vs	api.addToFleet(FleetSide.PLAYER, "hammerhead_Elite", FleetMemberType.SHIP, false);
+	wins	vs	api.addToFleet(FleetSide.PLAYER, "gemini_Standard", FleetMemberType.SHIP, false);
+	wins 	vs	api.addToFleet(FleetSide.PLAYER, "hound_Assault", FleetMemberType.SHIP, false);
+	wins	vs	api.addToFleet(FleetSide.PLAYER, "lasher_Assault", FleetMemberType.SHIP, false);
+	wins	vs	api.addToFleet(FleetSide.PLAYER, "thunder_wing", FleetMemberType.FIGHTER_WING, true);
+	wins	vs	api.addToFleet(FleetSide.PLAYER, "wasp_wing", FleetMemberType.FIGHTER_WING, true);
+
+
+Changes to try: 
+	add a pair of ultralight blasters to handle missiles & fighters better
+	re-arrange weaponry to have more forward-facing weapons
+	reduce weapon overlap graphically
+	add graphical weapon mounts
+	add a large weapon mount for a twin e. maser
+	increase max flux and OPs to support new weaponry and reduce overload probability
+
+
+	
