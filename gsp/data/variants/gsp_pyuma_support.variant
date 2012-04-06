@@ -1,30 +1,32 @@
 {
-	"displayName":"Support",
-	"hullId":"gsp_pyuma",
-	"variantId":"gsp_pyuma_support",
-	"fluxVents":0,
-	"fluxCapacitors":0,
-	"mods":[], # array of strings
-	
-	# mode is either LINKED or ALTERNATING
-	# slot ids (WS ***) must match what's in the .ship file
-	"weaponGroups":[
-		{"mode":"LINKED",
-		 "weapons":{
-		 			"WS 001":"hveldriver",
-		 		   },
-		},
-		{"mode":"LINKED",
-		 "weapons":{
-		 			"WS 002":"lightag",
-		 			"WS 003":"lightag",
-		 		   },
-		},
-		{"mode":"ALTERNATING",
-		 "weapons":{
-		 			"WS 004":"swarmer",
-		 			"WS 005":"swarmer",
-		 		   },
-		},
-	],
+  "displayName": "Support",
+  "hullId": "gsp_pyuma",
+  "variantId": "gsp_pyuma_support",
+  "fluxVents": 4,
+  "fluxCapacitors": 0,
+  "hullMods": [
+    "advancedoptics"
+  ],
+  "weaponGroups": [
+    {
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "hveldriver"
+      }
+    },
+    {
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "lightag",
+        "WS 003": "lightag"
+      }
+    },
+    {
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 004": "swarmer",
+        "WS 005": "swarmer"
+      }
+    }
+  ]
 }
