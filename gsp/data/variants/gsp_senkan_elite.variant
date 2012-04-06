@@ -1,47 +1,49 @@
 {
-	"displayName":"Elite",
-	"hullId":"gsp_senkan",
-	"variantId":"gsp_senkan_elite",
-	"fluxVents":0,
-	"fluxCapacitors":0,
-	"mods":[], # array of strings
-	
-	# mode is either LINKED or ALTERNATING
-	# slot ids (WS ***) must match what's in the .ship file
-	"weaponGroups": [
+  "displayName": "Elite",
+  "hullId": "gsp_senkan",
+  "variantId": "gsp_senkan_elite",
+  "fluxVents": 10,
+  "fluxCapacitors": 4,
+  "hullMods": [
+    "heavyarmor",
+    "magazines",
+    "targetingunit",
+    "turretgyros"
+  ],
+  "weaponGroups": [
     {
-      "mode":"LINKED",
-		  "weapons": {
-		 		"WS 009":"heavyac", # medium ballistic
-		 		"WS 010":"heavyac", # medium ballistic
-		 		"WS 011":"heavyac", # medium ballistic
-		 	},
-		},
+      "mode": "LINKED",
+      "weapons": {
+        "WS 009": "heavyac",
+        "WS 010": "heavyac",
+        "WS 011": "heavyac"
+      }
+    },
     {
-      "mode":"LINKED",
-		  "weapons": {
-		 	  "WS 012":"chaingun", # heavy ballistic
-		 		"WS 013":"chaingun", # heavy ballistic
-		 		"WS 014":"chaingun", # heavy ballistic
-		 	},
-		},
+      "mode": "LINKED",
+      "weapons": {
+        "WS 012": "chaingun",
+        "WS 013": "chaingun",
+        "WS 014": "chaingun"
+      }
+    },
     {
-      "mode":"ALTERNATING",
-		  "weapons": {
-		 	  "WS 005":"pilum", # large missile
-		 		"WS 006":"pilum", # large missile
-		 		"WS 007":"pilum", # large missile
-		 	  "WS 008":"pilum", # large missile
-		 	},
-		},
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 005": "pilum",
+        "WS 006": "pilum",
+        "WS 007": "pilum",
+        "WS 008": "pilum"
+      }
+    },
     {
-      "mode":"LINKED",
-		  "weapons": {
-		 	  "WS 001":"gsp_hc_vulcan", # medium ballistic
-		 		"WS 002":"gsp_hc_vulcan", # medium ballistic
-		 	  "WS 003":"gsp_hc_vulcan", # medium ballistic
-		 		"WS 004":"gsp_hc_vulcan", # medium ballistic
-		 	},
-		},
-	],
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "gsp_hc_vulcan",
+        "WS 002": "gsp_hc_vulcan",
+        "WS 003": "gsp_hc_vulcan",
+        "WS 004": "gsp_hc_vulcan"
+      }
+    }
+  ]
 }
