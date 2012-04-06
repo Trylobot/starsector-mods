@@ -22,4 +22,15 @@ Changes to try:
 	increase max flux and OPs to support new weaponry and reduce overload probability
 
 
-	
+After changes, Komodo ...
+	1 loss, 0 wins	vs	api.addToFleet(FleetSide.PLAYER, "conquest_Elite", FleetMemberType.SHIP, false);
+	1 loss, 1 win	vs	api.addToFleet(FleetSide.PLAYER, "enforcer_Assault", FleetMemberType.SHIP, false);
+		vs	api.addToFleet(FleetSide.PLAYER, "enforcer_Balanced", FleetMemberType.SHIP, false);
+		vs	api.addToFleet(FleetSide.PLAYER, "medusa_Attack", FleetMemberType.SHIP, false);
+		vs	api.addToFleet(FleetSide.PLAYER, "hammerhead_Balanced", FleetMemberType.SHIP, false);
+		vs	api.addToFleet(FleetSide.PLAYER, "hammerhead_Elite", FleetMemberType.SHIP, false);
+		vs	api.addToFleet(FleetSide.PLAYER, "gemini_Standard", FleetMemberType.SHIP, false);
+		vs	api.addToFleet(FleetSide.PLAYER, "hound_Assault", FleetMemberType.SHIP, false);
+		vs	api.addToFleet(FleetSide.PLAYER, "lasher_Assault", FleetMemberType.SHIP, false);
+		vs	api.addToFleet(FleetSide.PLAYER, "thunder_wing", FleetMemberType.FIGHTER_WING, true);
+		vs	api.addToFleet(FleetSide.PLAYER, "wasp_wing", FleetMemberType.FIGHTER_WING, true);
