@@ -1,0 +1,58 @@
+{
+	"id":"gratuitous_space_pirates",
+	"color":[97,73,107,255],
+	"displayName":"Steelheart's Brigands",
+	"description":"Admiral Steelheart and his famous pirate vessel, The Bilge Pump, have appeared once more. The Admiral is of course never without his elite band of pirate skirmishers, who fly heavily-modded ships. These special craft have uncharacteristically high engine output and thick armor. None bother very much with flux dissipation or shield systems at all, and rely on ballistic limited-ammo weapons. Tactics usually involve hit-and-run, and with their faster vessels the pirates can often get away before sustaining any serious damage.",
+	"names":{
+		"modern":1,
+	},
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/portrait_mercenary01.png",
+			"graphics/portraits/portrait_mercenary03.png",
+		],
+		"standard_female":[
+			"graphics/portraits/portrait_mercenary02.png",
+		],
+	},
+	"fleetCompositions":{
+		"battleFleet":{
+			"displayName":"Steelheart's Battlefleet",
+			"maxFleetPoints":200,
+			"daysWorthOfSupplies":[200, 600],
+			"lyWorthOfFuel":[100, 150],
+			"extraCrewPercent":[80, 100],
+			"marinesPercent":[50, 75],
+			"ships":{
+				"gsp_washi_elite":[1, 1],
+				"gsp_senkan_elite":[3, 3],
+				"gsp_kitsune_assault":[5, 5],
+				"gsp_okami_assault":[3, 3],
+				"gsp_pyuma_support":[3, 3],
+				"gsp_taka_wing":[7,7],
+				"gsp_hyou_wing":[6,6],
+				"gsp_hayabusa_wing":[8,8],
+			},
+		},
+		
+	},
+	"traits":{
+		"admiral":{
+		},
+		"captain":{
+			"cowardly":1,
+			"cautious":1,
+			"steady":1,
+			"aggressive":1,
+			"suicidal":1,
+			"fearless":1,
+		},
+	},
+	"dialogue":{
+		"greetingFriendly":"You fool, send nothing further over this linecast channel, unless you wish it to be picked up by all listening stations this side of the Expanse. We will be on our way.",
+		"greetingNeutral":"Unless I am reading my scopes incorrectly, you have absolutely no reason to be talking to me right now. Get the hint?",
+		"greetingHostileAggressive":"Attention, prey. You, and all your possessions are now my personal property. Any resisting ship will be disabled, boarded, your officers massacred, and your crew sold as slaves.",
+		"greetingHostileTimid":"Greetings, honorable commander! We are a humble League merchant trading fleet headed for resupply. We would be honored to assist you in any way.",
+	}
+	
+},
