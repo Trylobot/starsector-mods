@@ -1,7 +1,7 @@
 {
 	"id":"gratuitous_space_pirates",
 	"color":[97,73,107,255],
-	"displayName":"Steelheart's Brigands",
+	"displayName":"Admiral Steelheart's",
 	"description":"Admiral Steelheart and his famous pirate vessel, The Bilge Pump, have appeared once more. The Admiral is of course never without his elite band of pirate skirmishers, who fly heavily-modded ships. These special craft have uncharacteristically high engine output and thick armor. None bother very much with flux dissipation or shield systems at all, and rely on ballistic limited-ammo weapons. Tactics usually involve hit-and-run, and with their faster vessels the pirates can often get away before sustaining any serious damage.",
 	"names":{
 		"modern":1,
@@ -17,7 +17,7 @@
 	},
 	"fleetCompositions":{
 		"battleFleet":{
-			"displayName":"Steelheart's Battlefleet",
+			"displayName":"Privateer Battlefleet",
 			"maxFleetPoints":200,
 			"daysWorthOfSupplies":[200, 600],
 			"lyWorthOfFuel":[100, 150],

@@ -17,7 +17,7 @@ import com.fs.starfarer.api.fleet.FleetMemberType;
 import data.scripts.world.*;
 
 @SuppressWarnings( "unchecked" )
-public class CorvusGSP extends SectorGeneratorPlugin
+public class CorvusGSP implements SectorGeneratorPlugin
 {
 	public void generate( SectorAPI sector )
 	{
@@ -25,6 +25,7 @@ public class CorvusGSP extends SectorGeneratorPlugin
 		SectorEntityToken token = system.createToken(-15000, -15000);
 		GSPSpawnPoint spawn = new GSPSpawnPoint(sector, system, 7, 1, token);
 		system.addSpawnPoint( spawn );
+		spawn.spawnFleet();
 
 		// faction api's referenced by string to increase standalone compatibility
 		FactionAPI faction = sector.getFaction( "gratuitous_space_pirates" );
