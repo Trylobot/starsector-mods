@@ -1,0 +1,15 @@
+
+hue 171
+
+select all lights with wand global, 45%
+cut
+paste in new layer
+duplicate
+
+original layer brightness -22%
+
+top lights layer gaussian dist 4
+duplicate
+
+DONE
+
