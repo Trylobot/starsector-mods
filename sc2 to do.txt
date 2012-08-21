@@ -1,3 +1,18 @@
+
+Set AUTOFIRE to true for appropriate weapons
+
+Set appropriate OP costs for weapons
+
 Spathi
 - make gun kinetic instead of HE (remove explosion)
+
+Because of all the interesting changes to Starfarer, especially the modding-related ones, many ships that weren't possible or practical before have suddenly become so. Here are my future plans in response to this:
+- Slylandro Probe: the EMP system type will now provide the intended effect here; deceleration: 0.0 should handle the rest
+- Chmmr Avatar: 3x Drones for the ZapSats; still no tractor beam though
+- Arilou Laylee'lay Skiff: This ship will now be 100% possible; inertialess drive was already, now it will get Teleportation
+- Chenjesu Broodhome: DOGI can be implemented as a special Drone, w/ factory (one-at-time limit)
+- Ilwrath Avenger: Phasing (as opposed to Cloaking) should still be super-cool!
+- Mmrnmhrm X-Form (X-Wing): "convergeOnPoint" beam weapon spec (cleanliness)
+- Orz Nemesis: Space Marines can be partially implemented as Drones (no damage-over-time)
+- Ur-Quan Kzer-Za Dreadnought: Fighters can be implemented as Drones, no factory (limited supply)
 
