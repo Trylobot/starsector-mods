@@ -4,7 +4,6 @@
 	"variantId": "sc2_vux_intruder_standard",
 	"fluxVents": 0,
 	"fluxCapacitors": 0,
-	"mods": [],
 	"weaponGroups": [{
 		"mode": "LINKED",
 		"weapons": {

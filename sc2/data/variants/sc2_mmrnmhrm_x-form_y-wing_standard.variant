@@ -1,8 +1,8 @@
-{ "displayName" : "Mmrnmhrm",
+{ 
+  "displayName" : "Mmrnmhrm",
   "fluxCapacitors" : 0,
   "fluxVents" : 0,
   "hullId" : "sc2_mmrnmhrm_x-form_y-wing",
-  "mods" : [  ],
   "variantId" : "sc2_mmrnmhrm_x-form_y-wing_standard",
   "weaponGroups" : [ 
   	{ "mode" : "LINKED",

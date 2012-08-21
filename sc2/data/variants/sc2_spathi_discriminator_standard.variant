@@ -4,16 +4,18 @@
 	"variantId": "sc2_spathi_discriminator_standard",
 	"fluxVents": 0,
 	"fluxCapacitors": 0,
-	"mods": [],
-	"weaponGroups": [{
-		"mode": "LINKED",
-		"weapons": {
-			"WS001": "sc2_mounted_gun"
+	"weaponGroups": [
+		{
+			"mode": "LINKED",
+			"weapons": {
+				"WS001": "sc2_mounted_gun"
+			}
+		},
+		{
+			"mode": "LINKED",
+			"weapons": {
+				"WS002": "sc2_butt_missile"
+			}
 		}
-	}, {
-		"mode": "LINKED",
-		"weapons": {
-			"WS002": "sc2_butt_missile"
-		}
-	}]
+	]
 }
