@@ -7,12 +7,14 @@
 	"weaponGroups":[
     {
       "mode":"LINKED",
+      "autofire":false,
       "weapons":{
         "WS 001":"sc2_mx_missile_launcher",
       },
     },
     {
       "mode":"LINKED",
+      "autofire":true,
       "weapons":{
         "WS 002":"sc2_pd_laser",
         "WS 003":"sc2_pd_laser",
