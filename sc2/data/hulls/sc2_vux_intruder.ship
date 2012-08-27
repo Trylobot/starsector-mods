@@ -140,7 +140,6 @@
         -27
       ],
       "mount": "HIDDEN",
-      "position": [],
       "size": "LARGE",
       "type": "ENERGY"
     },
@@ -153,7 +152,6 @@
         0
       ],
       "mount": "HIDDEN",
-      "position": [],
       "size": "MEDIUM",
       "type": "MISSILE"
     }

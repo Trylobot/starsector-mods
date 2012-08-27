@@ -337,7 +337,6 @@
         0
       ],
       "mount": "HARDPOINT",
-      "position": [],
       "size": "LARGE",
       "type": "ENERGY"
     },
@@ -350,7 +349,6 @@
         0
       ],
       "mount": "HARDPOINT",
-      "position": [],
       "size": "LARGE",
       "type": "ENERGY"
     },
@@ -363,7 +361,6 @@
         0
       ],
       "mount": "HARDPOINT",
-      "position": [],
       "size": "LARGE",
       "type": "ENERGY"
     },
@@ -376,7 +373,6 @@
         0
       ],
       "mount": "HARDPOINT",
-      "position": [],
       "size": "LARGE",
       "type": "ENERGY"
     },
@@ -389,7 +385,6 @@
         0
       ],
       "mount": "HARDPOINT",
-      "position": [],
       "size": "LARGE",
       "type": "ENERGY"
     }

@@ -141,7 +141,6 @@
         -4
       ],
       "mount": "HARDPOINT",
-      "position": [],
       "size": "SMALL",
       "type": "BALLISTIC"
     },
@@ -154,7 +153,6 @@
         -4
       ],
       "mount": "HIDDEN",
-      "position": [],
       "size": "MEDIUM",
       "type": "MISSILE"
     }

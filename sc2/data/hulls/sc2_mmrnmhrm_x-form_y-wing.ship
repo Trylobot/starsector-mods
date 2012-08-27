@@ -69,7 +69,6 @@
         30
       ],
       "mount": "HIDDEN",
-      "position": [],
       "size": "MEDIUM",
       "type": "MISSILE"
     },
@@ -82,7 +81,6 @@
         -30
       ],
       "mount": "HIDDEN",
-      "position": [],
       "size": "MEDIUM",
       "type": "MISSILE"
     }

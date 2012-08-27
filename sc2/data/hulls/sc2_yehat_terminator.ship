@@ -107,7 +107,6 @@
         -63
       ],
       "mount": "HARDPOINT",
-      "position": [],
       "size": "LARGE",
       "type": "BALLISTIC"
     },
@@ -120,7 +119,6 @@
         63
       ],
       "mount": "HARDPOINT",
-      "position": [],
       "size": "LARGE",
       "type": "BALLISTIC"
     }

@@ -89,7 +89,6 @@
         85
       ],
       "mount": "HARDPOINT",
-      "position": [],
       "size": "LARGE",
       "type": "ENERGY"
     },
@@ -102,7 +101,6 @@
         -85
       ],
       "mount": "HARDPOINT",
-      "position": [],
       "size": "LARGE",
       "type": "ENERGY"
     }

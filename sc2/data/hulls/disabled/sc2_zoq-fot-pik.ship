@@ -139,7 +139,6 @@
         0
       ],
       "mount": "TURRET",
-      "position": [],
       "size": "SMALL",
       "type": "BALLISTIC"
     },
@@ -152,7 +151,6 @@
         0
       ],
       "mount": "TURRET",
-      "position": [],
       "size": "LARGE",
       "type": "ENERGY"
     }

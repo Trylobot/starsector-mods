@@ -249,7 +249,6 @@
         0
       ],
       "mount": "HIDDEN",
-      "position": [],
       "size": "LARGE",
       "type": "MISSILE"
     },
@@ -262,7 +261,6 @@
         0
       ],
       "mount": "HIDDEN",
-      "position": [],
       "size": "MEDIUM",
       "type": "ENERGY"
     },
@@ -275,7 +273,6 @@
         0
       ],
       "mount": "HIDDEN",
-      "position": [],
       "size": "MEDIUM",
       "type": "ENERGY"
     },
@@ -288,7 +285,6 @@
         0
       ],
       "mount": "HIDDEN",
-      "position": [],
       "size": "MEDIUM",
       "type": "ENERGY"
     },
@@ -301,7 +297,6 @@
         0
       ],
       "mount": "HIDDEN",
-      "position": [],
       "size": "MEDIUM",
       "type": "ENERGY"
     },
@@ -314,7 +309,6 @@
         0
       ],
       "mount": "HIDDEN",
-      "position": [],
       "size": "MEDIUM",
       "type": "ENERGY"
     },
@@ -327,7 +321,6 @@
         0
       ],
       "mount": "HIDDEN",
-      "position": [],
       "size": "MEDIUM",
       "type": "ENERGY"
     }
