@@ -1,14 +1,18 @@
-{ 
-  "displayName" : "Mmrnmhrm",
-  "fluxCapacitors" : 0,
-  "fluxVents" : 0,
-  "hullId" : "sc2_mmrnmhrm_x-form_x-wing",
-  "variantId" : "sc2_mmrnmhrm_x-form_x-wing_standard",
-  "weaponGroups" : [ 
-  		{ "mode" : "LINKED",
-        "weapons" : { 
-            "WS001" : "sc2_twin_laser",
-            "WS002" : "sc2_twin_laser",
-          }
-      } ]
+{
+  "displayName": "Mmrnmhrm",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "sc2_mmrnmhrm_x-form_x-wing",
+  "hullMods": [],
+  "variantId": "sc2_mmrnmhrm_x-form_x-wing_standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS001": "sc2_twin_laser",
+        "WS002": "sc2_twin_laser"
+      }
+    }
+  ]
 }

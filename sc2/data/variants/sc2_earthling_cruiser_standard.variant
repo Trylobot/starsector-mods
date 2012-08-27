@@ -1,28 +1,44 @@
 {
-	"displayName":"Earthling",
-	"hullId":"sc2_earthling_cruiser",
-	"variantId":"sc2_earthling_cruiser_standard",
-	"fluxVents":0,
-	"fluxCapacitors":0,
-	"weaponGroups":[
+  "displayName": "Earthling",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "sc2_earthling_cruiser",
+  "hullMods": [],
+  "variantId": "sc2_earthling_cruiser_standard",
+  "weaponGroups": [
     {
-      "mode":"LINKED",
-      "autofire":false,
-      "weapons":{
-        "WS 001":"sc2_mx_missile_launcher",
-      },
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "sc2_mx_missile_launcher"
+      }
     },
     {
-      "mode":"LINKED",
-      "autofire":true,
-      "weapons":{
-        "WS 002":"sc2_pd_laser",
-        "WS 003":"sc2_pd_laser",
-        "WS 004":"sc2_pd_laser",
-        "WS 005":"sc2_pd_laser",
-        "WS 006":"sc2_pd_laser",
-        "WS 007":"sc2_pd_laser",
-      },
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "sc2_pd_laser",
+        "WS 003": "sc2_pd_laser",
+        "WS 004": "sc2_pd_laser",
+        "WS 005": "sc2_pd_laser",
+        "WS 006": "sc2_pd_laser",
+        "WS 007": "sc2_pd_laser"
+      }
     },
-	],
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ]
 }

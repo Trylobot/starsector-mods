@@ -1,15 +1,17 @@
 {
-	"displayName":"Ur-Quan Kzer-Za",
-	"hullId":"sc2_ur-quan_dreadnought",
-	"variantId":"sc2_ur-quan_dreadnought_standard",
-	"fluxVents":0,
-	"fluxCapacitors":0,
-	"weaponGroups":[
+  "displayName": "Ur-Quan Kzer-Za",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "sc2_ur-quan_dreadnought",
+  "hullMods": [],
+  "variantId": "sc2_ur-quan_dreadnought_standard",
+  "weaponGroups": [
     {
-      "mode":"LINKED",
-      "weapons":{
-        "WS 001":"sc2_plasma_torpedo_launcher",
-      },
-    },
-	],
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "sc2_plasma_torpedo_launcher"
+      }
+    }
+  ]
 }

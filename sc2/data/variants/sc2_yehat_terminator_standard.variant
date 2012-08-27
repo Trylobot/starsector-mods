@@ -1,16 +1,18 @@
 {
-	"displayName":"Yehat",
-  "hullId":"sc2_yehat_terminator",
-	"variantId":"sc2_yehat_terminator_standard",
-	"fluxVents":0,
-	"fluxCapacitors":0,
-	"weaponGroups":[
+  "displayName": "Yehat",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "sc2_yehat_terminator",
+  "hullMods": [],
+  "variantId": "sc2_yehat_terminator_standard",
+  "weaponGroups": [
     {
-      "mode":"ALTERNATING",
-      "weapons":{
-        "WS 001":"sc2_ion_pulse_cannon",
-        "WS 002":"sc2_ion_pulse_cannon",
-      },
-    },
-	],
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "sc2_ion_pulse_cannon",
+        "WS 002": "sc2_ion_pulse_cannon"
+      }
+    }
+  ]
 }

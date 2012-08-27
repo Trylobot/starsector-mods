@@ -1,18 +1,24 @@
 {
-	"displayName": "Vux",
-	"hullId": "sc2_vux_intruder",
-	"variantId": "sc2_vux_intruder_standard",
-	"fluxVents": 0,
-	"fluxCapacitors": 0,
-	"weaponGroups": [{
-		"mode": "LINKED",
-		"weapons": {
-			"WS001": "sc2_gigawatt_laser"
-		}
-	}, {
-		"mode": "LINKED",
-		"weapons": {
-			"WS002": "sc2_limpet"
-		}
-	}]
+  "displayName": "Vux",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "sc2_vux_intruder",
+  "hullMods": [],
+  "variantId": "sc2_vux_intruder_standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS001": "sc2_gigawatt_laser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS002": "sc2_limpet"
+      }
+    }
+  ]
 }

@@ -81,7 +81,7 @@
     95,
     66
   ],
-  "collisionRadius": 104.1,
+  "collisionRadius": 104.099998,
   "engineSlots": [
     {
       "angle": -180,
@@ -95,7 +95,7 @@
       "width": 44
     },
     {
-      "angle": 139.7,
+      "angle": 139.699997,
       "contrailSize": 44.5,
       "length": 117.5,
       "location": [
@@ -106,19 +106,18 @@
       "width": 44.5
     },
     {
-      "angle": -139.7,
-      "contrailSize": 44.1,
-      "length": 117.0,
+      "angle": -139.699997,
+      "contrailSize": 44.099998,
+      "length": 117,
       "location": [
         -43,
         -81.5
       ],
       "style": "HIGH_TECH",
-      "width": 44.1
+      "width": 44.099998
     }
   ],
   "height": 166,
-  "width": 190,
   "hullId": "sc2_zoq-fot-pik",
   "hullName": "",
   "hullSize": "CAPITAL_SHIP",
@@ -133,13 +132,14 @@
   "weaponSlots": [
     {
       "angle": 0,
-      "arc": 32.1,
+      "arc": 32.099998,
       "id": "WS 1",
       "locations": [
         37,
         0
       ],
       "mount": "TURRET",
+      "position": [],
       "size": "SMALL",
       "type": "BALLISTIC"
     },
@@ -152,8 +152,10 @@
         0
       ],
       "mount": "TURRET",
+      "position": [],
       "size": "LARGE",
       "type": "ENERGY"
     }
-  ]
+  ],
+  "width": 190
 }

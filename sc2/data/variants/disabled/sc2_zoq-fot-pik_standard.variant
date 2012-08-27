@@ -1,12 +1,13 @@
 {
   "displayName": "Stinger",
-  "hullId": "sc2_zoq-fot-pik",
-  "variantId": "sc2_zoq-fot-pik_standard",
-  "fluxVents": 0,
   "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "sc2_zoq-fot-pik",
   "hullMods": [],
+  "variantId": "sc2_zoq-fot-pik_standard",
   "weaponGroups": [
     {
+      "autofire": false,
       "mode": "ALTERNATING",
       "weapons": {
         "WS 1": "vulcan",
@@ -14,14 +15,17 @@
       }
     },
     {
+      "autofire": false,
       "mode": "LINKED",
       "weapons": {}
     },
     {
+      "autofire": false,
       "mode": "LINKED",
       "weapons": {}
     },
     {
+      "autofire": false,
       "mode": "LINKED",
       "weapons": {}
     }
