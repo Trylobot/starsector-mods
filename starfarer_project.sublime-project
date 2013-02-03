@@ -5,7 +5,7 @@
 			"path": "."
 		},
 		{
-			"path": "./../starfarer-core"
+			"path": "./../starsector-core"
 		}
 	]
 }
