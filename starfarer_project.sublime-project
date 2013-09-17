@@ -2,10 +2,16 @@
 	"folders":
 	[
 		{
-			"path": "."
+			"path": "/K/Games/Starsector/mods"
 		},
 		{
-			"path": "./../starsector-core"
+			"path": "/K/Games/Starsector/starsector-core",
+			"name": "logs",
+			"folder_exclude_patterns": ["*"],
+			"file_include_patterns": ["*.log"]
+		},
+		{
+			"path": "/K/Games/Starsector/mods/src/UNVERSIONED/Starsector versions/"
 		}
 	]
 }
