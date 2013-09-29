@@ -5,13 +5,18 @@
 			"path": "/K/Games/Starsector/mods"
 		},
 		{
+			"path": "/K/Games/Starsector/starsector-core/data",
+			"name": "vanilla"
+		},
+		{
+			"path": "/K/Games/Starsector/mods/src/UNVERSIONED/starfarer.api",
+			"name": "API"
+		},
+		{
 			"path": "/K/Games/Starsector/starsector-core",
 			"name": "logs",
 			"folder_exclude_patterns": ["*"],
 			"file_include_patterns": ["*.log"]
-		},
-		{
-			"path": "/K/Games/Starsector/mods/src/UNVERSIONED/Starsector versions/"
 		}
 	]
 }
