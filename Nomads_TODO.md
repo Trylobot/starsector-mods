@@ -1,7 +1,18 @@
-Gila Monster
-  * playtest the Gila Monster changes further, play both with and against it as battleships, cruisers (heavy+light) and destroyers
-    
-Death Commando (new ship)
+Thorn (new ship)
+  * alternate name ideas: (none)
+  * frigate-class
+  * new hullmod: Dead Man's Switch Auto-Scuttle Device
+    * internal graviton generator
+     * generator connected to internal, armoured flux capacitor array
+      * activates on "dead-man's switch" (whenever ship becomes Hulk in a battle)
+      * increases mass dramatically
+    * burn drive also activates on dead-man's switch
+      * causes the hulk's engines to activate (different color)
+      * continuously rotates the hulk to face the direction of the nearest hostile ship (non-fighter, non-missile)
+      * ridiculous speed
+    * after pre-set amount of time, ship detonates
+
+Death Bloom (new ship)
   * strike craft comparable to vanilla Hyperion
   * new, unique energy-based strike weapon (name not finalized)
     * name ideas:
@@ -18,7 +29,6 @@ Death Commando (new ship)
   * name ideas:
     * Flycatcher
     * Cactus
-    * Thar
   * light carrier, destroyer-class
   * 1 flight deck
   * offensive dual-drone system (sturdy drones kind of like the Tempest's Terminator)
@@ -45,12 +55,13 @@ Campaign Mode
     * colony fleet > less crew
   * navigation logic:
     1. upon creation, armada will be in Nur; immediately head for the nearest hyperspace beacon and jump
-    2. choose a hyperspace destination which is in range, given current fuel consumption of all fleets
-    3. fly to that destination and enter the system
-    4. choose a series of waypoints from a pool of waypoints generated for that system upon entering it; scan for planets and stations
-    5. visit them in turn, and then fly to a random hyperspace jump point
-    6. choose another hyperspace destination and repeat
-    7. if the flagship/VIP fleet (Oasis fleet) is destroyed or the Oasis itself is lost, scatter remaining fleets and whatnot
+    2. armada (small group of separate fleets) flies in orbital formation around a VIP fleet (Oasis/colony fleet)
+    3. choose a hyperspace destination which is in range, given current fuel consumption of all fleets
+    4. fly to that destination and enter the system
+    5. choose a series of waypoints from a pool of waypoints generated for that system upon entering it; scan for planets and stations
+    6. visit them in turn, and then fly to a random hyperspace jump point
+    7. choose another hyperspace destination and repeat
+    8. if the flagship/VIP fleet (Oasis fleet) is destroyed or the Oasis itself is lost, scatter remaining fleets and whatnot
   * resource sharing logic:
     * if, for any given fleet in the armada, the fleet is low on any required resource (supplies/fuel/crew) then attempt to borrow the needed amount from all other fleets equally (many-to-one on-demand sharing)
 	* if the armada is critically low on any one resource, take a detour
@@ -61,4 +72,7 @@ Campaign Mode
     * Oasis will also produce Green Crew at a constant rate (a low rate) if the current colony_fleet's total crew is between a predetermined Min and Max, as a function of the maximum capacity of the Oasis ship.
     * all campaign-level Oasis abilities will apply regardless of whether the owning fleet is the player's or not.
 	
+Gila Monster
+  * playtest the Gila Monster changes further, play both with and against it as battleships, cruisers (heavy+light) and destroyers
+    
 
