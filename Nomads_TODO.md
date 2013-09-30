@@ -9,8 +9,9 @@ Thorn (new ship)
     * burn drive also activates on dead-man's switch
       * causes the hulk's engines to activate (different color)
       * continuously rotates the hulk to face the direction of the nearest hostile ship (non-fighter, non-missile)
-      * ridiculous speed
+      * ridiculous acceleration
     * after pre-set amount of time, ship detonates
+    * will not activate if ship explodes due to friendly fire, asteroid impact, or if there no suitable targets within pre-set range
 
 Death Bloom (new ship)
   * strike craft comparable to vanilla Hyperion
