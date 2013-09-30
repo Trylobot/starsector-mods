@@ -1,4 +1,3 @@
-
 Gila Monster
   - playtest the Gila Monster changes further, play both with and against it as
     battleships, cruisers (heavy+light) and destroyers
@@ -46,8 +45,8 @@ Campaign Mode
     # scout fleets > more supplies
     # colony fleet > less crew
   - navigation logic:
-    - upon creation, armada will be in Nur; immediately head for the nearest hyperspace beacon and jump
-    - choose a hyperspace destination which is in range, given current fuel consumption of all fleets
+    1. upon creation, armada will be in Nur; immediately head for the nearest hyperspace beacon and jump
+    2. choose a hyperspace destination which is in range, given current fuel consumption of all fleets
   - resource sharing logic:
     - if, for any given fleet in the armada, the fleet is low on any required resource (supplies/fuel/crew)
       then attempt to borrow the needed amount from all other fleets equally (many-to-one on-demand sharing)
@@ -59,6 +58,6 @@ Campaign Mode
       armada when it is all at Max CR; will not cover combat usage or rates while repairing, so can run out
     - Oasis will also produce Green Crew at a constant rate (a low rate) if the current colony_fleet's total
       crew is between a predetermined Min and Max, as a function of the maximum capacity of the Oasis ship.
-    - all Oasis abilities will apply regardless of whether the owning fleet is the player's or not.
+    - all campaign-level Oasis abilities will apply regardless of whether the owning fleet is the player's or not.
 	
 
