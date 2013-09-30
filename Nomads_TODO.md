@@ -1,6 +1,5 @@
 Gila Monster
-  * playtest the Gila Monster changes further, play both with and against it as
-    battleships, cruisers (heavy+light) and destroyers
+  * playtest the Gila Monster changes further, play both with and against it as battleships, cruisers (heavy+light) and destroyers
     
 Death Commando (new ship)
   * strike craft comparable to vanilla Hyperion
@@ -46,18 +45,20 @@ Campaign Mode
     * colony fleet > less crew
   * navigation logic:
     1. upon creation, armada will be in Nur; immediately head for the nearest hyperspace beacon and jump
-    1. choose a hyperspace destination which is in range, given current fuel consumption of all fleets
+    2. choose a hyperspace destination which is in range, given current fuel consumption of all fleets
+    3. fly to that destination and enter the system
+    4. choose a series of waypoints from a pool of waypoints generated for that system upon entering it; scan for planets and stations
+    5. visit them in turn, and then fly to a random hyperspace jump point
+    6. choose another hyperspace destination and repeat
+    7. if the flagship/VIP fleet (Oasis fleet) is destroyed or the Oasis itself is lost, scatter remaining fleets and whatnot
   * resource sharing logic:
-    * if, for any given fleet in the armada, the fleet is low on any required resource (supplies/fuel/crew)
-      then attempt to borrow the needed amount from all other fleets equally (many-to-one on-demand sharing)
+    * if, for any given fleet in the armada, the fleet is low on any required resource (supplies/fuel/crew) then attempt to borrow the needed amount from all other fleets equally (many-to-one on-demand sharing)
 	* if the armada is critically low on any one resource, take a detour
 	  * insert a navigation destination into the current sequence, path to the nearest station
 	  * once there, refill all the resources for all fleets back to optimal levels (50% of storage capacity)
 	* Oasis-specific abilities that apply to the Campaign only
-    * Oasis will produce Supplies at a constant rate (rate will be enough to cover usage of an average-sized
-      armada when it is all at Max CR; will not cover combat usage or rates while repairing, so can run out
-    * Oasis will also produce Green Crew at a constant rate (a low rate) if the current colony_fleet's total
-      crew is between a predetermined Min and Max, as a function of the maximum capacity of the Oasis ship.
+    * Oasis will produce Supplies at a constant rate (rate will be enough to cover usage of an average-sized armada when it is all at Max CR; will not cover combat usage or rates while repairing, so can run out
+    * Oasis will also produce Green Crew at a constant rate (a low rate) if the current colony_fleet's total crew is between a predetermined Min and Max, as a function of the maximum capacity of the Oasis ship.
     * all campaign-level Oasis abilities will apply regardless of whether the owning fleet is the player's or not.
 	
 
