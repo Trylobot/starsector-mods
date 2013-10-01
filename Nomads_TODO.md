@@ -26,18 +26,12 @@ Death Bloom (new ship)
       remember the TA/Core avatar you created on dA? like that
   * and three ultralight masers for PD
 
-(Unnamed) (new ship)
-  * name ideas:
-    * Flycatcher
-    * Cactus
+Flycatcher (new ship)
   * light carrier, destroyer-class
   * 1 flight deck
   * offensive dual-drone system (sturdy drones kind of like the Tempest's Terminator)
   
-(Unnamed) (new ship)
-  * name ideas:
-    * Kingsnake
-    * Rattlesnake
+Rattlesnake (new ship)
   * cruiser-class
   * armament somewhere between Sandstorm and Komodo
 
