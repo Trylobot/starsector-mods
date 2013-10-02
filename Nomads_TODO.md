@@ -62,11 +62,26 @@ Campaign Mode
 	* if the armada is critically low on any one resource, take a detour
 	  * insert a navigation destination into the current sequence, path to the nearest station
 	  * once there, refill all the resources for all fleets back to optimal levels (50% of storage capacity)
-	* Oasis-specific abilities that apply to the Campaign only
-    * Oasis will produce Supplies at a constant rate (rate will be enough to cover usage of an average-sized armada when it is all at Max CR; will not cover combat usage or rates while repairing, so can run out
-    * Oasis will also produce Green Crew at a constant rate (a low rate) if the current colony_fleet's total crew is between a predetermined Min and Max, as a function of the maximum capacity of the Oasis ship.
-    * all campaign-level Oasis abilities will apply regardless of whether the owning fleet is the player's or not.
-	
+
+Oasis
+  * Custom-scripted hullmods appropriate to the Nomads
+    * Biosphere
+      * reduces supply cost of this ship to 0.25/day,
+      * restricted to capital ships only,
+      * must be "builtIn"
+    * Cloning Vats
+      * requires Biosphere,
+      * produces green crew members at a constant (low) rate (unless crew capacity is > 50%),
+      * restricted to capital ships only, must be "builtIn"
+    * Automated Nanobot Fabricators
+      * produces supplies at a constant (decently high) rate (unless cargo capacity is > 50%),
+      * restricted to capital ships only,
+      * must be "builtIn"
+    * Logistical Distribution Drones
+      * actually does nothing; provides flavour text to handwave resource sharing for campaign armada,
+      * restricted to capital ships only,
+      * must be "builtIn"
+
 Gila Monster
   * playtest the Gila Monster changes further, play both with and against it as battleships, cruisers (heavy+light) and destroyers
     
