@@ -85,4 +85,5 @@ Oasis
 Gila Monster
   * playtest the Gila Monster changes further, play both with and against it as battleships, cruisers (heavy+light) and destroyers
     
-
+Bonus
+  * character selection screen entry that doesn't overwrite the default, somehow? if possible
