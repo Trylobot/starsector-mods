@@ -1,49 +1,6 @@
-Thorn (new ship)
-  * alternate name ideas: (none)
-  * frigate-class
-  * new hullmod: Dead Man's Switch Auto-Scuttle Device
-    * internal graviton generator
-     * generator connected to internal, armoured flux capacitor array
-      * activates on "dead-man's switch" (whenever ship becomes Hulk in a battle)
-      * increases mass dramatically
-    * burn drive also activates on dead-man's switch
-      * causes the hulk's engines to activate (different color)
-      * continuously rotates the hulk to face the direction of the nearest hostile ship (non-fighter, non-missile)
-      * ridiculous acceleration
-    * after pre-set amount of time, ship detonates
-    * will not activate if ship explodes due to friendly fire, asteroid impact, or if there no suitable targets within pre-set range
-
-Death Bloom (new ship)
-  * strike craft comparable to vanilla Hyperion
-  * new, unique energy-based strike weapon (name not finalized)
-    * name ideas:
-      * Thermal Lance
-      * Solar Lance
-      * Solar Forge Lance
-      * Solar Crucible
-      * Thermal Crucible
-    * will have unique multi-frame chargeup sprite animation that covers most of the ship
-      remember the TA/Core avatar you created on dA? like that
-  * and three ultralight masers for PD
-
-Flycatcher (new ship)
-  * light carrier, destroyer-class
-  * 1 flight deck
-  * offensive dual-drone system (sturdy drones kind of like the Tempest's Terminator)
-  
-Rattlesnake (new ship)
-  * cruiser-class
-  * armament somewhere between Sandstorm and Komodo
-
-Komodo Mk.II (new ship)
-  * based on Komodo
-  * heavier armor
-  * sprite should depict armor as steel/iron banding around the armor plates
-  * with armoured engine mounts
-  * slower movement and maneuverability, but higher flux and an additional weapon slot, higher ord.pts.
-
 Campaign Mode
   * create binary system Nur @ 18000,-900
+  * create station at which to buy nomad ships
   * spawn Nomad armada in Nur with sufficient supplies, fuel and crew
   * enable dev mode and watch for accidents.
     * scout fleets > more supplies
@@ -59,9 +16,9 @@ Campaign Mode
     8. if the flagship/VIP fleet (Oasis fleet) is destroyed or the Oasis itself is lost, scatter remaining fleets and whatnot
   * resource sharing logic:
     * if, for any given fleet in the armada, the fleet is low on any required resource (supplies/fuel/crew) then attempt to borrow the needed amount from all other fleets equally (many-to-one on-demand sharing)
-	* if the armada is critically low on any one resource, take a detour
-	  * insert a navigation destination into the current sequence, path to the nearest station
-	  * once there, refill all the resources for all fleets back to optimal levels (50% of storage capacity)
+  * if the armada is critically low on any one resource, take a detour
+    * insert a navigation destination into the current sequence, path to the nearest station
+    * once there, refill all the resources for all fleets back to optimal levels (50% of storage capacity)
 
 Oasis
   * Custom-scripted hullmods appropriate to the Nomads
@@ -87,3 +44,48 @@ Gila Monster
     
 Bonus
   * character selection screen entry that doesn't overwrite the default, somehow? if possible
+
+Death Bloom (new ship)
+  * strike craft comparable to vanilla Hyperion
+  * new, unique energy-based strike weapon (name not finalized)
+    * name ideas:
+      * Thermal Lance
+      * Solar Lance
+      * Solar Forge Lance
+      * Solar Crucible
+      * Thermal Crucible
+    * will have unique multi-frame chargeup sprite animation that covers most of the ship
+      remember the TA/Core avatar you created on dA? like that
+  * and three ultralight masers for PD
+
+Komodo Mk.II (new ship)
+  * based on Komodo
+  * heavier armor
+  * sprite should depict armor as steel/iron banding around the armor plates
+  * with armoured engine mounts
+  * slower movement and maneuverability, but higher flux and an additional weapon slot, higher ord.pts.
+
+Flycatcher (new ship)
+  * light carrier, destroyer-class
+  * 1 flight deck
+  * offensive dual-drone system (sturdy drones kind of like the Tempest's Terminator)
+  
+Rattlesnake (new ship)
+  * cruiser-class
+  * armament somewhere between Sandstorm and Komodo
+
+Thorn (new ship)
+  * alternate name ideas: (none)
+  * frigate-class
+  * new hullmod: Dead Man's Switch Auto-Scuttle Device
+    * internal graviton generator
+     * generator connected to internal, armoured flux capacitor array
+      * activates on "dead-man's switch" (whenever ship becomes Hulk in a battle)
+      * increases mass dramatically
+    * burn drive also activates on dead-man's switch
+      * causes the hulk's engines to activate (different color)
+      * continuously rotates the hulk to face the direction of the nearest hostile ship (non-fighter, non-missile)
+      * ridiculous acceleration
+    * after pre-set amount of time, ship detonates
+    * will not activate if ship explodes due to friendly fire, asteroid impact, or if there no suitable targets within pre-set range
+
