@@ -43,7 +43,11 @@ Gila Monster
   * playtest the Gila Monster changes further, play both with and against it as battleships, cruisers (heavy+light) and destroyers
     
 Bonus
-  * character selection screen entry that doesn't overwrite the default, somehow? if possible
+  * character selection screen entry that doesn't overwrite the default, somehow? if possible (not possible)
+  * need a station somewhere for the nomads
+  * need descriptions for some planets/entities
+  * neutral faction should be friendly
+  * also, player should be friendly if they chose the "Nomads" character creation
 
 Death Bloom (new ship)
   * strike craft comparable to vanilla Hyperion
