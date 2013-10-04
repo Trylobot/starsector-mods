@@ -12,7 +12,7 @@ public class MissionDefinition implements MissionDefinitionPlugin
   {
     ToysForBob sc2 = new ToysForBob();
     
-		api.initFleet(FleetSide.PLAYER, "", FleetGoal.DEFEND, false);
+		api.initFleet(FleetSide.PLAYER, "", FleetGoal.ATTACK, false);
     api.setFleetTagline(FleetSide.PLAYER, "Ur-Quan Hierarchy");
     sc2.addHierarchyAll( FleetSide.PLAYER, api );
 
