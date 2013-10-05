@@ -1,3 +1,12 @@
+Bugs
+  * nomad fleets move in to engage in campaign view, but in battle they deploy no ships and lose immediately
+    then they want to pursue, but: "The enemy ships are unable to offer pursuit, allowing your forces to withdraw without further incident"
+    * colony fleet won't deploy ships
+    * royal guard won't deploy ships
+    * 
+    * 
+  * station restocker never restocks ships, that I've seen yet
+
 Campaign Mode
   * create binary system Nur @ 18000,-900
   * create station at which to buy nomad ships
