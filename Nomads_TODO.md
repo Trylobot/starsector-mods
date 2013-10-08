@@ -1,3 +1,6 @@
+Rattlesnake (new ship)
+  * cruiser-class
+  * armament somewhere between Sandstorm and Komodo
 
 Komodo Mk.II (new ship)
   * based on Komodo
@@ -11,10 +14,6 @@ Flycatcher (new ship)
   * 1 flight deck
   * offensive dual-drone system (sturdy drones kind of like the Tempest's Terminator)
   
-Rattlesnake (new ship)
-  * cruiser-class
-  * armament somewhere between Sandstorm and Komodo
-
 Thorn (new ship)
   * alternate name ideas: (none)
   * frigate-class
