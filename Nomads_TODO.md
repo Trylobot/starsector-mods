@@ -1,15 +1,8 @@
 Death Bloom (new ship)
   * strike craft comparable to vanilla Hyperion
   * new, unique energy-based strike weapon (name not finalized)
-    * name ideas:
-      * Thermal Lance
-      * Solar Lance
-      * Solar Forge Lance
-      * Solar Crucible
-      * Thermal Crucible
-    * will have unique multi-frame chargeup sprite animation that covers most of the ship
-      remember the TA/Core avatar you created on dA? like that
-  * and three ultralight masers for PD
+    * Solar Crucible
+    * will have unique multi-frame weapon animation
 
 Komodo Mk.II (new ship)
   * based on Komodo
