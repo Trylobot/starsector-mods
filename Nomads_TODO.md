@@ -1,8 +1,3 @@
-Death Bloom (new ship)
-  * strike craft comparable to vanilla Hyperion
-  * new, unique energy-based strike weapon (name not finalized)
-    * Solar Crucible
-    * will have unique multi-frame weapon animation
 
 Komodo Mk.II (new ship)
   * based on Komodo
