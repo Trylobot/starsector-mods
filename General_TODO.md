@@ -13,3 +13,17 @@ Hyper-Magnetic Grappling Claw
   * the target is now firmly attached to the attacking ship
   * both ships at that point lose access to weapons and shields
   * unless the attacking ship de-activates the claw, or is destroyed.
+
+GTA-Style "Wanted" Level + Suicidal Fleets
+  * if you piss off a faction real bad, they start to respond to your actions as a faction
+  * they'll send fleets to attack you, and there will be more of their fleets active in the system
+  * fleets will attack you even if they have no chance of winning, simply to wear you down for other fleets
+  * wanted level can be reduced by not getting into fights with them for a while
+  * custom "star level" UI in top right, somehow
+ 
+Dodge-the-Asteroids minigame (total conversion)
+  * removes all ships from the game, and gives you a standalone command pod ship only
+  * if you touch an asteroid in the campaign map, you go into a combat instance
+  * no enemy ships in the combat instance, retreat to top of map
+  * lots of asteroids in map flying everywhere
+  * varying difficulty (upward)
