@@ -1,6 +1,0 @@
-Location: Volcania System
-Date: 99.11.02
-
-Admiral Steelheart and his famous pirate vessel, The Bilge Pump, have appeared once more. The Admiral is of course never without his elite band of pirate skirmishers, who fly heavily-modded ships. These special craft have uncharacteristically high engine output and thick armor. None bother very much with flux dissipation or shield systems at all, and rely on ballistic limited-ammo weapons. Tactics usually involve hit-and-run, and with their faster vessels the pirates can often get away before sustaining any serious damage.
-
-You will take on the role of the daring pirate, in an attempt to loot the precious cargo of a passing transport fleet. Don't underestimate the fleet's escort, however.
