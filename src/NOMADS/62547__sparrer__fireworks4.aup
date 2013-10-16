@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="62547__sparrer__fireworks4_data" version="1.3.0" audacityversion="1.3.12-beta" sel0="0.0000000000" sel1="1.3454762996" vpos="0" h="0.0000000000" zoom="396.1481481481" rate="16000">
+	<tags>
+		<tag name="id3v2" value="1"/>
+		<tag name="TITLE" value="Fireworks4.wav"/>
+		<tag name="YEAR" value="2008-11-05"/>
+		<tag name="ARTIST" value="Sparrer"/>
+		<tag name="COMMENTS" value="freesound.org - edited by Trylobot 2013-10-15"/>
+	</tags>
+	<import filename="62547__sparrer__fireworks4.ogg" offset="0.00000000" mute="1" solo="0" height="150" minimized="0" gain="1" pan="0"/>
+	<import filename="62547__sparrer__fireworks4-2.ogg" offset="0.00000000" mute="0" solo="0" height="150" minimized="0" gain="1.778279" pan="0"/>
+	<import filename="62547__sparrer__fireworks4-3.ogg" offset="0.58816380" mute="0" solo="0" height="150" minimized="0" gain="1" pan="0"/>
+</project>
