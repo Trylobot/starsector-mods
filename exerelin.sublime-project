@@ -1,0 +1,22 @@
+{
+	"folders":
+	[
+		{
+			"path": "/D/Github/exerelin"
+		},
+		{
+			"path": "/K/Games/Starsector/starsector-core/data",
+			"name": "vanilla"
+		},
+		{
+			"path": "/D/Github/starsector-mods/src/UNVERSIONED/starfarer.api",
+			"name": "API"
+		},
+		{
+			"path": "/K/Games/Starsector/starsector-core",
+			"name": "logs",
+			"folder_exclude_patterns": ["*"],
+			"file_include_patterns": ["*.log"]
+		}
+	]
+}
