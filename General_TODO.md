@@ -1,3 +1,11 @@
+Mercenary Fleet Formations
+  * ability to hire (potentially many) mercenary fleets to escort you
+  * mercenary fleets require bi-weekly wages and must be allowed to resupply
+  * escorts automatically occupy formation slots, of a formation chosen by the player
+  * chosen formation can be altered at any time via a custom fleet formation menu
+  * can access mercenary fleets to refit/mothball/set flagship etc.
+  * can access mercenary fleets' inventories, and freely move things about
+
 Dubstep ship (crossover ship inspired by Saint's Row IV and DubWars for OUYA)
   * ship will resemble a combination turntable/boombox with tons of animated bits and bobs
   * gun firing sound loop: cropped version of "Scout McMillan - Polyhymnia" or alternative public domain music
