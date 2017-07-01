@@ -1,0 +1,4 @@
+simplemachines forum: stylish quote
+
+[size=11pt]    [b][color=#bbb][size=18pt][tt]“[/tt][/size][/color][/b]____QUOTE_TEXT____[b][color=#bbb][sub][size=18pt][tt]”[/tt][/size][/color][/b][/size] [sub][size=8pt][i]— ____ATTRIBUTION____[/i][/size][/sub]
+
